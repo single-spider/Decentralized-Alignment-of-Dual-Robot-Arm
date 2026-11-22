@@ -5,6 +5,7 @@
 How much teammate information is needed for two independently acting arms to divide a fine-alignment correction? The strongest no-message rule cost 1.1% more than the joint reference, and both aligned on all 1,000 paired fit-0 starts. The project also tests trained coordination with RGB observations and its transfer to dynamic, force-controlled insertion in PyBullet.
 
 - **Recommended:** [Presentation-refined nine-page report](output/pdf/group28-dual-arm-mas-readable.pdf) · [Overleaf ZIP](output/group28-readable-overleaf.zip) · [Editable LaTeX](report-readable/main.tex)
+- **LaTeX source submission:** [Complete source directory](report-readable/) (entry point: `main.tex`; includes all figures and dependencies). The current report includes author roll numbers and an AI-use declaration.
 - [Original eight-page report, preserved for comparison](output/pdf/group28-dual-arm-mas.pdf) · [Original Overleaf ZIP](output/group28-overleaf.zip)
 - [RGB-to-insertion replay](dual-arm-mas/runs/assembly-demo-v7/contact-assembly.gif) · [Replay telemetry](dual-arm-mas/runs/assembly-demo-v7/result.json)
 - [Deterministic results](dual-arm-mas/runs/evaluation/analysis/summary.md) · [PPO alignment results](dual-arm-mas/runs/learned-study/analysis/summary.md) · [Contact results](dual-arm-mas/runs/contact-study-v2/analysis/summary.md)
