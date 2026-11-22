@@ -3,11 +3,12 @@
   "files": {
     ".gitattributes": "3eecb627e24a921d3bc0ecce75a3f47e3fe5fcc99b5e83d59d6e31d7a6d1a107",
     ".gitignore": "8bf5fc83a069e8d23230748a3be06e56b0954424092f7cd6b2b61b319215f73d",
-    "README.md": "4a677fc86b8d65e47c94a498d642c254fb309230d39714f4a47a35f4cf87afaa",
+    "README.md": "8e036156303d62171cfc2b8a71b9c71dd4b9e6432b375979661896ebd68347a4",
     "SUBMIT.md": "7b1fa273bbc6d8acd69069108f14ee60c265453ce5797380a819f05df56db418",
     "assets/screenshots/alignment.png": "7cf3bcbe3348985dd37f02bd234530a75c687d494355b934061c9eaa5f9c7e84",
     "assets/screenshots/inserted.png": "e4ef514561ddc4d89a75bf0cb20cb79aa24a45c5dc87df98556ca6d7f23aad2d",
     "assets/screenshots/jam-release.png": "816fefdb998390cdad8a349d79ff5e508c882cd7d5a328e534adae231f28fd4c",
+    "docs/REPRODUCIBILITY.md": "40edfebc3eaa77f1200755f8979384f625891e8b637bce9b1133876b5b9d8b11",
     "dual-arm-mas/configs/contact_study.json": "8b75aaabce07fa39787d844409b73fc5ad86d4b21af5c5d130d28e6bb76322c4",
     "dual-arm-mas/configs/contact_study_v2.json": "f6a056b2aabc8b4ccb5759c980b3980cdfe6c165c8abfc22b990e990e1c6d2c7",
     "dual-arm-mas/configs/contact_validation.json": "e96f2295840267ced64c392e5d1d4cdbfc20dbeff399974cbc176659ee3b1625",
