@@ -1,0 +1,28 @@
+{
+  "validation_start_id": 0,
+  "patch_xywh": [
+    330,
+    192,
+    108,
+    108
+  ],
+  "canonical_image_fraction": 0.019775390625,
+  "roi_area_fraction": 0.05085100446428571,
+  "masked_before_segmentation_pixels": {
+    "1": 556,
+    "2": 972
+  },
+  "before_valid": true,
+  "after_valid": true,
+  "before_error": [
+    -0.0019687180176819787,
+    -0.007629843654753515,
+    -0.09144937279316645
+  ],
+  "after_error": [
+    -0.002696479498793384,
+    -0.006906563165073133,
+    0.16203380241746057
+  ],
+  "scope": "Frozen canonical-image-area occlusion, not a claim of 2percent object occlusion. Validation diagnostic only; no test/config tuning."
+}

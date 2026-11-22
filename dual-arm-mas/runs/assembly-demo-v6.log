@@ -1,0 +1,9 @@
+pybullet build time: Jun 10 2026 13:09:01
+Traceback (most recent call last):
+  File "C:\Users\admis\OneDrive\Documents\GitHub\SFN\dual-arm-mas\scripts\demo_assembly.py", line 151, in <module>
+    p=argparse.ArgumentParser();p.add_argument('--out',type=Path,required=True);p.add_argument('--seconds',type=float,default=240);p.add_argument('--window-end',required=True);run(p.parse_args())
+                                                                                                                                                                                ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admis\OneDrive\Documents\GitHub\SFN\dual-arm-mas\scripts\demo_assembly.py", line 102, in run
+    _,_,term,trunc,record=env.step(actions,comm);record.pop('execution');record['actor_error']=last_est.tolist();record['fractions']=fractions.tolist();trace.append(record)
+                                   ^^^^^^^
+UnboundLocalError: cannot access local variable 'comm' where it is not associated with a value

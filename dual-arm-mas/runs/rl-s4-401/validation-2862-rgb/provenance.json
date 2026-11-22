@@ -1,0 +1,25 @@
+{
+  "pins": {
+    "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\dual-arm-mas\\scripts\\evaluate_learned.py": "c420d07d8d4ddd08c91a3d709b5ce5903229a2c8e5361338e5ad4c8ad1446b96",
+    "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\dual-arm-mas\\scripts\\train_rl.py": "604bbd0a24dde6168156c0edc43c59faf973f8aa74b0fbb14f9e158690a3e367",
+    "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\dual-arm-mas\\src\\dual_arm_mas\\episode.py": "e14df2a19faec468347113c9ce74c3e99f91e148174740d01baf704edf7d7506",
+    "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\dual-arm-mas\\src\\dual_arm_mas\\evidence.py": "d12b012e667a7b53af4cdf089e01e63fd1f39ce49ad2e2f681c93476e09d4afe",
+    "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\dual-arm-mas\\src\\dual_arm_mas\\policies.py": "e6106dbe4824b739a647fc8be98143bf01f527455eac98a69502b9e06743e6fe",
+    "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\dual-arm-mas\\src\\dual_arm_mas\\rl.py": "e39baed6e2695128afe6f652befa37d331a80098ec12dd1c97a7aa69d094a8b8",
+    "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\dual-arm-mas\\src\\dual_arm_mas\\vision.py": "159ce1a62638c3d1845d803a0cfa728e31c4cf97f890eb6076d6c3290f2eea5f",
+    "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\dual-arm-mas\\src\\dual_arm_mas\\world.py": "8bed751c5a755afc0f47e4140a79b1120da229f11f945ce666006720f9500d70",
+    "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\dual-arm-mas\\src\\dual_arm_mas\\__init__.py": "794a1a018d967632220fe0d15295072b52d0534b190c87570d9f17687ba66a6b",
+    "dual-arm-mas\\runs\\validation\\starts.json": "447ccb83972336f104339e7398f49387b038efc736e141fa0a892b3aaf2d8bf8",
+    "dual-arm-mas\\runs\\train-311\\public.json": "3c3aeb6d4896ab6cd4c1abcb3ec0654f4fe242eba8aaeddac6985129292d44af"
+  },
+  "checkpoint_sha256": "97dba1131a20e2bc92d97b0ae7deae5c1a1e78dea235961d8aff6eaca344a213",
+  "regime": "s4",
+  "sensing": "rgb",
+  "decoder": "mean",
+  "seed": 501,
+  "count": 24,
+  "drop": 0.0,
+  "delay": 0,
+  "b_limit_factor": 1.0,
+  "occlusion": 0.0
+}

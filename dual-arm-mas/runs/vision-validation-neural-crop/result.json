@@ -1,0 +1,2904 @@
+{
+  "summary": {
+    "poses": 72,
+    "valid": 72,
+    "per_axis_mae_m_m_rad": [
+      2.3831852388154193e-05,
+      5.317042273935764e-05,
+      0.005463059297687447
+    ],
+    "per_axis_p95_m_m_rad": [
+      6.387169688868647e-05,
+      0.00013374137515777645,
+      0.01205438110663093
+    ],
+    "per_axis_max_m_m_rad": [
+      0.00011203959575581228,
+      0.00021001535869163155,
+      0.022267196247898635
+    ],
+    "sensing_source": "actual RGB, adapted SFN neural segmentation, calibrated primitive-template pose; no body/depth/true-error input"
+  },
+  "rows": [
+    {
+      "start_id": 0,
+      "phase": 0,
+      "valid": true,
+      "reason": null,
+      "error": [
+        -0.0019687180176819787,
+        -0.007629843654753515,
+        -0.09144937279316645
+      ],
+      "template_residual_px2": 0.08576074281314199,
+      "peg_pose_camera_frame": [
+        -0.0019687191174517543,
+        -0.007341582270331522,
+        -0.09144931318852158
+      ],
+      "hole_pose_camera_frame": [
+        0.0,
+        0.0002882611006498337,
+        5.960464477539063e-08
+      ],
+      "latency_seconds": 0.49211620000278344,
+      "camera_roi_pixels": [
+        128,
+        0,
+        512,
+        448
+      ],
+      "source": "rendered_RGB_adapted_SFN_segmenter_RGB_boundary_refinement_calibrated_prism_template",
+      "true_error": [
+        -0.0019584372639656067,
+        -0.007638752460479736,
+        -0.09424337696057039
+      ],
+      "sensing_error": [
+        -1.0280753716371965e-05,
+        8.908805726221165e-06,
+        0.0027940041674039406
+      ]
+    },
+    {
+      "start_id": 0,
+      "phase": 1,
+      "valid": true,
+      "reason": null,
+      "error": [
+        -0.002971469753330875,
+        -0.007024935744156094,
+        -0.07546435948823227
+      ],
+      "template_residual_px2": 0.08358638556597722,
+      "peg_pose_camera_frame": [
+        -0.0029151767504875118,
+        -0.0067602209499692395,
+        -0.07546429988358772
+      ],
+      "hole_pose_camera_frame": [
+        0.0,
+        0.0002882611006498337,
+        5.960464477539063e-08
+      ],
+      "latency_seconds": 0.06000779999885708,
+      "camera_roi_pixels": [
+        128,
+        0,
+        512,
+        448
+      ],
+      "source": "rendered_RGB_adapted_SFN_segmenter_RGB_boundary_refinement_calibrated_prism_template",
+      "true_error": [
+        -0.0029578059911727905,
+        -0.00703863799571991,
+        -0.07824337990636643
+      ],
+      "sensing_error": [
+        -1.3663762158084604e-05,
+        1.370225156381577e-05,
+        0.0027790204181341593
+      ]
+    },
+    {
+      "start_id": 0,
+      "phase": 2,
+      "valid": true,
+      "reason": null,
+      "error": [
+        -0.00397554238203064,
+        -0.006409306577121169,
+        -0.05978870304147854
+      ],
+      "template_residual_px2": 0.0809308169463504,
+      "peg_pose_camera_frame": [
+        -0.003872489848249928,
+        -0.00618383055553457,
+        -0.059788643436833766
+      ],
+      "hole_pose_camera_frame": [
+        0.0,
+        0.0002882611006498337,
+        5.960464477539063e-08
+      ],
+      "latency_seconds": 0.06221999999979744,
+      "camera_roi_pixels": [
+        128,
+        0,
+        512,
+        448
+      ],
+      "source": "rendered_RGB_adapted_SFN_segmenter_RGB_boundary_refinement_calibrated_prism_template",
+      "true_error": [
+        -0.0039572641253471375,
+        -0.006438545882701874,
+        -0.06224336908177808
+      ],
+      "sensing_error": [
+        -1.8278256683502622e-05,
+        2.9239305580705185e-05,
+        0.0024546660402995357
+      ]
+    },
+    {
+      "start_id": 1,
+      "phase": 0,
+      "valid": true,
+      "reason": null,
+      "error": [
+        -0.001289261719557058,
+        -0.007563302992021828,
+        0.15975076338874272
+      ],
+      "template_residual_px2": 0.08340955600296267,
+      "peg_pose_camera_frame": [
+        -0.0012892617471343432,
+        -0.007275041886671093,
+        0.15975082299338753
+      ],
+      "hole_pose_camera_frame": [
+        0.0,
+        0.0002882611006498337,
+        5.960464477539063e-08
+      ],
+      "latency_seconds": 0.10217669999838108,
+      "camera_roi_pixels": [
+        128,
+        0,
+        512,
+        448
+      ],
+      "source": "rendered_RGB_adapted_SFN_segmenter_RGB_boundary_refinement_calibrated_prism_template",
+      "true_error": [
+        -0.0012861751019954681,
+        -0.007555518299341202,
+        0.16280681926318197
+      ],
+      "sensing_error": [
+        -3.0866175615897745e-06,
+        -7.784692680625795e-06,
+        -0.003056055874439245
+      ]
+    },
+    {
+      "start_id": 1,
+      "phase": 1,
+      "valid": true,
+      "reason": null,
+      "error": [
+        -0.002292407110482889,
+        -0.0069636811843897285,
+        0.17542198165117906
+      ],
+      "template_residual_px2": 0.07842473089529758,
+      "peg_pose_camera_frame": [
+        -0.002236624955803422,
+        -0.006693536290072227,
+        0.17542204125582397
+      ],
+      "hole_pose_camera_frame": [
+        0.0,
+        0.0002882611006498337,
+        5.960464477539063e-08
+      ],
+      "latency_seconds": 0.0534339000005275,
+      "camera_roi_pixels": [
+        128,
+        0,
+        512,
+        448
+      ],
+      "source": "rendered_RGB_adapted_SFN_segmenter_RGB_boundary_refinement_calibrated_prism_template",
+      "true_error": [
+        -0.0022851433604955673,
+        -0.006955146789550781,
+        0.17880674383293815
+      ],
+      "sensing_error": [
+        -7.263749987321787e-06,
+        -8.534394838947273e-06,
+        -0.0033847621817590934
+      ]
+    },
+    {
+      "start_id": 1,
+      "phase": 2,
+      "valid": true,
+      "reason": null,
+      "error": [
+        -0.003292708606760819,
+        -0.006358632840776114,
+        0.19142173166322474
+      ],
+      "template_residual_px2": 0.08459083294634663,
+      "peg_pose_camera_frame": [
+        -0.003190553434800902,
+        -0.006122238907345912,
+        0.19142179126786957
+      ],
+      "hole_pose_camera_frame": [
+        0.0,
+        0.0002882611006498337,
+        5.960464477539063e-08
+      ],
+      "latency_seconds": 0.07522279999830062,
+      "camera_roi_pixels": [
+        128,
+        0,
+        512,
+        448
+      ],
+      "source": "rendered_RGB_adapted_SFN_segmenter_RGB_boundary_refinement_calibrated_prism_template",
+      "true_error": [
+        -0.0032841283828020096,
+        -0.006354782730340958,
+        0.19480670774030528
+      ],
+      "sensing_error": [
+        -8.580223958809616e-06,
+        -3.850110435156366e-06,
+        -0.003384976077080548
+      ]
+    },
+    {
+      "start_id": 2,
+      "phase": 0,
+      "valid": true,
+      "reason": null,
+      "error": [
+        0.0018742392964356948,
+        -0.004195750661463752,
+        -0.08983145018393479
+      ],
+      "template_residual_px2": 0.09158096310722819,
+      "peg_pose_camera_frame": [
+        0.0018742392616612194,
+        -0.003907489576347655,
+        -0.08983139057928997
+      ],
+      "hole_pose_camera_frame": [
+        0.0,
+        0.0002882611006498337,
+        5.960464477539063e-08
+      ],
+      "latency_seconds": 0.11448720000043977,
+      "camera_roi_pixels": [
+        128,
+        0,
+        512,
+        448
+      ],
+      "source": "rendered_RGB_adapted_SFN_segmenter_RGB_boundary_refinement_calibrated_prism_template",
+      "true_error": [
+        0.0018381401896476746,
+        -0.004285316914319992,
+        -0.08348804362078743
+      ],
+      "sensing_error": [
+        3.609910678802021e-05,
+        8.956625285624041e-05,
+        -0.006343406563147358
+      ]
+    },
+    {
+      "start_id": 2,
+      "phase": 1,
+      "valid": true,
+      "reason": null,
+      "error": [
+        0.0008723896530600627,
+        -0.003534876200528737,
+        -0.06972542999340536
+      ],
+      "template_residual_px2": 0.08179309698898735,
+      "peg_pose_camera_frame": [
+        0.0009006403895166094,
+        -0.0032395229557518764,
+        -0.06972537038876081
+      ],
+      "hole_pose_camera_frame": [
+        0.0,
+        0.0002882611006498337,
+        5.960464477539063e-08
+      ],
+      "latency_seconds": 0.06777149999834364,
+      "camera_roi_pixels": [
+        128,
+        0,
+        512,
+        448
+      ],
+      "source": "rendered_RGB_adapted_SFN_segmenter_RGB_boundary_refinement_calibrated_prism_template",
+      "true_error": [
+        0.0008585602045059204,
+        -0.0036753378808498383,
+        -0.06748813914583351
+      ],
+      "sensing_error": [
+        1.3829448554142322e-05,
+        0.00014046168032110125,
+        -0.002237290847571849
+      ]
+    },
+    {
+      "start_id": 2,
+      "phase": 2,
+      "valid": true,
+      "reason": null,
+      "error": [
+        -0.0001429270634088043,
+        -0.0028735652640944805,
+        -0.046584863455353176
+      ],
+      "template_residual_px2": 0.08331233031148731,
+      "peg_pose_camera_frame": [
+        -9.69337502993633e-05,
+        -0.0025872230882334835,
+        -0.04658480385070845
+      ],
+      "hole_pose_camera_frame": [
+        0.0,
+        0.0002882611006498337,
+        5.960464477539063e-08
+      ],
+      "latency_seconds": 0.06811250000464497,
+      "camera_roi_pixels": [
+        128,
+        0,
+        512,
+        448
+      ],
+      "source": "rendered_RGB_adapted_SFN_segmenter_RGB_boundary_refinement_calibrated_prism_template",
+      "true_error": [
+        -0.00012122839689254761,
+        -0.0030654408037662506,
+        -0.05148822708140388
+      ],
+      "sensing_error": [
+        -2.169866651625669e-05,
+        0.00019187553967177015,
+        0.004903363626050705
+      ]
+    },
+    {
+      "start_id": 3,
+      "phase": 0,
+      "valid": true,
+      "reason": null,
+      "error": [
+        -0.001390000232561995,
+        -0.0074733226999617285,
+        0.10023568468225319
+      ],
+      "template_residual_px2": 0.09904811738254739,
+      "peg_pose_camera_frame": [
+        -0.0013900000042402192,
+        -0.007185061641778587,
+        0.10023574428689805
+      ],
+      "hole_pose_camera_frame": [
+        0.0,
+        0.0002882611006498337,
+        5.960464477539063e-08
+      ],
+      "latency_seconds": 0.11132759999600239,
+      "camera_roi_pixels": [
+        128,
+        0,
+        512,
+        448
+      ],
+      "source": "rendered_RGB_adapted_SFN_segmenter_RGB_boundary_refinement_calibrated_prism_template",
+      "true_error": [
+        -0.001391877420246601,
+        -0.007340628653764725,
+        0.10544405874340956
+      ],
+      "sensing_error": [
+        1.877187684606093e-06,
+        -0.00013269404619700373,
+        -0.005208374061156373
+      ]
+    },
+    {
+      "start_id": 3,
+      "phase": 1,
+      "valid": true,
+      "reason": null,
+      "error": [
+        -0.002393873316334899,
+        -0.006862087350883402,
+        0.1161339901477918
+      ],
+      "template_residual_px2": 0.10103097131211924,
+      "peg_pose_camera_frame": [
+        -0.0023389003995915054,
+        -0.006592757514831812,
+        0.1161340497524367
+      ],
+      "hole_pose_camera_frame": [
+        0.0,
+        0.0002882611006498337,
+        5.960464477539063e-08
+      ],
+      "latency_seconds": 0.04781179999554297,
+      "camera_roi_pixels": [
+        128,
+        0,
+        512,
+        448
+      ],
+      "source": "rendered_RGB_adapted_SFN_segmenter_RGB_boundary_refinement_calibrated_prism_template",
+      "true_error": [
+        -0.0023912983015179634,
+        -0.006740376353263855,
+        0.12144407631921661
+      ],
+      "sensing_error": [
+        -2.575014816935759e-06,
+        -0.00012171099761954744,
+        -0.00531008617142481
+      ]
+    },
+    {
+      "start_id": 3,
+      "phase": 2,
+      "valid": true,
+      "reason": null,
+      "error": [
+        -0.0033960212732670344,
+        -0.006261996669871721,
+        0.13229957763493028
+      ],
+      "template_residual_px2": 0.09506760663970519,
+      "peg_pose_camera_frame": [
+        -0.0032953987422621434,
+        -0.006027268165489613,
+        0.1322996372395751
+      ],
+      "hole_pose_camera_frame": [
+        0.0,
+        0.0002882611006498337,
+        5.960464477539063e-08
+      ],
+      "latency_seconds": 0.051683400000911206,
+      "camera_roi_pixels": [
+        128,
+        0,
+        512,
+        448
+      ],
+      "source": "rendered_RGB_adapted_SFN_segmenter_RGB_boundary_refinement_calibrated_prism_template",
+      "true_error": [
+        -0.0033907340839505196,
+        -0.006140124052762985,
+        0.13744409109498035
+      ],
+      "sensing_error": [
+        -5.287189316514809e-06,
+        -0.00012187261710873594,
+        -0.005144513460050071
+      ]
+    },
+    {
+      "start_id": 4,
+      "phase": 0,
+      "valid": true,
+      "reason": null,
+      "error": [
+        0.005309038589963042,
+        -0.005263960701589469,
+        -0.12529040952231485
+      ],
+      "template_residual_px2": 0.08894363635770101,
+      "peg_pose_camera_frame": [
+        0.005309038473156206,
+        -0.004975699718746743,
+        -0.12529034991767027
+      ],
+      "hole_pose_camera_frame": [
+        0.0,
+        0.0002882611006498337,
+        5.960464477539063e-08
+      ],
+      "latency_seconds": 0.13769329999922775,
+      "camera_roi_pixels": [
+        128,
+        0,
+        512,
+        448
+      ],
+      "source": "rendered_RGB_adapted_SFN_segmenter_RGB_boundary_refinement_calibrated_prism_template",
+      "true_error": [
+        0.005258724093437195,
+        -0.005128939257701859,
+        -0.11431842318470986
+      ],
+      "sensing_error": [
+        5.0314496525847435e-05,
+        -0.00013502144388760975,
+        -0.010971986337604989
+      ]
+    },
+    {
+      "start_id": 4,
+      "phase": 1,
+      "valid": true,
+      "reason": null,
+      "error": [
+        0.004387264698657271,
+        -0.004613188922315795,
+        -0.12058561095754605
+      ],
+      "template_residual_px2": 0.15368283123432824,
+      "peg_pose_camera_frame": [
+        0.004424029289090246,
+        -0.004289682588205796,
+        -0.12058555135290112
+      ],
+      "hole_pose_camera_frame": [
+        0.0,
+        0.0002882611006498337,
+        5.960464477539063e-08
+      ],
+      "latency_seconds": 0.07570139999734238,
+      "camera_roi_pixels": [
+        128,
+        0,
+        512,
+        448
+      ],
+      "source": "rendered_RGB_adapted_SFN_segmenter_RGB_boundary_refinement_calibrated_prism_template",
+      "true_error": [
+        0.004275225102901459,
+        -0.004524137417320162,
+        -0.09831841470964742
+      ],
+      "sensing_error": [
+        0.00011203959575581228,
+        -8.90515049956327e-05,
+        -0.022267196247898635
+      ]
+    },
+    {
+      "start_id": 4,
+      "phase": 2,
+      "valid": true,
+      "reason": null,
+      "error": [
+        0.0033855977136452147,
+        -0.003966070045593738,
+        -0.10078782759620353
+      ],
+      "template_residual_px2": 0.12236520066220602,
+      "peg_pose_camera_frame": [
+        0.003448618634674401,
+        -0.003623134174411496,
+        -0.10078776799155856
+      ],
+      "hole_pose_camera_frame": [
+        0.0,
+        0.0002882611006498337,
+        5.960464477539063e-08
+      ],
+      "latency_seconds": 0.07250370000110706,
+      "camera_roi_pixels": [
+        128,
+        0,
+        512,
+        448
+      ],
+      "source": "rendered_RGB_adapted_SFN_segmenter_RGB_boundary_refinement_calibrated_prism_template",
+      "true_error": [
+        0.003291286528110504,
+        -0.0039194534765556455,
+        -0.08231837792722052
+      ],
+      "sensing_error": [
+        9.431118553471056e-05,
+        -4.661656903809288e-05,
+        -0.018469449668983007
+      ]
+    },
+    {
+      "start_id": 5,
+      "phase": 0,
+      "valid": true,
+      "reason": null,
+      "error": [
+        0.005830874238201942,
+        -0.0010059348068289149,
+        -0.0763039213575798
+      ],
+      "template_residual_px2": 0.13839512788699124,
+      "peg_pose_camera_frame": [
+        0.005830874224174554,
+        -0.0007176737874884639,
+        -0.07630386175293499
+      ],
+      "hole_pose_camera_frame": [
+        0.0,
+        0.0002882611006498337,
+        5.960464477539063e-08
+      ],
+      "latency_seconds": 0.1486804000014672,
+      "camera_roi_pixels": [
+        128,
+        0,
+        512,
+        448
+      ],
+      "source": "rendered_RGB_adapted_SFN_segmenter_RGB_boundary_refinement_calibrated_prism_template",
+      "true_error": [
+        0.005811616778373718,
+        -0.0007959194481372833,
+        -0.07083938200059547
+      ],
+      "sensing_error": [
+        1.9257459828224063e-05,
+        -0.00021001535869163155,
+        -0.0054645393569843215
+      ]
+    },
+    {
+      "start_id": 5,
+      "phase": 1,
+      "valid": true,
+      "reason": null,
+      "error": [
+        0.004897605257196425,
+        -0.0002929253080010554,
+        -0.06442968392199067
+      ],
+      "template_residual_px2": 0.20758235897772234,
+      "peg_pose_camera_frame": [
+        0.004899791906508453,
+        3.4525481747342836e-05,
+        -0.0644296243173459
+      ],
+      "hole_pose_camera_frame": [
+        0.0,
+        0.0002882611006498337,
+        5.960464477539063e-08
+      ],
+      "latency_seconds": 0.08337290000054054,
+      "camera_roi_pixels": [
+        128,
+        0,
+        512,
+        448
+      ],
+      "source": "rendered_RGB_adapted_SFN_segmenter_RGB_boundary_refinement_calibrated_prism_template",
+      "true_error": [
+        0.004845723509788513,
+        -0.0001827813684940338,
+        -0.054839458610100866
+      ],
+      "sensing_error": [
+        5.188174740791175e-05,
+        -0.0001101439395070216,
+        -0.0095902253118898
+      ]
+    },
+    {
+      "start_id": 5,
+      "phase": 2,
+      "valid": true,
+      "reason": null,
+      "error": [
+        0.0038306337810735825,
+        0.00037792018652265996,
+        -0.02691568712621706
+      ],
+      "template_residual_px2": 0.1390647551627915,
+      "peg_pose_camera_frame": [
+        0.0038240970184202842,
+        0.0007274203266630248,
+        -0.026915627521572408
+      ],
+      "hole_pose_camera_frame": [
+        0.0,
+        0.0002882611006498337,
+        5.960464477539063e-08
+      ],
+      "latency_seconds": 0.07156080000277143,
+      "camera_roi_pixels": [
+        128,
+        0,
+        512,
+        448
+      ],
+      "source": "rendered_RGB_adapted_SFN_segmenter_RGB_boundary_refinement_calibrated_prism_template",
+      "true_error": [
+        0.003878362476825714,
+        0.0004298016428947449,
+        -0.03883951079247572
+      ],
+      "sensing_error": [
+        -4.772869575213161e-05,
+        -5.188145637208491e-05,
+        0.01192382366625866
+      ]
+    },
+    {
+      "start_id": 6,
+      "phase": 0,
+      "valid": true,
+      "reason": null,
+      "error": [
+        -0.006936195613694855,
+        -0.0033907501233849512,
+        0.09296763052309442
+      ],
+      "template_residual_px2": 0.11588320073408873,
+      "peg_pose_camera_frame": [
+        -0.006936195659362558,
+        -0.003102488929316226,
+        0.09296769012773912
+      ],
+      "hole_pose_camera_frame": [
+        0.0,
+        0.0002882611006498337,
+        5.960464477539063e-08
+      ],
+      "latency_seconds": 0.13334510000277078,
+      "camera_roi_pixels": [
+        128,
+        0,
+        512,
+        448
+      ],
+      "source": "rendered_RGB_adapted_SFN_segmenter_RGB_boundary_refinement_calibrated_prism_template",
+      "true_error": [
+        -0.006911065662279725,
+        -0.0034446343779563904,
+        0.09384526812948213
+      ],
+      "sensing_error": [
+        -2.512995141513031e-05,
+        5.388425457143915e-05,
+        -0.0008776376063877045
+      ]
+    },
+    {
+      "start_id": 6,
+      "phase": 1,
+      "valid": true,
+      "reason": null,
+      "error": [
+        -0.007950826088535198,
+        -0.002797914326472564,
+        0.11193075183291068
+      ],
+      "template_residual_px2": 0.1188854667491569,
+      "peg_pose_camera_frame": [
+        -0.007928188632362086,
+        -0.0025731694992594044,
+        0.11193081143755525
+      ],
+      "hole_pose_camera_frame": [
+        0.0,
+        0.0002882611006498337,
+        5.960464477539063e-08
+      ],
+      "latency_seconds": 0.10318520000146236,
+      "camera_roi_pixels": [
+        128,
+        0,
+        512,
+        448
+      ],
+      "source": "rendered_RGB_adapted_SFN_segmenter_RGB_boundary_refinement_calibrated_prism_template",
+      "true_error": [
+        -0.007910921005532146,
+        -0.002844560891389847,
+        0.10984525647736687
+      ],
+      "sensing_error": [
+        -3.990508300305215e-05,
+        4.664656491728267e-05,
+        0.0020854953555438094
+      ]
+    },
+    {
+      "start_id": 6,
+      "phase": 2,
+      "valid": true,
+      "reason": null,
+      "error": [
+        -0.00897791013624783,
+        -0.002200215848524944,
+        0.1329925273870356
+      ],
+      "template_residual_px2": 0.10438308758975404,
+      "peg_pose_camera_frame": [
+        -0.00894155908862364,
+        -0.002055313361425959,
+        0.13299258699168026
+      ],
+      "hole_pose_camera_frame": [
+        0.0,
+        0.0002882611006498337,
+        5.960464477539063e-08
+      ],
+      "latency_seconds": 0.10162630000559147,
+      "camera_roi_pixels": [
+        128,
+        0,
+        512,
+        448
+      ],
+      "source": "rendered_RGB_adapted_SFN_segmenter_RGB_boundary_refinement_calibrated_prism_template",
+      "true_error": [
+        -0.008910772390663624,
+        -0.002244509756565094,
+        0.12584525209998088
+      ],
+      "sensing_error": [
+        -6.713774558420559e-05,
+        4.429390804014995e-05,
+        0.007147275287054722
+      ]
+    },
+    {
+      "start_id": 7,
+      "phase": 0,
+      "valid": true,
+      "reason": null,
+      "error": [
+        0.007090489698311697,
+        0.001758812071031865,
+        0.02426906728685374
+      ],
+      "template_residual_px2": 0.08915508759034656,
+      "peg_pose_camera_frame": [
+        0.007090489721174559,
+        0.0020470730795121633,
+        0.024269126891498533
+      ],
+      "hole_pose_camera_frame": [
+        0.0,
+        0.0002882611006498337,
+        5.960464477539063e-08
+      ],
+      "latency_seconds": 0.15110979999735719,
+      "camera_roi_pixels": [
+        128,
+        0,
+        512,
+        448
+      ],
+      "source": "rendered_RGB_adapted_SFN_segmenter_RGB_boundary_refinement_calibrated_prism_template",
+      "true_error": [
+        0.007063767872750759,
+        0.0017391163855791092,
+        0.027908291466295587
+      ],
+      "sensing_error": [
+        2.6721825560937704e-05,
+        1.9695685452755882e-05,
+        -0.0036392241794418467
+      ]
+    },
+    {
+      "start_id": 7,
+      "phase": 1,
+      "valid": true,
+      "reason": null,
+      "error": [
+        0.006091555515987249,
+        0.0023380500404146065,
+        0.03781513857150731
+      ],
+      "template_residual_px2": 0.06779398600301925,
+      "peg_pose_camera_frame": [
+        0.006072656432666869,
+        0.002674968130560944,
+        0.03781519817615189
+      ],
+      "hole_pose_camera_frame": [
+        0.0,
+        0.0002882611006498337,
+        5.960464477539063e-08
+      ],
+      "latency_seconds": 0.11395660000562202,
+      "camera_roi_pixels": [
+        128,
+        0,
+        512,
+        448
+      ],
+      "source": "rendered_RGB_adapted_SFN_segmenter_RGB_boundary_refinement_calibrated_prism_template",
+      "true_error": [
+        0.006064077839255333,
+        0.002339217870030552,
+        0.04390828417237591
+      ],
+      "sensing_error": [
+        2.7477676731915875e-05,
+        -1.1678296159456543e-06,
+        -0.006093145600868599
+      ]
+    },
+    {
+      "start_id": 7,
+      "phase": 2,
+      "valid": true,
+      "reason": null,
+      "error": [
+        0.0050786703637875266,
+        0.002963375233455153,
+        0.05696082622376597
+      ],
+      "template_residual_px2": 0.06224168642398309,
+      "peg_pose_camera_frame": [
+        0.005030608388883206,
+        0.00333251218687236,
+        0.05696088582841074
+      ],
+      "hole_pose_camera_frame": [
+        0.0,
+        0.0002882611006498337,
+        5.960464477539063e-08
+      ],
+      "latency_seconds": 0.11114570000063395,
+      "camera_roi_pixels": [
+        128,
+        0,
+        512,
+        448
+      ],
+      "source": "rendered_RGB_adapted_SFN_segmenter_RGB_boundary_refinement_calibrated_prism_template",
+      "true_error": [
+        0.005064383149147034,
+        0.0029393169097602367,
+        0.059908284323220595
+      ],
+      "sensing_error": [
+        1.428721464049286e-05,
+        2.4058323694916336e-05,
+        -0.002947458099454625
+      ]
+    },
+    {
+      "start_id": 8,
+      "phase": 0,
+      "valid": true,
+      "reason": null,
+      "error": [
+        0.00047370552523962083,
+        -0.002790605965578664,
+        0.15727610497875588
+      ],
+      "template_residual_px2": 0.08156626346746168,
+      "peg_pose_camera_frame": [
+        0.00047370553074310804,
+        -0.0025023448639946134,
+        0.1572761645834007
+      ],
+      "hole_pose_camera_frame": [
+        0.0,
+        0.0002882611006498337,
+        5.960464477539063e-08
+      ],
+      "latency_seconds": 0.14372960000036983,
+      "camera_roi_pixels": [
+        128,
+        0,
+        512,
+        448
+      ],
+      "source": "rendered_RGB_adapted_SFN_segmenter_RGB_boundary_refinement_calibrated_prism_template",
+      "true_error": [
+        0.0004695579409599304,
+        -0.0028653163462877274,
+        0.15973934446766647
+      ],
+      "sensing_error": [
+        4.147584279690412e-06,
+        7.47103807090632e-05,
+        -0.0024632394889105846
+      ]
+    },
+    {
+      "start_id": 8,
+      "phase": 1,
+      "valid": true,
+      "reason": null,
+      "error": [
+        -0.0005303486763194617,
+        -0.002186332545120461,
+        0.17342829678408833
+      ],
+      "template_residual_px2": 0.08214040712750366,
+      "peg_pose_camera_frame": [
+        -0.0005128412371636253,
+        -0.001902244225020752,
+        0.1734283563887331
+      ],
+      "hole_pose_camera_frame": [
+        0.0,
+        0.0002882611006498337,
+        5.960464477539063e-08
+      ],
+      "latency_seconds": 0.11507839999831049,
+      "camera_roi_pixels": [
+        128,
+        0,
+        512,
+        448
+      ],
+      "source": "rendered_RGB_adapted_SFN_segmenter_RGB_boundary_refinement_calibrated_prism_template",
+      "true_error": [
+        -0.0005300603806972504,
+        -0.0022651739418506622,
+        0.17573931974677537
+      ],
+      "sensing_error": [
+        -2.8829562221137014e-07,
+        7.884139673020128e-05,
+        -0.002311022962687037
+      ]
+    },
+    {
+      "start_id": 8,
+      "phase": 2,
+      "valid": true,
+      "reason": null,
+      "error": [
+        -0.0015339245801062732,
+        -0.0015820534648563042,
+        0.18908485064823655
+      ],
+      "template_residual_px2": 0.08177322309985853,
+      "peg_pose_camera_frame": [
+        -0.0015084164781775068,
+        -0.001318131600865151,
+        0.18908491025288143
+      ],
+      "hole_pose_camera_frame": [
+        0.0,
+        0.0002882611006498337,
+        5.960464477539063e-08
+      ],
+      "latency_seconds": 0.11669989999791142,
+      "camera_roi_pixels": [
+        128,
+        0,
+        512,
+        448
+      ],
+      "source": "rendered_RGB_adapted_SFN_segmenter_RGB_boundary_refinement_calibrated_prism_template",
+      "true_error": [
+        -0.0015296954661607742,
+        -0.001665031537413597,
+        0.1917392882553024
+      ],
+      "sensing_error": [
+        -4.229113945498995e-06,
+        8.29780725572929e-05,
+        -0.0026544376070658515
+      ]
+    },
+    {
+      "start_id": 9,
+      "phase": 0,
+      "valid": true,
+      "reason": null,
+      "error": [
+        -0.005646044364741852,
+        -0.007703789250559707,
+        0.17144152158804493
+      ],
+      "template_residual_px2": 0.07821610199815754,
+      "peg_pose_camera_frame": [
+        -0.005646044365738229,
+        -0.007415528149179637,
+        0.1714415811926898
+      ],
+      "hole_pose_camera_frame": [
+        0.0,
+        0.0002882611006498337,
+        5.960464477539063e-08
+      ],
+      "latency_seconds": 0.44181299999763723,
+      "camera_roi_pixels": [
+        128,
+        0,
+        512,
+        448
+      ],
+      "source": "rendered_RGB_adapted_SFN_segmenter_RGB_boundary_refinement_calibrated_prism_template",
+      "true_error": [
+        -0.005620530340820551,
+        -0.007677238434553146,
+        0.17781195951819173
+      ],
+      "sensing_error": [
+        -2.551402392130149e-05,
+        -2.655081600656025e-05,
+        -0.0063704379301467995
+      ]
+    },
+    {
+      "start_id": 9,
+      "phase": 1,
+      "valid": true,
+      "reason": null,
+      "error": [
+        -0.006635813109205496,
+        -0.007116970245948803,
+        0.19048153518258015
+      ],
+      "template_residual_px2": 0.08566055102876567,
+      "peg_pose_camera_frame": [
+        -0.006578665661726612,
+        -0.006881567294314947,
+        0.19048159478722493
+      ],
+      "hole_pose_camera_frame": [
+        0.0,
+        0.0002882611006498337,
+        5.960464477539063e-08
+      ],
+      "latency_seconds": 0.056448099996487144,
+      "camera_roi_pixels": [
+        128,
+        0,
+        512,
+        448
+      ],
+      "source": "rendered_RGB_adapted_SFN_segmenter_RGB_boundary_refinement_calibrated_prism_template",
+      "true_error": [
+        -0.0066202254965901375,
+        -0.007077161222696304,
+        0.1938119388786923
+      ],
+      "sensing_error": [
+        -1.558761261535868e-05,
+        -3.980902325249891e-05,
+        -0.0033304036961121497
+      ]
+    },
+    {
+      "start_id": 9,
+      "phase": 2,
+      "valid": true,
+      "reason": null,
+      "error": [
+        -0.007641903999193871,
+        -0.006490343374946289,
+        0.2065150141564196
+      ],
+      "template_residual_px2": 0.0903879949399793,
+      "peg_pose_camera_frame": [
+        -0.007537084902622786,
+        -0.006323516650323057,
+        0.20651507376106445
+      ],
+      "hole_pose_camera_frame": [
+        0.0,
+        0.0002882611006498337,
+        5.960464477539063e-08
+      ],
+      "latency_seconds": 0.048492100002476946,
+      "camera_roi_pixels": [
+        128,
+        0,
+        512,
+        448
+      ],
+      "source": "rendered_RGB_adapted_SFN_segmenter_RGB_boundary_refinement_calibrated_prism_template",
+      "true_error": [
+        -0.007619931828230619,
+        -0.006477091461420059,
+        0.20981199844084575
+      ],
+      "sensing_error": [
+        -2.197217096325168e-05,
+        -1.325191352623007e-05,
+        -0.003296984284426152
+      ]
+    },
+    {
+      "start_id": 10,
+      "phase": 0,
+      "valid": true,
+      "reason": null,
+      "error": [
+        0.0006501753177225822,
+        0.0023083464477340267,
+        0.08949113597226965
+      ],
+      "template_residual_px2": 0.09851691715284623,
+      "peg_pose_camera_frame": [
+        0.0006501753173853395,
+        0.002596607548478849,
+        0.0894911955769144
+      ],
+      "hole_pose_camera_frame": [
+        0.0,
+        0.0002882611006498337,
+        5.960464477539063e-08
+      ],
+      "latency_seconds": 0.07854339999903459,
+      "camera_roi_pixels": [
+        128,
+        0,
+        512,
+        448
+      ],
+      "source": "rendered_RGB_adapted_SFN_segmenter_RGB_boundary_refinement_calibrated_prism_template",
+      "true_error": [
+        0.0006465837359428406,
+        0.0024269260466098785,
+        0.09564041128914669
+      ],
+      "sensing_error": [
+        3.5915817797416236e-06,
+        -0.00011857959887585185,
+        -0.006149275316877034
+      ]
+    },
+    {
+      "start_id": 10,
+      "phase": 1,
+      "valid": true,
+      "reason": null,
+      "error": [
+        -0.0003077332457962023,
+        0.003039074839003396,
+        0.10727865319171315
+      ],
+      "template_residual_px2": 0.09359911552143656,
+      "peg_pose_camera_frame": [
+        -0.0003320357128861199,
+        0.0033247768527907623,
+        0.10727871279635791
+      ],
+      "hole_pose_camera_frame": [
+        0.0,
+        0.0002882611006498337,
+        5.960464477539063e-08
+      ],
+      "latency_seconds": 0.06703489999927115,
+      "camera_roi_pixels": [
+        128,
+        0,
+        512,
+        448
+      ],
+      "source": "rendered_RGB_adapted_SFN_segmenter_RGB_boundary_refinement_calibrated_prism_template",
+      "true_error": [
+        -0.00030956417322158813,
+        0.0030443333089351654,
+        0.11164052325226814
+      ],
+      "sensing_error": [
+        1.8309274253858112e-06,
+        -5.2584699317694515e-06,
+        -0.004361870060554995
+      ]
+    },
+    {
+      "start_id": 10,
+      "phase": 2,
+      "valid": true,
+      "reason": null,
+      "error": [
+        -0.00126861417159689,
+        0.0037619299054082495,
+        0.12423602455806071
+      ],
+      "template_residual_px2": 0.08258657926877523,
+      "peg_pose_camera_frame": [
+        -0.0013286400408138806,
+        0.0040294125506084525,
+        0.12423608416270557
+      ],
+      "hole_pose_camera_frame": [
+        0.0,
+        0.0002882611006498337,
+        5.960464477539063e-08
+      ],
+      "latency_seconds": 0.05116480000287993,
+      "camera_roi_pixels": [
+        128,
+        0,
+        512,
+        448
+      ],
+      "source": "rendered_RGB_adapted_SFN_segmenter_RGB_boundary_refinement_calibrated_prism_template",
+      "true_error": [
+        -0.0012674033641815186,
+        0.003661099821329117,
+        0.12764060084600715
+      ],
+      "sensing_error": [
+        -1.210807415371511e-06,
+        0.00010083008407913265,
+        -0.003404576287946437
+      ]
+    },
+    {
+      "start_id": 11,
+      "phase": 0,
+      "valid": true,
+      "reason": null,
+      "error": [
+        -0.007515961497377009,
+        0.0052687846813164255,
+        -0.09006875696408567
+      ],
+      "template_residual_px2": 0.07945634433094988,
+      "peg_pose_camera_frame": [
+        -0.007515961449165247,
+        0.005557045850740704,
+        -0.09006869735944112
+      ],
+      "hole_pose_camera_frame": [
+        0.0,
+        0.0002882611006498337,
+        5.960464477539063e-08
+      ],
+      "latency_seconds": 0.09890369999629911,
+      "camera_roi_pixels": [
+        128,
+        0,
+        512,
+        448
+      ],
+      "source": "rendered_RGB_adapted_SFN_segmenter_RGB_boundary_refinement_calibrated_prism_template",
+      "true_error": [
+        -0.007490631192922592,
+        0.005270209163427353,
+        -0.09523752005762276
+      ],
+      "sensing_error": [
+        -2.533030445441703e-05,
+        -1.4244821109274386e-06,
+        0.005168763093537088
+      ]
+    },
+    {
+      "start_id": 11,
+      "phase": 1,
+      "valid": true,
+      "reason": null,
+      "error": [
+        -0.008518219434398493,
+        0.005873025954142848,
+        -0.07377285414833024
+      ],
+      "template_residual_px2": 0.07252854098662924,
+      "peg_pose_camera_frame": [
+        -0.008564930495526145,
+        0.006092954184474847,
+        -0.07377279454368547
+      ],
+      "hole_pose_camera_frame": [
+        0.0,
+        0.0002882611006498337,
+        5.960464477539063e-08
+      ],
+      "latency_seconds": 0.06042699999670731,
+      "camera_roi_pixels": [
+        128,
+        0,
+        512,
+        448
+      ],
+      "source": "rendered_RGB_adapted_SFN_segmenter_RGB_boundary_refinement_calibrated_prism_template",
+      "true_error": [
+        -0.008490137755870819,
+        0.005870375782251358,
+        -0.0792375388965052
+      ],
+      "sensing_error": [
+        -2.8081678527674264e-05,
+        2.650171891489632e-06,
+        0.005464684748174964
+      ]
+    },
+    {
+      "start_id": 11,
+      "phase": 2,
+      "valid": true,
+      "reason": null,
+      "error": [
+        -0.009523554592885107,
+        0.006486019084262486,
+        -0.05757166689601334
+      ],
+      "template_residual_px2": 0.08348510341820722,
+      "peg_pose_camera_frame": [
+        -0.009626107376553865,
+        0.006621079779574369,
+        -0.05757160729136857
+      ],
+      "hole_pose_camera_frame": [
+        0.0,
+        0.0002882611006498337,
+        5.960464477539063e-08
+      ],
+      "latency_seconds": 0.08258969999587862,
+      "camera_roi_pixels": [
+        128,
+        0,
+        512,
+        448
+      ],
+      "source": "rendered_RGB_adapted_SFN_segmenter_RGB_boundary_refinement_calibrated_prism_template",
+      "true_error": [
+        -0.00948965921998024,
+        0.006470531225204468,
+        -0.06323756511994949
+      ],
+      "sensing_error": [
+        -3.389537290486751e-05,
+        1.548785905801809e-05,
+        0.00566589822393615
+      ]
+    },
+    {
+      "start_id": 12,
+      "phase": 0,
+      "valid": true,
+      "reason": null,
+      "error": [
+        -0.0075658507067349525,
+        -0.00012766466696282404,
+        0.16971826958602243
+      ],
+      "template_residual_px2": 0.08024946719268841,
+      "peg_pose_camera_frame": [
+        -0.007565850708351497,
+        0.0001605965294890795,
+        0.1697183291906674
+      ],
+      "hole_pose_camera_frame": [
+        0.0,
+        0.0002882611006498337,
+        5.960464477539063e-08
+      ],
+      "latency_seconds": 0.15462540000589797,
+      "camera_roi_pixels": [
+        128,
+        0,
+        512,
+        448
+      ],
+      "source": "rendered_RGB_adapted_SFN_segmenter_RGB_boundary_refinement_calibrated_prism_template",
+      "true_error": [
+        -0.007533952593803406,
+        -0.00023093074560165405,
+        0.17311282124172545
+      ],
+      "sensing_error": [
+        -3.189811293154675e-05,
+        0.00010326607863883001,
+        -0.0033945516557030153
+      ]
+    },
+    {
+      "start_id": 12,
+      "phase": 1,
+      "valid": true,
+      "reason": null,
+      "error": [
+        -0.008565826696225251,
+        0.0004702381511490406,
+        0.18671445459696123
+      ],
+      "template_residual_px2": 0.0834966072448258,
+      "peg_pose_camera_frame": [
+        -0.008569314448909047,
+        0.0006899584796304852,
+        0.18671451420160595
+      ],
+      "hole_pose_camera_frame": [
+        0.0,
+        0.0002882611006498337,
+        5.960464477539063e-08
+      ],
+      "latency_seconds": 0.08421709999674931,
+      "camera_roi_pixels": [
+        128,
+        0,
+        512,
+        448
+      ],
+      "source": "rendered_RGB_adapted_SFN_segmenter_RGB_boundary_refinement_calibrated_prism_template",
+      "true_error": [
+        -0.008533013984560966,
+        0.0003694426268339157,
+        0.18911278701781553
+      ],
+      "sensing_error": [
+        -3.281271166428491e-05,
+        0.00010079552431512489,
+        -0.002398332420854299
+      ]
+    },
+    {
+      "start_id": 12,
+      "phase": 2,
+      "valid": true,
+      "reason": null,
+      "error": [
+        -0.009570068342164577,
+        0.001077031787318331,
+        0.20220852881144724
+      ],
+      "template_residual_px2": 0.08567869168612816,
+      "peg_pose_camera_frame": [
+        -0.009586075148987568,
+        0.0012120407186095312,
+        0.2022085884160922
+      ],
+      "hole_pose_camera_frame": [
+        0.0,
+        0.0002882611006498337,
+        5.960464477539063e-08
+      ],
+      "latency_seconds": 0.1574804000047152,
+      "camera_roi_pixels": [
+        128,
+        0,
+        512,
+        448
+      ],
+      "source": "rendered_RGB_adapted_SFN_segmenter_RGB_boundary_refinement_calibrated_prism_template",
+      "true_error": [
+        -0.00953209400177002,
+        0.0009698085486888885,
+        0.20511273181059808
+      ],
+      "sensing_error": [
+        -3.7974340394557674e-05,
+        0.00010722323862944242,
+        -0.00290420299915084
+      ]
+    },
+    {
+      "start_id": 13,
+      "phase": 0,
+      "valid": true,
+      "reason": null,
+      "error": [
+        0.0019069793447755094,
+        -0.0037352021448303087,
+        -0.07237259372132998
+      ],
+      "template_residual_px2": 0.1164811534923997,
+      "peg_pose_camera_frame": [
+        0.001906979304776492,
+        -0.0034469410646016723,
+        -0.07237253411668537
+      ],
+      "hole_pose_camera_frame": [
+        0.0,
+        0.0002882611006498337,
+        5.960464477539063e-08
+      ],
+      "latency_seconds": 0.1324148999992758,
+      "camera_roi_pixels": [
+        128,
+        0,
+        512,
+        448
+      ],
+      "source": "rendered_RGB_adapted_SFN_segmenter_RGB_boundary_refinement_calibrated_prism_template",
+      "true_error": [
+        0.0018254555761814117,
+        -0.0037156231701374054,
+        -0.05578080638201177
+      ],
+      "sensing_error": [
+        8.152376859409767e-05,
+        -1.957897469290334e-05,
+        -0.01659178733931821
+      ]
+    },
+    {
+      "start_id": 13,
+      "phase": 1,
+      "valid": true,
+      "reason": null,
+      "error": [
+        0.000875073176012226,
+        -0.0031108734271620875,
+        -0.049184856420812384
+      ],
+      "template_residual_px2": 0.11495823733794838,
+      "peg_pose_camera_frame": [
+        0.0008999318385521369,
+        -0.002815512284950263,
+        -0.04918479681616769
+      ],
+      "hole_pose_camera_frame": [
+        0.0,
+        0.0002882611006498337,
+        5.960464477539063e-08
+      ],
+      "latency_seconds": 0.06377030000294326,
+      "camera_roi_pixels": [
+        128,
+        0,
+        512,
+        448
+      ],
+      "source": "rendered_RGB_adapted_SFN_segmenter_RGB_boundary_refinement_calibrated_prism_template",
+      "true_error": [
+        0.0008289627730846405,
+        -0.0031141433864831924,
+        -0.039780898679976584
+      ],
+      "sensing_error": [
+        4.6110402927585534e-05,
+        3.2699593211049476e-06,
+        -0.0094039577408358
+      ]
+    },
+    {
+      "start_id": 13,
+      "phase": 2,
+      "valid": true,
+      "reason": null,
+      "error": [
+        -0.00013736834680708591,
+        -0.002491474420363244,
+        -0.0304314267603063
+      ],
+      "template_residual_px2": 0.11810069597406052,
+      "peg_pose_camera_frame": [
+        -9.748893867975483e-05,
+        -0.0022050922150404976,
+        -0.030431367155661727
+      ],
+      "hole_pose_camera_frame": [
+        0.0,
+        0.0002882611006498337,
+        5.960464477539063e-08
+      ],
+      "latency_seconds": 0.055610100003832486,
+      "camera_roi_pixels": [
+        128,
+        0,
+        512,
+        448
+      ],
+      "source": "rendered_RGB_adapted_SFN_segmenter_RGB_boundary_refinement_calibrated_prism_template",
+      "true_error": [
+        -0.00016758590936660767,
+        -0.0025126803666353226,
+        -0.02378096053644496
+      ],
+      "sensing_error": [
+        3.021756255952175e-05,
+        2.120594627207876e-05,
+        -0.00665046622386134
+      ]
+    },
+    {
+      "start_id": 14,
+      "phase": 0,
+      "valid": true,
+      "reason": null,
+      "error": [
+        0.0009623067543829305,
+        -0.007966924201854285,
+        -0.10041337914621185
+      ],
+      "template_residual_px2": 0.09369298868867927,
+      "peg_pose_camera_frame": [
+        0.0009623066951999831,
+        -0.007678663108353025,
+        -0.1004133195415671
+      ],
+      "hole_pose_camera_frame": [
+        0.0,
+        0.0002882611006498337,
+        5.960464477539063e-08
+      ],
+      "latency_seconds": 0.10033860000112327,
+      "camera_roi_pixels": [
+        128,
+        0,
+        512,
+        448
+      ],
+      "source": "rendered_RGB_adapted_SFN_segmenter_RGB_boundary_refinement_calibrated_prism_template",
+      "true_error": [
+        0.000962396152317524,
+        -0.007934093475341797,
+        -0.10377968987549746
+      ],
+      "sensing_error": [
+        -8.93979345934718e-08,
+        -3.2830726512488376e-05,
+        0.0033663107292856154
+      ]
+    },
+    {
+      "start_id": 14,
+      "phase": 1,
+      "valid": true,
+      "reason": null,
+      "error": [
+        -4.047216497724121e-05,
+        -0.007358393297551335,
+        -0.08408127736901605
+      ],
+      "template_residual_px2": 0.08879198060107524,
+      "peg_pose_camera_frame": [
+        1.839554718720887e-05,
+        -0.007070220503691516,
+        -0.08408121776437127
+      ],
+      "hole_pose_camera_frame": [
+        0.0,
+        0.0002882611006498337,
+        5.960464477539063e-08
+      ],
+      "latency_seconds": 0.07878890000574756,
+      "camera_roi_pixels": [
+        128,
+        0,
+        512,
+        448
+      ],
+      "source": "rendered_RGB_adapted_SFN_segmenter_RGB_boundary_refinement_calibrated_prism_template",
+      "true_error": [
+        -3.74792143702507e-05,
+        -0.007334068417549133,
+        -0.08777971734737866
+      ],
+      "sensing_error": [
+        -2.992950606990505e-06,
+        -2.4324880002201364e-05,
+        0.003698439978362611
+      ]
+    },
+    {
+      "start_id": 14,
+      "phase": 2,
+      "valid": true,
+      "reason": null,
+      "error": [
+        -0.0010443061626589287,
+        -0.006750793445107587,
+        -0.06854904452421229
+      ],
+      "template_residual_px2": 0.08783259998749196,
+      "peg_pose_camera_frame": [
+        -0.0009361645198376403,
+        -0.006478376431512809,
+        -0.06854898491956755
+      ],
+      "hole_pose_camera_frame": [
+        0.0,
+        0.0002882611006498337,
+        5.960464477539063e-08
+      ],
+      "latency_seconds": 0.06986789999791654,
+      "camera_roi_pixels": [
+        128,
+        0,
+        512,
+        448
+      ],
+      "source": "rendered_RGB_adapted_SFN_segmenter_RGB_boundary_refinement_calibrated_prism_template",
+      "true_error": [
+        -0.0010373694822192192,
+        -0.006734021008014679,
+        -0.07177972834228408
+      ],
+      "sensing_error": [
+        -6.93668043970949e-06,
+        -1.6772437092907842e-05,
+        0.003230683818071789
+      ]
+    },
+    {
+      "start_id": 15,
+      "phase": 0,
+      "valid": true,
+      "reason": null,
+      "error": [
+        0.002704849015490544,
+        -0.0038166586413235105,
+        -0.09895873800212618
+      ],
+      "template_residual_px2": 0.09822328620980382,
+      "peg_pose_camera_frame": [
+        0.002704849394929994,
+        -0.0035283972717665966,
+        -0.09895867839748124
+      ],
+      "hole_pose_camera_frame": [
+        0.0,
+        0.0002882611006498337,
+        5.960464477539063e-08
+      ],
+      "latency_seconds": 0.14153920000535436,
+      "camera_roi_pixels": [
+        128,
+        0,
+        512,
+        448
+      ],
+      "source": "rendered_RGB_adapted_SFN_segmenter_RGB_boundary_refinement_calibrated_prism_template",
+      "true_error": [
+        0.0026479214429855347,
+        -0.003851216984912753,
+        -0.08904587388917218
+      ],
+      "sensing_error": [
+        5.692757250500913e-05,
+        3.455834358924263e-05,
+        -0.009912864112954
+      ]
+    },
+    {
+      "start_id": 15,
+      "phase": 1,
+      "valid": true,
+      "reason": null,
+      "error": [
+        0.001709420640170504,
+        -0.0032152424748824477,
+        -0.08502685745930538
+      ],
+      "template_residual_px2": 0.10283003627700268,
+      "peg_pose_camera_frame": [
+        0.001735087897233852,
+        -0.0029132031090832304,
+        -0.08502679785466043
+      ],
+      "hole_pose_camera_frame": [
+        0.0,
+        0.0002882611006498337,
+        5.960464477539063e-08
+      ],
+      "latency_seconds": 0.09201199999370147,
+      "camera_roi_pixels": [
+        128,
+        0,
+        512,
+        448
+      ],
+      "source": "rendered_RGB_adapted_SFN_segmenter_RGB_boundary_refinement_calibrated_prism_template",
+      "true_error": [
+        0.0016482211649417877,
+        -0.0032512203324586153,
+        -0.07304585471527458
+      ],
+      "sensing_error": [
+        6.119947522871625e-05,
+        3.59778575761676e-05,
+        -0.0119810027440308
+      ]
+    },
+    {
+      "start_id": 15,
+      "phase": 2,
+      "valid": true,
+      "reason": null,
+      "error": [
+        0.0006857379735066817,
+        -0.0025923183316402068,
+        -0.06441619997456582
+      ],
+      "template_residual_px2": 0.11319388785334061,
+      "peg_pose_camera_frame": [
+        0.0007271257413761104,
+        -0.0022927540207888526,
+        -0.06441614036992108
+      ],
+      "hole_pose_camera_frame": [
+        0.0,
+        0.0002882611006498337,
+        5.960464477539063e-08
+      ],
+      "latency_seconds": 0.11420240000006743,
+      "camera_roi_pixels": [
+        128,
+        0,
+        512,
+        448
+      ],
+      "source": "rendered_RGB_adapted_SFN_segmenter_RGB_boundary_refinement_calibrated_prism_template",
+      "true_error": [
+        0.0006484799087047577,
+        -0.002651227405294776,
+        -0.05704587892808011
+      ],
+      "sensing_error": [
+        3.7258064801924e-05,
+        5.890907365456921e-05,
+        -0.007370321046485717
+      ]
+    },
+    {
+      "start_id": 16,
+      "phase": 0,
+      "valid": true,
+      "reason": null,
+      "error": [
+        -0.0008927608829961992,
+        -0.0044854449468766,
+        0.022377780546135373
+      ],
+      "template_residual_px2": 0.11888582531411399,
+      "peg_pose_camera_frame": [
+        -0.0008927608579663021,
+        -0.004197183851208593,
+        0.022377840150780214
+      ],
+      "hole_pose_camera_frame": [
+        0.0,
+        0.0002882611006498337,
+        5.960464477539063e-08
+      ],
+      "latency_seconds": 0.11760920000233455,
+      "camera_roi_pixels": [
+        128,
+        0,
+        512,
+        448
+      ],
+      "source": "rendered_RGB_adapted_SFN_segmenter_RGB_boundary_refinement_calibrated_prism_template",
+      "true_error": [
+        -0.0009165406227111816,
+        -0.004525991156697273,
+        0.02794668328934158
+      ],
+      "sensing_error": [
+        2.377973971498244e-05,
+        4.054620982067367e-05,
+        -0.0055689027432062055
+      ]
+    },
+    {
+      "start_id": 16,
+      "phase": 1,
+      "valid": true,
+      "reason": null,
+      "error": [
+        -0.0019245712981384247,
+        -0.0038732707779767163,
+        0.04488530699903848
+      ],
+      "template_residual_px2": 0.1027999519032982,
+      "peg_pose_camera_frame": [
+        -0.0018935236294845767,
+        -0.0036002822597526363,
+        0.04488536660368337
+      ],
+      "hole_pose_camera_frame": [
+        0.0,
+        0.0002882611006498337,
+        5.960464477539063e-08
+      ],
+      "latency_seconds": 0.1274394000065513,
+      "camera_roi_pixels": [
+        128,
+        0,
+        512,
+        448
+      ],
+      "source": "rendered_RGB_adapted_SFN_segmenter_RGB_boundary_refinement_calibrated_prism_template",
+      "true_error": [
+        -0.001911953091621399,
+        -0.003925470635294914,
+        0.043946729341743485
+      ],
+      "sensing_error": [
+        -1.261820651702575e-05,
+        5.219985731819794e-05,
+        0.0009385776572949922
+      ]
+    },
+    {
+      "start_id": 16,
+      "phase": 2,
+      "valid": true,
+      "reason": null,
+      "error": [
+        -0.0029420815781696866,
+        -0.003282754463331978,
+        0.06528281428400762
+      ],
+      "template_residual_px2": 0.10711196847360142,
+      "peg_pose_camera_frame": [
+        -0.0028891827842362837,
+        -0.003041144810080207,
+        0.06528287388865259
+      ],
+      "hole_pose_camera_frame": [
+        0.0,
+        0.0002882611006498337,
+        5.960464477539063e-08
+      ],
+      "latency_seconds": 0.2536465000011958,
+      "camera_roi_pixels": [
+        128,
+        0,
+        512,
+        448
+      ],
+      "source": "rendered_RGB_adapted_SFN_segmenter_RGB_boundary_refinement_calibrated_prism_template",
+      "true_error": [
+        -0.0029080137610435486,
+        -0.0033250171691179276,
+        0.05994677009197824
+      ],
+      "sensing_error": [
+        -3.406781712613806e-05,
+        4.226270578594959e-05,
+        0.005336044192029377
+      ]
+    },
+    {
+      "start_id": 17,
+      "phase": 0,
+      "valid": true,
+      "reason": null,
+      "error": [
+        0.0009437427820047586,
+        -0.0033983428024062243,
+        0.10134044744558945
+      ],
+      "template_residual_px2": 0.089169058544142,
+      "peg_pose_camera_frame": [
+        0.0009437427480532285,
+        -0.0031100817111849597,
+        0.10134050705023426
+      ],
+      "hole_pose_camera_frame": [
+        0.0,
+        0.0002882611006498337,
+        5.960464477539063e-08
+      ],
+      "latency_seconds": 0.10855789999914123,
+      "camera_roi_pixels": [
+        128,
+        0,
+        512,
+        448
+      ],
+      "source": "rendered_RGB_adapted_SFN_segmenter_RGB_boundary_refinement_calibrated_prism_template",
+      "true_error": [
+        0.0009391698986291885,
+        -0.0033905021846294403,
+        0.10498620833311145
+      ],
+      "sensing_error": [
+        4.5728833755700636e-06,
+        -7.840617776784e-06,
+        -0.0036457608875219982
+      ]
+    },
+    {
+      "start_id": 17,
+      "phase": 1,
+      "valid": true,
+      "reason": null,
+      "error": [
+        -5.763874898039369e-05,
+        -0.0027811683481897857,
+        0.11718696382646909
+      ],
+      "template_residual_px2": 0.08897894118305956,
+      "peg_pose_camera_frame": [
+        -3.538784378355989e-05,
+        -0.0024932793550813204,
+        0.11718702343111387
+      ],
+      "hole_pose_camera_frame": [
+        0.0,
+        0.0002882611006498337,
+        5.960464477539063e-08
+      ],
+      "latency_seconds": 0.07447949999914272,
+      "camera_roi_pixels": [
+        128,
+        0,
+        512,
+        448
+      ],
+      "source": "rendered_RGB_adapted_SFN_segmenter_RGB_boundary_refinement_calibrated_prism_template",
+      "true_error": [
+        -6.054528057575226e-05,
+        -0.0027904286980628967,
+        0.1209861979030662
+      ],
+      "sensing_error": [
+        2.906531595358569e-06,
+        9.260349873111036e-06,
+        -0.003799234076597102
+      ]
+    },
+    {
+      "start_id": 17,
+      "phase": 2,
+      "valid": true,
+      "reason": null,
+      "error": [
+        -0.001060634099708804,
+        -0.002181678920572052,
+        0.13315939252855813
+      ],
+      "template_residual_px2": 0.08346115624813216,
+      "peg_pose_camera_frame": [
+        -0.0010255930208674289,
+        -0.0019101079678829186,
+        0.13315945213320296
+      ],
+      "hole_pose_camera_frame": [
+        0.0,
+        0.0002882611006498337,
+        5.960464477539063e-08
+      ],
+      "latency_seconds": 0.07902869999816176,
+      "camera_roi_pixels": [
+        128,
+        0,
+        512,
+        448
+      ],
+      "source": "rendered_RGB_adapted_SFN_segmenter_RGB_boundary_refinement_calibrated_prism_template",
+      "true_error": [
+        -0.0010602641850709915,
+        -0.0021903328597545624,
+        0.13698619203778017
+      ],
+      "sensing_error": [
+        -3.6991463781238347e-07,
+        8.653939182510367e-06,
+        -0.0038267995092220453
+      ]
+    },
+    {
+      "start_id": 18,
+      "phase": 0,
+      "valid": true,
+      "reason": null,
+      "error": [
+        0.003093640740187689,
+        -0.00490581592269503,
+        0.15494939041424827
+      ],
+      "template_residual_px2": 0.08749818093376725,
+      "peg_pose_camera_frame": [
+        0.0030936407202264756,
+        -0.004617554834632873,
+        0.15494945001889324
+      ],
+      "hole_pose_camera_frame": [
+        0.0,
+        0.0002882611006498337,
+        5.960464477539063e-08
+      ],
+      "latency_seconds": 0.09247529999993276,
+      "camera_roi_pixels": [
+        128,
+        0,
+        512,
+        448
+      ],
+      "source": "rendered_RGB_adapted_SFN_segmenter_RGB_boundary_refinement_calibrated_prism_template",
+      "true_error": [
+        0.0030846893787384033,
+        -0.004828795790672302,
+        0.15976344946317944
+      ],
+      "sensing_error": [
+        8.95136144928553e-06,
+        -7.702013202272751e-05,
+        -0.004814059048931174
+      ]
+    },
+    {
+      "start_id": 18,
+      "phase": 1,
+      "valid": true,
+      "reason": null,
+      "error": [
+        0.002101709027016621,
+        -0.00427496087150847,
+        0.17108735309805745
+      ],
+      "template_residual_px2": 0.08373166456263388,
+      "peg_pose_camera_frame": [
+        0.0021358410758406804,
+        -0.003969749489511179,
+        0.17108741270270203
+      ],
+      "hole_pose_camera_frame": [
+        0.0,
+        0.0002882611006498337,
+        5.960464477539063e-08
+      ],
+      "latency_seconds": 0.06626659999892581,
+      "camera_roi_pixels": [
+        128,
+        0,
+        512,
+        448
+      ],
+      "source": "rendered_RGB_adapted_SFN_segmenter_RGB_boundary_refinement_calibrated_prism_template",
+      "true_error": [
+        0.002093527466058731,
+        -0.00422508642077446,
+        0.17576346350577676
+      ],
+      "sensing_error": [
+        8.181560957889848e-06,
+        -4.987445073401011e-05,
+        -0.004676110407719314
+      ]
+    },
+    {
+      "start_id": 18,
+      "phase": 2,
+      "valid": true,
+      "reason": null,
+      "error": [
+        0.0011064409378183993,
+        -0.003650692328371963,
+        0.18727905765394848
+      ],
+      "template_residual_px2": 0.08284661887885186,
+      "peg_pose_camera_frame": [
+        0.0011647078683351233,
+        -0.0033442616600156266,
+        0.18727911725859323
+      ],
+      "hole_pose_camera_frame": [
+        0.0,
+        0.0002882611006498337,
+        5.960464477539063e-08
+      ],
+      "latency_seconds": 0.0675210999979754,
+      "camera_roi_pixels": [
+        128,
+        0,
+        512,
+        448
+      ],
+      "source": "rendered_RGB_adapted_SFN_segmenter_RGB_boundary_refinement_calibrated_prism_template",
+      "true_error": [
+        0.0011021867394447327,
+        -0.0036214403808116913,
+        0.19176341748713277
+      ],
+      "sensing_error": [
+        4.254198373666645e-06,
+        -2.925194756027167e-05,
+        -0.004484359833184293
+      ]
+    },
+    {
+      "start_id": 19,
+      "phase": 0,
+      "valid": true,
+      "reason": null,
+      "error": [
+        -0.0013161787707558147,
+        0.0011373647191742014,
+        -0.0437191495094611
+      ],
+      "template_residual_px2": 0.10906064189129125,
+      "peg_pose_camera_frame": [
+        -0.0013161787626661953,
+        0.0014256258291854872,
+        -0.04371908990481622
+      ],
+      "hole_pose_camera_frame": [
+        0.0,
+        0.0002882611006498337,
+        5.960464477539063e-08
+      ],
+      "latency_seconds": 0.13696929999423446,
+      "camera_roi_pixels": [
+        128,
+        0,
+        512,
+        448
+      ],
+      "source": "rendered_RGB_adapted_SFN_segmenter_RGB_boundary_refinement_calibrated_prism_template",
+      "true_error": [
+        -0.001334555447101593,
+        0.0010530147701501846,
+        -0.03836288522119391
+      ],
+      "sensing_error": [
+        1.837667634577828e-05,
+        8.434994902401676e-05,
+        -0.005356264288267187
+      ]
+    },
+    {
+      "start_id": 19,
+      "phase": 1,
+      "valid": true,
+      "reason": null,
+      "error": [
+        -0.0022935220678961233,
+        0.0017181000691012327,
+        -0.032318689790111765
+      ],
+      "template_residual_px2": 0.10609939067920773,
+      "peg_pose_camera_frame": [
+        -0.0023071933029347328,
+        0.0019879582461040726,
+        -0.03231863018546705
+      ],
+      "hole_pose_camera_frame": [
+        0.0,
+        0.0002882611006498337,
+        5.960464477539063e-08
+      ],
+      "latency_seconds": 0.07130590000451775,
+      "camera_roi_pixels": [
+        128,
+        0,
+        512,
+        448
+      ],
+      "source": "rendered_RGB_adapted_SFN_segmenter_RGB_boundary_refinement_calibrated_prism_template",
+      "true_error": [
+        -0.002329111099243164,
+        0.0016547702252864838,
+        -0.02236293431479064
+      ],
+      "sensing_error": [
+        3.558903134704078e-05,
+        6.332984381474897e-05,
+        -0.009955755475321126
+      ]
+    },
+    {
+      "start_id": 19,
+      "phase": 2,
+      "valid": true,
+      "reason": null,
+      "error": [
+        -0.00327966486304928,
+        0.0022753535448888466,
+        -0.018507045347758044
+      ],
+      "template_residual_px2": 0.10923283829921927,
+      "peg_pose_camera_frame": [
+        -0.003315649129074437,
+        0.002510851081061475,
+        -0.018506985743113224
+      ],
+      "hole_pose_camera_frame": [
+        0.0,
+        0.0002882611006498337,
+        5.960464477539063e-08
+      ],
+      "latency_seconds": 0.07413939999969443,
+      "camera_roi_pixels": [
+        128,
+        0,
+        512,
+        448
+      ],
+      "source": "rendered_RGB_adapted_SFN_segmenter_RGB_boundary_refinement_calibrated_prism_template",
+      "true_error": [
+        -0.003323778510093689,
+        0.002256494015455246,
+        -0.006362979575726957
+      ],
+      "sensing_error": [
+        4.4113647044409076e-05,
+        1.885952943360067e-05,
+        -0.012144065772031087
+      ]
+    },
+    {
+      "start_id": 20,
+      "phase": 0,
+      "valid": true,
+      "reason": null,
+      "error": [
+        -0.0023973492553708417,
+        0.0034024551976808213,
+        -0.046198099307734886
+      ],
+      "template_residual_px2": 0.09462025313692883,
+      "peg_pose_camera_frame": [
+        -0.0023973492153302853,
+        0.0036907163265429877,
+        -0.046198039703090006
+      ],
+      "hole_pose_camera_frame": [
+        0.0,
+        0.0002882611006498337,
+        5.960464477539063e-08
+      ],
+      "latency_seconds": 0.1095363000058569,
+      "camera_roi_pixels": [
+        128,
+        0,
+        512,
+        448
+      ],
+      "source": "rendered_RGB_adapted_SFN_segmenter_RGB_boundary_refinement_calibrated_prism_template",
+      "true_error": [
+        -0.0023826975375413895,
+        0.0033318931236863136,
+        -0.050208495748450765
+      ],
+      "sensing_error": [
+        -1.4651717829452203e-05,
+        7.056207399450771e-05,
+        0.00401039644071588
+      ]
+    },
+    {
+      "start_id": 20,
+      "phase": 1,
+      "valid": true,
+      "reason": null,
+      "error": [
+        -0.003398784281464561,
+        0.004001127101251863,
+        -0.030144329575378936
+      ],
+      "template_residual_px2": 0.08863573054437418,
+      "peg_pose_camera_frame": [
+        -0.003430684141567814,
+        0.004262070229571077,
+        -0.03014426997073405
+      ],
+      "hole_pose_camera_frame": [
+        0.0,
+        0.0002882611006498337,
+        5.960464477539063e-08
+      ],
+      "latency_seconds": 0.05683069999940926,
+      "camera_roi_pixels": [
+        128,
+        0,
+        512,
+        448
+      ],
+      "source": "rendered_RGB_adapted_SFN_segmenter_RGB_boundary_refinement_calibrated_prism_template",
+      "true_error": [
+        -0.003382560098543763,
+        0.003931933082640171,
+        -0.03420848796209519
+      ],
+      "sensing_error": [
+        -1.622418292079788e-05,
+        6.91940186116919e-05,
+        0.0040641583867162545
+      ]
+    },
+    {
+      "start_id": 20,
+      "phase": 2,
+      "valid": true,
+      "reason": null,
+      "error": [
+        -0.004410493558732129,
+        0.00464459805160927,
+        -0.012633104794350647
+      ],
+      "template_residual_px2": 0.04269005940294223,
+      "peg_pose_camera_frame": [
+        -0.004484239341432358,
+        0.004861699852987129,
+        -0.012633045189705953
+      ],
+      "hole_pose_camera_frame": [
+        0.0,
+        0.0002882611006498337,
+        5.960464477539063e-08
+      ],
+      "latency_seconds": 0.08059610000054818,
+      "camera_roi_pixels": [
+        128,
+        0,
+        512,
+        448
+      ],
+      "source": "rendered_RGB_adapted_SFN_segmenter_RGB_boundary_refinement_calibrated_prism_template",
+      "true_error": [
+        -0.004382428480312228,
+        0.004531980492174625,
+        -0.018208493890728317
+      ],
+      "sensing_error": [
+        -2.8065078419900642e-05,
+        0.0001126175594346442,
+        0.00557538909637767
+      ]
+    },
+    {
+      "start_id": 21,
+      "phase": 0,
+      "valid": true,
+      "reason": null,
+      "error": [
+        -0.0047610327577513765,
+        -0.0019229314838117278,
+        0.06478820684717146
+      ],
+      "template_residual_px2": 0.0779843259824383,
+      "peg_pose_camera_frame": [
+        -0.004761032756339538,
+        -0.0016346703866574998,
+        0.0647882664518163
+      ],
+      "hole_pose_camera_frame": [
+        0.0,
+        0.0002882611006498337,
+        5.960464477539063e-08
+      ],
+      "latency_seconds": 0.14838650000456255,
+      "camera_roi_pixels": [
+        128,
+        0,
+        512,
+        448
+      ],
+      "source": "rendered_RGB_adapted_SFN_segmenter_RGB_boundary_refinement_calibrated_prism_template",
+      "true_error": [
+        -0.004741149256005883,
+        -0.001950753852725029,
+        0.06281744239614184
+      ],
+      "sensing_error": [
+        -1.9883501745493297e-05,
+        2.7822368913301213e-05,
+        0.0019707644510296163
+      ]
+    },
+    {
+      "start_id": 21,
+      "phase": 1,
+      "valid": true,
+      "reason": null,
+      "error": [
+        -0.0057989443013472365,
+        -0.0012855083933955666,
+        0.08460197036275607
+      ],
+      "template_residual_px2": 0.15184163136572618,
+      "peg_pose_camera_frame": [
+        -0.005788474784618443,
+        -0.001043597190406129,
+        0.0846020299674009
+      ],
+      "hole_pose_camera_frame": [
+        0.0,
+        0.0002882611006498337,
+        5.960464477539063e-08
+      ],
+      "latency_seconds": 0.08812860000034561,
+      "camera_roi_pixels": [
+        128,
+        0,
+        512,
+        448
+      ],
+      "source": "rendered_RGB_adapted_SFN_segmenter_RGB_boundary_refinement_calibrated_prism_template",
+      "true_error": [
+        -0.005741077708080411,
+        -0.0013507334515452385,
+        0.07881742355377197
+      ],
+      "sensing_error": [
+        -5.786659326682559e-05,
+        6.522505814967185e-05,
+        0.0057845468089841034
+      ]
+    },
+    {
+      "start_id": 21,
+      "phase": 2,
+      "valid": true,
+      "reason": null,
+      "error": [
+        -0.006775213408648976,
+        -0.0006890333205887217,
+        0.09702673662421102
+      ],
+      "template_residual_px2": 0.10452447753763099,
+      "peg_pose_camera_frame": [
+        -0.006763322144353241,
+        -0.0005090827532297078,
+        0.09702679622885584
+      ],
+      "hole_pose_camera_frame": [
+        0.0,
+        0.0002882611006498337,
+        5.960464477539063e-08
+      ],
+      "latency_seconds": 0.08762450000358513,
+      "camera_roi_pixels": [
+        128,
+        0,
+        512,
+        448
+      ],
+      "source": "rendered_RGB_adapted_SFN_segmenter_RGB_boundary_refinement_calibrated_prism_template",
+      "true_error": [
+        -0.006741007324308157,
+        -0.000750713050365448,
+        0.09481741691972889
+      ],
+      "sensing_error": [
+        -3.420608434081922e-05,
+        6.167972977672628e-05,
+        0.0022093197044821267
+      ]
+    },
+    {
+      "start_id": 22,
+      "phase": 0,
+      "valid": true,
+      "reason": null,
+      "error": [
+        0.001053414295531711,
+        -0.001681130995126593,
+        0.10871532662196381
+      ],
+      "template_residual_px2": 0.08558773183454862,
+      "peg_pose_camera_frame": [
+        0.0010534144853744847,
+        -0.001392869775519273,
+        0.10871538622660878
+      ],
+      "hole_pose_camera_frame": [
+        0.0,
+        0.0002882611006498337,
+        5.960464477539063e-08
+      ],
+      "latency_seconds": 0.11305169999832287,
+      "camera_roi_pixels": [
+        128,
+        0,
+        512,
+        448
+      ],
+      "source": "rendered_RGB_adapted_SFN_segmenter_RGB_boundary_refinement_calibrated_prism_template",
+      "true_error": [
+        0.0010473206639289856,
+        -0.001708191237412393,
+        0.11212975101212708
+      ],
+      "sensing_error": [
+        6.0936316027253995e-06,
+        2.706024228580012e-05,
+        -0.003414424390163262
+      ]
+    },
+    {
+      "start_id": 22,
+      "phase": 1,
+      "valid": true,
+      "reason": null,
+      "error": [
+        6.114196196709214e-05,
+        -0.001091793396050254,
+        0.12461216155791321
+      ],
+      "template_residual_px2": 0.08737162901351843,
+      "peg_pose_camera_frame": [
+        6.987456453989819e-05,
+        -0.0008030082081839166,
+        0.1246122211625578
+      ],
+      "hole_pose_camera_frame": [
+        0.0,
+        0.0002882611006498337,
+        5.960464477539063e-08
+      ],
+      "latency_seconds": 0.28630059999704827,
+      "camera_roi_pixels": [
+        128,
+        0,
+        512,
+        448
+      ],
+      "source": "rendered_RGB_adapted_SFN_segmenter_RGB_boundary_refinement_calibrated_prism_template",
+      "true_error": [
+        5.8263540267944336e-05,
+        -0.0011069714091718197,
+        0.1281299178170241
+      ],
+      "sensing_error": [
+        2.878421699147805e-06,
+        1.5178013121565706e-05,
+        -0.0035177562591108824
+      ]
+    },
+    {
+      "start_id": 22,
+      "phase": 2,
+      "valid": true,
+      "reason": null,
+      "error": [
+        -0.0009341034116126677,
+        -0.0005016997087395629,
+        0.13998197473814233
+      ],
+      "template_residual_px2": 0.08632668272299153,
+      "peg_pose_camera_frame": [
+        -0.0009259567689024969,
+        -0.00022831981601224648,
+        0.13998203434278722
+      ],
+      "hole_pose_camera_frame": [
+        0.0,
+        0.0002882611006498337,
+        5.960464477539063e-08
+      ],
+      "latency_seconds": 0.05505559999437537,
+      "camera_roi_pixels": [
+        128,
+        0,
+        512,
+        448
+      ],
+      "source": "rendered_RGB_adapted_SFN_segmenter_RGB_boundary_refinement_calibrated_prism_template",
+      "true_error": [
+        -0.0009319037199020386,
+        -0.000505844596773386,
+        0.14413003975305427
+      ],
+      "sensing_error": [
+        -2.199691710629134e-06,
+        4.144888033823105e-06,
+        -0.004148065014911939
+      ]
+    },
+    {
+      "start_id": 23,
+      "phase": 0,
+      "valid": true,
+      "reason": null,
+      "error": [
+        -0.005937974514040673,
+        -0.006903090950322797,
+        0.06422761887664885
+      ],
+      "template_residual_px2": 0.1129068913980618,
+      "peg_pose_camera_frame": [
+        -0.005937974631652922,
+        -0.006614829748504,
+        0.06422767848129357
+      ],
+      "hole_pose_camera_frame": [
+        0.0,
+        0.0002882611006498337,
+        5.960464477539063e-08
+      ],
+      "latency_seconds": 0.12245709999842802,
+      "camera_roi_pixels": [
+        128,
+        0,
+        512,
+        448
+      ],
+      "source": "rendered_RGB_adapted_SFN_segmenter_RGB_boundary_refinement_calibrated_prism_template",
+      "true_error": [
+        -0.005935728549957275,
+        -0.006924446672201157,
+        0.06944916320607941
+      ],
+      "sensing_error": [
+        -2.245964083397861e-06,
+        2.135572187835985e-05,
+        -0.005221544329430561
+      ]
+    },
+    {
+      "start_id": 23,
+      "phase": 1,
+      "valid": true,
+      "reason": null,
+      "error": [
+        -0.006955970271632771,
+        -0.006301401312548411,
+        0.08381660123035939
+      ],
+      "template_residual_px2": 0.11633664126782776,
+      "peg_pose_camera_frame": [
+        -0.006905337102509788,
+        -0.006068585635140438,
+        0.08381666083500423
+      ],
+      "hole_pose_camera_frame": [
+        0.0,
+        0.0002882611006498337,
+        5.960464477539063e-08
+      ],
+      "latency_seconds": 0.06929549999767914,
+      "camera_roi_pixels": [
+        128,
+        0,
+        512,
+        448
+      ],
+      "source": "rendered_RGB_adapted_SFN_segmenter_RGB_boundary_refinement_calibrated_prism_template",
+      "true_error": [
+        -0.006935674697160721,
+        -0.006324443966150284,
+        0.08544919170175902
+      ],
+      "sensing_error": [
+        -2.0295574472049827e-05,
+        2.3042653601873173e-05,
+        -0.0016325904713996309
+      ]
+    },
+    {
+      "start_id": 23,
+      "phase": 2,
+      "valid": true,
+      "reason": null,
+      "error": [
+        -0.007932452652919097,
+        -0.0056992655254247595,
+        0.09422629400115934
+      ],
+      "template_residual_px2": 0.11833811130301541,
+      "peg_pose_camera_frame": [
+        -0.007840253070287543,
+        -0.005537188617092575,
+        0.0942263536058039
+      ],
+      "hole_pose_camera_frame": [
+        0.0,
+        0.0002882611006498337,
+        5.960464477539063e-08
+      ],
+      "latency_seconds": 0.07334579999587731,
+      "camera_roi_pixels": [
+        128,
+        0,
+        512,
+        448
+      ],
+      "source": "rendered_RGB_adapted_SFN_segmenter_RGB_boundary_refinement_calibrated_prism_template",
+      "true_error": [
+        -0.007935620844364166,
+        -0.005724441260099411,
+        0.10144918347383003
+      ],
+      "sensing_error": [
+        3.1681914450694404e-06,
+        2.517573467465152e-05,
+        -0.0072228894726706905
+      ]
+    }
+  ]
+}

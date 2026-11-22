@@ -1,0 +1,387 @@
+{
+  "milestone": "M3",
+  "passed": true,
+  "seed": 7,
+  "representation": "kinematic primitive peg/compound visual fixture, collision disabled; no contact validation",
+  "grasps": {
+    "A": [
+      [
+        0,
+        0,
+        0.03
+      ],
+      [
+        1.0,
+        0.0,
+        0.0,
+        6.123233995736766e-17
+      ]
+    ],
+    "B": [
+      [
+        0,
+        -0.18,
+        0
+      ],
+      [
+        6.123233995736766e-17,
+        1.0,
+        6.123233995736766e-17,
+        3.749399456654644e-33
+      ]
+    ]
+  },
+  "delta_m_rad": {
+    "A": [
+      0.0019999161959276535,
+      1.748374545140763e-08,
+      0.020000002123100387
+    ],
+    "B": [
+      -5.506797151610954e-08,
+      -0.001999989151954651,
+      -0.020000000529135142
+    ]
+  },
+  "trace": [
+    {
+      "actions": {
+        "A": [
+          0.002,
+          0,
+          0.02
+        ]
+      },
+      "execution": {
+        "before": {
+          "A": {
+            "q": [
+              0.0019472217449840407,
+              -0.0268618452871472,
+              -0.001912963983563961,
+              -1.6536139621095567,
+              -5.146117262674907e-05,
+              1.6267535417547563,
+              0.7854359899387526
+            ],
+            "position_m": [
+              -3.835004463326186e-06,
+              1.5487361393340393e-09,
+              0.49999698996543884
+            ],
+            "quaternion_xyzw": [
+              1.0,
+              -3.075918408868006e-10,
+              6.879402008053148e-07,
+              5.278246173467949e-10
+            ]
+          },
+          "B": {
+            "q": [
+              -0.11517498966685356,
+              0.05089453883940576,
+              -0.20636309182157975,
+              -1.764398095164263,
+              0.010740623275995983,
+              1.8142015664982172,
+              0.46153113179597166
+            ],
+            "position_m": [
+              1.3256332067612675e-06,
+              0.17999950051307678,
+              0.41999924182891846
+            ],
+            "quaternion_xyzw": [
+              1.1664751831119702e-08,
+              1.0,
+              9.621660979064472e-08,
+              -2.156014744514323e-07
+            ]
+          }
+        },
+        "after": {
+          "A": {
+            "q": [
+              0.0021294063456771786,
+              -0.020327050311943706,
+              -0.0021009266042509678,
+              -1.645815759661705,
+              -4.2627441582996064e-05,
+              1.6254902297228548,
+              0.7654294090839785
+            ],
+            "position_m": [
+              0.0019960752688348293,
+              1.062900523152166e-08,
+              0.49999693036079407
+            ],
+            "quaternion_xyzw": [
+              0.9999499917030334,
+              0.009999833069741726,
+              7.384433047263883e-07,
+              -6.211994474369931e-08
+            ]
+          },
+          "B": {
+            "q": [
+              -0.11517498966685356,
+              0.05089453883940576,
+              -0.20636309182157975,
+              -1.764398095164263,
+              0.010740623275995983,
+              1.8142015664982172,
+              0.46153113179597166
+            ],
+            "position_m": [
+              1.3256332067612675e-06,
+              0.17999950051307678,
+              0.41999924182891846
+            ],
+            "quaternion_xyzw": [
+              1.1664751831119702e-08,
+              1.0,
+              9.621660979064472e-08,
+              -2.156014744514323e-07
+            ]
+          }
+        },
+        "tick": 24,
+        "prepared_q": {
+          "A": [
+            0.0021294063456771786,
+            -0.020327050311943706,
+            -0.0021009266042509678,
+            -1.645815759661705,
+            -4.2627441582996064e-05,
+            1.6254902297228548,
+            0.7654294090839785
+          ],
+          "B": [
+            -0.11517498966685356,
+            0.05089453883940576,
+            -0.20636309182157975,
+            -1.764398095164263,
+            0.010740623275995983,
+            1.8142015664982172,
+            0.46153113179597166
+          ]
+        },
+        "config": {
+          "time_step": 0.004166666666666667,
+          "command_steps": 24,
+          "execution_mode": "kinematic",
+          "gravity": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position_tolerance_m": 0.0001,
+          "orientation_tolerance_rad": 0.002
+        }
+      },
+      "drift": {
+        "A": {
+          "position_m": 0.0,
+          "quaternion_error": 8.706252607737497e-09
+        },
+        "B": {
+          "position_m": 0.0,
+          "quaternion_error": -2.7977620220553945e-14
+        },
+        "seam_position_m": 0.0
+      },
+      "error": [
+        0.0019948423106370683,
+        5.256086232918733e-07,
+        0.020000024837379726
+      ]
+    },
+    {
+      "actions": {
+        "B": [
+          0,
+          -0.002,
+          -0.02
+        ]
+      },
+      "execution": {
+        "before": {
+          "A": {
+            "q": [
+              0.0021294063456771786,
+              -0.020327050311943706,
+              -0.0021009266042509678,
+              -1.645815759661705,
+              -4.2627441582996064e-05,
+              1.6254902297228548,
+              0.7654294090839785
+            ],
+            "position_m": [
+              0.0019960752688348293,
+              1.062900523152166e-08,
+              0.49999693036079407
+            ],
+            "quaternion_xyzw": [
+              0.9999499917030334,
+              0.009999833069741726,
+              7.384433047263883e-07,
+              -6.211994474369931e-08
+            ]
+          },
+          "B": {
+            "q": [
+              -0.11517498966685356,
+              0.05089453883940576,
+              -0.20636309182157975,
+              -1.764398095164263,
+              0.010740623275995983,
+              1.8142015664982172,
+              0.46153113179597166
+            ],
+            "position_m": [
+              1.3256332067612675e-06,
+              0.17999950051307678,
+              0.41999924182891846
+            ],
+            "quaternion_xyzw": [
+              1.1664751831119702e-08,
+              1.0,
+              9.621660979064472e-08,
+              -2.156014744514323e-07
+            ]
+          }
+        },
+        "after": {
+          "A": {
+            "q": [
+              0.0021294063456771786,
+              -0.020327050311943706,
+              -0.0021009266042509678,
+              -1.645815759661705,
+              -4.2627441582996064e-05,
+              1.6254902297228548,
+              0.7654294090839785
+            ],
+            "position_m": [
+              0.0019960752688348293,
+              1.062900523152166e-08,
+              0.49999693036079407
+            ],
+            "quaternion_xyzw": [
+              0.9999499917030334,
+              0.009999833069741726,
+              7.384433047263883e-07,
+              -6.211994474369931e-08
+            ]
+          },
+          "B": {
+            "q": [
+              -0.11319999978004869,
+              0.03776543001612448,
+              -0.20552191096903163,
+              -1.7804074962119132,
+              0.007945663032315111,
+              1.8173718104841223,
+              0.4848792808277103
+            ],
+            "position_m": [
+              0.003601030446588993,
+              0.1779635101556778,
+              0.41999927163124084
+            ],
+            "quaternion_xyzw": [
+              0.009999844245612621,
+              0.9999499917030334,
+              6.680325981278656e-08,
+              -1.9534944328825077e-07
+            ]
+          }
+        },
+        "tick": 48,
+        "prepared_q": {
+          "A": [
+            0.0021294063456771786,
+            -0.020327050311943706,
+            -0.0021009266042509678,
+            -1.645815759661705,
+            -4.2627441582996064e-05,
+            1.6254902297228548,
+            0.7654294090839785
+          ],
+          "B": [
+            -0.11319999978004869,
+            0.03776543001612448,
+            -0.20552191096903163,
+            -1.7804074962119132,
+            0.007945663032315111,
+            1.8173718104841223,
+            0.4848792808277103
+          ]
+        },
+        "config": {
+          "time_step": 0.004166666666666667,
+          "command_steps": 24,
+          "execution_mode": "kinematic",
+          "gravity": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position_tolerance_m": 0.0001,
+          "orientation_tolerance_rad": 0.002
+        }
+      },
+      "drift": {
+        "A": {
+          "position_m": 0.0,
+          "quaternion_error": 8.706252607737497e-09
+        },
+        "B": {
+          "position_m": 0.0,
+          "quaternion_error": 8.594749134616109e-09
+        },
+        "seam_position_m": 0.0
+      },
+      "error": [
+        0.0019948973786085844,
+        0.0020005147605779428,
+        0.0400000253665147
+      ]
+    }
+  ],
+  "provenance": {
+    "time_utc": "2026-11-06T08:13:26.482950+00:00",
+    "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+    "executable": "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\.venv\\Scripts\\python.exe",
+    "sfn_path": "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\peg-in-hole-sfn\\sfn\\__init__.py",
+    "revision": "5f4afef10443f77ae312dbe7c4c799d53b8c386f",
+    "dirty": "?? dual-arm-mas/\n?? peg-in-hole-sfn/scripts/sam3_camera_lab.py\n?? peg-in-hole-sfn/web/\n",
+    "versions": {
+      "numpy": "2.4.6",
+      "pybullet": "3.2.7",
+      "Pillow": "12.2.0"
+    },
+    "sha256": {
+      "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\dual-arm-mas\\src\\dual_arm_mas\\evidence.py": "fc01eb925c00ab0a6e24e15d5bba707e2530a081b6f7574651ffdaf217890db5",
+      "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\dual-arm-mas\\src\\dual_arm_mas\\world.py": "e2da65820c1cb23c12a8b882d2ee5b04b75cebab27f67b64bbd2a2037af6d3a9",
+      "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\dual-arm-mas\\src\\dual_arm_mas\\__init__.py": "794a1a018d967632220fe0d15295072b52d0534b190c87570d9f17687ba66a6b",
+      "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\peg-in-hole-sfn\\sfn\\panda\\artifacts.py": "3d100a96ff88a564b66c6008e118680fc9bf49c3a9154afbaae41f9ad314929f",
+      "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\peg-in-hole-sfn\\sfn\\panda\\camera_canonicalization.py": "865af7f1b015b12f729e5967c0b099f074f58fcb3dfa894f83551ced49eb198e",
+      "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\peg-in-hole-sfn\\sfn\\panda\\camera_observability.py": "27c696d42fd0149c55119355cca6e0f8fcb4c9b614b47cc6f75449c10da4539d",
+      "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\peg-in-hole-sfn\\sfn\\panda\\command.py": "b51cdda01b74e85d5599ca7461c0c601906ce139c3b94fc13b50460687c16fa8",
+      "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\peg-in-hole-sfn\\sfn\\panda\\config.py": "bad5586bb3ee255f60cad744542a9dda9e11de17f0447bd20e610bff76eec216",
+      "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\peg-in-hole-sfn\\sfn\\panda\\kinematics.py": "016c63676120c11e016b3153e4d7e3bec2cb4539e84e886c3ac66aeb10f6160b",
+      "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\peg-in-hole-sfn\\sfn\\panda\\measurement.py": "8b55125c809ff8939873b2a344283c4ad43888c9b15aad569f187d6bce09c902",
+      "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\peg-in-hole-sfn\\sfn\\panda\\native_vsn.py": "b9e47b7339ac0866ed2ca79fddac6ecdad0c514cd79d117c7950aa3c44f31584",
+      "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\peg-in-hole-sfn\\sfn\\panda\\panda_alignment_env.py": "b2aff004948a8c5550a7e87c5cf505c18a8dbd78cb39e01ee7f1596ee7236ffb",
+      "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\peg-in-hole-sfn\\sfn\\panda\\panda_insertion_env.py": "40aab1d7ef4411a9d8f1678a33f14cd9e560780984c6e098f4c28a91af8f0d90",
+      "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\peg-in-hole-sfn\\sfn\\panda\\panda_scene.py": "348e4ceb357ad8cc83a7471df8aed19f94d1d233ade6534971fb96fba1b2543a",
+      "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\peg-in-hole-sfn\\sfn\\panda\\peg_attachment.py": "a7876317692234ae1e12047cedd7299161ff246b80792296e2d3a2954ee04eec",
+      "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\peg-in-hole-sfn\\sfn\\panda\\reporting.py": "e5654f8b78539821e0d4e3a34d8632f93abb4a0afe033d140bed9b5a7ede37a8",
+      "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\peg-in-hole-sfn\\sfn\\panda\\robot_model.py": "25ea5cbdcbfa7d0924d5c5784cca24aba2f3a587f780679eb20ba1a71ad1a7e3",
+      "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\peg-in-hole-sfn\\sfn\\panda\\template_pose.py": "f3ac32a74d47ae76f007e7015638226887ba906654f82fdcc845c1f3431460c8",
+      "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\peg-in-hole-sfn\\sfn\\panda\\validation.py": "a11100abf6795d9977ac3d770b2bd651f7ef7cb8ed27d97ed8b16cd83b9f0f46",
+      "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\peg-in-hole-sfn\\sfn\\panda\\__init__.py": "3bd100ebaa67963cc987e591e9799b125ec27ac42e5b14900f297bb4fee6450a"
+    }
+  }
+}

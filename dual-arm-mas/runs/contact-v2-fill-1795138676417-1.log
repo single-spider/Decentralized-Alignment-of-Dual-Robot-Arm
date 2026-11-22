@@ -1,0 +1,31 @@
+pybullet build time: Jun 10 2026 13:09:01
+{"scheduler_sha256": "704a610d57c3f6d0d412b6f0517db86097ff5894e16784a091a84e94a800cdaa", "groups": "open-fit0-s2-rgb,open-fit0-s4-rgb,open-fit2-s1-rgb,open-fit1-s1-rgb", "seconds": 240.0, "window_end": "2026-11-20T08:30:00+05:30"}
+{"group": "open-fit0-s2-rgb", "n": 55, "id": 182, "success": true, "reason": "inserted"}
+{"group": "open-fit0-s2-rgb", "n": 56, "id": 183, "success": true, "reason": "inserted"}
+{"group": "open-fit0-s2-rgb", "n": 57, "id": 184, "success": false, "reason": "alignment_gate"}
+{"group": "open-fit0-s2-rgb", "n": 58, "id": 185, "success": true, "reason": "inserted"}
+{"group": "open-fit0-s2-rgb", "n": 59, "id": 186, "success": true, "reason": "inserted"}
+{"group": "open-fit0-s2-rgb", "n": 60, "id": 187, "success": true, "reason": "inserted"}
+{"group": "open-fit0-s2-rgb", "n": 61, "id": 188, "success": false, "reason": "alignment_gate"}
+{"group": "open-fit0-s2-rgb", "n": 62, "id": 189, "success": true, "reason": "inserted"}
+{"group": "open-fit0-s2-rgb", "n": 63, "id": 190, "success": false, "reason": "timeout"}
+{"group": "open-fit0-s2-rgb", "n": 64, "id": 191, "success": true, "reason": "inserted"}
+{"group": "open-fit0-s2-rgb", "n": 65, "id": 192, "success": false, "reason": "alignment_gate"}
+{"group": "open-fit0-s2-rgb", "n": 66, "id": 193, "success": true, "reason": "inserted"}
+{"group": "open-fit0-s2-rgb", "n": 67, "id": 194, "success": false, "reason": "alignment_gate"}
+{"group": "open-fit0-s2-rgb", "n": 68, "id": 195, "success": true, "reason": "inserted"}
+{"group": "open-fit0-s2-rgb", "n": 69, "id": 196, "success": true, "reason": "inserted"}
+{"group": "open-fit0-s2-rgb", "n": 70, "id": 197, "success": true, "reason": "inserted"}
+{"group": "open-fit0-s2-rgb", "n": 71, "id": 198, "success": true, "reason": "inserted"}
+{"group": "open-fit0-s2-rgb", "n": 72, "id": 199, "success": true, "reason": "inserted"}
+{"group": "open-fit0-s2-rgb", "n": 73, "id": 200, "success": true, "reason": "inserted"}
+{"group": "open-fit0-s2-rgb", "n": 74, "id": 201, "success": true, "reason": "inserted"}
+{"group": "open-fit0-s2-rgb", "n": 75, "id": 202, "success": true, "reason": "inserted"}
+{"group": "open-fit0-s2-rgb", "n": 76, "id": 203, "success": false, "reason": "timeout"}
+{"group": "open-fit0-s2-rgb", "n": 77, "id": 204, "success": true, "reason": "inserted"}
+{"group": "open-fit0-s2-rgb", "n": 78, "id": 205, "success": true, "reason": "inserted"}
+{"group": "open-fit0-s2-rgb", "n": 79, "id": 206, "success": false, "reason": "alignment_gate"}
+{"group": "open-fit0-s2-rgb", "n": 80, "id": 207, "success": true, "reason": "inserted"}
+{"group": "open-fit0-s2-rgb", "n": 81, "id": 208, "success": true, "reason": "inserted"}
+{"group": "open-fit0-s2-rgb", "n": 82, "id": 209, "success": true, "reason": "inserted"}
+{"group": "open-fit0-s2-rgb", "n": 82, "target": 128, "added_ids": [182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 204, 205, 206, 207, 208, 209], "aborted_budget_start_id": 210, "window_end": "2026-11-20T08:30:00+05:30", "seconds": 240.03100000000268}

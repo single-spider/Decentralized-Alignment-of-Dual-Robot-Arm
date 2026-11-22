@@ -1,0 +1,38 @@
+{
+  "created_utc": "2026-11-06T13:23:28.611455+00:00",
+  "statistics_sha256": "9411286dc67dc4866d113aecf2b16116750e7034e8dab7242f5f910128866b1c",
+  "episodes_sha256": "a9aa529e57542a40104e34cbf99265fa6977d524a4d8ae1048b8df1130e19d36",
+  "derived_only": true,
+  "tools_sha256": {
+    "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\dual-arm-mas\\scripts\\report_data.py": "218d858a968a81b5185a82dc45bf6f8283506aa026ceab440c7e3b790282acf6",
+    "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\dual-arm-mas\\scripts\\analyze.py": "c2989beb094404775ac4ddc25760723da798d4eccd79cccabc1887ff01ae705e"
+  },
+  "verified_utc": "2026-11-06T13:25:26.497336+00:00",
+  "pdf": "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\dual-arm-mas\\output\\pdf\\dual-arm-mas-report.pdf",
+  "pdf_sha256": "2443f21b5f62c9e8244a81bfbbd62fb49f54b58fb87dc3d5c649fca28b15c414",
+  "pages": 8,
+  "page_text_characters": [
+    3225,
+    2248,
+    4270,
+    3459,
+    2720,
+    1851,
+    3829,
+    1494
+  ],
+  "visual_review": "All eight final page PNGs inspected; tables/figures legible, no clipping/overlap.",
+  "latex_layout_warnings": false,
+  "render_prefix": "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\dual-arm-mas\\tmp\\pdfs\\final",
+  "report_source_sha256": {
+    "dual-arm-mas\\docs\\report\\comparison_table.tex": "e5a33b03014b45b24b14fe4445cbe956bbcf6df7ad45e47290d9bd81669c556b",
+    "dual-arm-mas\\docs\\report\\core_table.tex": "70fd2968fcd66a6a7a37cb3d9c45858c0ae875bf4c4642df618d3d776fd762e8",
+    "dual-arm-mas\\docs\\report\\error_table.tex": "4f95e75236d520478b9474eebe2321703db37d784c2f3893b599f52ddf18620e",
+    "dual-arm-mas\\docs\\report\\findings.tex": "bab7763663f3e4c20167fc26a95a73374030c61b923633f557a18cf9d9d4e133",
+    "dual-arm-mas\\docs\\report\\fit_table.tex": "a1f0ee95be7bf27cf79845fa73f6333cb4a8475d7a7c0e1e0596da069ca1e8de",
+    "dual-arm-mas\\docs\\report\\main.tex": "dc310b6b36b91fd09cb5041c530ce87aeb51380c9231dfb07ed6679e17bfa3db",
+    "dual-arm-mas\\docs\\report\\results.tex": "a193396b0ba6e8821e622bacf10e57376577e32e81ed54955454c6a35b9dc98b",
+    "dual-arm-mas\\docs\\report\\stress_findings.tex": "02c6985cc1cb78a64e4d099aeffa79c0a8e891679d126011f369eab9864f0c30",
+    "dual-arm-mas\\docs\\report\\stress_table.tex": "ce5f301d1be89e947e20a9aad561e55b15637c7257192b209c741d1797ee0a1f"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "valid_with_neural_RGB_and_forbidden_truth": true,
+  "blank_refused": true,
+  "all_background_neural_refused_even_on_colored_RGB": true,
+  "checkpoint_sha256": "b1edf772e3d1c0331d639f3a7d301995edf5a02c024efa74baac76d2ac9064c1",
+  "source_sha256": "0a476dc2b47d7f0491a7185710e6f62df148afe6895c6a899bbe96b73b20e4ab",
+  "scope": "Validation0 current frozen adapted neural/crop boundary check, not a new performance study."
+}

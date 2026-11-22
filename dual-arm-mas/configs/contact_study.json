@@ -1,0 +1,151 @@
+{
+  "scope": "New exploratory dynamic contact-transfer extension, NOT a reduction/replacement of the completed 1000-case original alignment conditions. No new axial RL training claim.",
+  "alignment_config": "dual-arm-mas\\configs\\learned_study.json",
+  "alignment_config_sha256": "8bbb55c26dfbebf8f6505e47ad7b2539c297dba2dbfd86c3d34e97f9715b7bba",
+  "runtime_source_sha256": {
+    "dual-arm-mas/scripts/train_rl.py": "604bbd0a24dde6168156c0edc43c59faf973f8aa74b0fbb14f9e158690a3e367",
+    "dual-arm-mas/scripts/evaluate_learned.py": "e19cf3be8bcf9c58fba2926155afe7976d338b022a5e332897095473eb19b8a1",
+    "dual-arm-mas/src/dual_arm_mas/episode.py": "e14df2a19faec468347113c9ce74c3e99f91e148174740d01baf704edf7d7506",
+    "dual-arm-mas/src/dual_arm_mas/evidence.py": "d12b012e667a7b53af4cdf089e01e63fd1f39ce49ad2e2f681c93476e09d4afe",
+    "dual-arm-mas/src/dual_arm_mas/policies.py": "e6106dbe4824b739a647fc8be98143bf01f527455eac98a69502b9e06743e6fe",
+    "dual-arm-mas/src/dual_arm_mas/rl.py": "e39baed6e2695128afe6f652befa37d331a80098ec12dd1c97a7aa69d094a8b8",
+    "dual-arm-mas/src/dual_arm_mas/vision.py": "0a476dc2b47d7f0491a7185710e6f62df148afe6895c6a899bbe96b73b20e4ab",
+    "dual-arm-mas/src/dual_arm_mas/world.py": "8bed751c5a755afc0f47e4140a79b1120da229f11f945ce666006720f9500d70",
+    "dual-arm-mas/src/dual_arm_mas/__init__.py": "794a1a018d967632220fe0d15295072b52d0534b190c87570d9f17687ba66a6b",
+    "dual-arm-mas/src/dual_arm_mas/contact_world.py": "fd5277c24389e296b1920bf5b62733951ac287e9e10d3c458413cba69331dcd8",
+    "dual-arm-mas/scripts/evaluate_assembly.py": "8e58b2088d7bda9e0f64903621e07d189b943fd78d0d26ed5de92ae9b4ca4086",
+    "peg-in-hole-sfn/sfn/panda/kinematics.py": "016c63676120c11e016b3153e4d7e3bec2cb4539e84e886c3ac66aeb10f6160b",
+    "peg-in-hole-sfn/sfn/models/segmentation.py": "8186d1a25fa1c8c018307067205764245826ac3a47adf88d1fea1451fdf2bea5",
+    "peg-in-hole-sfn/sfn/models/unet.py": "fa067c1ce399cdc6f849c43d81d41a7a94faa57231e33ad9f07d869bb286eb8c",
+    "peg-in-hole-sfn/sfn/models/vsn.py": "d38e81b3217db67a539c7b9f5668b3d82c31c58d8d99e52d5e0b7cbf3ac1f943"
+  },
+  "starts": "dual-arm-mas/runs/test/starts.json",
+  "starts_sha256": "94b2cc035beeb1c8cebfe7f0a3ad7ff697c415209ad84b57e65acb71839ee0be",
+  "output": "dual-arm-mas/runs/contact-study",
+  "evaluation_seed": 1901,
+  "bootstrap_seed": 1704,
+  "bootstrap_resamples": 2000,
+  "frozen_before_contact_test": true,
+  "groups": [
+    {
+      "id": "open-fit0-s1-rgb",
+      "method": "learned",
+      "regime": "s1",
+      "fit": 0,
+      "sensing": "rgb",
+      "count": 128
+    },
+    {
+      "id": "open-fit0-s2-rgb",
+      "method": "learned",
+      "regime": "s2",
+      "fit": 0,
+      "sensing": "rgb",
+      "count": 128
+    },
+    {
+      "id": "open-fit0-s3-rgb",
+      "method": "learned",
+      "regime": "s3",
+      "fit": 0,
+      "sensing": "rgb",
+      "count": 128
+    },
+    {
+      "id": "open-fit0-s4-rgb",
+      "method": "learned",
+      "regime": "s4",
+      "fit": 0,
+      "sensing": "rgb",
+      "count": 128
+    },
+    {
+      "id": "open-fit0-half-rgb",
+      "method": "half",
+      "regime": "s1",
+      "fit": 0,
+      "sensing": "rgb",
+      "count": 128
+    },
+    {
+      "id": "open-fit0-s1-gt",
+      "method": "learned",
+      "regime": "s1",
+      "fit": 0,
+      "sensing": "gt",
+      "count": 128
+    },
+    {
+      "id": "open-fit1-s1-rgb",
+      "method": "learned",
+      "regime": "s1",
+      "fit": 1,
+      "sensing": "rgb",
+      "count": 128
+    },
+    {
+      "id": "open-fit2-s1-rgb",
+      "method": "learned",
+      "regime": "s1",
+      "fit": 2,
+      "sensing": "rgb",
+      "count": 128
+    },
+    {
+      "id": "blocked-fit0-s1-rgb",
+      "method": "learned",
+      "regime": "s1",
+      "fit": 0,
+      "sensing": "rgb",
+      "count": 32,
+      "blocked": true
+    },
+    {
+      "id": "blocked-fit0-s4-rgb",
+      "method": "learned",
+      "regime": "s4",
+      "fit": 0,
+      "sensing": "rgb",
+      "count": 32,
+      "blocked": true
+    },
+    {
+      "id": "low-motor-fit0-s1-rgb",
+      "method": "learned",
+      "regime": "s1",
+      "fit": 0,
+      "sensing": "rgb",
+      "count": 32,
+      "motor_scale": 0.5
+    },
+    {
+      "id": "drop-fit0-s2-rgb",
+      "method": "learned",
+      "regime": "s2",
+      "fit": 0,
+      "sensing": "rgb",
+      "count": 32,
+      "drop": 0.25
+    },
+    {
+      "id": "drop-fit0-s4-rgb",
+      "method": "learned",
+      "regime": "s4",
+      "fit": 0,
+      "sensing": "rgb",
+      "count": 32,
+      "drop": 0.25
+    },
+    {
+      "id": "delay-fit0-s2-rgb",
+      "method": "learned",
+      "regime": "s2",
+      "fit": 0,
+      "sensing": "rgb",
+      "count": 32,
+      "delay": 1
+    }
+  ],
+  "expected_episodes": 1216,
+  "limits": "Three existing alignment actor/data fits, one vision fit; 128-case open contact comparisons,32-case bounded stress. Fixed grasps. NN only in planar phase; force/depth guards in axial phase. Blocked outcomes report rejection/release, not insertion success."
+}

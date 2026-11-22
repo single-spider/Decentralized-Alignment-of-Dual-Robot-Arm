@@ -1,0 +1,2965 @@
+{
+  "blocked": true,
+  "settle": {
+    "state": {
+      "tip_in_fixture_m": [
+        -3.485304114292376e-05,
+        -5.325248366716551e-06,
+        0.019975900650024414
+      ],
+      "depth_m": -0.012975900650024415,
+      "error_m_m_rad": [
+        -3.4853316529238604e-05,
+        -5.32417700863557e-06,
+        3.4823308450171453e-06
+      ],
+      "grasp_drift": {
+        "A": {
+          "position_m": 1.4171887999661452e-08,
+          "angle_rad": 0.0
+        },
+        "B": {
+          "position_m": 2.4982938838496446e-08,
+          "angle_rad": 0.0
+        }
+      },
+      "normal_force_n": 0.0,
+      "axial_normal_force_n": 0.0,
+      "penetration_m": 0.0,
+      "contacts": [],
+      "safety": {
+        "min_joint_limit_margin_rad": 1.2692674242654052,
+        "max_tracking_error_rad": 9.345901170021431e-06,
+        "unsafe_contacts": []
+      }
+    },
+    "peak_normal_force_n": 0.0,
+    "peak_penetration_m": 0.0,
+    "stop_reason": null,
+    "tick": 240,
+    "unloading": false,
+    "force_ceiling_n": 8.0
+  },
+  "result": {
+    "success": false,
+    "reason": "force_limit",
+    "initial": {
+      "tip_in_fixture_m": [
+        -3.485304114292376e-05,
+        -5.325248366716551e-06,
+        0.019975900650024414
+      ],
+      "depth_m": -0.012975900650024415,
+      "error_m_m_rad": [
+        -3.4853316529238604e-05,
+        -5.32417700863557e-06,
+        3.4823308450171453e-06
+      ],
+      "grasp_drift": {
+        "A": {
+          "position_m": 1.4171887999661452e-08,
+          "angle_rad": 0.0
+        },
+        "B": {
+          "position_m": 2.4982938838496446e-08,
+          "angle_rad": 0.0
+        }
+      },
+      "normal_force_n": 0.0,
+      "axial_normal_force_n": 0.0,
+      "penetration_m": 0.0,
+      "contacts": []
+    },
+    "trace": [
+      {
+        "state": {
+          "tip_in_fixture_m": [
+            -3.868237035931088e-05,
+            1.9585156678658677e-06,
+            0.019505292177200317
+          ],
+          "depth_m": -0.012505292177200318,
+          "error_m_m_rad": [
+            -3.8685203400891575e-05,
+            1.9622136637167133e-06,
+            4.903722761184781e-06
+          ],
+          "grasp_drift": {
+            "A": {
+              "position_m": 1.62273041794803e-08,
+              "angle_rad": 0.0
+            },
+            "B": {
+              "position_m": 1.266168342911897e-08,
+              "angle_rad": 0.0
+            }
+          },
+          "normal_force_n": 0.0,
+          "axial_normal_force_n": 0.0,
+          "penetration_m": 0.0,
+          "contacts": [],
+          "safety": {
+            "min_joint_limit_margin_rad": 1.2692673314539074,
+            "max_tracking_error_rad": 0.0001001575774477459,
+            "unsafe_contacts": []
+          }
+        },
+        "peak_normal_force_n": 0.0,
+        "peak_penetration_m": 0.0,
+        "stop_reason": null,
+        "tick": 336,
+        "unloading": false,
+        "force_ceiling_n": 8.0,
+        "attempt": 0
+      },
+      {
+        "state": {
+          "tip_in_fixture_m": [
+            -4.050600546179339e-05,
+            6.994408067839686e-06,
+            0.019034653902053833
+          ],
+          "depth_m": -0.012034653902053834,
+          "error_m_m_rad": [
+            -4.050898596838006e-05,
+            6.998135413431395e-06,
+            1.3065392014510735e-05
+          ],
+          "grasp_drift": {
+            "A": {
+              "position_m": 6.859867785180219e-09,
+              "angle_rad": 0.0
+            },
+            "B": {
+              "position_m": 1.624580909523345e-08,
+              "angle_rad": 0.0
+            }
+          },
+          "normal_force_n": 0.0,
+          "axial_normal_force_n": 0.0,
+          "penetration_m": 0.0,
+          "contacts": [],
+          "safety": {
+            "min_joint_limit_margin_rad": 1.269267325974658,
+            "max_tracking_error_rad": 9.994527777990037e-05,
+            "unsafe_contacts": []
+          }
+        },
+        "peak_normal_force_n": 0.0,
+        "peak_penetration_m": 0.0,
+        "stop_reason": null,
+        "tick": 432,
+        "unloading": false,
+        "force_ceiling_n": 8.0,
+        "attempt": 1
+      },
+      {
+        "state": {
+          "tip_in_fixture_m": [
+            -4.220502160023898e-05,
+            1.188265196105931e-05,
+            0.018564075231552124
+          ],
+          "depth_m": -0.011564075231552125,
+          "error_m_m_rad": [
+            -4.220799899933647e-05,
+            1.1886259493090396e-05,
+            2.1611115082365018e-05
+          ],
+          "grasp_drift": {
+            "A": {
+              "position_m": 1.5953113706851897e-08,
+              "angle_rad": 0.0
+            },
+            "B": {
+              "position_m": 1.1883478216239509e-08,
+              "angle_rad": 0.0
+            }
+          },
+          "normal_force_n": 0.0,
+          "axial_normal_force_n": 0.0,
+          "penetration_m": 0.0,
+          "contacts": [],
+          "safety": {
+            "min_joint_limit_margin_rad": 1.2692673256511833,
+            "max_tracking_error_rad": 9.973025592713292e-05,
+            "unsafe_contacts": []
+          }
+        },
+        "peak_normal_force_n": 0.0,
+        "peak_penetration_m": 0.0,
+        "stop_reason": null,
+        "tick": 528,
+        "unloading": false,
+        "force_ceiling_n": 8.0,
+        "attempt": 2
+      },
+      {
+        "state": {
+          "tip_in_fixture_m": [
+            -4.3986972741549835e-05,
+            1.685523056949023e-05,
+            0.01809343695640564
+          ],
+          "depth_m": -0.01109343695640564,
+          "error_m_m_rad": [
+            -4.3990099433168924e-05,
+            1.6858665848504995e-05,
+            3.015663664518442e-05
+          ],
+          "grasp_drift": {
+            "A": {
+              "position_m": 5.210389388322139e-09,
+              "angle_rad": 0.0
+            },
+            "B": {
+              "position_m": 1.3145882516769417e-08,
+              "angle_rad": 0.0
+            }
+          },
+          "normal_force_n": 0.0,
+          "axial_normal_force_n": 0.0,
+          "penetration_m": 0.0,
+          "contacts": [],
+          "safety": {
+            "min_joint_limit_margin_rad": 1.2692673249866646,
+            "max_tracking_error_rad": 9.948631917566786e-05,
+            "unsafe_contacts": []
+          }
+        },
+        "peak_normal_force_n": 0.0,
+        "peak_penetration_m": 0.0,
+        "stop_reason": null,
+        "tick": 624,
+        "unloading": false,
+        "force_ceiling_n": 8.0,
+        "attempt": 3
+      },
+      {
+        "state": {
+          "tip_in_fixture_m": [
+            -4.5709948608418927e-05,
+            2.1782912881462835e-05,
+            0.017622828483581543
+          ],
+          "depth_m": -0.010622828483581544,
+          "error_m_m_rad": [
+            -4.5713080249603086e-05,
+            2.1786217551171564e-05,
+            3.8796450339440014e-05
+          ],
+          "grasp_drift": {
+            "A": {
+              "position_m": 2.060440086184301e-09,
+              "angle_rad": 0.0
+            },
+            "B": {
+              "position_m": 1.3200882367382296e-08,
+              "angle_rad": 0.0
+            }
+          },
+          "normal_force_n": 0.0,
+          "axial_normal_force_n": 0.0,
+          "penetration_m": 0.0,
+          "contacts": [],
+          "safety": {
+            "min_joint_limit_margin_rad": 1.269267324947302,
+            "max_tracking_error_rad": 9.927118586894323e-05,
+            "unsafe_contacts": []
+          }
+        },
+        "peak_normal_force_n": 0.0,
+        "peak_penetration_m": 0.0,
+        "stop_reason": null,
+        "tick": 720,
+        "unloading": false,
+        "force_ceiling_n": 8.0,
+        "attempt": 4
+      },
+      {
+        "state": {
+          "tip_in_fixture_m": [
+            -4.75054002890829e-05,
+            2.678057353477925e-05,
+            0.01715219020843506
+          ],
+          "depth_m": -0.01015219020843506,
+          "error_m_m_rad": [
+            -4.750864373695723e-05,
+            2.6783710581992272e-05,
+            4.742387905798395e-05
+          ],
+          "grasp_drift": {
+            "A": {
+              "position_m": 7.190209086098481e-09,
+              "angle_rad": 0.0
+            },
+            "B": {
+              "position_m": 1.610426537244112e-08,
+              "angle_rad": 0.0
+            }
+          },
+          "normal_force_n": 0.0,
+          "axial_normal_force_n": 0.0,
+          "penetration_m": 0.0,
+          "contacts": [],
+          "safety": {
+            "min_joint_limit_margin_rad": 1.2692673246307682,
+            "max_tracking_error_rad": 9.903336809147234e-05,
+            "unsafe_contacts": []
+          }
+        },
+        "peak_normal_force_n": 0.0,
+        "peak_penetration_m": 0.0,
+        "stop_reason": null,
+        "tick": 816,
+        "unloading": false,
+        "force_ceiling_n": 8.0,
+        "attempt": 5
+      },
+      {
+        "state": {
+          "tip_in_fixture_m": [
+            -4.9246547860093415e-05,
+            3.173255026922561e-05,
+            0.016681581735610962
+          ],
+          "depth_m": -0.009681581735610963,
+          "error_m_m_rad": [
+            -4.924978646654538e-05,
+            3.173555815401799e-05,
+            5.611659079196585e-05
+          ],
+          "grasp_drift": {
+            "A": {
+              "position_m": 8.574983334630173e-09,
+              "angle_rad": 0.0
+            },
+            "B": {
+              "position_m": 1.570629170399238e-08,
+              "angle_rad": 0.0
+            }
+          },
+          "normal_force_n": 0.0,
+          "axial_normal_force_n": 0.0,
+          "penetration_m": 0.0,
+          "contacts": [],
+          "safety": {
+            "min_joint_limit_margin_rad": 1.2692673246120874,
+            "max_tracking_error_rad": 9.882519659654143e-05,
+            "unsafe_contacts": []
+          }
+        },
+        "peak_normal_force_n": 0.0,
+        "peak_penetration_m": 0.0,
+        "stop_reason": null,
+        "tick": 912,
+        "unloading": false,
+        "force_ceiling_n": 8.0,
+        "attempt": 6
+      },
+      {
+        "state": {
+          "tip_in_fixture_m": [
+            -5.098804467706941e-05,
+            3.668026329251006e-05,
+            0.016210943460464478
+          ],
+          "depth_m": -0.009210943460464478,
+          "error_m_m_rad": [
+            -5.099127407378561e-05,
+            3.668314040457902e-05,
+            6.479824191574224e-05
+          ],
+          "grasp_drift": {
+            "A": {
+              "position_m": 1.1807085482586029e-08,
+              "angle_rad": 0.0
+            },
+            "B": {
+              "position_m": 1.5686004028291096e-08,
+              "angle_rad": 0.0
+            }
+          },
+          "normal_force_n": 0.0,
+          "axial_normal_force_n": 0.0,
+          "penetration_m": 0.0,
+          "contacts": [],
+          "safety": {
+            "min_joint_limit_margin_rad": 1.2692673246109851,
+            "max_tracking_error_rad": 9.861378707509694e-05,
+            "unsafe_contacts": []
+          }
+        },
+        "peak_normal_force_n": 0.0,
+        "peak_penetration_m": 0.0,
+        "stop_reason": null,
+        "tick": 1008,
+        "unloading": false,
+        "force_ceiling_n": 8.0,
+        "attempt": 7
+      },
+      {
+        "state": {
+          "tip_in_fixture_m": [
+            -5.272682392387651e-05,
+            4.1618528484832495e-05,
+            0.015740305185317993
+          ],
+          "depth_m": -0.008740305185317994,
+          "error_m_m_rad": [
+            -5.273003788615066e-05,
+            4.162128290476023e-05,
+            7.346425372167786e-05
+          ],
+          "grasp_drift": {
+            "A": {
+              "position_m": 1.3557400513514252e-08,
+              "angle_rad": 0.0
+            },
+            "B": {
+              "position_m": 1.568482073535728e-08,
+              "angle_rad": 0.0
+            }
+          },
+          "normal_force_n": 0.0,
+          "axial_normal_force_n": 0.0,
+          "penetration_m": 0.0,
+          "contacts": [],
+          "safety": {
+            "min_joint_limit_margin_rad": 1.2692673246109207,
+            "max_tracking_error_rad": 9.841081172390354e-05,
+            "unsafe_contacts": []
+          }
+        },
+        "peak_normal_force_n": 0.0,
+        "peak_penetration_m": 0.0,
+        "stop_reason": null,
+        "tick": 1104,
+        "unloading": false,
+        "force_ceiling_n": 8.0,
+        "attempt": 8
+      },
+      {
+        "state": {
+          "tip_in_fixture_m": [
+            -5.4503096180269495e-05,
+            4.659210753743537e-05,
+            0.015269696712493896
+          ],
+          "depth_m": -0.008269696712493897,
+          "error_m_m_rad": [
+            -5.450635869001372e-05,
+            4.6594717558631926e-05,
+            8.211106909561394e-05
+          ],
+          "grasp_drift": {
+            "A": {
+              "position_m": 8.882316279276535e-09,
+              "angle_rad": 0.0
+            },
+            "B": {
+              "position_m": 1.8303883677431936e-08,
+              "angle_rad": 0.0
+            }
+          },
+          "normal_force_n": 0.0,
+          "axial_normal_force_n": 0.0,
+          "penetration_m": 0.0,
+          "contacts": [],
+          "safety": {
+            "min_joint_limit_margin_rad": 1.269267324293626,
+            "max_tracking_error_rad": 9.818936346883689e-05,
+            "unsafe_contacts": []
+          }
+        },
+        "peak_normal_force_n": 0.0,
+        "peak_penetration_m": 0.0,
+        "stop_reason": null,
+        "tick": 1200,
+        "unloading": false,
+        "force_ceiling_n": 8.0,
+        "attempt": 9
+      },
+      {
+        "state": {
+          "tip_in_fixture_m": [
+            -5.626603524433449e-05,
+            5.1550956413848326e-05,
+            0.014799058437347412
+          ],
+          "depth_m": -0.007799058437347412,
+          "error_m_m_rad": [
+            -5.6269304893508775e-05,
+            5.155343136311366e-05,
+            9.079569414538469e-05
+          ],
+          "grasp_drift": {
+            "A": {
+              "position_m": 6.698352251391287e-09,
+              "angle_rad": 0.0
+            },
+            "B": {
+              "position_m": 2.1629871084944187e-08,
+              "angle_rad": 0.0
+            }
+          },
+          "normal_force_n": 0.0,
+          "axial_normal_force_n": 0.0,
+          "penetration_m": 0.0,
+          "contacts": [],
+          "safety": {
+            "min_joint_limit_margin_rad": 1.2692673242220642,
+            "max_tracking_error_rad": 9.797700507574447e-05,
+            "unsafe_contacts": []
+          }
+        },
+        "peak_normal_force_n": 0.0,
+        "peak_penetration_m": 0.0,
+        "stop_reason": null,
+        "tick": 1296,
+        "unloading": false,
+        "force_ceiling_n": 8.0,
+        "attempt": 10
+      },
+      {
+        "state": {
+          "tip_in_fixture_m": [
+            -5.810570655739866e-05,
+            5.66021517443005e-05,
+            0.014328420162200928
+          ],
+          "depth_m": -0.007328420162200928,
+          "error_m_m_rad": [
+            -5.810908824114031e-05,
+            5.660446214060034e-05,
+            9.947358710782339e-05
+          ],
+          "grasp_drift": {
+            "A": {
+              "position_m": 9.072485231221928e-09,
+              "angle_rad": 0.0
+            },
+            "B": {
+              "position_m": 2.1672548289054675e-08,
+              "angle_rad": 0.0
+            }
+          },
+          "normal_force_n": 0.0,
+          "axial_normal_force_n": 0.0,
+          "penetration_m": 0.0,
+          "contacts": [],
+          "safety": {
+            "min_joint_limit_margin_rad": 1.2692673235300653,
+            "max_tracking_error_rad": 9.773998924900162e-05,
+            "unsafe_contacts": []
+          }
+        },
+        "peak_normal_force_n": 0.0,
+        "peak_penetration_m": 0.0,
+        "stop_reason": null,
+        "tick": 1392,
+        "unloading": false,
+        "force_ceiling_n": 8.0,
+        "attempt": 11
+      },
+      {
+        "state": {
+          "tip_in_fixture_m": [
+            -5.988467819406651e-05,
+            6.159878830658272e-05,
+            0.013857781887054443
+          ],
+          "depth_m": -0.006857781887054443,
+          "error_m_m_rad": [
+            -5.9888053688953185e-05,
+            6.160097097637139e-05,
+            0.0001082482887566627
+          ],
+          "grasp_drift": {
+            "A": {
+              "position_m": 2.0969568531013652e-09,
+              "angle_rad": 0.0
+            },
+            "B": {
+              "position_m": 2.052412721044779e-08,
+              "angle_rad": 0.0
+            }
+          },
+          "normal_force_n": 0.0,
+          "axial_normal_force_n": 0.0,
+          "penetration_m": 0.0,
+          "contacts": [],
+          "safety": {
+            "min_joint_limit_margin_rad": 1.2692673234853165,
+            "max_tracking_error_rad": 9.753206446849738e-05,
+            "unsafe_contacts": []
+          }
+        },
+        "peak_normal_force_n": 0.0,
+        "peak_penetration_m": 0.0,
+        "stop_reason": null,
+        "tick": 1488,
+        "unloading": false,
+        "force_ceiling_n": 8.0,
+        "attempt": 12
+      },
+      {
+        "state": {
+          "tip_in_fixture_m": [
+            -6.166390085127205e-05,
+            6.660150393145159e-05,
+            0.013387143611907959
+          ],
+          "depth_m": -0.006387143611907959,
+          "error_m_m_rad": [
+            -6.166726403350405e-05,
+            6.66035559232106e-05,
+            0.0001170122714020394
+          ],
+          "grasp_drift": {
+            "A": {
+              "position_m": 8.073339595182477e-09,
+              "angle_rad": 0.0
+            },
+            "B": {
+              "position_m": 2.0462439651589702e-08,
+              "angle_rad": 0.0
+            }
+          },
+          "normal_force_n": 0.0,
+          "axial_normal_force_n": 0.0,
+          "penetration_m": 0.0,
+          "contacts": [],
+          "safety": {
+            "min_joint_limit_margin_rad": 1.2692673234826786,
+            "max_tracking_error_rad": 9.733076605966673e-05,
+            "unsafe_contacts": []
+          }
+        },
+        "peak_normal_force_n": 0.0,
+        "peak_penetration_m": 0.0,
+        "stop_reason": null,
+        "tick": 1584,
+        "unloading": false,
+        "force_ceiling_n": 8.0,
+        "attempt": 13
+      },
+      {
+        "state": {
+          "tip_in_fixture_m": [
+            -6.343542190734297e-05,
+            7.15775167918764e-05,
+            0.012916505336761475
+          ],
+          "depth_m": -0.0059165053367614745,
+          "error_m_m_rad": [
+            -6.343876373183953e-05,
+            7.157944579144721e-05,
+            0.0001257667474399149
+          ],
+          "grasp_drift": {
+            "A": {
+              "position_m": 1.7800621886000322e-09,
+              "angle_rad": 0.0
+            },
+            "B": {
+              "position_m": 2.0458818581620275e-08,
+              "angle_rad": 0.0
+            }
+          },
+          "normal_force_n": 0.0,
+          "axial_normal_force_n": 0.0,
+          "penetration_m": 0.0,
+          "contacts": [],
+          "safety": {
+            "min_joint_limit_margin_rad": 1.2692673234825236,
+            "max_tracking_error_rad": 9.71261354241193e-05,
+            "unsafe_contacts": []
+          }
+        },
+        "peak_normal_force_n": 0.0,
+        "peak_penetration_m": 0.0,
+        "stop_reason": null,
+        "tick": 1680,
+        "unloading": false,
+        "force_ceiling_n": 8.0,
+        "attempt": 14
+      },
+      {
+        "state": {
+          "tip_in_fixture_m": [
+            -6.521059549413621e-05,
+            7.655766967218369e-05,
+            0.01244586706161499
+          ],
+          "depth_m": -0.00544586706161499,
+          "error_m_m_rad": [
+            -6.52139236896952e-05,
+            7.65594754565199e-05,
+            0.00013449986891744814
+          ],
+          "grasp_drift": {
+            "A": {
+              "position_m": 7.212214491853671e-09,
+              "angle_rad": 0.0
+            },
+            "B": {
+              "position_m": 2.0458635272534963e-08,
+              "angle_rad": 0.0
+            }
+          },
+          "normal_force_n": 0.0,
+          "axial_normal_force_n": 0.0,
+          "penetration_m": 0.0,
+          "contacts": [],
+          "safety": {
+            "min_joint_limit_margin_rad": 1.269267323482515,
+            "max_tracking_error_rad": 9.692580435993747e-05,
+            "unsafe_contacts": []
+          }
+        },
+        "peak_normal_force_n": 0.0,
+        "peak_penetration_m": 0.0,
+        "stop_reason": null,
+        "tick": 1776,
+        "unloading": false,
+        "force_ceiling_n": 8.0,
+        "attempt": 15
+      },
+      {
+        "state": {
+          "tip_in_fixture_m": [
+            -6.698061770293862e-05,
+            8.151913061738014e-05,
+            0.011975228786468506
+          ],
+          "depth_m": -0.004975228786468506,
+          "error_m_m_rad": [
+            -6.698392781231624e-05,
+            8.152080546983308e-05,
+            0.0001432200095385916
+          ],
+          "grasp_drift": {
+            "A": {
+              "position_m": 3.3209053849122703e-09,
+              "angle_rad": 0.0
+            },
+            "B": {
+              "position_m": 2.0458628165305394e-08,
+              "angle_rad": 0.0
+            }
+          },
+          "normal_force_n": 0.0,
+          "axial_normal_force_n": 0.0,
+          "penetration_m": 0.0,
+          "contacts": [],
+          "safety": {
+            "min_joint_limit_margin_rad": 1.269267323482515,
+            "max_tracking_error_rad": 9.672287176010208e-05,
+            "unsafe_contacts": []
+          }
+        },
+        "peak_normal_force_n": 0.0,
+        "peak_penetration_m": 0.0,
+        "stop_reason": null,
+        "tick": 1872,
+        "unloading": false,
+        "force_ceiling_n": 8.0,
+        "attempt": 16
+      },
+      {
+        "state": {
+          "tip_in_fixture_m": [
+            -6.875085819046944e-05,
+            8.647864160593599e-05,
+            0.011504590511322021
+          ],
+          "depth_m": -0.004504590511322021,
+          "error_m_m_rad": [
+            -6.875414650630242e-05,
+            8.648018549694582e-05,
+            0.00015192143215347897
+          ],
+          "grasp_drift": {
+            "A": {
+              "position_m": 6.498682667246716e-09,
+              "angle_rad": 0.0
+            },
+            "B": {
+              "position_m": 2.0458629109672475e-08,
+              "angle_rad": 0.0
+            }
+          },
+          "normal_force_n": 0.0,
+          "axial_normal_force_n": 0.0,
+          "penetration_m": 0.0,
+          "contacts": [],
+          "safety": {
+            "min_joint_limit_margin_rad": 1.2692673234825154,
+            "max_tracking_error_rad": 9.65232269338756e-05,
+            "unsafe_contacts": []
+          }
+        },
+        "peak_normal_force_n": 0.0,
+        "peak_penetration_m": 0.0,
+        "stop_reason": null,
+        "tick": 1968,
+        "unloading": false,
+        "force_ceiling_n": 8.0,
+        "attempt": 17
+      },
+      {
+        "state": {
+          "tip_in_fixture_m": [
+            -7.051834836602211e-05,
+            9.143140050582588e-05,
+            0.011033952236175537
+          ],
+          "depth_m": -0.004033952236175537,
+          "error_m_m_rad": [
+            -7.05216221320214e-05,
+            9.143282798184601e-05,
+            0.0001606052491083254
+          ],
+          "grasp_drift": {
+            "A": {
+              "position_m": 4.514329662346957e-09,
+              "angle_rad": 0.0
+            },
+            "B": {
+              "position_m": 2.0458629176588124e-08,
+              "angle_rad": 0.0
+            }
+          },
+          "normal_force_n": 0.0,
+          "axial_normal_force_n": 0.0,
+          "penetration_m": 0.0,
+          "contacts": [],
+          "safety": {
+            "min_joint_limit_margin_rad": 1.2692673234825154,
+            "max_tracking_error_rad": 9.632227598088683e-05,
+            "unsafe_contacts": []
+          }
+        },
+        "peak_normal_force_n": 0.0,
+        "peak_penetration_m": 0.0,
+        "stop_reason": null,
+        "tick": 2064,
+        "unloading": false,
+        "force_ceiling_n": 8.0,
+        "attempt": 18
+      },
+      {
+        "state": {
+          "tip_in_fixture_m": [
+            -7.228365575429052e-05,
+            9.637080074753612e-05,
+            0.010563313961029053
+          ],
+          "depth_m": -0.0035633139610290526,
+          "error_m_m_rad": [
+            -7.22869004420099e-05,
+            9.637209725965186e-05,
+            0.00016927463654203834
+          ],
+          "grasp_drift": {
+            "A": {
+              "position_m": 5.191711369356917e-09,
+              "angle_rad": 0.0
+            },
+            "B": {
+              "position_m": 2.0458569583008837e-08,
+              "angle_rad": 0.0
+            }
+          },
+          "normal_force_n": 0.0,
+          "axial_normal_force_n": 0.0,
+          "penetration_m": 0.0,
+          "contacts": [],
+          "safety": {
+            "min_joint_limit_margin_rad": 1.2692673234825156,
+            "max_tracking_error_rad": 9.612378229184593e-05,
+            "unsafe_contacts": []
+          }
+        },
+        "peak_normal_force_n": 0.0,
+        "peak_penetration_m": 0.0,
+        "stop_reason": null,
+        "tick": 2160,
+        "unloading": false,
+        "force_ceiling_n": 8.0,
+        "attempt": 19
+      },
+      {
+        "state": {
+          "tip_in_fixture_m": [
+            -7.40472023608163e-05,
+            0.00010130157170351595,
+            0.010092675685882568
+          ],
+          "depth_m": -0.003092675685882568,
+          "error_m_m_rad": [
+            -7.405043976460651e-05,
+            0.00010130274452314314,
+            0.00017792796546434175
+          ],
+          "grasp_drift": {
+            "A": {
+              "position_m": 4.055002485633063e-09,
+              "angle_rad": 0.0
+            },
+            "B": {
+              "position_m": 2.045856932682402e-08,
+              "angle_rad": 0.0
+            }
+          },
+          "normal_force_n": 0.0,
+          "axial_normal_force_n": 0.0,
+          "penetration_m": 0.0,
+          "contacts": [],
+          "safety": {
+            "min_joint_limit_margin_rad": 1.2692673234825156,
+            "max_tracking_error_rad": 9.592461407303965e-05,
+            "unsafe_contacts": []
+          }
+        },
+        "peak_normal_force_n": 0.0,
+        "peak_penetration_m": 0.0,
+        "stop_reason": null,
+        "tick": 2256,
+        "unloading": false,
+        "force_ceiling_n": 8.0,
+        "attempt": 20
+      },
+      {
+        "state": {
+          "tip_in_fixture_m": [
+            -7.580615056212991e-05,
+            0.00010621608817018569,
+            0.009622037410736084
+          ],
+          "depth_m": -0.002622037410736084,
+          "error_m_m_rad": [
+            -7.580936616292739e-05,
+            0.00010621713002601662,
+            0.0001865672678480479
+          ],
+          "grasp_drift": {
+            "A": {
+              "position_m": 7.200874906012241e-10,
+              "angle_rad": 0.0
+            },
+            "B": {
+              "position_m": 2.045857039744004e-08,
+              "angle_rad": 0.0
+            }
+          },
+          "normal_force_n": 0.0,
+          "axial_normal_force_n": 0.0,
+          "penetration_m": 0.0,
+          "contacts": [],
+          "safety": {
+            "min_joint_limit_margin_rad": 1.2692673234825158,
+            "max_tracking_error_rad": 9.572703358751156e-05,
+            "unsafe_contacts": []
+          }
+        },
+        "peak_normal_force_n": 0.0,
+        "peak_penetration_m": 0.0,
+        "stop_reason": null,
+        "tick": 2352,
+        "unloading": false,
+        "force_ceiling_n": 8.0,
+        "attempt": 21
+      },
+      {
+        "state": {
+          "tip_in_fixture_m": [
+            -7.756474951747805e-05,
+            0.0001111299789045006,
+            0.0091513991355896
+          ],
+          "depth_m": -0.0021513991355895995,
+          "error_m_m_rad": [
+            -7.756793601592706e-05,
+            0.0001111308897933222,
+            0.00019518792169392896
+          ],
+          "grasp_drift": {
+            "A": {
+              "position_m": 2.097268457854503e-09,
+              "angle_rad": 0.0
+            },
+            "B": {
+              "position_m": 2.0458570476955637e-08,
+              "angle_rad": 0.0
+            }
+          },
+          "normal_force_n": 0.0,
+          "axial_normal_force_n": 0.0,
+          "penetration_m": 0.0,
+          "contacts": [],
+          "safety": {
+            "min_joint_limit_margin_rad": 1.2692673234825158,
+            "max_tracking_error_rad": 9.553057204936266e-05,
+            "unsafe_contacts": []
+          }
+        },
+        "peak_normal_force_n": 0.0,
+        "peak_penetration_m": 0.0,
+        "stop_reason": null,
+        "tick": 2448,
+        "unloading": false,
+        "force_ceiling_n": 8.0,
+        "attempt": 22
+      },
+      {
+        "state": {
+          "tip_in_fixture_m": [
+            -7.931582513265312e-05,
+            0.00011601792357396334,
+            0.008680760860443115
+          ],
+          "depth_m": -0.001680760860443115,
+          "error_m_m_rad": [
+            -7.931900436889303e-05,
+            0.00011601871804902712,
+            0.00020379771711542816
+          ],
+          "grasp_drift": {
+            "A": {
+              "position_m": 7.215511466686975e-09,
+              "angle_rad": 0.0
+            },
+            "B": {
+              "position_m": 2.045857122651807e-08,
+              "angle_rad": 0.0
+            }
+          },
+          "normal_force_n": 0.0,
+          "axial_normal_force_n": 0.0,
+          "penetration_m": 0.0,
+          "contacts": [],
+          "safety": {
+            "min_joint_limit_margin_rad": 1.269267323482516,
+            "max_tracking_error_rad": 9.533350835266852e-05,
+            "unsafe_contacts": []
+          }
+        },
+        "peak_normal_force_n": 0.0,
+        "peak_penetration_m": 0.0,
+        "stop_reason": null,
+        "tick": 2544,
+        "unloading": false,
+        "force_ceiling_n": 8.0,
+        "attempt": 23
+      },
+      {
+        "state": {
+          "tip_in_fixture_m": [
+            -8.106918539851904e-05,
+            0.00012091340613551438,
+            0.00821012258529663
+          ],
+          "depth_m": -0.0012101225852966307,
+          "error_m_m_rad": [
+            -8.107234281457326e-05,
+            0.00012091407691981778,
+            0.0002123876448072437
+          ],
+          "grasp_drift": {
+            "A": {
+              "position_m": 7.130687089806966e-10,
+              "angle_rad": 0.0
+            },
+            "B": {
+              "position_m": 2.045857186014891e-08,
+              "angle_rad": 0.0
+            }
+          },
+          "normal_force_n": 0.0,
+          "axial_normal_force_n": 0.0,
+          "penetration_m": 0.0,
+          "contacts": [],
+          "safety": {
+            "min_joint_limit_margin_rad": 1.269267323482516,
+            "max_tracking_error_rad": 9.513980275399625e-05,
+            "unsafe_contacts": []
+          }
+        },
+        "peak_normal_force_n": 0.0,
+        "peak_penetration_m": 0.0,
+        "stop_reason": null,
+        "tick": 2640,
+        "unloading": false,
+        "force_ceiling_n": 8.0,
+        "attempt": 24
+      },
+      {
+        "state": {
+          "tip_in_fixture_m": [
+            -8.282106136903167e-05,
+            0.00012579628673847765,
+            0.0077394843101501465
+          ],
+          "depth_m": -0.0007394843101501463,
+          "error_m_m_rad": [
+            -8.282420423362577e-05,
+            0.00012579682655555513,
+            0.0002209622041737802
+          ],
+          "grasp_drift": {
+            "A": {
+              "position_m": 1.1231513694380833e-09,
+              "angle_rad": 0.0
+            },
+            "B": {
+              "position_m": 2.045857193270324e-08,
+              "angle_rad": 0.0
+            }
+          },
+          "normal_force_n": 0.0,
+          "axial_normal_force_n": 0.0,
+          "penetration_m": 0.0,
+          "contacts": [],
+          "safety": {
+            "min_joint_limit_margin_rad": 1.269267323482516,
+            "max_tracking_error_rad": 9.494324573622315e-05,
+            "unsafe_contacts": []
+          }
+        },
+        "peak_normal_force_n": 0.0,
+        "peak_penetration_m": 0.0,
+        "stop_reason": null,
+        "tick": 2736,
+        "unloading": false,
+        "force_ceiling_n": 8.0,
+        "attempt": 25
+      },
+      {
+        "state": {
+          "tip_in_fixture_m": [
+            -8.456804789602757e-05,
+            0.0001306602789554745,
+            0.007268846035003662
+          ],
+          "depth_m": -0.00026884603500366196,
+          "error_m_m_rad": [
+            -8.45711616567836e-05,
+            0.0001306606950812488,
+            0.00022952495226835623
+          ],
+          "grasp_drift": {
+            "A": {
+              "position_m": 2.828805153405407e-09,
+              "angle_rad": 0.0
+            },
+            "B": {
+              "position_m": 2.045857194418256e-08,
+              "angle_rad": 0.0
+            }
+          },
+          "normal_force_n": 0.0,
+          "axial_normal_force_n": 0.0,
+          "penetration_m": 0.0,
+          "contacts": [],
+          "safety": {
+            "min_joint_limit_margin_rad": 1.269267323482516,
+            "max_tracking_error_rad": 9.474801833353474e-05,
+            "unsafe_contacts": []
+          }
+        },
+        "peak_normal_force_n": 0.0,
+        "peak_penetration_m": 0.0,
+        "stop_reason": null,
+        "tick": 2832,
+        "unloading": false,
+        "force_ceiling_n": 8.0,
+        "attempt": 26
+      },
+      {
+        "state": {
+          "tip_in_fixture_m": [
+            -8.643497130833566e-05,
+            0.0001356392604066059,
+            0.00679817795753479
+          ],
+          "depth_m": 0.0002018220424652101,
+          "error_m_m_rad": [
+            -8.64381820305396e-05,
+            0.00013563951961096386,
+            0.00023804974553964797
+          ],
+          "grasp_drift": {
+            "A": {
+              "position_m": 1.3690997161282105e-08,
+              "angle_rad": 0.0
+            },
+            "B": {
+              "position_m": 2.050623831520798e-08,
+              "angle_rad": 0.0
+            }
+          },
+          "normal_force_n": 0.0,
+          "axial_normal_force_n": 0.0,
+          "penetration_m": 0.0,
+          "contacts": [],
+          "safety": {
+            "min_joint_limit_margin_rad": 1.2692673230044482,
+            "max_tracking_error_rad": 9.450864868210118e-05,
+            "unsafe_contacts": []
+          }
+        },
+        "peak_normal_force_n": 0.0,
+        "peak_penetration_m": 0.0,
+        "stop_reason": null,
+        "tick": 2928,
+        "unloading": false,
+        "force_ceiling_n": 8.0,
+        "attempt": 27
+      },
+      {
+        "state": {
+          "tip_in_fixture_m": [
+            -8.822329982649535e-05,
+            0.00014056773215997964,
+            0.006327539682388306
+          ],
+          "depth_m": 0.0006724603176116945,
+          "error_m_m_rad": [
+            -8.822649013596596e-05,
+            0.0001405678610819699,
+            0.00024669513369124374
+          ],
+          "grasp_drift": {
+            "A": {
+              "position_m": 1.576533789336145e-08,
+              "angle_rad": 0.0
+            },
+            "B": {
+              "position_m": 2.062601440233977e-08,
+              "angle_rad": 0.0
+            }
+          },
+          "normal_force_n": 0.0,
+          "axial_normal_force_n": 0.0,
+          "penetration_m": 0.0,
+          "contacts": [],
+          "safety": {
+            "min_joint_limit_margin_rad": 1.2692673229643254,
+            "max_tracking_error_rad": 9.431652783531419e-05,
+            "unsafe_contacts": []
+          }
+        },
+        "peak_normal_force_n": 0.0,
+        "peak_penetration_m": 0.0,
+        "stop_reason": null,
+        "tick": 3024,
+        "unloading": false,
+        "force_ceiling_n": 8.0,
+        "attempt": 28
+      },
+      {
+        "state": {
+          "tip_in_fixture_m": [
+            -9.005170431919396e-05,
+            0.00014553195796906948,
+            0.005856871604919434
+          ],
+          "depth_m": 0.0011431283950805666,
+          "error_m_m_rad": [
+            -9.00549088729528e-05,
+            0.00014553193788099844,
+            0.00025533781654063503
+          ],
+          "grasp_drift": {
+            "A": {
+              "position_m": 1.556874612952155e-08,
+              "angle_rad": 0.0
+            },
+            "B": {
+              "position_m": 2.4376270321884328e-08,
+              "angle_rad": 0.0
+            }
+          },
+          "normal_force_n": 0.0,
+          "axial_normal_force_n": 0.0,
+          "penetration_m": 0.0,
+          "contacts": [],
+          "safety": {
+            "min_joint_limit_margin_rad": 1.2692673226479374,
+            "max_tracking_error_rad": 9.410541322307786e-05,
+            "unsafe_contacts": []
+          }
+        },
+        "peak_normal_force_n": 0.0,
+        "peak_penetration_m": 0.0,
+        "stop_reason": null,
+        "tick": 3120,
+        "unloading": false,
+        "force_ceiling_n": 8.0,
+        "attempt": 29
+      },
+      {
+        "state": {
+          "tip_in_fixture_m": [
+            -9.18482692213729e-05,
+            0.0001504818646935746,
+            0.005386173725128174
+          ],
+          "depth_m": 0.0016138262748718263,
+          "error_m_m_rad": [
+            -9.185145523796206e-05,
+            0.00015048172155338103,
+            0.00026402804846625827
+          ],
+          "grasp_drift": {
+            "A": {
+              "position_m": 8.439306497867294e-09,
+              "angle_rad": 0.0
+            },
+            "B": {
+              "position_m": 2.3969803493087368e-08,
+              "angle_rad": 0.0
+            }
+          },
+          "normal_force_n": 0.0,
+          "axial_normal_force_n": 0.0,
+          "penetration_m": 0.0,
+          "contacts": [],
+          "safety": {
+            "min_joint_limit_margin_rad": 1.2692673226295113,
+            "max_tracking_error_rad": 9.391388252555366e-05,
+            "unsafe_contacts": []
+          }
+        },
+        "peak_normal_force_n": 0.0,
+        "peak_penetration_m": 0.0,
+        "stop_reason": null,
+        "tick": 3216,
+        "unloading": false,
+        "force_ceiling_n": 8.0,
+        "attempt": 30
+      },
+      {
+        "state": {
+          "tip_in_fixture_m": [
+            -9.363493882119656e-05,
+            0.000155408211867325,
+            0.0049155354499816895
+          ],
+          "depth_m": 0.0020844645500183107,
+          "error_m_m_rad": [
+            -9.363810131266934e-05,
+            0.00015540794362449764,
+            0.0002727130754336393
+          ],
+          "grasp_drift": {
+            "A": {
+              "position_m": 1.6191159800330773e-08,
+              "angle_rad": 0.0
+            },
+            "B": {
+              "position_m": 2.3947125660785744e-08,
+              "angle_rad": 0.0
+            }
+          },
+          "normal_force_n": 0.0,
+          "axial_normal_force_n": 0.0,
+          "penetration_m": 0.0,
+          "contacts": [],
+          "safety": {
+            "min_joint_limit_margin_rad": 1.2692673226284261,
+            "max_tracking_error_rad": 9.372192158974002e-05,
+            "unsafe_contacts": []
+          }
+        },
+        "peak_normal_force_n": 0.0,
+        "peak_penetration_m": 0.0,
+        "stop_reason": null,
+        "tick": 3312,
+        "unloading": false,
+        "force_ceiling_n": 8.0,
+        "attempt": 31
+      },
+      {
+        "state": {
+          "tip_in_fixture_m": [
+            -9.539983875583857e-05,
+            0.000160314652021043,
+            0.004444867372512817
+          ],
+          "depth_m": 0.0025551326274871828,
+          "error_m_m_rad": [
+            -9.540295953366813e-05,
+            0.00016031427101239246,
+            0.00028138589750081877
+          ],
+          "grasp_drift": {
+            "A": {
+              "position_m": 8.70251581149859e-09,
+              "angle_rad": 0.0
+            },
+            "B": {
+              "position_m": 2.657753176335626e-08,
+              "angle_rad": 0.0
+            }
+          },
+          "normal_force_n": 0.0,
+          "axial_normal_force_n": 0.0,
+          "penetration_m": 0.0,
+          "contacts": [],
+          "safety": {
+            "min_joint_limit_margin_rad": 1.269267322544525,
+            "max_tracking_error_rad": 9.354135248917927e-05,
+            "unsafe_contacts": []
+          }
+        },
+        "peak_normal_force_n": 0.0,
+        "peak_penetration_m": 0.0,
+        "stop_reason": null,
+        "tick": 3408,
+        "unloading": false,
+        "force_ceiling_n": 8.0,
+        "attempt": 32
+      },
+      {
+        "state": {
+          "tip_in_fixture_m": [
+            -9.720028901938349e-05,
+            0.0001652424834901467,
+            0.003974199295043945
+          ],
+          "depth_m": 0.003025800704956055,
+          "error_m_m_rad": [
+            -9.720339732573771e-05,
+            0.00016524196537989823,
+            0.00029002215509965623
+          ],
+          "grasp_drift": {
+            "A": {
+              "position_m": 1.0612479458432814e-08,
+              "angle_rad": 0.0
+            },
+            "B": {
+              "position_m": 2.399938538013844e-08,
+              "angle_rad": 0.0
+            }
+          },
+          "normal_force_n": 0.0,
+          "axial_normal_force_n": 0.0,
+          "penetration_m": 0.0,
+          "contacts": [],
+          "safety": {
+            "min_joint_limit_margin_rad": 1.269267322623413,
+            "max_tracking_error_rad": 9.333832612901105e-05,
+            "unsafe_contacts": []
+          }
+        },
+        "peak_normal_force_n": 0.0,
+        "peak_penetration_m": 0.0,
+        "stop_reason": null,
+        "tick": 3504,
+        "unloading": false,
+        "force_ceiling_n": 8.0,
+        "attempt": 33
+      },
+      {
+        "state": {
+          "tip_in_fixture_m": [
+            -9.903025056701154e-05,
+            0.0001702008448773995,
+            0.0035035312175750732
+          ],
+          "depth_m": 0.003496468782424927,
+          "error_m_m_rad": [
+            -9.903335410891222e-05,
+            0.00017020020225708428,
+            0.00029864586332584153
+          ],
+          "grasp_drift": {
+            "A": {
+              "position_m": 5.272274890036269e-09,
+              "angle_rad": 0.0
+            },
+            "B": {
+              "position_m": 2.3421617090628148e-08,
+              "angle_rad": 0.0
+            }
+          },
+          "normal_force_n": 0.0,
+          "axial_normal_force_n": 0.0,
+          "penetration_m": 0.0,
+          "contacts": [],
+          "safety": {
+            "min_joint_limit_margin_rad": 1.2692673223394262,
+            "max_tracking_error_rad": 9.313724820869673e-05,
+            "unsafe_contacts": []
+          }
+        },
+        "peak_normal_force_n": 0.0,
+        "peak_penetration_m": 0.0,
+        "stop_reason": null,
+        "tick": 3600,
+        "unloading": false,
+        "force_ceiling_n": 8.0,
+        "attempt": 34
+      },
+      {
+        "state": {
+          "tip_in_fixture_m": [
+            -0.00010084065434057266,
+            0.00017514328646939248,
+            0.003032863140106201
+          ],
+          "depth_m": 0.003967136859893799,
+          "error_m_m_rad": [
+            -0.00010084373511878363,
+            0.00017514250180091127,
+            0.0003073172239935751
+          ],
+          "grasp_drift": {
+            "A": {
+              "position_m": 7.1327994532142095e-09,
+              "angle_rad": 0.0
+            },
+            "B": {
+              "position_m": 2.558326447272588e-08,
+              "angle_rad": 0.0
+            }
+          },
+          "normal_force_n": 0.0,
+          "axial_normal_force_n": 0.0,
+          "penetration_m": 0.0,
+          "contacts": [],
+          "safety": {
+            "min_joint_limit_margin_rad": 1.269267322289265,
+            "max_tracking_error_rad": 9.294248379765335e-05,
+            "unsafe_contacts": []
+          }
+        },
+        "peak_normal_force_n": 0.0,
+        "peak_penetration_m": 0.0,
+        "stop_reason": null,
+        "tick": 3696,
+        "unloading": false,
+        "force_ceiling_n": 8.0,
+        "attempt": 35
+      },
+      {
+        "state": {
+          "tip_in_fixture_m": [
+            -0.00010267308243783191,
+            0.00018011310021393,
+            0.002562195062637329
+          ],
+          "depth_m": 0.004437804937362671,
+          "error_m_m_rad": [
+            -0.00010267615930094626,
+            0.00018011219291972505,
+            0.0003159818794400415
+          ],
+          "grasp_drift": {
+            "A": {
+              "position_m": 1.3686996764768153e-09,
+              "angle_rad": 0.0
+            },
+            "B": {
+              "position_m": 2.4700833863917305e-08,
+              "angle_rad": 0.0
+            }
+          },
+          "normal_force_n": 0.0,
+          "axial_normal_force_n": 0.0,
+          "penetration_m": 0.0,
+          "contacts": [],
+          "safety": {
+            "min_joint_limit_margin_rad": 1.2692673220558808,
+            "max_tracking_error_rad": 9.27432377997306e-05,
+            "unsafe_contacts": []
+          }
+        },
+        "peak_normal_force_n": 0.0,
+        "peak_penetration_m": 0.0,
+        "stop_reason": null,
+        "tick": 3792,
+        "unloading": false,
+        "force_ceiling_n": 8.0,
+        "attempt": 36
+      },
+      {
+        "state": {
+          "tip_in_fixture_m": [
+            -0.00010454170114826411,
+            0.0001851217821240425,
+            0.002091526985168457
+          ],
+          "depth_m": 0.004908473014831543,
+          "error_m_m_rad": [
+            -0.00010454478212870244,
+            0.0001851207300335864,
+            0.0003246699720653723
+          ],
+          "grasp_drift": {
+            "A": {
+              "position_m": 4.331425419510386e-09,
+              "angle_rad": 0.0
+            },
+            "B": {
+              "position_m": 3.00146510151225e-08,
+              "angle_rad": 0.0
+            }
+          },
+          "normal_force_n": 0.0,
+          "axial_normal_force_n": 0.0,
+          "penetration_m": 0.0,
+          "contacts": [],
+          "safety": {
+            "min_joint_limit_margin_rad": 1.2692673216437451,
+            "max_tracking_error_rad": 9.253344867543589e-05,
+            "unsafe_contacts": []
+          }
+        },
+        "peak_normal_force_n": 0.0,
+        "peak_penetration_m": 0.0,
+        "stop_reason": null,
+        "tick": 3888,
+        "unloading": false,
+        "force_ceiling_n": 8.0,
+        "attempt": 37
+      },
+      {
+        "state": {
+          "tip_in_fixture_m": [
+            -0.00010636356455506757,
+            0.00019009318202733994,
+            0.001620858907699585
+          ],
+          "depth_m": 0.005379141092300415,
+          "error_m_m_rad": [
+            -0.0001063666176069912,
+            0.00019009199484327987,
+            0.0003334265810477355
+          ],
+          "grasp_drift": {
+            "A": {
+              "position_m": 7.431284263570414e-10,
+              "angle_rad": 0.0
+            },
+            "B": {
+              "position_m": 2.806991500893731e-08,
+              "angle_rad": 0.0
+            }
+          },
+          "normal_force_n": 0.0,
+          "axial_normal_force_n": 0.0,
+          "penetration_m": 0.0,
+          "contacts": [],
+          "safety": {
+            "min_joint_limit_margin_rad": 1.2692673216194275,
+            "max_tracking_error_rad": 9.234642401789728e-05,
+            "unsafe_contacts": []
+          }
+        },
+        "peak_normal_force_n": 0.0,
+        "peak_penetration_m": 0.0,
+        "stop_reason": null,
+        "tick": 3984,
+        "unloading": false,
+        "force_ceiling_n": 8.0,
+        "attempt": 38
+      },
+      {
+        "state": {
+          "tip_in_fixture_m": [
+            -0.00010818432929227129,
+            0.00019506887474562973,
+            0.0011501908302307129
+          ],
+          "depth_m": 0.005849809169769287,
+          "error_m_m_rad": [
+            -0.00010818734001519308,
+            0.00019506757721950006,
+            0.00034217208753872796
+          ],
+          "grasp_drift": {
+            "A": {
+              "position_m": 4.310636808459405e-09,
+              "angle_rad": 0.0
+            },
+            "B": {
+              "position_m": 2.804036507247793e-08,
+              "angle_rad": 0.0
+            }
+          },
+          "normal_force_n": 0.0,
+          "axial_normal_force_n": 0.0,
+          "penetration_m": 0.0,
+          "contacts": [],
+          "safety": {
+            "min_joint_limit_margin_rad": 1.2692673216179953,
+            "max_tracking_error_rad": 9.216103326536995e-05,
+            "unsafe_contacts": []
+          }
+        },
+        "peak_normal_force_n": 0.0,
+        "peak_penetration_m": 0.0,
+        "stop_reason": null,
+        "tick": 4080,
+        "unloading": false,
+        "force_ceiling_n": 8.0,
+        "attempt": 39
+      },
+      {
+        "state": {
+          "tip_in_fixture_m": [
+            -0.00011000017548212782,
+            0.0002000282402150333,
+            0.0006795227527618408
+          ],
+          "depth_m": 0.006320477247238159,
+          "error_m_m_rad": [
+            -0.00011000315173965102,
+            0.0002000268309385548,
+            0.0003509067708136193
+          ],
+          "grasp_drift": {
+            "A": {
+              "position_m": 1.3400439736135275e-09,
+              "angle_rad": 0.0
+            },
+            "B": {
+              "position_m": 2.8038632784907262e-08,
+              "angle_rad": 0.0
+            }
+          },
+          "normal_force_n": 0.0,
+          "axial_normal_force_n": 0.0,
+          "penetration_m": 0.0,
+          "contacts": [],
+          "safety": {
+            "min_joint_limit_margin_rad": 1.2692673216179116,
+            "max_tracking_error_rad": 9.197527702675679e-05,
+            "unsafe_contacts": []
+          }
+        },
+        "peak_normal_force_n": 0.0,
+        "peak_penetration_m": 0.0,
+        "stop_reason": null,
+        "tick": 4176,
+        "unloading": false,
+        "force_ceiling_n": 8.0,
+        "attempt": 40
+      },
+      {
+        "state": {
+          "tip_in_fixture_m": [
+            -0.00011181437002960593,
+            0.00020497913646977395,
+            0.00020885467529296875
+          ],
+          "depth_m": 0.006791145324707031,
+          "error_m_m_rad": [
+            -0.00011181731776834985,
+            0.00020497759650621672,
+            0.000359624708095474
+          ],
+          "grasp_drift": {
+            "A": {
+              "position_m": 1.0903125922444015e-09,
+              "angle_rad": 0.0
+            },
+            "B": {
+              "position_m": 2.8038537016156004e-08,
+              "angle_rad": 0.0
+            }
+          },
+          "normal_force_n": 0.0,
+          "axial_normal_force_n": 0.0,
+          "penetration_m": 0.0,
+          "contacts": [],
+          "safety": {
+            "min_joint_limit_margin_rad": 1.2692673216179076,
+            "max_tracking_error_rad": 9.179076766407945e-05,
+            "unsafe_contacts": []
+          }
+        },
+        "peak_normal_force_n": 0.0,
+        "peak_penetration_m": 0.0,
+        "stop_reason": null,
+        "tick": 4272,
+        "unloading": false,
+        "force_ceiling_n": 8.0,
+        "attempt": 41
+      },
+      {
+        "state": {
+          "tip_in_fixture_m": [
+            -0.00011362304940121248,
+            0.00020991353085264564,
+            -0.0002618134021759033
+          ],
+          "depth_m": 0.0072618134021759035,
+          "error_m_m_rad": [
+            -0.00011362596085252798,
+            0.00020991185994491762,
+            0.0003683296085403853
+          ],
+          "grasp_drift": {
+            "A": {
+              "position_m": 3.838118490916746e-09,
+              "angle_rad": 0.0
+            },
+            "B": {
+              "position_m": 2.8038535787113808e-08,
+              "angle_rad": 0.0
+            }
+          },
+          "normal_force_n": 0.0,
+          "axial_normal_force_n": 0.0,
+          "penetration_m": 0.0,
+          "contacts": [],
+          "safety": {
+            "min_joint_limit_margin_rad": 1.2692673216179076,
+            "max_tracking_error_rad": 9.160704933819375e-05,
+            "unsafe_contacts": []
+          }
+        },
+        "peak_normal_force_n": 0.0,
+        "peak_penetration_m": 0.0,
+        "stop_reason": null,
+        "tick": 4368,
+        "unloading": false,
+        "force_ceiling_n": 8.0,
+        "attempt": 42
+      },
+      {
+        "state": {
+          "tip_in_fixture_m": [
+            -0.00011543121217982844,
+            0.0002148454514099285,
+            -0.0007324814796447754
+          ],
+          "depth_m": 0.0077324814796447755,
+          "error_m_m_rad": [
+            -0.00011543408725677293,
+            0.0002148436786400891,
+            0.0003770190428595832
+          ],
+          "grasp_drift": {
+            "A": {
+              "position_m": 2.3882121478051365e-09,
+              "angle_rad": 0.0
+            },
+            "B": {
+              "position_m": 2.803853570235934e-08,
+              "angle_rad": 0.0
+            }
+          },
+          "normal_force_n": 0.0,
+          "axial_normal_force_n": 0.0,
+          "penetration_m": 0.0,
+          "contacts": [],
+          "safety": {
+            "min_joint_limit_margin_rad": 1.2692673216179076,
+            "max_tracking_error_rad": 9.142409605944479e-05,
+            "unsafe_contacts": []
+          }
+        },
+        "peak_normal_force_n": 0.0,
+        "peak_penetration_m": 0.0,
+        "stop_reason": null,
+        "tick": 4464,
+        "unloading": false,
+        "force_ceiling_n": 8.0,
+        "attempt": 43
+      },
+      {
+        "state": {
+          "tip_in_fixture_m": [
+            -0.0001172349730040878,
+            0.00021976223797537386,
+            -0.0012031495571136475
+          ],
+          "depth_m": 0.008203149557113647,
+          "error_m_m_rad": [
+            -0.00011723781172912595,
+            0.0002197603342410924,
+            0.00038569421926304415
+          ],
+          "grasp_drift": {
+            "A": {
+              "position_m": 5.517222782691719e-09,
+              "angle_rad": 0.0
+            },
+            "B": {
+              "position_m": 2.8038537356171063e-08,
+              "angle_rad": 0.0
+            }
+          },
+          "normal_force_n": 0.0,
+          "axial_normal_force_n": 0.0,
+          "penetration_m": 0.0,
+          "contacts": [],
+          "safety": {
+            "min_joint_limit_margin_rad": 1.2692673216179082,
+            "max_tracking_error_rad": 9.124101561752695e-05,
+            "unsafe_contacts": []
+          }
+        },
+        "peak_normal_force_n": 0.0,
+        "peak_penetration_m": 0.0,
+        "stop_reason": null,
+        "tick": 4560,
+        "unloading": false,
+        "force_ceiling_n": 8.0,
+        "attempt": 44
+      },
+      {
+        "state": {
+          "tip_in_fixture_m": [
+            -0.00011903794802492484,
+            0.0002246770163765177,
+            -0.0016738176345825195
+          ],
+          "depth_m": 0.008673817634582519,
+          "error_m_m_rad": [
+            -0.00011904075764234796,
+            0.00022467498167453293,
+            0.00039435403906296074
+          ],
+          "grasp_drift": {
+            "A": {
+              "position_m": 3.6169114207343802e-09,
+              "angle_rad": 0.0
+            },
+            "B": {
+              "position_m": 2.803853721597483e-08,
+              "angle_rad": 0.0
+            }
+          },
+          "normal_force_n": 0.0,
+          "axial_normal_force_n": 0.0,
+          "penetration_m": 0.0,
+          "contacts": [],
+          "safety": {
+            "min_joint_limit_margin_rad": 1.2692673216179082,
+            "max_tracking_error_rad": 9.105915371909745e-05,
+            "unsafe_contacts": []
+          }
+        },
+        "peak_normal_force_n": 0.0,
+        "peak_penetration_m": 0.0,
+        "stop_reason": null,
+        "tick": 4656,
+        "unloading": false,
+        "force_ceiling_n": 8.0,
+        "attempt": 45
+      },
+      {
+        "state": {
+          "tip_in_fixture_m": [
+            -0.00012084090121788904,
+            0.0002295979647897184,
+            -0.0021444857120513916
+          ],
+          "depth_m": 0.009144485712051391,
+          "error_m_m_rad": [
+            -0.00012084367449055352,
+            0.0002295958136760123,
+            0.00040299294048917744
+          ],
+          "grasp_drift": {
+            "A": {
+              "position_m": 2.91290243079322e-09,
+              "angle_rad": 0.0
+            },
+            "B": {
+              "position_m": 2.8038539233669777e-08,
+              "angle_rad": 0.0
+            }
+          },
+          "normal_force_n": 0.0,
+          "axial_normal_force_n": 0.0,
+          "penetration_m": 0.0,
+          "contacts": [],
+          "safety": {
+            "min_joint_limit_margin_rad": 1.2692673216179085,
+            "max_tracking_error_rad": 9.08761224704957e-05,
+            "unsafe_contacts": []
+          }
+        },
+        "peak_normal_force_n": 0.0,
+        "peak_penetration_m": 0.0,
+        "stop_reason": null,
+        "tick": 4752,
+        "unloading": false,
+        "force_ceiling_n": 8.0,
+        "attempt": 46
+      },
+      {
+        "state": {
+          "tip_in_fixture_m": [
+            -0.00012263937969692051,
+            0.000234504826948978,
+            -0.0026151537895202637
+          ],
+          "depth_m": 0.009615153789520263,
+          "error_m_m_rad": [
+            -0.0001226421166160891,
+            0.0002345025594224962,
+            0.0004116201142720932
+          ],
+          "grasp_drift": {
+            "A": {
+              "position_m": 5.362268611258385e-09,
+              "angle_rad": 0.0
+            },
+            "B": {
+              "position_m": 2.803854076451357e-08,
+              "angle_rad": 0.0
+            }
+          },
+          "normal_force_n": 0.0,
+          "axial_normal_force_n": 0.0,
+          "penetration_m": 0.0,
+          "contacts": [],
+          "safety": {
+            "min_joint_limit_margin_rad": 1.2692673216179091,
+            "max_tracking_error_rad": 9.069468076994269e-05,
+            "unsafe_contacts": []
+          }
+        },
+        "peak_normal_force_n": 0.0,
+        "peak_penetration_m": 0.0,
+        "stop_reason": null,
+        "tick": 4848,
+        "unloading": false,
+        "force_ceiling_n": 8.0,
+        "attempt": 47
+      },
+      {
+        "state": {
+          "tip_in_fixture_m": [
+            -0.00012443505693227053,
+            0.00023940642131492496,
+            -0.0030858218669891357
+          ],
+          "depth_m": 0.010085821866989135,
+          "error_m_m_rad": [
+            -0.00012443777202533,
+            0.00023940402282133716,
+            0.0004202310858074654
+          ],
+          "grasp_drift": {
+            "A": {
+              "position_m": 8.243493998995249e-09,
+              "angle_rad": 0.0
+            },
+            "B": {
+              "position_m": 2.8038540997147266e-08,
+              "angle_rad": 0.0
+            }
+          },
+          "normal_force_n": 0.0,
+          "axial_normal_force_n": 0.0,
+          "penetration_m": 0.0,
+          "contacts": [],
+          "safety": {
+            "min_joint_limit_margin_rad": 1.2692673216179091,
+            "max_tracking_error_rad": 9.05134753874659e-05,
+            "unsafe_contacts": []
+          }
+        },
+        "peak_normal_force_n": 0.0,
+        "peak_penetration_m": 0.0,
+        "stop_reason": null,
+        "tick": 4944,
+        "unloading": false,
+        "force_ceiling_n": 8.0,
+        "attempt": 48
+      },
+      {
+        "state": {
+          "tip_in_fixture_m": [
+            -0.00012622523354366422,
+            0.00024428183678537607,
+            -0.003556489944458008
+          ],
+          "depth_m": 0.010556489944458007,
+          "error_m_m_rad": [
+            -0.00012622790498107515,
+            0.0002442793218764642,
+            0.0004288326301726819
+          ],
+          "grasp_drift": {
+            "A": {
+              "position_m": 1.1524674892491772e-08,
+              "angle_rad": 0.0
+            },
+            "B": {
+              "position_m": 2.803854095301381e-08,
+              "angle_rad": 0.0
+            }
+          },
+          "normal_force_n": 0.0,
+          "axial_normal_force_n": 0.0,
+          "penetration_m": 0.0,
+          "contacts": [],
+          "safety": {
+            "min_joint_limit_margin_rad": 1.2692673216179091,
+            "max_tracking_error_rad": 9.033452266327124e-05,
+            "unsafe_contacts": []
+          }
+        },
+        "peak_normal_force_n": 0.0,
+        "peak_penetration_m": 0.0,
+        "stop_reason": null,
+        "tick": 5040,
+        "unloading": false,
+        "force_ceiling_n": 8.0,
+        "attempt": 49
+      },
+      {
+        "state": {
+          "tip_in_fixture_m": [
+            -0.00012801695265807211,
+            0.0002491593477316201,
+            -0.00402715802192688
+          ],
+          "depth_m": 0.01102715802192688,
+          "error_m_m_rad": [
+            -0.0001280195877156946,
+            0.0002491566873035499,
+            0.00043741780282191556
+          ],
+          "grasp_drift": {
+            "A": {
+              "position_m": 6.972035030369745e-09,
+              "angle_rad": 0.0
+            },
+            "B": {
+              "position_m": 2.8038540955594625e-08,
+              "angle_rad": 0.0
+            }
+          },
+          "normal_force_n": 0.0,
+          "axial_normal_force_n": 0.0,
+          "penetration_m": 0.0,
+          "contacts": [],
+          "safety": {
+            "min_joint_limit_margin_rad": 1.2692673216179091,
+            "max_tracking_error_rad": 9.015541511603331e-05,
+            "unsafe_contacts": []
+          }
+        },
+        "peak_normal_force_n": 0.0,
+        "peak_penetration_m": 0.0,
+        "stop_reason": null,
+        "tick": 5136,
+        "unloading": false,
+        "force_ceiling_n": 8.0,
+        "attempt": 50
+      },
+      {
+        "state": {
+          "tip_in_fixture_m": [
+            -0.00012980699830222875,
+            0.000254023791057989,
+            -0.004497826099395752
+          ],
+          "depth_m": 0.011497826099395751,
+          "error_m_m_rad": [
+            -0.00012980960427194066,
+            0.00025402101421607705,
+            0.00044599090295394106
+          ],
+          "grasp_drift": {
+            "A": {
+              "position_m": 6.1191408695929345e-09,
+              "angle_rad": 0.0
+            },
+            "B": {
+              "position_m": 2.803854197195099e-08,
+              "angle_rad": 0.0
+            }
+          },
+          "normal_force_n": 0.0,
+          "axial_normal_force_n": 0.0,
+          "penetration_m": 0.0,
+          "contacts": [],
+          "safety": {
+            "min_joint_limit_margin_rad": 1.2692673216179091,
+            "max_tracking_error_rad": 8.997543834921018e-05,
+            "unsafe_contacts": []
+          }
+        },
+        "peak_normal_force_n": 0.0,
+        "peak_penetration_m": 0.0,
+        "stop_reason": null,
+        "tick": 5232,
+        "unloading": false,
+        "force_ceiling_n": 8.0,
+        "attempt": 51
+      },
+      {
+        "state": {
+          "tip_in_fixture_m": [
+            -0.00013158975343685597,
+            0.00025887336232699454,
+            -0.004968494176864624
+          ],
+          "depth_m": 0.011968494176864623,
+          "error_m_m_rad": [
+            -0.00013159233030361005,
+            0.00025887043996596033,
+            0.00045455019044471356
+          ],
+          "grasp_drift": {
+            "A": {
+              "position_m": 1.2908863794029594e-08,
+              "angle_rad": 0.0
+            },
+            "B": {
+              "position_m": 2.803854210311302e-08,
+              "angle_rad": 0.0
+            }
+          },
+          "normal_force_n": 0.0,
+          "axial_normal_force_n": 0.0,
+          "penetration_m": 0.0,
+          "contacts": [],
+          "safety": {
+            "min_joint_limit_margin_rad": 1.2692673216179091,
+            "max_tracking_error_rad": 8.979657129071228e-05,
+            "unsafe_contacts": []
+          }
+        },
+        "peak_normal_force_n": 0.0,
+        "peak_penetration_m": 0.0,
+        "stop_reason": null,
+        "tick": 5328,
+        "unloading": false,
+        "force_ceiling_n": 8.0,
+        "attempt": 52
+      },
+      {
+        "state": {
+          "tip_in_fixture_m": [
+            -0.00013347683125175536,
+            0.0002638075384311378,
+            -0.005439162254333496
+          ],
+          "depth_m": 0.012439162254333495,
+          "error_m_m_rad": [
+            -0.00013347934760661942,
+            0.00026380453065655827,
+            0.0004630670845542362
+          ],
+          "grasp_drift": {
+            "A": {
+              "position_m": 2.8014090813627724e-09,
+              "angle_rad": 0.0
+            },
+            "B": {
+              "position_m": 3.037553039411003e-08,
+              "angle_rad": 0.0
+            }
+          },
+          "normal_force_n": 0.0,
+          "axial_normal_force_n": 0.0,
+          "penetration_m": 0.0,
+          "contacts": [],
+          "safety": {
+            "min_joint_limit_margin_rad": 1.2692673214196561,
+            "max_tracking_error_rad": 8.958143520176876e-05,
+            "unsafe_contacts": []
+          }
+        },
+        "peak_normal_force_n": 0.0,
+        "peak_penetration_m": 0.0,
+        "stop_reason": null,
+        "tick": 5424,
+        "unloading": false,
+        "force_ceiling_n": 8.0,
+        "attempt": 53
+      },
+      {
+        "state": {
+          "tip_in_fixture_m": [
+            -0.00013530690921470523,
+            0.00026872733724303544,
+            -0.005909830331802368
+          ],
+          "depth_m": 0.012909830331802367,
+          "error_m_m_rad": [
+            -0.00013530937172261915,
+            0.0002687241934930253,
+            0.0004716756989777693
+          ],
+          "grasp_drift": {
+            "A": {
+              "position_m": 1.4878616616555931e-09,
+              "angle_rad": 0.0
+            },
+            "B": {
+              "position_m": 2.8397822458295977e-08,
+              "angle_rad": 0.0
+            }
+          },
+          "normal_force_n": 0.0,
+          "axial_normal_force_n": 0.0,
+          "penetration_m": 0.0,
+          "contacts": [],
+          "safety": {
+            "min_joint_limit_margin_rad": 1.2692673211112213,
+            "max_tracking_error_rad": 8.939657473505669e-05,
+            "unsafe_contacts": []
+          }
+        },
+        "peak_normal_force_n": 0.0,
+        "peak_penetration_m": 0.0,
+        "stop_reason": null,
+        "tick": 5520,
+        "unloading": false,
+        "force_ceiling_n": 8.0,
+        "attempt": 54
+      },
+      {
+        "state": {
+          "tip_in_fixture_m": [
+            -0.00013710520579479635,
+            0.00027363415574654937,
+            -0.00638049840927124
+          ],
+          "depth_m": 0.01338049840927124,
+          "error_m_m_rad": [
+            -0.00013710762291600534,
+            0.00027363088881703144,
+            0.0004803187552995247
+          ],
+          "grasp_drift": {
+            "A": {
+              "position_m": 7.021159451168801e-10,
+              "angle_rad": 0.0004814923591917842
+            },
+            "B": {
+              "position_m": 2.836896448593845e-08,
+              "angle_rad": 0.0
+            }
+          },
+          "normal_force_n": 0.0,
+          "axial_normal_force_n": 0.0,
+          "penetration_m": 0.0,
+          "contacts": [],
+          "safety": {
+            "min_joint_limit_margin_rad": 1.2692673210993868,
+            "max_tracking_error_rad": 8.922591342219732e-05,
+            "unsafe_contacts": []
+          }
+        },
+        "peak_normal_force_n": 0.0,
+        "peak_penetration_m": 0.0,
+        "stop_reason": null,
+        "tick": 5616,
+        "unloading": false,
+        "force_ceiling_n": 8.0,
+        "attempt": 55
+      },
+      {
+        "state": {
+          "tip_in_fixture_m": [
+            -0.00013899788609705865,
+            0.0002785889955703169,
+            -0.006851166486740112
+          ],
+          "depth_m": 0.013851166486740112,
+          "error_m_m_rad": [
+            -0.00013900022162681913,
+            0.0002785856351582523,
+            0.0004889161454331159
+          ],
+          "grasp_drift": {
+            "A": {
+              "position_m": 9.036261363726424e-09,
+              "angle_rad": 0.00047237357517555605
+            },
+            "B": {
+              "position_m": 3.185229803517891e-08,
+              "angle_rad": 0.0
+            }
+          },
+          "normal_force_n": 0.0,
+          "axial_normal_force_n": 0.0,
+          "penetration_m": 0.0,
+          "contacts": [],
+          "safety": {
+            "min_joint_limit_margin_rad": 1.269267320983412,
+            "max_tracking_error_rad": 8.901777353442775e-05,
+            "unsafe_contacts": []
+          }
+        },
+        "peak_normal_force_n": 0.0,
+        "peak_penetration_m": 0.0,
+        "stop_reason": null,
+        "tick": 5712,
+        "unloading": false,
+        "force_ceiling_n": 8.0,
+        "attempt": 56
+      },
+      {
+        "state": {
+          "tip_in_fixture_m": [
+            -0.00014082803681958467,
+            0.00028351217042654753,
+            -0.007321834564208984
+          ],
+          "depth_m": 0.014321834564208984,
+          "error_m_m_rad": [
+            -0.0001408303342966548,
+            0.0002835086700173148,
+            0.0004975931012447532
+          ],
+          "grasp_drift": {
+            "A": {
+              "position_m": 9.336225626300738e-09,
+              "angle_rad": 0.00046292738231184475
+            },
+            "B": {
+              "position_m": 3.1579225502084626e-08,
+              "angle_rad": 0.0
+            }
+          },
+          "normal_force_n": 0.0,
+          "axial_normal_force_n": 0.0,
+          "penetration_m": 0.0,
+          "contacts": [],
+          "safety": {
+            "min_joint_limit_margin_rad": 1.2692673209767118,
+            "max_tracking_error_rad": 8.88408872239399e-05,
+            "unsafe_contacts": []
+          }
+        },
+        "peak_normal_force_n": 0.0,
+        "peak_penetration_m": 0.0,
+        "stop_reason": null,
+        "tick": 5808,
+        "unloading": false,
+        "force_ceiling_n": 8.0,
+        "attempt": 57
+      },
+      {
+        "state": {
+          "tip_in_fixture_m": [
+            -0.0001426542003173381,
+            0.0002884436398744583,
+            -0.0077925026416778564
+          ],
+          "depth_m": 0.014792502641677856,
+          "error_m_m_rad": [
+            -0.00014265644610082703,
+            0.0002884400493913811,
+            0.0005062641878250673
+          ],
+          "grasp_drift": {
+            "A": {
+              "position_m": 1.034902124519977e-08,
+              "angle_rad": 0.0004531343430496704
+            },
+            "B": {
+              "position_m": 3.156507888294378e-08,
+              "angle_rad": 0.0
+            }
+          },
+          "normal_force_n": 0.0,
+          "axial_normal_force_n": 0.0,
+          "penetration_m": 0.0,
+          "contacts": [],
+          "safety": {
+            "min_joint_limit_margin_rad": 1.269267320976319,
+            "max_tracking_error_rad": 8.866525665052194e-05,
+            "unsafe_contacts": []
+          }
+        },
+        "peak_normal_force_n": 0.0,
+        "peak_penetration_m": 0.0,
+        "stop_reason": null,
+        "tick": 5904,
+        "unloading": false,
+        "force_ceiling_n": 8.0,
+        "attempt": 58
+      },
+      {
+        "state": {
+          "tip_in_fixture_m": [
+            -0.00014447512512560934,
+            0.00029334999271668494,
+            -0.008263170719146729
+          ],
+          "depth_m": 0.015263170719146728,
+          "error_m_m_rad": [
+            -0.0001444773261289895,
+            0.0002933462908255994,
+            0.00051492518327656
+          ],
+          "grasp_drift": {
+            "A": {
+              "position_m": 7.660646669077007e-09,
+              "angle_rad": 0.0004429704616546401
+            },
+            "B": {
+              "position_m": 3.1564266798756446e-08,
+              "angle_rad": 0.0
+            }
+          },
+          "normal_force_n": 0.0,
+          "axial_normal_force_n": 0.0,
+          "penetration_m": 0.0,
+          "contacts": [],
+          "safety": {
+            "min_joint_limit_margin_rad": 1.2692673209762984,
+            "max_tracking_error_rad": 8.849050275450132e-05,
+            "unsafe_contacts": []
+          }
+        },
+        "peak_normal_force_n": 0.0,
+        "peak_penetration_m": 0.0,
+        "stop_reason": null,
+        "tick": 6000,
+        "unloading": false,
+        "force_ceiling_n": 8.0,
+        "attempt": 59
+      },
+      {
+        "state": {
+          "tip_in_fixture_m": [
+            -0.00014627219934482127,
+            0.0002982438891194761,
+            -0.0087338387966156
+          ],
+          "depth_m": 0.0157338387966156,
+          "error_m_m_rad": [
+            -0.00014627437038066502,
+            0.00029824003258818477,
+            0.0005235775058247683
+          ],
+          "grasp_drift": {
+            "A": {
+              "position_m": 4.369992081902657e-09,
+              "angle_rad": 0.0004324285448881202
+            },
+            "B": {
+              "position_m": 3.220452753524551e-08,
+              "angle_rad": 0.0
+            }
+          },
+          "normal_force_n": 0.0,
+          "axial_normal_force_n": 0.0,
+          "penetration_m": 0.0,
+          "contacts": [],
+          "safety": {
+            "min_joint_limit_margin_rad": 1.2692673208449443,
+            "max_tracking_error_rad": 8.832583966156271e-05,
+            "unsafe_contacts": []
+          }
+        },
+        "peak_normal_force_n": 0.0,
+        "peak_penetration_m": 0.0,
+        "stop_reason": null,
+        "tick": 6096,
+        "unloading": false,
+        "force_ceiling_n": 8.0,
+        "attempt": 60
+      },
+      {
+        "state": {
+          "tip_in_fixture_m": [
+            -0.00014983047731220722,
+            0.00030724063981324434,
+            -0.009159862995147705
+          ],
+          "depth_m": 0.016159862995147704,
+          "error_m_m_rad": [
+            -0.0001500631192351495,
+            0.00030744554258046086,
+            0.0005268546362215965
+          ],
+          "grasp_drift": {
+            "A": {
+              "position_m": 2.3496988076153272e-05,
+              "angle_rad": 0.0004528158576988251
+            },
+            "B": {
+              "position_m": 1.5305329889543698e-05,
+              "angle_rad": 2.649025825098301e-05
+            }
+          },
+          "normal_force_n": 7.47110075942844,
+          "axial_normal_force_n": 7.471100755520386,
+          "penetration_m": 0.00015714950141781047,
+          "contacts": [
+            {
+              "distance_m": -0.00015714950141781047,
+              "normal_force_n": 2.0233217343103465,
+              "normal_on_B": [
+                2.3641610183252422e-05,
+                -2.2073811766141896e-05,
+                0.9999999994769105
+              ]
+            },
+            {
+              "distance_m": -0.0001555249150557455,
+              "normal_force_n": 1.9392467380794793,
+              "normal_on_B": [
+                2.3641610183252422e-05,
+                -2.2073811766141896e-05,
+                0.9999999994769105
+              ]
+            },
+            {
+              "distance_m": -0.00015488955422424377,
+              "normal_force_n": 1.836703001158424,
+              "normal_on_B": [
+                2.3641610183252422e-05,
+                -2.2073811766141896e-05,
+                0.9999999994769105
+              ]
+            },
+            {
+              "distance_m": -0.0001565141405863088,
+              "normal_force_n": 1.6718292858801895,
+              "normal_on_B": [
+                2.3641610183252422e-05,
+                -2.2073811766141896e-05,
+                0.9999999994769105
+              ]
+            }
+          ],
+          "safety": {
+            "min_joint_limit_margin_rad": 1.2692609451387524,
+            "max_tracking_error_rad": 8.891602024663214e-05,
+            "unsafe_contacts": []
+          }
+        },
+        "peak_normal_force_n": 7.47110075942844,
+        "peak_penetration_m": 0.00015714950141781047,
+        "stop_reason": null,
+        "tick": 6192,
+        "unloading": false,
+        "force_ceiling_n": 8.0,
+        "attempt": 61
+      },
+      {
+        "state": {
+          "tip_in_fixture_m": [
+            -0.00014989532064646482,
+            0.00030780569068156183,
+            -0.00917738676071167
+          ],
+          "depth_m": 0.01617738676071167,
+          "error_m_m_rad": [
+            -0.0001501636493834684,
+            0.00030804654667220655,
+            0.0005475774287830859
+          ],
+          "grasp_drift": {
+            "A": {
+              "position_m": 2.6404661475859652e-05,
+              "angle_rad": 0.00042629671951225956
+            },
+            "B": {
+              "position_m": 1.7401575418909385e-05,
+              "angle_rad": 2.3454768531134697e-05
+            }
+          },
+          "normal_force_n": 8.057837253817416,
+          "axial_normal_force_n": 8.057837248021093,
+          "penetration_m": 0.00017539875304139476,
+          "contacts": [
+            {
+              "distance_m": -0.00017539875304139476,
+              "normal_force_n": 2.1860079905862375,
+              "normal_on_B": [
+                2.7408175636727092e-05,
+                -2.6219684981915384e-05,
+                0.99999999928066
+              ]
+            },
+            {
+              "distance_m": -0.0001744962235456618,
+              "normal_force_n": 2.091987073936686,
+              "normal_on_B": [
+                2.7408175636727092e-05,
+                -2.6219684981915384e-05,
+                0.99999999928066
+              ]
+            },
+            {
+              "distance_m": -0.00017350808755020044,
+              "normal_force_n": 1.9784849271520755,
+              "normal_on_B": [
+                2.7408175636727092e-05,
+                -2.6219684981915384e-05,
+                0.99999999928066
+              ]
+            },
+            {
+              "distance_m": -0.0001744106170459334,
+              "normal_force_n": 1.8013572621424176,
+              "normal_on_B": [
+                2.7408175636727092e-05,
+                -2.6219684981915384e-05,
+                0.99999999928066
+              ]
+            }
+          ],
+          "safety": {
+            "min_joint_limit_margin_rad": 1.2692550361166215,
+            "max_tracking_error_rad": 7.126828755521508e-05,
+            "unsafe_contacts": []
+          }
+        },
+        "peak_normal_force_n": 8.057837253817416,
+        "peak_penetration_m": 0.00017539875304139476,
+        "stop_reason": "force_limit",
+        "tick": 6202,
+        "unloading": false,
+        "force_ceiling_n": 8.0,
+        "attempt": 62
+      }
+    ],
+    "stopped": {
+      "tip_in_fixture_m": [
+        -0.00014989532064646482,
+        0.00030780569068156183,
+        -0.00917738676071167
+      ],
+      "depth_m": 0.01617738676071167,
+      "error_m_m_rad": [
+        -0.0001501636493834684,
+        0.00030804654667220655,
+        0.0005475774287830859
+      ],
+      "grasp_drift": {
+        "A": {
+          "position_m": 2.6404661475859652e-05,
+          "angle_rad": 0.00042629671951225956
+        },
+        "B": {
+          "position_m": 1.7401575418909385e-05,
+          "angle_rad": 2.3454768531134697e-05
+        }
+      },
+      "normal_force_n": 8.057837253817416,
+      "axial_normal_force_n": 8.057837248021093,
+      "penetration_m": 0.00017539875304139476,
+      "contacts": [
+        {
+          "distance_m": -0.00017539875304139476,
+          "normal_force_n": 2.1860079905862375,
+          "normal_on_B": [
+            2.7408175636727092e-05,
+            -2.6219684981915384e-05,
+            0.99999999928066
+          ]
+        },
+        {
+          "distance_m": -0.0001744962235456618,
+          "normal_force_n": 2.091987073936686,
+          "normal_on_B": [
+            2.7408175636727092e-05,
+            -2.6219684981915384e-05,
+            0.99999999928066
+          ]
+        },
+        {
+          "distance_m": -0.00017350808755020044,
+          "normal_force_n": 1.9784849271520755,
+          "normal_on_B": [
+            2.7408175636727092e-05,
+            -2.6219684981915384e-05,
+            0.99999999928066
+          ]
+        },
+        {
+          "distance_m": -0.0001744106170459334,
+          "normal_force_n": 1.8013572621424176,
+          "normal_on_B": [
+            2.7408175636727092e-05,
+            -2.6219684981915384e-05,
+            0.99999999928066
+          ]
+        }
+      ]
+    },
+    "recovery": {
+      "attempted": true,
+      "released": true,
+      "initial": {
+        "tip_in_fixture_m": [
+          -0.00014989532064646482,
+          0.00030780569068156183,
+          -0.00917738676071167
+        ],
+        "depth_m": 0.01617738676071167,
+        "error_m_m_rad": [
+          -0.0001501636493834684,
+          0.00030804654667220655,
+          0.0005475774287830859
+        ],
+        "grasp_drift": {
+          "A": {
+            "position_m": 2.6404661475859652e-05,
+            "angle_rad": 0.00042629671951225956
+          },
+          "B": {
+            "position_m": 1.7401575418909385e-05,
+            "angle_rad": 2.3454768531134697e-05
+          }
+        },
+        "normal_force_n": 8.057837253817416,
+        "axial_normal_force_n": 8.057837248021093,
+        "penetration_m": 0.00017539875304139476,
+        "contacts": [
+          {
+            "distance_m": -0.00017539875304139476,
+            "normal_force_n": 2.1860079905862375,
+            "normal_on_B": [
+              2.7408175636727092e-05,
+              -2.6219684981915384e-05,
+              0.99999999928066
+            ]
+          },
+          {
+            "distance_m": -0.0001744962235456618,
+            "normal_force_n": 2.091987073936686,
+            "normal_on_B": [
+              2.7408175636727092e-05,
+              -2.6219684981915384e-05,
+              0.99999999928066
+            ]
+          },
+          {
+            "distance_m": -0.00017350808755020044,
+            "normal_force_n": 1.9784849271520755,
+            "normal_on_B": [
+              2.7408175636727092e-05,
+              -2.6219684981915384e-05,
+              0.99999999928066
+            ]
+          },
+          {
+            "distance_m": -0.0001744106170459334,
+            "normal_force_n": 1.8013572621424176,
+            "normal_on_B": [
+              2.7408175636727092e-05,
+              -2.6219684981915384e-05,
+              0.99999999928066
+            ]
+          }
+        ]
+      },
+      "execution": {
+        "state": {
+          "tip_in_fixture_m": [
+            -0.0001498254423495382,
+            0.00031667682924307883,
+            -0.00733870267868042
+          ],
+          "depth_m": 0.01433870267868042,
+          "error_m_m_rad": [
+            -0.00014982349813762158,
+            0.000316670156672579,
+            0.0005184083820983787
+          ],
+          "grasp_drift": {
+            "A": {
+              "position_m": 7.182539031780279e-09,
+              "angle_rad": 0.00040409856306364213
+            },
+            "B": {
+              "position_m": 2.385154589662106e-08,
+              "angle_rad": 0.0
+            }
+          },
+          "normal_force_n": 0.0,
+          "axial_normal_force_n": 0.0,
+          "penetration_m": 0.0,
+          "contacts": [],
+          "safety": {
+            "min_joint_limit_margin_rad": 1.2692549387923837,
+            "max_tracking_error_rad": 0.0003576050662605912,
+            "unsafe_contacts": []
+          }
+        },
+        "peak_normal_force_n": 6.652299787494649,
+        "peak_penetration_m": 0.00017834975291950318,
+        "stop_reason": null,
+        "tick": 6298,
+        "unloading": true,
+        "force_ceiling_n": 9.057837253817416
+      },
+      "final": {
+        "tip_in_fixture_m": [
+          -0.0001498254423495382,
+          0.00031667682924307883,
+          -0.00733870267868042
+        ],
+        "depth_m": 0.01433870267868042,
+        "error_m_m_rad": [
+          -0.00014982349813762158,
+          0.000316670156672579,
+          0.0005184083820983787
+        ],
+        "grasp_drift": {
+          "A": {
+            "position_m": 7.182539031780279e-09,
+            "angle_rad": 0.00040409856306364213
+          },
+          "B": {
+            "position_m": 2.385154589662106e-08,
+            "angle_rad": 0.0
+          }
+        },
+        "normal_force_n": 0.0,
+        "axial_normal_force_n": 0.0,
+        "penetration_m": 0.0,
+        "contacts": [],
+        "safety": {
+          "min_joint_limit_margin_rad": 1.2692549387923837,
+          "max_tracking_error_rad": 0.0003576050662605912,
+          "unsafe_contacts": []
+        }
+      }
+    },
+    "final": {
+      "tip_in_fixture_m": [
+        -0.0001498254423495382,
+        0.00031667682924307883,
+        -0.00733870267868042
+      ],
+      "depth_m": 0.01433870267868042,
+      "error_m_m_rad": [
+        -0.00014982349813762158,
+        0.000316670156672579,
+        0.0005184083820983787
+      ],
+      "grasp_drift": {
+        "A": {
+          "position_m": 7.182539031780279e-09,
+          "angle_rad": 0.00040409856306364213
+        },
+        "B": {
+          "position_m": 2.385154589662106e-08,
+          "angle_rad": 0.0
+        }
+      },
+      "normal_force_n": 0.0,
+      "axial_normal_force_n": 0.0,
+      "penetration_m": 0.0,
+      "contacts": []
+    }
+  },
+  "seconds": 18.561999999999898
+}

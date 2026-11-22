@@ -1,0 +1,860 @@
+{
+  "complete": true,
+  "config_sha256": "f6a056b2aabc8b4ccb5759c980b3980cdfe6c165c8abfc22b990e990e1c6d2c7",
+  "analysis_source_sha256": "b274103949a8d8d44e595aecc4b5c602616a3eb4989684cd4e28300f1ea0ef0e",
+  "observed_episodes": 1216,
+  "expected_episodes": 1216,
+  "missing": [],
+  "summaries": [
+    {
+      "sensing_observations": 624,
+      "sensing_axis_mae_m_m_rad": [
+        6.371682033426665e-05,
+        0.0001371462435233245,
+        0.01387136487346754
+      ],
+      "sensing_axis_p95_m_m_rad": [
+        0.0002080835035338153,
+        0.0005919862477573324,
+        0.04335965674638212
+      ],
+      "group": "open-fit0-s1-rgb",
+      "n": 128,
+      "successes": 90,
+      "success_rate": 0.703125,
+      "success_wilson_95": [
+        0.6189947723495562,
+        0.7754183391643316
+      ],
+      "mean_endpoint_command_cost_rad2": 0.009634303694259426,
+      "success_conditioned_cost_rad2": 0.00809586213653754,
+      "mean_endpoint_joint_travel_rad": 0.6303574243309584,
+      "mean_alignment_commands": 3.90625,
+      "mean_insertion_commands": 53.421875,
+      "mean_simulation_seconds": 24.6369140625,
+      "mean_payload_bytes": 0.0,
+      "mean_peak_force_n": 0.0625234768310613,
+      "max_peak_force_n": 8.003005034375846,
+      "max_penetration_m": 0.0002689708859238492,
+      "peak_force_scope": "Peg-fixture aggregate across logged settling, alignment, descent, recovery and hold phases; not robot/environment contact force.",
+      "failure_categories": {
+        "alignment_gate": 29,
+        "timeout": 4,
+        "estimated_alignment_gate": 4,
+        "force_limit": 1
+      },
+      "recovery_attempts": 1,
+      "released_recoveries": 0,
+      "mean_final_depth_mm": 12.10956346988678
+    },
+    {
+      "sensing_observations": 596,
+      "sensing_axis_mae_m_m_rad": [
+        5.356059722792247e-05,
+        0.00010779130875739338,
+        0.011812937901288952
+      ],
+      "sensing_axis_p95_m_m_rad": [
+        0.00018434349384210388,
+        0.00029873246567137246,
+        0.03995807638063387
+      ],
+      "group": "open-fit0-s2-rgb",
+      "n": 128,
+      "successes": 102,
+      "success_rate": 0.796875,
+      "success_wilson_95": [
+        0.7190073141485295,
+        0.8574426180640758
+      ],
+      "mean_endpoint_command_cost_rad2": 0.0067405748965498405,
+      "success_conditioned_cost_rad2": 0.006638035385189174,
+      "mean_endpoint_joint_travel_rad": 0.5835337616354248,
+      "mean_alignment_commands": 3.6640625,
+      "mean_insertion_commands": 62.96875,
+      "mean_simulation_seconds": 28.4630859375,
+      "mean_payload_bytes": 175.875,
+      "mean_peak_force_n": 0.06257501660602495,
+      "max_peak_force_n": 8.009602125571194,
+      "max_penetration_m": 0.0003450209898499778,
+      "peak_force_scope": "Peg-fixture aggregate across logged settling, alignment, descent, recovery and hold phases; not robot/environment contact force.",
+      "failure_categories": {
+        "alignment_gate": 16,
+        "timeout": 7,
+        "terminal_hold_geometry": 1,
+        "estimated_alignment_gate": 1,
+        "force_limit": 1
+      },
+      "recovery_attempts": 2,
+      "released_recoveries": 1,
+      "mean_final_depth_mm": 16.555718628689647
+    },
+    {
+      "sensing_observations": 578,
+      "sensing_axis_mae_m_m_rad": [
+        4.975569178571794e-05,
+        9.148048108629161e-05,
+        0.01099523705626645
+      ],
+      "sensing_axis_p95_m_m_rad": [
+        0.00013709529096799818,
+        0.00020761675528129656,
+        0.029204637788419526
+      ],
+      "group": "open-fit0-s3-rgb",
+      "n": 128,
+      "successes": 95,
+      "success_rate": 0.7421875,
+      "success_wilson_95": [
+        0.6601308077044332,
+        0.8101309791005868
+      ],
+      "mean_endpoint_command_cost_rad2": 0.007852385377188973,
+      "success_conditioned_cost_rad2": 0.007603831387433033,
+      "mean_endpoint_joint_travel_rad": 0.5887907014711456,
+      "mean_alignment_commands": 3.515625,
+      "mean_insertion_commands": 59.78125,
+      "mean_simulation_seconds": 27.06533203125,
+      "mean_payload_bytes": 0.0,
+      "mean_peak_force_n": 0.08856287549000104,
+      "max_peak_force_n": 5.027343718377863,
+      "max_penetration_m": 0.0005006672311496338,
+      "peak_force_scope": "Peg-fixture aggregate across logged settling, alignment, descent, recovery and hold phases; not robot/environment contact force.",
+      "failure_categories": {
+        "alignment_gate": 23,
+        "timeout": 8,
+        "penetration_limit": 2
+      },
+      "recovery_attempts": 2,
+      "released_recoveries": 0,
+      "mean_final_depth_mm": 15.026834577322006
+    },
+    {
+      "sensing_observations": 576,
+      "sensing_axis_mae_m_m_rad": [
+        5.134223754224687e-05,
+        9.116033486821196e-05,
+        0.011317118500253149
+      ],
+      "sensing_axis_p95_m_m_rad": [
+        0.000163198476580551,
+        0.00021845823459048792,
+        0.034812671969390085
+      ],
+      "group": "open-fit0-s4-rgb",
+      "n": 128,
+      "successes": 99,
+      "success_rate": 0.7734375,
+      "success_wilson_95": [
+        0.6935732116243948,
+        0.8373675154135313
+      ],
+      "mean_endpoint_command_cost_rad2": 0.007980899678293157,
+      "success_conditioned_cost_rad2": 0.007931122161068513,
+      "mean_endpoint_joint_travel_rad": 0.5977088110067477,
+      "mean_alignment_commands": 3.5,
+      "mean_insertion_commands": 60.4453125,
+      "mean_simulation_seconds": 27.355794270833336,
+      "mean_payload_bytes": 84.0,
+      "mean_peak_force_n": 0.11866219269262908,
+      "max_peak_force_n": 8.002500654359912,
+      "max_penetration_m": 0.0005004887906778138,
+      "peak_force_scope": "Peg-fixture aggregate across logged settling, alignment, descent, recovery and hold phases; not robot/environment contact force.",
+      "failure_categories": {
+        "alignment_gate": 21,
+        "timeout": 6,
+        "penetration_limit": 1,
+        "force_limit": 1
+      },
+      "recovery_attempts": 2,
+      "released_recoveries": 0,
+      "mean_final_depth_mm": 15.349566720426083
+    },
+    {
+      "sensing_observations": 664,
+      "sensing_axis_mae_m_m_rad": [
+        5.1576959812789606e-05,
+        0.00011399342893182066,
+        0.011447072373798437
+      ],
+      "sensing_axis_p95_m_m_rad": [
+        0.00018246220687818327,
+        0.00042716275277488163,
+        0.04048621736873993
+      ],
+      "group": "open-fit0-half-rgb",
+      "n": 128,
+      "successes": 104,
+      "success_rate": 0.8125,
+      "success_wilson_95": [
+        0.7361508192928281,
+        0.8706385830362302
+      ],
+      "mean_endpoint_command_cost_rad2": 0.005140619730278783,
+      "success_conditioned_cost_rad2": 0.004980040424448904,
+      "mean_endpoint_joint_travel_rad": 0.5449021067472036,
+      "mean_alignment_commands": 4.203125,
+      "mean_insertion_commands": 62.3203125,
+      "mean_simulation_seconds": 28.421875,
+      "mean_payload_bytes": 0.0,
+      "mean_peak_force_n": 0.0,
+      "max_peak_force_n": 0.0,
+      "max_penetration_m": 0.0,
+      "peak_force_scope": "Peg-fixture aggregate across logged settling, alignment, descent, recovery and hold phases; not robot/environment contact force.",
+      "failure_categories": {
+        "alignment_gate": 16,
+        "timeout": 6,
+        "estimated_alignment_gate": 2
+      },
+      "recovery_attempts": 0,
+      "released_recoveries": 0,
+      "mean_final_depth_mm": 16.283929131925106
+    },
+    {
+      "sensing_observations": 0,
+      "sensing_axis_mae_m_m_rad": null,
+      "sensing_axis_p95_m_m_rad": null,
+      "group": "open-fit0-s1-gt",
+      "n": 128,
+      "successes": 118,
+      "success_rate": 0.921875,
+      "success_wilson_95": [
+        0.8621530681952115,
+        0.9570126249490171
+      ],
+      "mean_endpoint_command_cost_rad2": 0.005644968549496386,
+      "success_conditioned_cost_rad2": 0.005770724987356571,
+      "mean_endpoint_joint_travel_rad": 0.5308260463901426,
+      "mean_alignment_commands": 2.703125,
+      "mean_insertion_commands": 72.5703125,
+      "mean_simulation_seconds": 32.036458333333336,
+      "mean_payload_bytes": 0.0,
+      "mean_peak_force_n": 0.1018158070473148,
+      "max_peak_force_n": 8.009899630136134,
+      "max_penetration_m": 0.0005005255093744395,
+      "peak_force_scope": "Peg-fixture aggregate across logged settling, alignment, descent, recovery and hold phases; not robot/environment contact force.",
+      "failure_categories": {
+        "timeout": 8,
+        "penetration_limit": 1,
+        "force_limit": 1
+      },
+      "recovery_attempts": 2,
+      "released_recoveries": 0,
+      "mean_final_depth_mm": 21.036476612091064
+    },
+    {
+      "sensing_observations": 597,
+      "sensing_axis_mae_m_m_rad": [
+        5.281924293343899e-05,
+        0.00010419520704559986,
+        0.011649323226063447
+      ],
+      "sensing_axis_p95_m_m_rad": [
+        0.00015708505767716413,
+        0.00025520459610595337,
+        0.03505510503742286
+      ],
+      "group": "open-fit1-s1-rgb",
+      "n": 128,
+      "successes": 99,
+      "success_rate": 0.7734375,
+      "success_wilson_95": [
+        0.6935732116243948,
+        0.8373675154135313
+      ],
+      "mean_endpoint_command_cost_rad2": 0.008428303288253282,
+      "success_conditioned_cost_rad2": 0.007953997601377327,
+      "mean_endpoint_joint_travel_rad": 0.6070306006842872,
+      "mean_alignment_commands": 3.671875,
+      "mean_insertion_commands": 59.3125,
+      "mean_simulation_seconds": 26.970247395833333,
+      "mean_payload_bytes": 0.0,
+      "mean_peak_force_n": 0.06250930459627146,
+      "max_peak_force_n": 8.001190988322747,
+      "max_penetration_m": 0.0004165931699510072,
+      "peak_force_scope": "Peg-fixture aggregate across logged settling, alignment, descent, recovery and hold phases; not robot/environment contact force.",
+      "failure_categories": {
+        "alignment_gate": 22,
+        "timeout": 5,
+        "force_limit": 1,
+        "estimated_alignment_gate": 1
+      },
+      "recovery_attempts": 1,
+      "released_recoveries": 0,
+      "mean_final_depth_mm": 14.841589860618114
+    },
+    {
+      "sensing_observations": 613,
+      "sensing_axis_mae_m_m_rad": [
+        5.599948556459989e-05,
+        0.00011651984694616203,
+        0.012311271837852647
+      ],
+      "sensing_axis_p95_m_m_rad": [
+        0.00017570854202882314,
+        0.00030842642214747875,
+        0.03748177718296493
+      ],
+      "group": "open-fit2-s1-rgb",
+      "n": 128,
+      "successes": 87,
+      "success_rate": 0.6796875,
+      "success_wilson_95": [
+        0.5946341124452196,
+        0.754269793893989
+      ],
+      "mean_endpoint_command_cost_rad2": 0.009072456910927153,
+      "success_conditioned_cost_rad2": 0.007699435989226535,
+      "mean_endpoint_joint_travel_rad": 0.6068547146219357,
+      "mean_alignment_commands": 3.8046875,
+      "mean_insertion_commands": 53.3984375,
+      "mean_simulation_seconds": 24.56188151041667,
+      "mean_payload_bytes": 0.0,
+      "mean_peak_force_n": 0.06258999312964841,
+      "max_peak_force_n": 8.011519120594997,
+      "max_penetration_m": 0.0003881011211559431,
+      "peak_force_scope": "Peg-fixture aggregate across logged settling, alignment, descent, recovery and hold phases; not robot/environment contact force.",
+      "failure_categories": {
+        "alignment_gate": 32,
+        "timeout": 6,
+        "force_limit": 1,
+        "estimated_alignment_gate": 2
+      },
+      "recovery_attempts": 1,
+      "released_recoveries": 0,
+      "mean_final_depth_mm": 12.067685386165977
+    },
+    {
+      "sensing_observations": 135,
+      "sensing_axis_mae_m_m_rad": [
+        4.880864674174408e-05,
+        8.341768142345875e-05,
+        0.011066391756823916
+      ],
+      "sensing_axis_p95_m_m_rad": [
+        0.0001338624440907364,
+        0.00019648056623564056,
+        0.029712956183850902
+      ],
+      "group": "blocked-fit0-s1-rgb",
+      "n": 32,
+      "successes": 0,
+      "success_rate": 0.0,
+      "success_wilson_95": [
+        0.0,
+        0.10717919825506533
+      ],
+      "mean_endpoint_command_cost_rad2": 0.006963536229605665,
+      "success_conditioned_cost_rad2": null,
+      "mean_endpoint_joint_travel_rad": 0.5099136653682976,
+      "mean_alignment_commands": 3.21875,
+      "mean_insertion_commands": 50.8125,
+      "mean_simulation_seconds": 22.924999999999997,
+      "mean_payload_bytes": 0.0,
+      "mean_peak_force_n": 1.5750972055026065,
+      "max_peak_force_n": 2.151204953665848,
+      "max_penetration_m": 7.267304922213857e-05,
+      "peak_force_scope": "Peg-fixture aggregate across logged settling, alignment, descent, recovery and hold phases; not robot/environment contact force.",
+      "failure_categories": {
+        "alignment_gate": 7,
+        "jam_stall": 25
+      },
+      "recovery_attempts": 25,
+      "released_recoveries": 25,
+      "mean_final_depth_mm": 8.246646977961063
+    },
+    {
+      "sensing_observations": 137,
+      "sensing_axis_mae_m_m_rad": [
+        4.512788494170519e-05,
+        8.124472475747408e-05,
+        0.0104308429082402
+      ],
+      "sensing_axis_p95_m_m_rad": [
+        0.0001391848269536995,
+        0.0001911960730458451,
+        0.03033663411612961
+      ],
+      "group": "blocked-fit0-s4-rgb",
+      "n": 32,
+      "successes": 0,
+      "success_rate": 0.0,
+      "success_wilson_95": [
+        0.0,
+        0.10717919825506533
+      ],
+      "mean_endpoint_command_cost_rad2": 0.006626736085286305,
+      "success_conditioned_cost_rad2": null,
+      "mean_endpoint_joint_travel_rad": 0.532074064151073,
+      "mean_alignment_commands": 3.28125,
+      "mean_insertion_commands": 56.9375,
+      "mean_simulation_seconds": 25.4375,
+      "mean_payload_bytes": 78.75,
+      "mean_peak_force_n": 1.7646253729354722,
+      "max_peak_force_n": 2.14968542498312,
+      "max_penetration_m": 7.12796688126408e-05,
+      "peak_force_scope": "Peg-fixture aggregate across logged settling, alignment, descent, recovery and hold phases; not robot/environment contact force.",
+      "failure_categories": {
+        "jam_stall": 28,
+        "alignment_gate": 4
+      },
+      "recovery_attempts": 28,
+      "released_recoveries": 28,
+      "mean_final_depth_mm": 10.792488016188145
+    },
+    {
+      "sensing_observations": 135,
+      "sensing_axis_mae_m_m_rad": [
+        4.8817896649838955e-05,
+        8.348958687662052e-05,
+        0.011067803757311047
+      ],
+      "sensing_axis_p95_m_m_rad": [
+        0.0001338635262843087,
+        0.00019647651015133896,
+        0.02971296017056515
+      ],
+      "group": "low-motor-fit0-s1-rgb",
+      "n": 32,
+      "successes": 23,
+      "success_rate": 0.71875,
+      "success_wilson_95": [
+        0.5462549057408392,
+        0.8443541950225697
+      ],
+      "mean_endpoint_command_cost_rad2": 0.006948998274896421,
+      "success_conditioned_cost_rad2": 0.007494276091822263,
+      "mean_endpoint_joint_travel_rad": 0.5273716450821788,
+      "mean_alignment_commands": 3.21875,
+      "mean_insertion_commands": 57.1875,
+      "mean_simulation_seconds": 25.881249999999998,
+      "mean_payload_bytes": 0.0,
+      "mean_peak_force_n": 0.0,
+      "max_peak_force_n": 0.0,
+      "max_penetration_m": 0.0,
+      "peak_force_scope": "Peg-fixture aggregate across logged settling, alignment, descent, recovery and hold phases; not robot/environment contact force.",
+      "failure_categories": {
+        "alignment_gate": 7,
+        "timeout": 2
+      },
+      "recovery_attempts": 0,
+      "released_recoveries": 0,
+      "mean_final_depth_mm": 13.93567655980587
+    },
+    {
+      "sensing_observations": 131,
+      "sensing_axis_mae_m_m_rad": [
+        4.691129161726238e-05,
+        8.380456450280881e-05,
+        0.01091280377069485
+      ],
+      "sensing_axis_p95_m_m_rad": [
+        0.00013528977699428404,
+        0.0001961663348011169,
+        0.028770375363068146
+      ],
+      "group": "drop-fit0-s2-rgb",
+      "n": 32,
+      "successes": 25,
+      "success_rate": 0.78125,
+      "success_wilson_95": [
+        0.6124500635075697,
+        0.889761637473956
+      ],
+      "mean_endpoint_command_cost_rad2": 0.005331934337195648,
+      "success_conditioned_cost_rad2": 0.005546044545470653,
+      "mean_endpoint_joint_travel_rad": 0.5151466994042346,
+      "mean_alignment_commands": 3.09375,
+      "mean_insertion_commands": 63.78125,
+      "mean_simulation_seconds": 28.575,
+      "mean_payload_bytes": 148.5,
+      "mean_peak_force_n": 0.0,
+      "max_peak_force_n": 0.0,
+      "max_penetration_m": 0.0,
+      "peak_force_scope": "Peg-fixture aggregate across logged settling, alignment, descent, recovery and hold phases; not robot/environment contact force.",
+      "failure_categories": {
+        "alignment_gate": 4,
+        "timeout": 2,
+        "terminal_hold_geometry": 1
+      },
+      "recovery_attempts": 1,
+      "released_recoveries": 1,
+      "mean_final_depth_mm": 16.94042493402958
+    },
+    {
+      "sensing_observations": 139,
+      "sensing_axis_mae_m_m_rad": [
+        4.505442603325686e-05,
+        8.151582018095998e-05,
+        0.010438315027300627
+      ],
+      "sensing_axis_p95_m_m_rad": [
+        0.00013877474991330808,
+        0.00019058984671775154,
+        0.030675213913993315
+      ],
+      "group": "drop-fit0-s4-rgb",
+      "n": 32,
+      "successes": 30,
+      "success_rate": 0.9375,
+      "success_wilson_95": [
+        0.7985287685584593,
+        0.9826894329683585
+      ],
+      "mean_endpoint_command_cost_rad2": 0.006734074428600455,
+      "success_conditioned_cost_rad2": 0.006856175041764154,
+      "mean_endpoint_joint_travel_rad": 0.5675918703420989,
+      "mean_alignment_commands": 3.34375,
+      "mean_insertion_commands": 66.375,
+      "mean_simulation_seconds": 29.825000000000003,
+      "mean_payload_bytes": 80.25,
+      "mean_peak_force_n": 0.0,
+      "max_peak_force_n": 0.0,
+      "max_penetration_m": 0.0,
+      "peak_force_scope": "Peg-fixture aggregate across logged settling, alignment, descent, recovery and hold phases; not robot/environment contact force.",
+      "failure_categories": {
+        "alignment_gate": 2
+      },
+      "recovery_attempts": 0,
+      "released_recoveries": 0,
+      "mean_final_depth_mm": 18.232970282435417
+    },
+    {
+      "sensing_observations": 134,
+      "sensing_axis_mae_m_m_rad": [
+        4.7243543884981873e-05,
+        8.482074796284252e-05,
+        0.010847426807383523
+      ],
+      "sensing_axis_p95_m_m_rad": [
+        0.00013665579546787862,
+        0.00019373375356518345,
+        0.029677415004511255
+      ],
+      "group": "delay-fit0-s2-rgb",
+      "n": 32,
+      "successes": 26,
+      "success_rate": 0.8125,
+      "success_wilson_95": [
+        0.6469084479862455,
+        0.9111045531043387
+      ],
+      "mean_endpoint_command_cost_rad2": 0.005257226090336076,
+      "success_conditioned_cost_rad2": 0.005197342925294524,
+      "mean_endpoint_joint_travel_rad": 0.49023200501913317,
+      "mean_alignment_commands": 3.1875,
+      "mean_insertion_commands": 57.5625,
+      "mean_simulation_seconds": 26.112499999999997,
+      "mean_payload_bytes": 153.0,
+      "mean_peak_force_n": 0.0,
+      "max_peak_force_n": 0.0,
+      "max_penetration_m": 0.0,
+      "peak_force_scope": "Peg-fixture aggregate across logged settling, alignment, descent, recovery and hold phases; not robot/environment contact force.",
+      "failure_categories": {
+        "alignment_gate": 6
+      },
+      "recovery_attempts": 0,
+      "released_recoveries": 0,
+      "mean_final_depth_mm": 14.084416225552559
+    }
+  ],
+  "paired_comparisons": [
+    {
+      "first": "open-fit0-s1-rgb",
+      "second": "open-fit0-half-rgb",
+      "paired_n": 128,
+      "mean_cost_difference_rad2": 0.004493683963980644,
+      "cost_paired_bootstrap_95": [
+        0.0029238515357741385,
+        0.0066632165238894574
+      ],
+      "success_difference": -0.109375,
+      "success_paired_bootstrap_95": [
+        -0.203125,
+        -0.015625
+      ]
+    },
+    {
+      "first": "open-fit0-s2-rgb",
+      "second": "open-fit0-half-rgb",
+      "paired_n": 128,
+      "mean_cost_difference_rad2": 0.001599955166271058,
+      "cost_paired_bootstrap_95": [
+        0.0010424211067863846,
+        0.0021669821875923297
+      ],
+      "success_difference": -0.015625,
+      "success_paired_bootstrap_95": [
+        -0.109375,
+        0.078125
+      ]
+    },
+    {
+      "first": "open-fit0-s3-rgb",
+      "second": "open-fit0-half-rgb",
+      "paired_n": 128,
+      "mean_cost_difference_rad2": 0.00271176564691019,
+      "cost_paired_bootstrap_95": [
+        0.0020025564473879942,
+        0.0034869388400071387
+      ],
+      "success_difference": -0.0703125,
+      "success_paired_bootstrap_95": [
+        -0.1484375,
+        0.0078125
+      ]
+    },
+    {
+      "first": "open-fit0-s4-rgb",
+      "second": "open-fit0-half-rgb",
+      "paired_n": 128,
+      "mean_cost_difference_rad2": 0.0028402799480143747,
+      "cost_paired_bootstrap_95": [
+        0.0020580547929730563,
+        0.003678134282849792
+      ],
+      "success_difference": -0.0390625,
+      "success_paired_bootstrap_95": [
+        -0.1171875,
+        0.0390625
+      ]
+    },
+    {
+      "first": "open-fit0-s1-rgb",
+      "second": "open-fit0-s1-gt",
+      "paired_n": 128,
+      "mean_cost_difference_rad2": 0.00398933514476304,
+      "cost_paired_bootstrap_95": [
+        0.0023579605761731917,
+        0.006049108632780098
+      ],
+      "success_difference": -0.21875,
+      "success_paired_bootstrap_95": [
+        -0.3046875,
+        -0.140625
+      ]
+    },
+    {
+      "first": "open-fit0-s2-rgb",
+      "second": "open-fit0-s1-rgb",
+      "paired_n": 128,
+      "mean_cost_difference_rad2": -0.002893728797709586,
+      "cost_paired_bootstrap_95": [
+        -0.004858796589375722,
+        -0.0014266531339253475
+      ],
+      "success_difference": 0.09375,
+      "success_paired_bootstrap_95": [
+        0.0,
+        0.1875
+      ]
+    },
+    {
+      "first": "open-fit0-s3-rgb",
+      "second": "open-fit0-s1-rgb",
+      "paired_n": 128,
+      "mean_cost_difference_rad2": -0.001781918317070453,
+      "cost_paired_bootstrap_95": [
+        -0.0034968892845570637,
+        -0.00032961987214493317
+      ],
+      "success_difference": 0.0390625,
+      "success_paired_bootstrap_95": [
+        -0.046875,
+        0.125
+      ]
+    },
+    {
+      "first": "open-fit0-s4-rgb",
+      "second": "open-fit0-s1-rgb",
+      "paired_n": 128,
+      "mean_cost_difference_rad2": -0.0016534040159662687,
+      "cost_paired_bootstrap_95": [
+        -0.003314826535166133,
+        -0.00025676505943820116
+      ],
+      "success_difference": 0.0703125,
+      "success_paired_bootstrap_95": [
+        -0.015625,
+        0.15625
+      ]
+    },
+    {
+      "first": "blocked-fit0-s1-rgb",
+      "second": "open-fit0-s1-rgb",
+      "paired_n": 32,
+      "mean_cost_difference_rad2": 1.4537954708830275e-05,
+      "cost_paired_bootstrap_95": [
+        4.330388320661579e-06,
+        2.2783662734330094e-05
+      ],
+      "success_difference": -0.71875,
+      "success_paired_bootstrap_95": [
+        -0.875,
+        -0.5625
+      ]
+    },
+    {
+      "first": "blocked-fit0-s4-rgb",
+      "second": "open-fit0-s4-rgb",
+      "paired_n": 32,
+      "mean_cost_difference_rad2": 3.109516585594827e-05,
+      "cost_paired_bootstrap_95": [
+        1.7255934569601974e-05,
+        5.198534334526966e-05
+      ],
+      "success_difference": -0.875,
+      "success_paired_bootstrap_95": [
+        -0.96875,
+        -0.75
+      ]
+    },
+    {
+      "first": "low-motor-fit0-s1-rgb",
+      "second": "open-fit0-s1-rgb",
+      "paired_n": 32,
+      "mean_cost_difference_rad2": -4.146133103185602e-16,
+      "cost_paired_bootstrap_95": [
+        -1.2438137788134342e-15,
+        4.0657581468206416e-20
+      ],
+      "success_difference": 0.0,
+      "success_paired_bootstrap_95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "first": "drop-fit0-s2-rgb",
+      "second": "open-fit0-s2-rgb",
+      "paired_n": 32,
+      "mean_cost_difference_rad2": 9.455019329994674e-06,
+      "cost_paired_bootstrap_95": [
+        -0.0004683305688528123,
+        0.0004732166209848377
+      ],
+      "success_difference": 0.0,
+      "success_paired_bootstrap_95": [
+        -0.125,
+        0.125
+      ]
+    },
+    {
+      "first": "drop-fit0-s4-rgb",
+      "second": "open-fit0-s4-rgb",
+      "paired_n": 32,
+      "mean_cost_difference_rad2": 0.0001384335091700988,
+      "cost_paired_bootstrap_95": [
+        1.1377373607202937e-05,
+        0.0003358582928783815
+      ],
+      "success_difference": 0.0625,
+      "success_paired_bootstrap_95": [
+        0.0,
+        0.15625
+      ]
+    },
+    {
+      "first": "delay-fit0-s2-rgb",
+      "second": "open-fit0-s2-rgb",
+      "paired_n": 32,
+      "mean_cost_difference_rad2": -6.525322752957779e-05,
+      "cost_paired_bootstrap_95": [
+        -0.0008633403995861661,
+        0.0006625851629935092
+      ],
+      "success_difference": 0.03125,
+      "success_paired_bootstrap_95": [
+        -0.125,
+        0.1875
+      ]
+    }
+  ],
+  "raw_audits": {
+    "open-fit0-s1-rgb": {
+      "raw_sha256": "7387a26f38d0b519abfb469e1a103583d612a692cfde57bf745a38032054fe5f",
+      "provenance_sha256": "899cc7fa238a8cd08d071524c8f643d63aaf281c2de43b123cd98bdd380d9a44",
+      "n": 128,
+      "missing_ids": []
+    },
+    "open-fit0-s2-rgb": {
+      "raw_sha256": "41e7a50e2d445a2fd5d0ac22a9b5eaa0555dd543b4083596430e9f8977f743a3",
+      "provenance_sha256": "996205ded18f62ff63bcc8de659d912c8d2fa51352fb1f2360b4364bcf594872",
+      "n": 128,
+      "missing_ids": []
+    },
+    "open-fit0-s3-rgb": {
+      "raw_sha256": "3e8fc070a32f380b4f61d4da5dbd3894d68b29ee20a61f2e1e92844207f883bd",
+      "provenance_sha256": "9332f11e5a847433068a85433363217e4bcfcf891dd8bc4b1297d6b6d38b946b",
+      "n": 128,
+      "missing_ids": []
+    },
+    "open-fit0-s4-rgb": {
+      "raw_sha256": "9e995cb3b294c8bdce74e9d345732da7a42d1deb92546de3f1cd2061ace271ae",
+      "provenance_sha256": "14c60b96969cef290e43487ba1c8b3be0ee990677a92e01032013fce15fb99f8",
+      "n": 128,
+      "missing_ids": []
+    },
+    "open-fit0-half-rgb": {
+      "raw_sha256": "07bbdb2e428b77bb9f2b459f38b692df7f5b986238ff3d0bdd557511a5fd4a51",
+      "provenance_sha256": "28597aaf14ad6add09292c1551a21d96f58415c81f0c8070833af3439f295eb3",
+      "n": 128,
+      "missing_ids": []
+    },
+    "open-fit0-s1-gt": {
+      "raw_sha256": "0259141816b713ebfa997a5d263a083125fdb1181215be79d3596d5e7022b56f",
+      "provenance_sha256": "17c194d5dc6dd2cd9eea1d0c7b33d726d3d91f81b41e0c5ee32f2360292f23d8",
+      "n": 128,
+      "missing_ids": []
+    },
+    "open-fit1-s1-rgb": {
+      "raw_sha256": "70886001f046e3ae2dd0c2d16e0c7c221866faa64866f2c656f7b884e2ec16fd",
+      "provenance_sha256": "c49590b084fd399b140f02ca66bb0afd00fe9444e85b1827ef2700ab23bfc916",
+      "n": 128,
+      "missing_ids": []
+    },
+    "open-fit2-s1-rgb": {
+      "raw_sha256": "ce0c6da14af2ebc537ced80ef1fd8dd2ca82a37cc4e12591ef32cc6fabdac95f",
+      "provenance_sha256": "3af79ca511dde84c1d1fe4593dc97d5dc3f9b78add1e87f64f83596fb84b6077",
+      "n": 128,
+      "missing_ids": []
+    },
+    "blocked-fit0-s1-rgb": {
+      "raw_sha256": "1f2e556f9b8f5c855a9da5caa2c67539392a9e466a4194dc5fb73f966a120e6b",
+      "provenance_sha256": "e4a648ec5168a65d1ee51017033439dddc3a8906c17c646b673913b21c26f395",
+      "n": 32,
+      "missing_ids": []
+    },
+    "blocked-fit0-s4-rgb": {
+      "raw_sha256": "d09122dc011689b076bb9cbff2034c5b33cb1380ded8a87aab9a73d66f7140df",
+      "provenance_sha256": "2898166ab4b9acb0a450f99cb53478f55cc62ffdc943e13e675c21274d20a625",
+      "n": 32,
+      "missing_ids": []
+    },
+    "low-motor-fit0-s1-rgb": {
+      "raw_sha256": "e38b29eb31c53e80c3c607158833c139b2f8de45243dd560cdb113103f06cb84",
+      "provenance_sha256": "5174828831528d7acc827bba295a0acfa31beed188f6b9b124cd4737e25aff01",
+      "n": 32,
+      "missing_ids": []
+    },
+    "drop-fit0-s2-rgb": {
+      "raw_sha256": "08fcb11b81695a3f4b8d8162a700bc9a1389cb1b5cbb21056955f4dfa3e480c2",
+      "provenance_sha256": "8a55c7ba8f358bc2d78c675438e3ba5370e4cea0230bc66fe9afd37541e885c0",
+      "n": 32,
+      "missing_ids": []
+    },
+    "drop-fit0-s4-rgb": {
+      "raw_sha256": "e23e6e749f72776fd98773e0ad740177a7b28f94e8544112e32a309aa02d51e2",
+      "provenance_sha256": "da52d15b2b5d72ff44b6254689205228e04c76a47ee97ac91081d66444b22523",
+      "n": 32,
+      "missing_ids": []
+    },
+    "delay-fit0-s2-rgb": {
+      "raw_sha256": "17380006d74f1998f5cdd4c30a6ade447e82e1a102a00fd6b588db2a8044b80a",
+      "provenance_sha256": "c92dce9ff04f8d28b4c92a130e49115a8fe292e3941b5b77af9d3cfe4f0a1c20",
+      "n": 32,
+      "missing_ids": []
+    }
+  },
+  "limits": "Three existing alignment actor/data fits, one vision fit; 128-case open contact comparisons,32-case bounded stress. Fixed grasps. NN only in planar phase; force/depth guards in axial phase. Blocked outcomes report rejection/release, not insertion success."
+}

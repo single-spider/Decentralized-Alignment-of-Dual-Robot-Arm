@@ -1,0 +1,20 @@
+{
+  "seed": 702,
+  "device": "cuda",
+  "torch_version": "2.11.0+cu128",
+  "original_checkpoint": "peg-in-hole-sfn\\models\\segmentation_mesh_v2_ce.pt",
+  "original_sha256": "23784027decff5e9f12c179798805c1ef2bfc4c133ef7c5afbbaa750f14592fb",
+  "train_sha256": "48aadec3c57cf85af690fef61a03b911681dca54b19f36eec032800d4e4c38c0",
+  "validation_sha256": "f4e5165b20fd092bb1a7dd9168246ac4302775b7c9db60fe194aceb8c683b384",
+  "source_sha256": "5928d74ede5552bf7b8183639e22c7ed9308a077b4d185fc794f3c871be7be83",
+  "class_counts": [
+    26811990,
+    1197162,
+    302400
+  ],
+  "class_weights": [
+    1.0,
+    4.732472105689226,
+    9.41615569620841
+  ]
+}

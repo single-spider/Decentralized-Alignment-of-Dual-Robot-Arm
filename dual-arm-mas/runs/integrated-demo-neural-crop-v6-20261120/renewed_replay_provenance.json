@@ -1,0 +1,10 @@
+{
+  "started_utc": "2026-11-19T20:02:26.648513+00:00",
+  "ended_utc": "2026-11-19T20:05:17.058973+00:00",
+  "window_end": "2026-11-20T05:30:00+05:30",
+  "wrapper_sha256": "5738b22c24aa02689d161bd9691622581d14ff13e5033fb25d42d824fc309f7b",
+  "original_entrypoint_sha256": "c1d2823ae14bfa9ff98960fef7d020afdd977b8cf6ee44fe80309c7cb01e9865",
+  "study_config_sha256": "8bbb55c26dfbebf8f6505e47ad7b2539c297dba2dbfd86c3d34e97f9715b7bba",
+  "replay_json_sha256": "286e5dec4882ae9d6e094dc5775442a50ae0c329189b2304b674dae1ab779e87",
+  "scope": "Only the between-episode calendar gate is replaced; original accepted-demo dependencies, actors and perception verified unchanged."
+}

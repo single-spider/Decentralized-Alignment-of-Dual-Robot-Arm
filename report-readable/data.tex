@@ -1,0 +1,40 @@
+% Generated from the verified episode analyses. Do not hand-edit numerical cells.
+\newcommand{\LocalGap}{1.1}
+\newcommand{\LocalCost}{2.356}
+\newcommand{\OracleCost}{2.331}
+\newcommand{\CapPayload}{152.4}
+\newcommand{\BidPayload}{76.2}
+\newcommand{\RgbAlignRange}{99.2--99.9}
+\newcommand{\LearnedContactRange}{68.0--79.7}
+\newcommand{\HalfInserted}{104}
+\newcommand{\TruthInserted}{118}
+\newcommand{\ContactDiff}{-21.9}
+\newcommand{\ContactDiffCI}{-30.5, -14.1}
+\newcommand{\BlockedInserted}{0}
+\newcommand{\BlockedN}{64}
+\newcommand{\BlockedReleased}{53}
+\newcommand{\BlockedTried}{53}
+\newcommand{\OpenReleased}{1}
+\newcommand{\OpenTried}{11}
+\newcommand{\LearnedPreFail}{151}
+\newcommand{\LearnedDescentFail}{44}
+\newcommand{\LearnedHoldFail}{1}
+\newcommand{\LearnedPoseReject}{143}
+\newcommand{\LearnedVisionReject}{8}
+\newcommand{\AlignmentRows}{%
+\multicolumn{5}{@{}l}{\textit{Deterministic allocation references (GT only)}} \\
+S0 joint reference & 100.0 & 2.331 & -- & -- \\
+S1 local model & 100.0 & 2.356 & -- & -- \\
+Fixed half & 100.0 & 3.757 & -- & -- \\
+\midrule
+\multicolumn{5}{@{}l}{\textit{Learned policies: same frozen actor under GT and RGB}} \\
+PPO S1 & 100.0 & 5.668 & 99.2 & 8.570 \\
+PPO S2 & 100.0 & 4.645 & 99.6 & 5.908 \\
+PPO S3 & 100.0 & 5.498 & 99.9 & 7.912 \\
+PPO S4 & 100.0 & 5.309 & 99.5 & 7.402 \\
+}
+\newcommand{\FailureRows}{%
+Learned RGB (six conditions) & 768 & 151 & 44 & 1 & 572 \\
+Fixed-half RGB & 128 & 18 & 6 & 0 & 104 \\
+S1 / ground truth & 128 & 0 & 10 & 0 & 118 \\
+}

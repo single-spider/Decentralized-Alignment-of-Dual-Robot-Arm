@@ -1,0 +1,32 @@
+{
+  "date": "2026-11-22",
+  "scope": "Separate editorial/presentation alternative; no changes to frozen scientific records or original report.",
+  "pages": 9,
+  "team_contributions": "Confirmed by user against agreed team record on 22 November 2026.",
+  "checks": {
+    "prior_manifest_files_checked": 2750,
+    "only_prior_files_changed": [
+      "README.md",
+      "SUBMIT.md"
+    ],
+    "original_report_source_and_pdf_unchanged": true,
+    "numerical_macros_byte_identical": true,
+    "all_existing_figure_assets_byte_identical": {
+      "contact-traces.pdf": "53aefe1e75d63220c37f5651c217e2c47b2459482c2ab64e5f1f0057d9a6f59d",
+      "cost-payload.pdf": "fddc44d1b6b6c8fe2a1c6696d563750c6deac77af6a398701a24efba724edd15",
+      "dual-arm.png": "e4ef514561ddc4d89a75bf0cb20cb79aa24a45c5dc87df98556ca6d7f23aad2d",
+      "insertion-success.pdf": "32c2a5f7e1b043f9681ae558eaadffc475ba38ca8c30c8a7d6f69bdf8832debb",
+      "single-arm.png": "24e658b0ca693f9762ef021bc63efe0656cecec8c59b58908faed76c152b0095",
+      "workflow.pdf": "1c02aff438858e066d752116d531ccbbd14065576dbc808591aa9936fd4b1707"
+    },
+    "bibliography_identical": true,
+    "alignment_and_failure_table_macros_retained": true,
+    "draft_placeholder_scan_passed": true,
+    "standalone_overleaf_zip_build": "Two passes; nine pages; no overfull boxes or unresolved references.",
+    "visual_review": "All nine rendered pages inspected; final changed pages re-inspected.",
+    "contact_coverage": "1024 open + 64 blocked + 128 stress = 1216, from archived statistics."
+  },
+  "pdf_sha256": "d3e571acc415236ca051e7058af2a1a0d02be21fbc66fc89152576c98cc63666",
+  "zip_sha256": "b7394ed49cbb49b5c1170050231994d71628f9b379238cea6a596041a6e1f284",
+  "source_sha256": "46ea9173b9bcd5b658118c76edeae9fb1a4694e120cd06638a2036279164f7f2"
+}

@@ -1,0 +1,386 @@
+{
+  "scope": "D1-D9 full RL/vision master prompt; this manifest is not completion evidence",
+  "frozen_at_ist": "2026-11-06T23:01:17.924219+05:30",
+  "source_sha256": {
+    "dual-arm-mas\\scripts\\train_rl.py": "604bbd0a24dde6168156c0edc43c59faf973f8aa74b0fbb14f9e158690a3e367",
+    "dual-arm-mas\\scripts\\evaluate_learned.py": "e19cf3be8bcf9c58fba2926155afe7976d338b022a5e332897095473eb19b8a1",
+    "dual-arm-mas\\src\\dual_arm_mas\\episode.py": "e14df2a19faec468347113c9ce74c3e99f91e148174740d01baf704edf7d7506",
+    "dual-arm-mas\\src\\dual_arm_mas\\evidence.py": "d12b012e667a7b53af4cdf089e01e63fd1f39ce49ad2e2f681c93476e09d4afe",
+    "dual-arm-mas\\src\\dual_arm_mas\\policies.py": "e6106dbe4824b739a647fc8be98143bf01f527455eac98a69502b9e06743e6fe",
+    "dual-arm-mas\\src\\dual_arm_mas\\rl.py": "e39baed6e2695128afe6f652befa37d331a80098ec12dd1c97a7aa69d094a8b8",
+    "dual-arm-mas\\src\\dual_arm_mas\\vision.py": "0a476dc2b47d7f0491a7185710e6f62df148afe6895c6a899bbe96b73b20e4ab",
+    "dual-arm-mas\\src\\dual_arm_mas\\world.py": "8bed751c5a755afc0f47e4140a79b1120da229f11f945ce666006720f9500d70",
+    "dual-arm-mas\\src\\dual_arm_mas\\__init__.py": "794a1a018d967632220fe0d15295072b52d0534b190c87570d9f17687ba66a6b"
+  },
+  "test_starts": "dual-arm-mas/runs/test/starts.json",
+  "test_starts_sha256": "94b2cc035beeb1c8cebfe7f0a3ad7ff697c415209ad84b57e65acb71839ee0be",
+  "perception": "dual-arm-mas/runs/vision-adaptation/segmentation-v1.pt",
+  "perception_sha256": "b1edf772e3d1c0331d639f3a7d301995edf5a02c024efa74baac76d2ac9064c1",
+  "core_count": 1000,
+  "core_sensing": [
+    "gt",
+    "rgb"
+  ],
+  "decoder": "mean",
+  "inspection_crop": true,
+  "evaluation_seed": 901,
+  "bootstrap_seed": 704,
+  "bootstrap_resamples": 2000,
+  "selection_rule": "Among two TRAINED validation candidates (early approximately2500-3375 and final>=10000), maximize RGB validation success, then minimize overall squared cost, then steps. Never select/tune using final test. Untrained mean policy remains a baseline, not a trained candidate.",
+  "freeze_rule": "Learning algorithm/reward/architecture, sensing/decoder, starts, counts, seeds, candidate count and selection rule fixed before new learned test episodes. Remaining fits may fill policy paths by the SAME predeclared validation rule; no test-driven tuning.",
+  "training_target_steps_per_regime_per_seed": 10000,
+  "fits": [
+    {
+      "fit": 0,
+      "seed": 401,
+      "training_manifest": "dual-arm-mas/runs/train-311/starts.json",
+      "public": "dual-arm-mas/runs/train-311/public.json",
+      "status": "selected_validation_only",
+      "policies": {
+        "s1": {
+          "checkpoint": "dual-arm-mas/runs/rl-s1-401/step-3375.pt",
+          "sha256": "03d3ac69d304e398b59ff84beb98d09e6e9d0509fe9d00095bf58b004a864fcf",
+          "selected_training_steps": 3375,
+          "validation_summary": "dual-arm-mas/runs/rl-s1-401/validation-3375-rgb-neural-refined/summary.json",
+          "validation_summary_sha256": "051628ddfc017fd88b01ae48b9cc89e9d63d1fd0b171c59a00110879d101755e"
+        },
+        "s2": {
+          "checkpoint": "dual-arm-mas/runs/rl-s2-401/step-2608.pt",
+          "sha256": "369ce2d3f904bc5b82a0a9e6a7c54fea2adf019716102ad5e8eaa5988333a58f",
+          "selected_training_steps": 2608,
+          "validation_summary": "dual-arm-mas/runs/rl-s2-401/validation-2608-neural-current/summary.json",
+          "validation_summary_sha256": "a3ead9d6160481779021c2bff811724750d840d7fe6b475ce75b37e17ea12869"
+        },
+        "s3": {
+          "checkpoint": "dual-arm-mas/runs/rl-s3-401/guarded-recovery.pt",
+          "sha256": "dfb384ef4f00635fd27fa21aca73929136ca47134fdc8d3cb76a861888809c16",
+          "selected_training_steps": 2837,
+          "validation_summary": "dual-arm-mas/runs/rl-s3-401/validation-2837-neural-current/summary.json",
+          "validation_summary_sha256": "e81d2751bba0077618511e53047ac71bce6a3da95ff75b3c12d35bf203892ec3"
+        },
+        "s4": {
+          "checkpoint": "dual-arm-mas/runs/rl-s4-401/guarded-recovery.pt",
+          "sha256": "97dba1131a20e2bc92d97b0ae7deae5c1a1e78dea235961d8aff6eaca344a213",
+          "selected_training_steps": 2862,
+          "validation_summary": "dual-arm-mas/runs/rl-s4-401/validation-2862-neural-current/summary.json",
+          "validation_summary_sha256": "bd24b93f07164e204d858cb13c6312c86dc4315e97c7901fa0f04bb674c2f02b"
+        }
+      }
+    },
+    {
+      "fit": 1,
+      "seed": 402,
+      "training_manifest": "dual-arm-mas/runs/train-312/starts.json",
+      "public": "dual-arm-mas/runs/train-312/public.json",
+      "status": "selected_validation_only",
+      "policies": {
+        "s1": {
+          "checkpoint": "dual-arm-mas\\runs\\rl-s1-402\\step-2569.pt",
+          "sha256": "2cedd7ff879a68c486094dce460b10c26268002c8aa19319775db1f072e825d7",
+          "selected_training_steps": 2569,
+          "validation_summary": "dual-arm-mas\\runs\\rl-s1-402\\validation-2569-neural-frozen\\summary.json",
+          "validation_summary_sha256": "191a0344efcbce5b853feeee19c89557033b8eaaa5ab598bfcf4a39a1d552ca2"
+        },
+        "s2": {
+          "checkpoint": "dual-arm-mas\\runs\\rl-s2-402\\step-2573.pt",
+          "sha256": "c84291682bcbc815711bbb7e0bd959455f5f840e4f668ba9958bad1287327d7b",
+          "selected_training_steps": 2573,
+          "validation_summary": "dual-arm-mas\\runs\\rl-s2-402\\validation-2573-neural-frozen\\summary.json",
+          "validation_summary_sha256": "ae22eb4bebf2625988365ae7cbb50494c32097790528a0db3ff22aad23b36ee3"
+        },
+        "s3": {
+          "checkpoint": "dual-arm-mas\\runs\\rl-s3-402\\step-2750.pt",
+          "sha256": "3db5b197cb7981d1b4896a094ae117fdcf7bb9a4cac4d70e8040f7fc9a6141fe",
+          "selected_training_steps": 2750,
+          "validation_summary": "dual-arm-mas\\runs\\rl-s3-402\\validation-2750-neural-frozen\\summary.json",
+          "validation_summary_sha256": "a83a02c0f394ecfef335d95ec7cb2a44117df71484adeb4075ce249b08ecb909"
+        },
+        "s4": {
+          "checkpoint": "dual-arm-mas\\runs\\rl-s4-402\\step-2737.pt",
+          "sha256": "1fbfcc3a706e8f4372fc083761cfe5dbf7290ce4e708ae71c08a7f2f902d75ea",
+          "selected_training_steps": 2737,
+          "validation_summary": "dual-arm-mas\\runs\\rl-s4-402\\validation-2737-neural-frozen\\summary.json",
+          "validation_summary_sha256": "d685015c374b8b390c125cf66b91ef2ef5bfca51fa2ef64ceb6f77ef556e686f"
+        }
+      },
+      "candidate_validation": {
+        "s1": [
+          {
+            "checkpoint": "dual-arm-mas\\runs\\rl-s1-402\\step-2569.pt",
+            "sha256": "2cedd7ff879a68c486094dce460b10c26268002c8aa19319775db1f072e825d7",
+            "selected_training_steps": 2569,
+            "validation_summary": "dual-arm-mas\\runs\\rl-s1-402\\validation-2569-neural-frozen\\summary.json",
+            "validation_summary_sha256": "191a0344efcbce5b853feeee19c89557033b8eaaa5ab598bfcf4a39a1d552ca2",
+            "success_rate": 1.0,
+            "mean_cost_rad2": 0.008975589446398482,
+            "mean_steps": 3.6666666666666665
+          },
+          {
+            "checkpoint": "dual-arm-mas\\runs\\rl-s1-402\\step-10181.pt",
+            "sha256": "da1c6b9c37b25c93ed5dcadab82c1b700761d1969831e672829b636bc1c7e220",
+            "selected_training_steps": 10181,
+            "validation_summary": "dual-arm-mas\\runs\\rl-s1-402\\validation-10181-neural-frozen\\summary.json",
+            "validation_summary_sha256": "623f9af0725c7fec4e4a6036f8127c22290ce562ec7613ace64f40e66e76a5a7",
+            "success_rate": 0.9583333333333334,
+            "mean_cost_rad2": 0.02379566433156403,
+            "mean_steps": 6.875
+          }
+        ],
+        "s2": [
+          {
+            "checkpoint": "dual-arm-mas\\runs\\rl-s2-402\\step-2573.pt",
+            "sha256": "c84291682bcbc815711bbb7e0bd959455f5f840e4f668ba9958bad1287327d7b",
+            "selected_training_steps": 2573,
+            "validation_summary": "dual-arm-mas\\runs\\rl-s2-402\\validation-2573-neural-frozen\\summary.json",
+            "validation_summary_sha256": "ae22eb4bebf2625988365ae7cbb50494c32097790528a0db3ff22aad23b36ee3",
+            "success_rate": 1.0,
+            "mean_cost_rad2": 0.008069521547158155,
+            "mean_steps": 3.6666666666666665
+          },
+          {
+            "checkpoint": "dual-arm-mas\\runs\\rl-s2-402\\step-10013.pt",
+            "sha256": "78e52eacfd9c82eb5c12d81cbce668f5f496a59cf72c964cb06e9d900d33d8c6",
+            "selected_training_steps": 10013,
+            "validation_summary": "dual-arm-mas\\runs\\rl-s2-402\\validation-10013-neural-frozen\\summary.json",
+            "validation_summary_sha256": "8764bc4fd41b954bc6e4c56059a847adaff297fa5e64b49ddfb217ea618cb6d1",
+            "success_rate": 1.0,
+            "mean_cost_rad2": 0.02587796129154285,
+            "mean_steps": 6.5
+          }
+        ],
+        "s3": [
+          {
+            "checkpoint": "dual-arm-mas\\runs\\rl-s3-402\\step-2750.pt",
+            "sha256": "3db5b197cb7981d1b4896a094ae117fdcf7bb9a4cac4d70e8040f7fc9a6141fe",
+            "selected_training_steps": 2750,
+            "validation_summary": "dual-arm-mas\\runs\\rl-s3-402\\validation-2750-neural-frozen\\summary.json",
+            "validation_summary_sha256": "a83a02c0f394ecfef335d95ec7cb2a44117df71484adeb4075ce249b08ecb909",
+            "success_rate": 1.0,
+            "mean_cost_rad2": 0.009055999785806755,
+            "mean_steps": 3.2916666666666665
+          },
+          {
+            "checkpoint": "dual-arm-mas\\runs\\rl-s3-402\\step-10203.pt",
+            "sha256": "4a928ea282751d9b2ad24f0cea3230562cf8c27b683f091b524e1e5bdaff4f6c",
+            "selected_training_steps": 10203,
+            "validation_summary": "dual-arm-mas\\runs\\rl-s3-402\\validation-10203-neural-frozen\\summary.json",
+            "validation_summary_sha256": "5818c43af93366d9b1d42d12be19f862252d85521d0f4b239ca30c1322e54f48",
+            "success_rate": 0.9583333333333334,
+            "mean_cost_rad2": 0.02568792420259186,
+            "mean_steps": 7.375
+          }
+        ],
+        "s4": [
+          {
+            "checkpoint": "dual-arm-mas\\runs\\rl-s4-402\\step-2737.pt",
+            "sha256": "1fbfcc3a706e8f4372fc083761cfe5dbf7290ce4e708ae71c08a7f2f902d75ea",
+            "selected_training_steps": 2737,
+            "validation_summary": "dual-arm-mas\\runs\\rl-s4-402\\validation-2737-neural-frozen\\summary.json",
+            "validation_summary_sha256": "d685015c374b8b390c125cf66b91ef2ef5bfca51fa2ef64ceb6f77ef556e686f",
+            "success_rate": 1.0,
+            "mean_cost_rad2": 0.00836261045210526,
+            "mean_steps": 3.2916666666666665
+          },
+          {
+            "checkpoint": "dual-arm-mas\\runs\\rl-s4-402\\step-10192.pt",
+            "sha256": "660ceec309b85a2fd2cc0efd72c3eff2ec763d3340c14b4c9d34b1d46346cea8",
+            "selected_training_steps": 10192,
+            "validation_summary": "dual-arm-mas\\runs\\rl-s4-402\\validation-10192-neural-frozen\\summary.json",
+            "validation_summary_sha256": "0585360eee4382dd5a79c4275478ecd63320629692c6c71165a4f4a2779da0bd",
+            "success_rate": 0.9166666666666666,
+            "mean_cost_rad2": 0.028970742454046114,
+            "mean_steps": 8.041666666666666
+          }
+        ]
+      }
+    },
+    {
+      "fit": 2,
+      "seed": 403,
+      "training_manifest": "dual-arm-mas/runs/train-313/starts.json",
+      "public": "dual-arm-mas/runs/train-313/public.json",
+      "status": "selected_validation_only",
+      "policies": {
+        "s1": {
+          "checkpoint": "dual-arm-mas\\runs\\rl-s1-403\\step-2683.pt",
+          "sha256": "43d9fd34064df3725287a6d89d6bbc24f4697d32e945c26fef42af9bebdd7f38",
+          "selected_training_steps": 2683,
+          "validation_summary": "dual-arm-mas\\runs\\rl-s1-403\\validation-2683-neural-frozen\\summary.json",
+          "validation_summary_sha256": "9e79d2647bc7bc77b3840133ab30eb1b03a8224b0b28d8543c82e1ee6c7bcbb3"
+        },
+        "s2": {
+          "checkpoint": "dual-arm-mas\\runs\\rl-s2-403\\step-2568.pt",
+          "sha256": "9561cf505dea3f3228093ce85314e33043de70a0470ccb9f2cb930d55a069475",
+          "selected_training_steps": 2568,
+          "validation_summary": "dual-arm-mas\\runs\\rl-s2-403\\validation-2568-neural-frozen\\summary.json",
+          "validation_summary_sha256": "7efb01e224fa3085b46e5f12400d3a88ad64b1665a3dbcc661df17e02806dddb"
+        },
+        "s3": {
+          "checkpoint": "dual-arm-mas\\runs\\rl-s3-403\\step-2605.pt",
+          "sha256": "f19205430174c49076a112624db5e3adf8f5c73d58ef92c8e51ae99acbfc2580",
+          "selected_training_steps": 2605,
+          "validation_summary": "dual-arm-mas\\runs\\rl-s3-403\\validation-2605-neural-frozen\\summary.json",
+          "validation_summary_sha256": "84fc952a7dafaddaf9f0c958894f04ee2623532ce288ed32cdbead923509e464"
+        },
+        "s4": {
+          "checkpoint": "dual-arm-mas\\runs\\rl-s4-403\\step-2605.pt",
+          "sha256": "a8ec5e25c018c51ae90b63d610db0ff027ab8e9dd467f13125939a8cc4aad5fe",
+          "selected_training_steps": 2605,
+          "validation_summary": "dual-arm-mas\\runs\\rl-s4-403\\validation-2605-neural-frozen\\summary.json",
+          "validation_summary_sha256": "0cda859c8c5ad581a887118d4f5525c372357004a4102f16611669da4d380c13"
+        }
+      },
+      "candidate_validation": {
+        "s1": [
+          {
+            "checkpoint": "dual-arm-mas\\runs\\rl-s1-403\\step-2683.pt",
+            "sha256": "43d9fd34064df3725287a6d89d6bbc24f4697d32e945c26fef42af9bebdd7f38",
+            "selected_training_steps": 2683,
+            "validation_summary": "dual-arm-mas\\runs\\rl-s1-403\\validation-2683-neural-frozen\\summary.json",
+            "validation_summary_sha256": "9e79d2647bc7bc77b3840133ab30eb1b03a8224b0b28d8543c82e1ee6c7bcbb3",
+            "success_rate": 1.0,
+            "mean_cost_rad2": 0.007882812649936245,
+            "mean_steps": 2.9583333333333335
+          },
+          {
+            "checkpoint": "dual-arm-mas\\runs\\rl-s1-403\\step-10127.pt",
+            "sha256": "bd0ffdb84454b47bee3ab797628cc1b073d7231efa4c42cdec1e6b2b23db7c18",
+            "selected_training_steps": 10127,
+            "validation_summary": "dual-arm-mas\\runs\\rl-s1-403\\validation-10127-neural-frozen\\summary.json",
+            "validation_summary_sha256": "a2093ad2dbf4b295bbd145ee17e9ff42ee33942481f8ca96549f528427393a33",
+            "success_rate": 0.9583333333333334,
+            "mean_cost_rad2": 0.023539568997825878,
+            "mean_steps": 7.458333333333333
+          }
+        ],
+        "s2": [
+          {
+            "checkpoint": "dual-arm-mas\\runs\\rl-s2-403\\step-2568.pt",
+            "sha256": "9561cf505dea3f3228093ce85314e33043de70a0470ccb9f2cb930d55a069475",
+            "selected_training_steps": 2568,
+            "validation_summary": "dual-arm-mas\\runs\\rl-s2-403\\validation-2568-neural-frozen\\summary.json",
+            "validation_summary_sha256": "7efb01e224fa3085b46e5f12400d3a88ad64b1665a3dbcc661df17e02806dddb",
+            "success_rate": 1.0,
+            "mean_cost_rad2": 0.008613069324414838,
+            "mean_steps": 3.625
+          },
+          {
+            "checkpoint": "dual-arm-mas\\runs\\rl-s2-403\\step-10000.pt",
+            "sha256": "eba8c44c19d655e5048f798d1b19b33904dc251f551383890d709587a31c14c1",
+            "selected_training_steps": 10000,
+            "validation_summary": "dual-arm-mas\\runs\\rl-s2-403\\validation-10000-neural-frozen\\summary.json",
+            "validation_summary_sha256": "eaebcd5c51f35565c8def5e351f99778648b3c4369017c029b1b52959baac49f",
+            "success_rate": 0.9166666666666666,
+            "mean_cost_rad2": 0.018959857516786815,
+            "mean_steps": 6.208333333333333
+          }
+        ],
+        "s3": [
+          {
+            "checkpoint": "dual-arm-mas\\runs\\rl-s3-403\\step-2605.pt",
+            "sha256": "f19205430174c49076a112624db5e3adf8f5c73d58ef92c8e51ae99acbfc2580",
+            "selected_training_steps": 2605,
+            "validation_summary": "dual-arm-mas\\runs\\rl-s3-403\\validation-2605-neural-frozen\\summary.json",
+            "validation_summary_sha256": "84fc952a7dafaddaf9f0c958894f04ee2623532ce288ed32cdbead923509e464",
+            "success_rate": 1.0,
+            "mean_cost_rad2": 0.007011994901500378,
+            "mean_steps": 2.6666666666666665
+          },
+          {
+            "checkpoint": "dual-arm-mas\\runs\\rl-s3-403\\step-10057.pt",
+            "sha256": "0e216e156c3258fa21ce18c526359372ee755fc99892c4510b93de6dc7f04d4f",
+            "selected_training_steps": 10057,
+            "validation_summary": "dual-arm-mas\\runs\\rl-s3-403\\validation-10057-neural-frozen\\summary.json",
+            "validation_summary_sha256": "80ec89a206f82600297ae208ae873b4b80f2dfb3cb5f2548c32847dea78f4adf",
+            "success_rate": 0.9583333333333334,
+            "mean_cost_rad2": 0.022669097260773822,
+            "mean_steps": 6.875
+          }
+        ],
+        "s4": [
+          {
+            "checkpoint": "dual-arm-mas\\runs\\rl-s4-403\\step-2605.pt",
+            "sha256": "a8ec5e25c018c51ae90b63d610db0ff027ab8e9dd467f13125939a8cc4aad5fe",
+            "selected_training_steps": 2605,
+            "validation_summary": "dual-arm-mas\\runs\\rl-s4-403\\validation-2605-neural-frozen\\summary.json",
+            "validation_summary_sha256": "0cda859c8c5ad581a887118d4f5525c372357004a4102f16611669da4d380c13",
+            "success_rate": 1.0,
+            "mean_cost_rad2": 0.0067185363530542835,
+            "mean_steps": 2.7916666666666665
+          },
+          {
+            "checkpoint": "dual-arm-mas\\runs\\rl-s4-403\\step-10010.pt",
+            "sha256": "d8ff5bef945cba3cebc160abe741b42e74c4eec575333d241c277537466a09f2",
+            "selected_training_steps": 10010,
+            "validation_summary": "dual-arm-mas\\runs\\rl-s4-403\\validation-10010-neural-frozen\\summary.json",
+            "validation_summary_sha256": "8c52b12df39edcb0937b6151d28b77871a05539ce80dd89f01692db96cff0a9c",
+            "success_rate": 0.9583333333333334,
+            "mean_cost_rad2": 0.017430513657337752,
+            "mean_steps": 5.791666666666667
+          }
+        ]
+      }
+    }
+  ],
+  "robustness": [
+    {
+      "name": "drop25",
+      "regimes": [
+        "s2",
+        "s4"
+      ],
+      "sensing": "rgb",
+      "count": 128,
+      "drop": 0.25
+    },
+    {
+      "name": "delay1",
+      "regimes": [
+        "s2",
+        "s4"
+      ],
+      "sensing": "rgb",
+      "count": 128,
+      "delay": 1
+    },
+    {
+      "name": "unequal_limits",
+      "regimes": [
+        "s1",
+        "s2"
+      ],
+      "sensing": "rgb",
+      "count": 128,
+      "b_limit_factor": 0.5
+    },
+    {
+      "name": "rgb_occlusion",
+      "regimes": [
+        "s1",
+        "s2"
+      ],
+      "sensing": "rgb",
+      "count": 128,
+      "occlusion": 0.02
+    },
+    {
+      "name": "history0",
+      "regimes": [
+        "s3"
+      ],
+      "sensing": "rgb",
+      "count": 128,
+      "history_length": 0
+    },
+    {
+      "name": "history1",
+      "regimes": [
+        "s3"
+      ],
+      "sensing": "rgb",
+      "count": 128,
+      "history_length": 1
+    }
+  ],
+  "limitations": "Kinematic/noncontact colored primitive geometry; calibrated B-FK-mounted RGB inspection camera; shared sensing uncharged. Three actor training fits, ONE shared segmentation adaptation. Squared command cost is subdivision-dependent. Selected policies need not beat untrained/deterministic controls."
+}

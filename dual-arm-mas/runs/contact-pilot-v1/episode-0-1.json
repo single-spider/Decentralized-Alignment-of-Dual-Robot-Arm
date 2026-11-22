@@ -1,0 +1,80 @@
+{
+  "start_id": 0,
+  "blocked": true,
+  "alignment": {
+    "success": false,
+    "failure": "perception",
+    "trace": [],
+    "true_final_error_diagnostic": [
+      -0.001954837601321771,
+      -0.007644045669903961,
+      -0.09423316098536816
+    ],
+    "last_estimate": null
+  },
+  "settle": {
+    "state": {
+      "tip_in_fixture_m": [
+        -0.0019548460841178894,
+        -0.007644083350896835,
+        0.019985824823379517
+      ],
+      "depth_m": -0.012985824823379517,
+      "error_m_m_rad": [
+        -0.001954837601321771,
+        -0.007644045669903961,
+        -0.09423316098536816
+      ],
+      "grasp_drift": {
+        "A": {
+          "position_m": 8.819597039383491e-09,
+          "angle_rad": 0.0003271056885511974
+        },
+        "B": {
+          "position_m": 1.3577471712496459e-07,
+          "angle_rad": 0.0
+        }
+      },
+      "normal_force_n": 0.0,
+      "axial_normal_force_n": 0.0,
+      "penetration_m": 0.0,
+      "contacts": []
+    },
+    "peak_normal_force_n": 0.0,
+    "peak_penetration_m": 0.0,
+    "stop_reason": null,
+    "tick": 240
+  },
+  "insertion": {
+    "success": false,
+    "reason": "alignment_failed",
+    "trace": [],
+    "final": {
+      "tip_in_fixture_m": [
+        -0.0019548460841178894,
+        -0.007644083350896835,
+        0.019985824823379517
+      ],
+      "depth_m": -0.012985824823379517,
+      "error_m_m_rad": [
+        -0.001954837601321771,
+        -0.007644045669903961,
+        -0.09423316098536816
+      ],
+      "grasp_drift": {
+        "A": {
+          "position_m": 8.819597039383491e-09,
+          "angle_rad": 0.0003271056885511974
+        },
+        "B": {
+          "position_m": 1.3577471712496459e-07,
+          "angle_rad": 0.0
+        }
+      },
+      "normal_force_n": 0.0,
+      "axial_normal_force_n": 0.0,
+      "penetration_m": 0.0,
+      "contacts": []
+    }
+  }
+}

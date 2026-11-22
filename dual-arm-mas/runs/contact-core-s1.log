@@ -1,0 +1,9 @@
+pybullet build time: Jun 10 2026 13:09:01
+Traceback (most recent call last):
+  File "C:\Users\admis\OneDrive\Documents\GitHub\SFN\dual-arm-mas\scripts\evaluate_assembly.py", line 158, in <module>
+    p.add_argument('--group',required=True);p.add_argument('--seconds',type=float,default=240);p.add_argument('--window-end',required=True);run(p.parse_args())
+                                                                                                                                            ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admis\OneDrive\Documents\GitHub\SFN\dual-arm-mas\scripts\evaluate_assembly.py", line 107, in run
+    if digest(path)!=sha:raise ValueError('Contact runtime source changed: '+path)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Contact runtime source changed: dual-arm-mas\scripts\evaluate_assembly.py

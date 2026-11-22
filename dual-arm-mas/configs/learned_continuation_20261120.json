@@ -1,0 +1,182 @@
+{
+  "authorization": "User explicitly reactivated previously blocked goal on20November2026 and requested continuation. Expired November7 work window is historical, not extended retroactively.",
+  "created_utc": "2026-11-19T19:53:04.888827+00:00",
+  "window_end_ist": "2026-11-20T05:30:00+05:30",
+  "scope": "Scheduling-only adapter replaces evaluate_learned.allowed_time between episodes. Original evaluator/train/world/actors/sensing/assets/selection/seeds/counts unchanged. Frozen verifier still executes; original JSONL prefixes remain byte-identical.",
+  "study_config": "dual-arm-mas\\configs\\learned_study.json",
+  "study_config_sha256": "8bbb55c26dfbebf8f6505e47ad7b2539c297dba2dbfd86c3d34e97f9715b7bba",
+  "adapter": "dual-arm-mas\\scripts\\continue_learned.py",
+  "adapter_sha256": "1438c76bc7d2a1f812224a23b2698c38e21c0f2c6dd93cec81cd559990d54f2e",
+  "original_prefixes": {
+    "dual-arm-mas/runs/learned-study/core/fit-0/s1/gt": {
+      "bytes": 6239729,
+      "sha256": "5d27ce2203e8802fce6fc991818402b07871f5cd8a5c57db747379ed29dc066c",
+      "episodes": 1000
+    },
+    "dual-arm-mas/runs/learned-study/core/fit-0/s1/rgb": {
+      "bytes": 11454555,
+      "sha256": "ba6f8a6fc227b4cb0e27c4d0008280996374ee0c28a913df1b25fe25d94fb76b",
+      "episodes": 1000
+    },
+    "dual-arm-mas/runs/learned-study/core/fit-0/s2/gt": {
+      "bytes": 6921086,
+      "sha256": "52ef934312c73de2f028cbc4f50d6f45b2d431401816596b5f9159ed0dc22d37",
+      "episodes": 1000
+    },
+    "dual-arm-mas/runs/learned-study/core/fit-0/s2/rgb": {
+      "bytes": 10915401,
+      "sha256": "eb7928aca3a3aab15e354595f4c3297487b3c3dc132ed754bee57abc4de215a1",
+      "episodes": 1000
+    },
+    "dual-arm-mas/runs/learned-study/core/fit-0/s3/gt": {
+      "bytes": 7334002,
+      "sha256": "074d784660e2d3127dca7435dad924e0269dfd659d29ee97c0ef84b06d4ef7a4",
+      "episodes": 1000
+    },
+    "dual-arm-mas/runs/learned-study/core/fit-0/s3/rgb": {
+      "bytes": 12444946,
+      "sha256": "f216e99d738e69fbdb6590f03f57bc158d48cfb71d3c02f67d788d4b1e0191fb",
+      "episodes": 1000
+    },
+    "dual-arm-mas/runs/learned-study/core/fit-0/s4/gt": {
+      "bytes": 6578335,
+      "sha256": "301406176350cc1c61a50bcb70f2c4b185372ba5dee6b23494fa1916181d7d3d",
+      "episodes": 1000
+    },
+    "dual-arm-mas/runs/learned-study/core/fit-0/s4/rgb": {
+      "bytes": 11028924,
+      "sha256": "b07d45e122742a82e68367a4550ccbfb4efc281847bf63ece508240107f7d270",
+      "episodes": 1000
+    },
+    "dual-arm-mas/runs/learned-study/core/fit-1/s1/gt": {
+      "bytes": 6454383,
+      "sha256": "dbad721af3a9ab905972d558807c51566a3bfc6760f0c3cc1c8b885c8add0d0e",
+      "episodes": 1000
+    },
+    "dual-arm-mas/runs/learned-study/core/fit-1/s1/rgb": {
+      "bytes": 11467642,
+      "sha256": "8f4c49127bd39e86c47f5fd1686955a28e751e0937355fe31f88cc357fb372d4",
+      "episodes": 1000
+    },
+    "dual-arm-mas/runs/learned-study/core/fit-1/s2/gt": {
+      "bytes": 6798646,
+      "sha256": "1bbdd3298a7f534af3be819ea16a9beb555caa5c25d4c20ac7d54c3d1dcf2714",
+      "episodes": 1000
+    },
+    "dual-arm-mas/runs/learned-study/core/fit-1/s2/rgb": {
+      "bytes": 12248130,
+      "sha256": "43c473cec6b8f93cb492d5c6ffd2314de81981730b25cb0cfe80a81a0f2860c9",
+      "episodes": 1000
+    },
+    "dual-arm-mas/runs/learned-study/core/fit-1/s3/gt": {
+      "bytes": 7332499,
+      "sha256": "9bd098eaacb461bdb568d3cec730159860c8d50b0eba4717642ab470f4dbd7a1",
+      "episodes": 1000
+    },
+    "dual-arm-mas/runs/learned-study/core/fit-1/s3/rgb": {
+      "bytes": 9031768,
+      "sha256": "99470bd5d9bb8bd447493de1ff0c046639fcb2845afef67ce705b6a195b13d25",
+      "episodes": 654
+    },
+    "dual-arm-mas/runs/learned-study/core/fit-1/s4/gt": {
+      "bytes": 6731254,
+      "sha256": "32a2d956311bd65e33b78150c486b2070e4cafce98f3eca86bc0255de29b8d12",
+      "episodes": 1000
+    },
+    "dual-arm-mas/runs/learned-study/core/fit-1/s4/rgb": {
+      "bytes": 10328002,
+      "sha256": "d8bb3f404840e33b0c44364082d8c2cdedbcd2de0376e0cbf8aa6d760084aa85",
+      "episodes": 889
+    },
+    "dual-arm-mas/runs/learned-study/core/fit-2/s1/gt": {
+      "bytes": 6430446,
+      "sha256": "da4992838ba1dabb296ebd8689c267467eb9712018e5ee9a7a6c62083578f84d",
+      "episodes": 1000
+    },
+    "dual-arm-mas/runs/learned-study/core/fit-2/s1/rgb": {
+      "bytes": 1712377,
+      "sha256": "fbc3eda4e35705ae18c5cbbd3aea940f0123d3a6d6daec184172924b21910a52",
+      "episodes": 159
+    },
+    "dual-arm-mas/runs/learned-study/core/fit-2/s2/gt": {
+      "bytes": 5686288,
+      "sha256": "4b4160593c4430da2356cd7820e194919fb0e2136d91cbd24db7250d6631e564",
+      "episodes": 819
+    },
+    "dual-arm-mas/runs/learned-study/core/fit-2/s2/rgb": {
+      "bytes": 1807743,
+      "sha256": "a103248e4cd22047450d7089b5f5f676df9f616eaf3c3f978f6a8824da08220f",
+      "episodes": 156
+    },
+    "dual-arm-mas/runs/learned-study/core/fit-2/s3/gt": {
+      "bytes": 3023860,
+      "sha256": "4a00547a659621ce41daffd9dc239dc14a7ed59d0f9a4329e9d002424d48b02a",
+      "episodes": 412
+    },
+    "dual-arm-mas/runs/learned-study/core/fit-2/s3/rgb": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "episodes": 0
+    },
+    "dual-arm-mas/runs/learned-study/core/fit-2/s4/gt": {
+      "bytes": 6777410,
+      "sha256": "67e08db298c7c8bf6384381b53e4595f1033bef8c3c99c628994fc92e6ddc65a",
+      "episodes": 1000
+    },
+    "dual-arm-mas/runs/learned-study/core/fit-2/s4/rgb": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "episodes": 0
+    },
+    "dual-arm-mas/runs/learned-study/drop25/fit-0/s2/rgb": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "episodes": 0
+    },
+    "dual-arm-mas/runs/learned-study/drop25/fit-0/s4/rgb": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "episodes": 0
+    },
+    "dual-arm-mas/runs/learned-study/delay1/fit-0/s2/rgb": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "episodes": 0
+    },
+    "dual-arm-mas/runs/learned-study/delay1/fit-0/s4/rgb": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "episodes": 0
+    },
+    "dual-arm-mas/runs/learned-study/unequal_limits/fit-0/s1/rgb": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "episodes": 0
+    },
+    "dual-arm-mas/runs/learned-study/unequal_limits/fit-0/s2/rgb": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "episodes": 0
+    },
+    "dual-arm-mas/runs/learned-study/rgb_occlusion/fit-0/s1/rgb": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "episodes": 0
+    },
+    "dual-arm-mas/runs/learned-study/rgb_occlusion/fit-0/s2/rgb": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "episodes": 0
+    },
+    "dual-arm-mas/runs/learned-study/history0/fit-0/s3/rgb": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "episodes": 0
+    },
+    "dual-arm-mas/runs/learned-study/history1/fit-0/s3/rgb": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "episodes": 0
+    }
+  }
+}

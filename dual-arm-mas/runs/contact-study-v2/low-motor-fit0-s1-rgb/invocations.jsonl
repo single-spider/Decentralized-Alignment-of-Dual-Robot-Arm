@@ -1,0 +1,3 @@
+{"group": "low-motor-fit0-s1-rgb", "n": 1, "target": 32, "added_ids": [128], "aborted_budget_start_id": 129, "window_end": "2026-11-20T08:30:00+05:30", "seconds": 6.0}
+{"group": "low-motor-fit0-s1-rgb", "n": 31, "target": 32, "added_ids": [129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158], "aborted_budget_start_id": 159, "window_end": "2026-11-20T08:30:00+05:30", "seconds": 240.01599999999962}
+{"group": "low-motor-fit0-s1-rgb", "n": 32, "target": 32, "added_ids": [159], "aborted_budget_start_id": null, "window_end": "2026-11-20T08:30:00+05:30", "seconds": 8.65599999999904}

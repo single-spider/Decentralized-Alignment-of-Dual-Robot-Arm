@@ -1,0 +1,2 @@
+pybullet build time: Jun 10 2026 13:09:01
+{"frames": 167, "episodes": [{"case": 0, "method": "half", "status": "SUCCESS: measured tolerance reached"}, {"case": 0, "method": "learned", "status": "SUCCESS: measured tolerance reached"}, {"case": 0, "method": "learned-mode", "status": "FAILURE: timeout"}, {"case": 4, "method": "half", "status": "SUCCESS: measured tolerance reached"}, {"case": 4, "method": "learned", "status": "SUCCESS: measured tolerance reached"}]}

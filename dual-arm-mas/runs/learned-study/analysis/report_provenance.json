@@ -1,0 +1,39 @@
+{
+  "created_utc": "2026-11-19T22:04:30.440222+00:00",
+  "pdf_sha256": "185309245905b8b25ed03a5847a01736f979ad682c7618f53ca0de6326471ab2",
+  "pages": 15,
+  "visual_QA": "All 15 latest rendered pages inspected directly by primary agent; readable figures/tables/references, no clipping/overlap/missing glyphs.",
+  "render_sha256": {
+    "dual-arm-mas\\tmp\\pdfs\\rl-vision-final-01.png": "451a3239ad7528e6c1e0381504227dcc3cb51a6b530b66fd1dca2d2d93468b8f",
+    "dual-arm-mas\\tmp\\pdfs\\rl-vision-final-02.png": "1c9cd71708e29b855d1ca133096b5ffef70e8bd8d70e5e8f1bc7c2c79f5d4235",
+    "dual-arm-mas\\tmp\\pdfs\\rl-vision-final-03.png": "64c7bc7548b9ec5571bd90a05997be8a8506ec4dc9099e33fc49ecbdc1e607b4",
+    "dual-arm-mas\\tmp\\pdfs\\rl-vision-final-04.png": "a039a9a78cd2502c3b508d34f32e2bfbf77fd2ac24501c79d9b2d65d253ebf0c",
+    "dual-arm-mas\\tmp\\pdfs\\rl-vision-final-05.png": "8ad0a8bc28e661c72cb550d0e4559afa153e3332f99c0f65f98678c14a5f908e",
+    "dual-arm-mas\\tmp\\pdfs\\rl-vision-final-06.png": "494784535c750aff1ade28404fbc284f36e4c23fd2dda9faf5558b55dab72216",
+    "dual-arm-mas\\tmp\\pdfs\\rl-vision-final-07.png": "3bff1e7433feaae2f93f3ae2429eb3521174a76824e010496a5c34bbb9c9f9e9",
+    "dual-arm-mas\\tmp\\pdfs\\rl-vision-final-08.png": "7263417fdc8bed4fb50eefef08fa536366d378f0aa7a678830b3a58d4558b89a",
+    "dual-arm-mas\\tmp\\pdfs\\rl-vision-final-09.png": "172c5037b261c1befd0149271bac9e6584e84d908ecdd27f34fdcd48c32e8af9",
+    "dual-arm-mas\\tmp\\pdfs\\rl-vision-final-10.png": "2410477fc9839597eb957e38fe44dec3e661528bd97078ac84b5200315d9736e",
+    "dual-arm-mas\\tmp\\pdfs\\rl-vision-final-11.png": "49624f083b5b70195615999c1cb540f89d3e3409a3f9e4bb68b2ff055d2b2dfd",
+    "dual-arm-mas\\tmp\\pdfs\\rl-vision-final-12.png": "bf5fcb30cee90b6f84b2f0f6ace15eb70ff7c67200dbe8522f8ef7c479d6cdf4",
+    "dual-arm-mas\\tmp\\pdfs\\rl-vision-final-13.png": "dde64b9b0cb45b53789b8421b2e255dad47f5965c815219c0e5b94671592f313",
+    "dual-arm-mas\\tmp\\pdfs\\rl-vision-final-14.png": "d004805a16a9f8c6d996d33becfd114b9e83e303f24700ebe8d8f75fc89ec98b",
+    "dual-arm-mas\\tmp\\pdfs\\rl-vision-final-15.png": "2ed5089c4b59b8edb8b6c09bf0052fe4910f1b316ae6013a20d7a80c197a9874"
+  },
+  "files_sha256": {
+    "dual-arm-mas\\docs\\report-rl-vision\\findings.tex": "023c155220d60688ad706cafd48dcdca6e11ee44fb3b32903b32cb53c22c347e",
+    "dual-arm-mas\\docs\\report-rl-vision\\main.tex": "223c139d0dd2b7316870aa2a90bced5e0e141a1165aa29160023414dbaadd20c",
+    "dual-arm-mas\\docs\\report-rl-vision\\reproduction.tex": "90c90582c3416d3e68dd0a1343386956329c784d3fba522c1e61af4899f3db0b",
+    "dual-arm-mas\\docs\\report-rl-vision\\results.tex": "c0e863d98e9c446c79f9ee679c4025da1510e7a6542951e54a28b9a5e065e51b",
+    "dual-arm-mas\\docs\\report-rl-vision\\status.tex": "34886333a8884b7115405fa4b8da05647222729d2c2ca3a3e938fb74343018c7",
+    "dual-arm-mas\\scripts\\report_rl_data.py": "5515623fb02df582c7a8ba55f68c293bd434fbb5dfc112323457b9de7d74a374",
+    "dual-arm-mas\\runs\\learned-study\\analysis\\statistics.json": "33c5c77a00d712d68e22d8b53f92a83bb9d54abf3f612b6aa2e673b888cc4990",
+    "dual-arm-mas\\configs\\learned_study.json": "8bbb55c26dfbebf8f6505e47ad7b2539c297dba2dbfd86c3d34e97f9715b7bba",
+    "dual-arm-mas\\scripts\\replay_learned_window.py": "5738b22c24aa02689d161bd9691622581d14ff13e5033fb25d42d824fc309f7b",
+    "dual-arm-mas\\runs\\integrated-demo-neural-crop-v6-20261120\\replay.json": "286e5dec4882ae9d6e094dc5775442a50ae0c329189b2304b674dae1ab779e87",
+    "dual-arm-mas\\runs\\integrated-demo-neural-crop-v6-20261120\\learned-vision.gif": "dc054e83bdc241f2ca248a4eddd5a06a5d2ab90e3ffdabf8a9e768c0aea2eb65",
+    "dual-arm-mas\\runs\\vision-adaptation\\segmentation-v1.pt": "b1edf772e3d1c0331d639f3a7d301995edf5a02c024efa74baac76d2ac9064c1",
+    "dual-arm-mas\\runs\\learned-study\\analysis\\figures\\core_costs.png": "5e06152b87a6071da3598011b023b605206948b33d8d41b94e9a9db421d9d626",
+    "dual-arm-mas\\runs\\learned-study\\analysis\\figures\\training.png": "2c7d0cb30414cba5ec9d9e3580dd297c5c0f132d4df485dea2e9b275ea86f8e8"
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "verified_at": "2026-11-22T19:16:57.927875+05:30",
+  "standalone": true,
+  "mode": "Entry points executed from a detached copy outside the original repository, with CUDA disabled; existing interpreter and third-party dependencies reused.",
+  "original_materials_unchanged": {
+    "idea_source_sha256": "d5ecfe81cf9d974ea7ebc6a8f39b6f935303c9f437cfc90a23b0e707ae6ff751",
+    "technical_pdf_sha256": "5fd6170af4abaf2136d1e352e21183bfe360307b5cb691030e8f66c39da8b2be"
+  },
+  "verified_study": {
+    "deterministic": 23456,
+    "learned_alignment": 25280,
+    "corrected_contact": 1216,
+    "contact_groups": 14,
+    "ppo_fits": 12,
+    "statistics_match": true,
+    "scope": "Recomputed from saved episode records; not a rerun of all simulations."
+  },
+  "separate_stopped_diagnostics": 553,
+  "fresh_runs": {
+    "demo_episodes": 4,
+    "demo_frames": 164,
+    "ppo_steps": 68,
+    "ppo_actor_delta_l2": 0.016815576697806908,
+    "vision_updates": 48,
+    "vision_device": "cpu",
+    "learned_alignment_episodes": 2,
+    "contact_results": [
+      {
+        "start_id": 128,
+        "reason": "alignment_gate"
+      },
+      {
+        "start_id": 129,
+        "reason": "inserted"
+      }
+    ],
+    "deterministic_episodes": 40
+  },
+  "pdf": {
+    "pages": 8,
+    "sha256": "e2723a10be1aa0da088ca5a48fc57ea94ed77304e5b8f4e59fb68b8b3e40e613",
+    "overleaf_zip_sha256": "67c9f66dc41f75bbd29b5fd8b5118f80930a6b949c6b3909f315fca47fe9a12a",
+    "standalone_zip_build": "Passed two pdfLaTeX passes, exactly eight pages, no layout/reference warnings.",
+    "visual_review": "Primary agent inspected all eight final rendered pages at 1450px, including workflow, tables and references.",
+    "render_sha256": {
+      "page-1.png": "89a0feee0f8795f213ad668d8c77aceb8422e6db65dd925d900328e08d48bd39",
+      "page-2.png": "3c0858ce0062b337f065445723a3cc8e476ae429cf90b867d23ae7cc30824f5a",
+      "page-3.png": "642d0d8c2d971250af5b3d4c4b820befba1236ca80135fc85ef2f03ad81dcabd",
+      "page-4.png": "c291b6e4a92c7ae4dcf8181032ac55228042697ceb811d660e66e9c8730a612d",
+      "page-5.png": "48064b7189370fe179f4772c64158117660b50f60168604467263e60d0e7aed5",
+      "page-6.png": "e7f8c84a1f88c92870b280e03a8cb64b4d270f835d14fc1b49e2ef6b372ccc6a",
+      "page-7.png": "40e848330e0ad59dd922d226757d71d327bbf39d169f8a102804bfc1424b8219",
+      "page-8.png": "f4dc6d155f576d303250821ed1c7240f8893b4a419c7c55441b30fc1814900ba"
+    }
+  },
+  "unresolved_human_inputs": [
+    "Verify each member’s assigned task fulfillment.",
+    "Publish course bundle with approved access and set the actual repository URL."
+  ],
+  "verification_seconds": 209.859,
+  "runs": [
+    {
+      "command": "python tools/reproduce.py verify --out derive",
+      "seconds": 62.75
+    },
+    {
+      "command": "python tools/reproduce.py demo --out demo --seconds 240",
+      "seconds": 88.422
+    },
+    {
+      "command": "python tools/reproduce.py train --out ppo --steps 64 --batch-steps 64 --epochs 1 --seconds 90",
+      "seconds": 9.14
+    },
+    {
+      "command": "python tools/reproduce.py vision-train --out vision --epochs 1 --seconds 180",
+      "seconds": 21.594
+    },
+    {
+      "command": "python tools/reproduce.py alignment-eval --out alignment --count 2 --seconds 90",
+      "seconds": 4.781
+    },
+    {
+      "command": "python tools/reproduce.py contact-eval --out contact --count 2 --seconds 90",
+      "seconds": 9.875
+    },
+    {
+      "command": "python tools/reproduce.py baseline-eval --out baseline --count 2 --seconds 90",
+      "seconds": 6.469
+    }
+  ],
+  "additional_smoke_at_final_wrapper": {
+    "condition": "drop25",
+    "fit": 0,
+    "regime": "s2",
+    "episodes": 2,
+    "drop_probability": 0.25,
+    "command": "python tools/reproduce.py alignment-eval --condition drop25 --regime s2 --fit 0 --sensing rgb --count 2 --out qc-dropout --seconds 90",
+    "wrapper_sha256": "0fceb68dd74a4c605b9647be5d30c88bf5fb7059a26593ecc977a2625c48dd2b"
+  },
+  "prior_pdf_before_editorial_revision": {
+    "pages": 8,
+    "sha256": "e6d0b4bc6084483874e62285b3583d2c43d2ce3d77935e02fa8e305823519a81",
+    "overleaf_zip_sha256": "3e749ee61fbc2169b903d68dd3e218fa91093f2650f8d54ce4cd3b03eb2f6e69",
+    "standalone_zip_build": "Passed two pdfLaTeX passes in an independent extracted directory.",
+    "visual_review": "All eight final pages reviewed; pages 2–4 re-reviewed after editing, and final pixel hashes of the unchanged five matched the previously reviewed renders.",
+    "render_sha256": {
+      "page-1.png": "01e756a083dee75691f43673211bc604d5304619552ca6832220db9a52fc07db",
+      "page-2.png": "08ded4f4456990f01902ba2a3ced7de82cc43a3fce2da754db375193637ea96e",
+      "page-3.png": "50ce01657cfa0b36ae06974ac59aef42d8018ce6b827a9e9a67ebd2f2ae7fbd7",
+      "page-4.png": "d9a35df0348c4014a4f49c4c462d57f639b1e9860b6cff72823e0f3f64bc91b7",
+      "page-5.png": "863231af9804e997c5f99ac7daf06a495fe8538e247d46ff2e2f949ae47ef36d",
+      "page-6.png": "ea6b9311fac483d6c8aa204c3425cdf414bd90d01ab8fb6fef0564bd723cd13f",
+      "page-7.png": "0a538bb8ee53bfdab814bcbe7afb638a37d9b607b3ae401a0c8cceed857c063d",
+      "page-8.png": "41b9849ef50285629f7f3cebea31be7f44083a52f20b394f88d1f426d28b44fe"
+    }
+  },
+  "report_updated_at": "2026-11-22T19:35:38.103295+05:30",
+  "editorial_receipt_sha256": "9f1dc58e68c2c3783f239c7a288b26938a4d2afaf8c4a3bf148557a1c8fa3c4e"
+}

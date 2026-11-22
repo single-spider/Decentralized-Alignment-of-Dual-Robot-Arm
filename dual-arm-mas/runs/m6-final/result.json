@@ -1,0 +1,1429 @@
+{
+  "milestone": "M6",
+  "passed": true,
+  "seed": 17,
+  "contract": {
+    "action_scale_m_rad": [
+      0.002,
+      0.002,
+      0.04
+    ],
+    "success_tolerance_m_rad": [
+      0.001,
+      0.001,
+      0.017453292519943295
+    ],
+    "config": {
+      "horizon": 1,
+      "motion_weight": 1000.0,
+      "byte_weight": 0.0001,
+      "step_cost": 0.01,
+      "success_bonus": 10.0,
+      "tolerance": [
+        0.001,
+        0.001,
+        0.017453292519943295
+      ],
+      "observation_noise": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "a_limit_factor": 1.0,
+      "b_limit_factor": 1.0
+    },
+    "mode": "kinematic",
+    "gravity": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "cost": "sum_i ||q_after-q_before||^2 rad^2; joint travel is not energy",
+    "constraint_limits": "joint limits, full-pose IK, sampled inter-arm/self/floor collisions; adjacent URDF overlap excluded; visual part collision/contact excluded"
+  },
+  "checks": {
+    "clipping": true,
+    "reset_isolation": true,
+    "invalid_atomic": true,
+    "timeout": true,
+    "success_terminal": true,
+    "cost_prediction": true,
+    "changing_x_preference": [
+      "A",
+      "B"
+    ]
+  },
+  "cost_ratio_range": [
+    0.759886062256955,
+    1.0081049392183237
+  ],
+  "probes": [
+    {
+      "start_id": 0,
+      "direction": [
+        0.002,
+        0,
+        0
+      ],
+      "costs": {
+        "A": {
+          "predicted_rad2": 0.00017205618061344908,
+          "measured_rad2": 0.00017328701228100534,
+          "joint_travel_rad": 0.027903213074030375
+        },
+        "B": {
+          "predicted_rad2": 0.00012845171561815845,
+          "measured_rad2": 0.0001276274793688889,
+          "joint_travel_rad": 0.019695439961823876
+        }
+      },
+      "cheaper": "B"
+    },
+    {
+      "start_id": 0,
+      "direction": [
+        0,
+        0.002,
+        0
+      ],
+      "costs": {
+        "A": {
+          "predicted_rad2": 5.647343817645465e-05,
+          "measured_rad2": 5.697117628318954e-05,
+          "joint_travel_rad": 0.01726637166950827
+        },
+        "B": {
+          "predicted_rad2": 1.8569500248151054e-05,
+          "measured_rad2": 1.853578235317293e-05,
+          "joint_travel_rad": 0.008167484231692584
+        }
+      },
+      "cheaper": "B"
+    },
+    {
+      "start_id": 0,
+      "direction": [
+        0,
+        0,
+        0.04
+      ],
+      "costs": {
+        "A": {
+          "predicted_rad2": 0.0015824243020479667,
+          "measured_rad2": 0.001582540583577905,
+          "joint_travel_rad": 0.04609143293987701
+        },
+        "B": {
+          "predicted_rad2": 0.0053966646244935825,
+          "measured_rad2": 0.005536523750476917,
+          "joint_travel_rad": 0.14805114533994196
+        }
+      },
+      "cheaper": "A"
+    },
+    {
+      "start_id": 1,
+      "direction": [
+        0.002,
+        0,
+        0
+      ],
+      "costs": {
+        "A": {
+          "predicted_rad2": 0.0002199070963622946,
+          "measured_rad2": 0.00022254501583243396,
+          "joint_travel_rad": 0.028492609921849037
+        },
+        "B": {
+          "predicted_rad2": 0.00011662020609084107,
+          "measured_rad2": 0.00011604758846759934,
+          "joint_travel_rad": 0.023659220020796234
+        }
+      },
+      "cheaper": "B"
+    },
+    {
+      "start_id": 1,
+      "direction": [
+        0,
+        0.002,
+        0
+      ],
+      "costs": {
+        "A": {
+          "predicted_rad2": 2.472256654498141e-05,
+          "measured_rad2": 2.486966451438578e-05,
+          "joint_travel_rad": 0.011282698369379042
+        },
+        "B": {
+          "predicted_rad2": 1.96034812937257e-05,
+          "measured_rad2": 1.9582489358992974e-05,
+          "joint_travel_rad": 0.010350254591577901
+        }
+      },
+      "cheaper": "B"
+    },
+    {
+      "start_id": 1,
+      "direction": [
+        0,
+        0,
+        0.04
+      ],
+      "costs": {
+        "A": {
+          "predicted_rad2": 0.0015773064291895432,
+          "measured_rad2": 0.0015773292293766422,
+          "joint_travel_rad": 0.04714243641461221
+        },
+        "B": {
+          "predicted_rad2": 0.006827859803638039,
+          "measured_rad2": 0.0069677362985476245,
+          "joint_travel_rad": 0.17986229716151633
+        }
+      },
+      "cheaper": "A"
+    },
+    {
+      "start_id": 2,
+      "direction": [
+        0.002,
+        0,
+        0
+      ],
+      "costs": {
+        "A": {
+          "predicted_rad2": 0.0003592166503613535,
+          "measured_rad2": 0.0004727243572469745,
+          "joint_travel_rad": 0.04017727057531981
+        },
+        "B": {
+          "predicted_rad2": 7.358319129057663e-05,
+          "measured_rad2": 7.344934012560428e-05,
+          "joint_travel_rad": 0.013547377133722987
+        }
+      },
+      "cheaper": "B"
+    },
+    {
+      "start_id": 2,
+      "direction": [
+        0,
+        0.002,
+        0
+      ],
+      "costs": {
+        "A": {
+          "predicted_rad2": 6.121092719979481e-05,
+          "measured_rad2": 6.167396948293484e-05,
+          "joint_travel_rad": 0.016937406789443166
+        },
+        "B": {
+          "predicted_rad2": 2.2251336501739668e-05,
+          "measured_rad2": 2.225663767182615e-05,
+          "joint_travel_rad": 0.00893568078215298
+        }
+      },
+      "cheaper": "B"
+    },
+    {
+      "start_id": 2,
+      "direction": [
+        0,
+        0,
+        0.04
+      ],
+      "costs": {
+        "A": {
+          "predicted_rad2": 0.0015608542066482753,
+          "measured_rad2": 0.001560876709703014,
+          "joint_travel_rad": 0.049551923016076554
+        },
+        "B": {
+          "predicted_rad2": 0.003634559531523836,
+          "measured_rad2": 0.0036316183954467392,
+          "joint_travel_rad": 0.11439090002390162
+        }
+      },
+      "cheaper": "A"
+    },
+    {
+      "start_id": 3,
+      "direction": [
+        0.002,
+        0,
+        0
+      ],
+      "costs": {
+        "A": {
+          "predicted_rad2": 0.00017317163403306483,
+          "measured_rad2": 0.0001749698655655573,
+          "joint_travel_rad": 0.026252543249254662
+        },
+        "B": {
+          "predicted_rad2": 8.722488660316604e-05,
+          "measured_rad2": 8.694928871246711e-05,
+          "joint_travel_rad": 0.016257831501303888
+        }
+      },
+      "cheaper": "B"
+    },
+    {
+      "start_id": 3,
+      "direction": [
+        0,
+        0.002,
+        0
+      ],
+      "costs": {
+        "A": {
+          "predicted_rad2": 3.613166998980005e-05,
+          "measured_rad2": 3.638662338736472e-05,
+          "joint_travel_rad": 0.01370939067623303
+        },
+        "B": {
+          "predicted_rad2": 2.0210112796281722e-05,
+          "measured_rad2": 2.0196296136579988e-05,
+          "joint_travel_rad": 0.007724046198881267
+        }
+      },
+      "cheaper": "B"
+    },
+    {
+      "start_id": 3,
+      "direction": [
+        0,
+        0,
+        0.04
+      ],
+      "costs": {
+        "A": {
+          "predicted_rad2": 0.0015841233340403214,
+          "measured_rad2": 0.0015841393176990117,
+          "joint_travel_rad": 0.04589819782474383
+        },
+        "B": {
+          "predicted_rad2": 0.0038629236798047167,
+          "measured_rad2": 0.0038876200295595497,
+          "joint_travel_rad": 0.12121710134874876
+        }
+      },
+      "cheaper": "A"
+    },
+    {
+      "start_id": 4,
+      "direction": [
+        0.002,
+        0,
+        0
+      ],
+      "costs": {
+        "A": {
+          "predicted_rad2": 7.648805395072766e-05,
+          "measured_rad2": 7.677941454873288e-05,
+          "joint_travel_rad": 0.015680004839991962
+        },
+        "B": {
+          "predicted_rad2": 0.00022968350906397392,
+          "measured_rad2": 0.0002281732731183022,
+          "joint_travel_rad": 0.03327769116380075
+        }
+      },
+      "cheaper": "A"
+    },
+    {
+      "start_id": 4,
+      "direction": [
+        0,
+        0.002,
+        0
+      ],
+      "costs": {
+        "A": {
+          "predicted_rad2": 3.521703428100329e-05,
+          "measured_rad2": 3.537451813844769e-05,
+          "joint_travel_rad": 0.012674906966978004
+        },
+        "B": {
+          "predicted_rad2": 1.6073265228652212e-05,
+          "measured_rad2": 1.6086138132049325e-05,
+          "joint_travel_rad": 0.007547017635586045
+        }
+      },
+      "cheaper": "B"
+    },
+    {
+      "start_id": 4,
+      "direction": [
+        0,
+        0,
+        0.04
+      ],
+      "costs": {
+        "A": {
+          "predicted_rad2": 0.0015672704057225018,
+          "measured_rad2": 0.0015673645035742187,
+          "joint_travel_rad": 0.0484336797888675
+        },
+        "B": {
+          "predicted_rad2": 0.009640784403799502,
+          "measured_rad2": 0.00979690164446902,
+          "joint_travel_rad": 0.23354122690074902
+        }
+      },
+      "cheaper": "A"
+    },
+    {
+      "start_id": 5,
+      "direction": [
+        0.002,
+        0,
+        0
+      ],
+      "costs": {
+        "A": {
+          "predicted_rad2": 0.0001497060291062591,
+          "measured_rad2": 0.0001507975609690109,
+          "joint_travel_rad": 0.024352220763299195
+        },
+        "B": {
+          "predicted_rad2": 0.00011858798124453892,
+          "measured_rad2": 0.00011812273938579818,
+          "joint_travel_rad": 0.022041452738106405
+        }
+      },
+      "cheaper": "B"
+    },
+    {
+      "start_id": 5,
+      "direction": [
+        0,
+        0.002,
+        0
+      ],
+      "costs": {
+        "A": {
+          "predicted_rad2": 4.5312239854452756e-05,
+          "measured_rad2": 4.558968834045377e-05,
+          "joint_travel_rad": 0.01631887417667611
+        },
+        "B": {
+          "predicted_rad2": 2.0221765668708003e-05,
+          "measured_rad2": 2.0169114378026154e-05,
+          "joint_travel_rad": 0.007812691985061862
+        }
+      },
+      "cheaper": "B"
+    },
+    {
+      "start_id": 5,
+      "direction": [
+        0,
+        0,
+        0.04
+      ],
+      "costs": {
+        "A": {
+          "predicted_rad2": 0.0015935601683847859,
+          "measured_rad2": 0.001593549635248021,
+          "joint_travel_rad": 0.04380733648914596
+        },
+        "B": {
+          "predicted_rad2": 0.004200389947330204,
+          "measured_rad2": 0.004269501890134108,
+          "joint_travel_rad": 0.13816339752468487
+        }
+      },
+      "cheaper": "A"
+    },
+    {
+      "start_id": 6,
+      "direction": [
+        0.002,
+        0,
+        0
+      ],
+      "costs": {
+        "A": {
+          "predicted_rad2": 0.0002688069848273877,
+          "measured_rad2": 0.0002719039683529534,
+          "joint_travel_rad": 0.03330249888021622
+        },
+        "B": {
+          "predicted_rad2": 7.830951072257527e-05,
+          "measured_rad2": 7.812734386745021e-05,
+          "joint_travel_rad": 0.015042295920762928
+        }
+      },
+      "cheaper": "B"
+    },
+    {
+      "start_id": 6,
+      "direction": [
+        0,
+        0.002,
+        0
+      ],
+      "costs": {
+        "A": {
+          "predicted_rad2": 3.364238560467702e-05,
+          "measured_rad2": 3.391639003320635e-05,
+          "joint_travel_rad": 0.013389696128132234
+        },
+        "B": {
+          "predicted_rad2": 2.1358088698563313e-05,
+          "measured_rad2": 2.1355529652244655e-05,
+          "joint_travel_rad": 0.0089877208602352
+        }
+      },
+      "cheaper": "B"
+    },
+    {
+      "start_id": 6,
+      "direction": [
+        0,
+        0,
+        0.04
+      ],
+      "costs": {
+        "A": {
+          "predicted_rad2": 0.0015680433158773183,
+          "measured_rad2": 0.0015680977242070666,
+          "joint_travel_rad": 0.048780318145216994
+        },
+        "B": {
+          "predicted_rad2": 0.004512580845743152,
+          "measured_rad2": 0.004527902218039546,
+          "joint_travel_rad": 0.1308411942530855
+        }
+      },
+      "cheaper": "A"
+    },
+    {
+      "start_id": 7,
+      "direction": [
+        0.002,
+        0,
+        0
+      ],
+      "costs": {
+        "A": {
+          "predicted_rad2": 0.00019541513520108267,
+          "measured_rad2": 0.00019778344904176407,
+          "joint_travel_rad": 0.024522460445445742
+        },
+        "B": {
+          "predicted_rad2": 7.955317570221612e-05,
+          "measured_rad2": 7.933688928362254e-05,
+          "joint_travel_rad": 0.013127410182536992
+        }
+      },
+      "cheaper": "B"
+    },
+    {
+      "start_id": 7,
+      "direction": [
+        0,
+        0.002,
+        0
+      ],
+      "costs": {
+        "A": {
+          "predicted_rad2": 4.0903851970966714e-05,
+          "measured_rad2": 4.120861624730128e-05,
+          "joint_travel_rad": 0.014726151825763732
+        },
+        "B": {
+          "predicted_rad2": 2.078818484248736e-05,
+          "measured_rad2": 2.0785715013145898e-05,
+          "joint_travel_rad": 0.007950289580646568
+        }
+      },
+      "cheaper": "B"
+    },
+    {
+      "start_id": 7,
+      "direction": [
+        0,
+        0,
+        0.04
+      ],
+      "costs": {
+        "A": {
+          "predicted_rad2": 0.0015788491751917617,
+          "measured_rad2": 0.0015788488573024665,
+          "joint_travel_rad": 0.04670482918425613
+        },
+        "B": {
+          "predicted_rad2": 0.004058838077295681,
+          "measured_rad2": 0.00407192709062928,
+          "joint_travel_rad": 0.11869623163754651
+        }
+      },
+      "cheaper": "A"
+    },
+    {
+      "start_id": 8,
+      "direction": [
+        0.002,
+        0,
+        0
+      ],
+      "costs": {
+        "A": {
+          "predicted_rad2": 0.0001264762786933086,
+          "measured_rad2": 0.00012749442585257247,
+          "joint_travel_rad": 0.01936529420626885
+        },
+        "B": {
+          "predicted_rad2": 0.00012824870854993763,
+          "measured_rad2": 0.0001277068770206524,
+          "joint_travel_rad": 0.02403546868053466
+        }
+      },
+      "cheaper": "A"
+    },
+    {
+      "start_id": 8,
+      "direction": [
+        0,
+        0.002,
+        0
+      ],
+      "costs": {
+        "A": {
+          "predicted_rad2": 2.612173225193779e-05,
+          "measured_rad2": 2.6239158499972737e-05,
+          "joint_travel_rad": 0.011567067165612744
+        },
+        "B": {
+          "predicted_rad2": 1.788998404025667e-05,
+          "measured_rad2": 1.7882526701768492e-05,
+          "joint_travel_rad": 0.009135265863454804
+        }
+      },
+      "cheaper": "B"
+    },
+    {
+      "start_id": 8,
+      "direction": [
+        0,
+        0,
+        0.04
+      ],
+      "costs": {
+        "A": {
+          "predicted_rad2": 0.0015967163460188004,
+          "measured_rad2": 0.0015967174510872228,
+          "joint_travel_rad": 0.04260048093583159
+        },
+        "B": {
+          "predicted_rad2": 0.007086967788916071,
+          "measured_rad2": 0.0071598950240771226,
+          "joint_travel_rad": 0.17676218819340575
+        }
+      },
+      "cheaper": "A"
+    },
+    {
+      "start_id": 9,
+      "direction": [
+        0.002,
+        0,
+        0
+      ],
+      "costs": {
+        "A": {
+          "predicted_rad2": 0.00019521487736473526,
+          "measured_rad2": 0.00019631179514392858,
+          "joint_travel_rad": 0.030335828276349078
+        },
+        "B": {
+          "predicted_rad2": 8.999850187505631e-05,
+          "measured_rad2": 8.964990127328873e-05,
+          "joint_travel_rad": 0.015071871092149162
+        }
+      },
+      "cheaper": "B"
+    },
+    {
+      "start_id": 9,
+      "direction": [
+        0,
+        0.002,
+        0
+      ],
+      "costs": {
+        "A": {
+          "predicted_rad2": 4.561169042038113e-05,
+          "measured_rad2": 4.591142465621616e-05,
+          "joint_travel_rad": 0.01626601729221107
+        },
+        "B": {
+          "predicted_rad2": 2.038491588051108e-05,
+          "measured_rad2": 2.0354883135156085e-05,
+          "joint_travel_rad": 0.008867402614693945
+        }
+      },
+      "cheaper": "B"
+    },
+    {
+      "start_id": 9,
+      "direction": [
+        0,
+        0,
+        0.04
+      ],
+      "costs": {
+        "A": {
+          "predicted_rad2": 0.0015895898480237291,
+          "measured_rad2": 0.0015895436595107348,
+          "joint_travel_rad": 0.0448656341661727
+        },
+        "B": {
+          "predicted_rad2": 0.004592459645088855,
+          "measured_rad2": 0.004634727943858047,
+          "joint_travel_rad": 0.12512452595049586
+        }
+      },
+      "cheaper": "A"
+    },
+    {
+      "start_id": 10,
+      "direction": [
+        0.002,
+        0,
+        0
+      ],
+      "costs": {
+        "A": {
+          "predicted_rad2": 0.0002484173317125932,
+          "measured_rad2": 0.00024893519653985263,
+          "joint_travel_rad": 0.0364398021600813
+        },
+        "B": {
+          "predicted_rad2": 0.00010094060796832852,
+          "measured_rad2": 0.00010055686458410016,
+          "joint_travel_rad": 0.019316617014283766
+        }
+      },
+      "cheaper": "B"
+    },
+    {
+      "start_id": 10,
+      "direction": [
+        0,
+        0.002,
+        0
+      ],
+      "costs": {
+        "A": {
+          "predicted_rad2": 9.656057536761622e-05,
+          "measured_rad2": 9.698211243806255e-05,
+          "joint_travel_rad": 0.023416681276207718
+        },
+        "B": {
+          "predicted_rad2": 1.8980371489974194e-05,
+          "measured_rad2": 1.8975464803659053e-05,
+          "joint_travel_rad": 0.008228239695005881
+        }
+      },
+      "cheaper": "B"
+    },
+    {
+      "start_id": 10,
+      "direction": [
+        0,
+        0,
+        0.04
+      ],
+      "costs": {
+        "A": {
+          "predicted_rad2": 0.0015530966403924154,
+          "measured_rad2": 0.0015526911964861524,
+          "joint_travel_rad": 0.051267034914478676
+        },
+        "B": {
+          "predicted_rad2": 0.003960625650787049,
+          "measured_rad2": 0.004004286454119285,
+          "joint_travel_rad": 0.13003319459876755
+        }
+      },
+      "cheaper": "A"
+    },
+    {
+      "start_id": 11,
+      "direction": [
+        0.002,
+        0,
+        0
+      ],
+      "costs": {
+        "A": {
+          "predicted_rad2": 0.0001281791276209328,
+          "measured_rad2": 0.00012905120917740024,
+          "joint_travel_rad": 0.024703108826575365
+        },
+        "B": {
+          "predicted_rad2": 0.00016137041422786846,
+          "measured_rad2": 0.00016007303203275026,
+          "joint_travel_rad": 0.023436894581992523
+        }
+      },
+      "cheaper": "A"
+    },
+    {
+      "start_id": 11,
+      "direction": [
+        0,
+        0.002,
+        0
+      ],
+      "costs": {
+        "A": {
+          "predicted_rad2": 5.039112672949575e-05,
+          "measured_rad2": 5.078718873497635e-05,
+          "joint_travel_rad": 0.015603306172797177
+        },
+        "B": {
+          "predicted_rad2": 1.7624543989098185e-05,
+          "measured_rad2": 1.7592426470670993e-05,
+          "joint_travel_rad": 0.007664099379763208
+        }
+      },
+      "cheaper": "B"
+    },
+    {
+      "start_id": 11,
+      "direction": [
+        0,
+        0,
+        0.04
+      ],
+      "costs": {
+        "A": {
+          "predicted_rad2": 0.0015570985506274345,
+          "measured_rad2": 0.0015574084080630236,
+          "joint_travel_rad": 0.05008315146788936
+        },
+        "B": {
+          "predicted_rad2": 0.006293364324991822,
+          "measured_rad2": 0.006535893200181704,
+          "joint_travel_rad": 0.16724136589284685
+        }
+      },
+      "cheaper": "A"
+    }
+  ],
+  "generation_failures": [],
+  "actor_keys": {
+    "A": [
+      "error",
+      "own_H",
+      "own_q",
+      "previous_own_motion",
+      "role"
+    ],
+    "B": [
+      "error",
+      "own_H",
+      "own_q",
+      "previous_own_motion",
+      "role"
+    ]
+  },
+  "invalid_transition": {
+    "step": 1,
+    "before": {
+      "error": [
+        0.0017221271991729736,
+        0.0037568509578704834,
+        -0.1744941235253359
+      ],
+      "q": {
+        "A": [
+          -0.49661332016511106,
+          -0.13512561150822838,
+          0.7995320672864572,
+          -1.727743608401739,
+          0.09693515824873354,
+          1.6329869226595355,
+          1.2521920456575708
+        ],
+        "B": [
+          -0.10157393040276219,
+          0.14659788174748176,
+          0.17021525630037315,
+          -1.6423345408437071,
+          -0.02533515519550022,
+          1.7867773720544489,
+          0.8576787419184692
+        ]
+      }
+    },
+    "after": {
+      "error": [
+        0.0017221271991729736,
+        0.0037568509578704834,
+        -0.1744941235253359
+      ],
+      "q": {
+        "A": [
+          -0.49661332016511106,
+          -0.13512561150822838,
+          0.7995320672864572,
+          -1.727743608401739,
+          0.09693515824873354,
+          1.6329869226595355,
+          1.2521920456575708
+        ],
+        "B": [
+          -0.10157393040276219,
+          0.14659788174748176,
+          0.17021525630037315,
+          -1.6423345408437071,
+          -0.02533515519550022,
+          1.7867773720544489,
+          0.8576787419184692
+        ]
+      }
+    },
+    "requested": {},
+    "clipped": {},
+    "feasible": false,
+    "invalid_reason": "Nonfinite or malformed action",
+    "executed": {
+      "A": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "B": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "motion_cost_rad2": 0.0,
+    "joint_travel_rad": 0.0,
+    "communication": {
+      "messages": 0,
+      "bytes": 0,
+      "rounds": 0
+    },
+    "reward": -127.04519270900211,
+    "success": false,
+    "terminated": true,
+    "truncated": false,
+    "execution": null
+  },
+  "clipped_transition": {
+    "step": 1,
+    "before": {
+      "error": [
+        0.0017221271991729736,
+        0.0037568509578704834,
+        -0.1744941235253359
+      ],
+      "q": {
+        "A": [
+          -0.49661332016511106,
+          -0.13512561150822838,
+          0.7995320672864572,
+          -1.727743608401739,
+          0.09693515824873354,
+          1.6329869226595355,
+          1.2521920456575708
+        ],
+        "B": [
+          -0.10157393040276219,
+          0.14659788174748176,
+          0.17021525630037315,
+          -1.6423345408437071,
+          -0.02533515519550022,
+          1.7867773720544489,
+          0.8576787419184692
+        ]
+      }
+    },
+    "after": {
+      "error": [
+        0.003719162195920944,
+        0.0037553850561380386,
+        -0.1744939602453659
+      ],
+      "q": {
+        "A": [
+          -0.4968282417804688,
+          -0.1265004634816629,
+          0.8022676117737486,
+          -1.7211128763949437,
+          0.0910048300026945,
+          1.6327060939438547,
+          1.2556777556338714
+        ],
+        "B": [
+          -0.10157393040276219,
+          0.14659788174748176,
+          0.17021525630037315,
+          -1.6423345408437071,
+          -0.02533515519550022,
+          1.7867773720544489,
+          0.8576787419184692
+        ]
+      }
+    },
+    "requested": {
+      "A": [
+        0.01,
+        0.0,
+        0.0
+      ],
+      "B": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "clipped": {
+      "A": [
+        0.002,
+        0.0,
+        0.0
+      ],
+      "B": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "feasible": true,
+    "invalid_reason": null,
+    "executed": {
+      "A": [
+        0.0019970349967479706,
+        -1.4659017324447632e-06,
+        1.6327997043319442e-07
+      ],
+      "B": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "motion_cost_rad2": 0.00017328701228100534,
+    "joint_travel_rad": 0.027903213074030375,
+    "communication": {
+      "messages": 0,
+      "bytes": 0,
+      "rounds": 0
+    },
+    "reward": -128.0737258075528,
+    "success": false,
+    "terminated": false,
+    "truncated": false,
+    "execution": {
+      "before": {
+        "A": {
+          "q": [
+            -0.49661332016511106,
+            -0.13512561150822838,
+            0.7995320672864572,
+            -1.727743608401739,
+            0.09693515824873354,
+            1.6329869226595355,
+            1.2521920456575708
+          ],
+          "position_m": [
+            -0.055287111550569534,
+            -0.009944437071681023,
+            0.49996379017829895
+          ],
+          "quaternion_xyzw": [
+            0.9961963891983032,
+            -0.0871363952755928,
+            8.64020057633752e-06,
+            -4.4730454646924045e-06
+          ]
+        },
+        "B": {
+          "q": [
+            -0.10157393040276219,
+            0.14659788174748176,
+            0.17021525630037315,
+            -1.6423345408437071,
+            -0.02533515519550022,
+            1.7867773720544489,
+            0.8576787419184692
+          ],
+          "position_m": [
+            -0.05700816959142685,
+            0.26629915833473206,
+            0.4199981391429901
+          ],
+          "quaternion_xyzw": [
+            -2.035897672669762e-08,
+            1.0,
+            -1.0651259430005666e-07,
+            -5.685772066499339e-07
+          ]
+        }
+      },
+      "after": {
+        "A": {
+          "q": [
+            -0.4968282417804688,
+            -0.1265004634816629,
+            0.8022676117737486,
+            -1.7211128763949437,
+            0.0910048300026945,
+            1.6327060939438547,
+            1.2556777556338714
+          ],
+          "position_m": [
+            -0.053290121257305145,
+            -0.009945936501026154,
+            0.4999624192714691
+          ],
+          "quaternion_xyzw": [
+            0.9961963891983032,
+            -0.08713631331920624,
+            9.002394108392764e-06,
+            -4.7858566176728345e-06
+          ]
+        },
+        "B": {
+          "q": [
+            -0.10157393040276219,
+            0.14659788174748176,
+            0.17021525630037315,
+            -1.6423345408437071,
+            -0.02533515519550022,
+            1.7867773720544489,
+            0.8576787419184692
+          ],
+          "position_m": [
+            -0.05700816959142685,
+            0.26629915833473206,
+            0.4199981391429901
+          ],
+          "quaternion_xyzw": [
+            -2.035897672669762e-08,
+            1.0,
+            -1.0651259430005666e-07,
+            -5.685772066499339e-07
+          ]
+        }
+      },
+      "tick": 24,
+      "prepared_q": {
+        "A": [
+          -0.4968282417804688,
+          -0.1265004634816629,
+          0.8022676117737486,
+          -1.7211128763949437,
+          0.0910048300026945,
+          1.6327060939438547,
+          1.2556777556338714
+        ],
+        "B": [
+          -0.10157393040276219,
+          0.14659788174748176,
+          0.17021525630037315,
+          -1.6423345408437071,
+          -0.02533515519550022,
+          1.7867773720544489,
+          0.8576787419184692
+        ]
+      },
+      "config": {
+        "time_step": 0.004166666666666667,
+        "command_steps": 24,
+        "execution_mode": "kinematic",
+        "gravity": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "position_tolerance_m": 0.0001,
+        "orientation_tolerance_rad": 0.002
+      }
+    }
+  },
+  "timeout_transition": {
+    "step": 1,
+    "before": {
+      "error": [
+        0.0017221271991729736,
+        0.0037568509578704834,
+        -0.1744941235253359
+      ],
+      "q": {
+        "A": [
+          -0.49661332016511106,
+          -0.13512561150822838,
+          0.7995320672864572,
+          -1.727743608401739,
+          0.09693515824873354,
+          1.6329869226595355,
+          1.2521920456575708
+        ],
+        "B": [
+          -0.10157393040276219,
+          0.14659788174748176,
+          0.17021525630037315,
+          -1.6423345408437071,
+          -0.02533515519550022,
+          1.7867773720544489,
+          0.8576787419184692
+        ]
+      }
+    },
+    "after": {
+      "error": [
+        0.0017221271991729736,
+        0.0037568509578704834,
+        -0.1744941235253359
+      ],
+      "q": {
+        "A": [
+          -0.49661332016511106,
+          -0.13512561150822838,
+          0.7995320672864572,
+          -1.727743608401739,
+          0.09693515824873354,
+          1.6329869226595355,
+          1.2521920456575708
+        ],
+        "B": [
+          -0.10157393040276219,
+          0.14659788174748176,
+          0.17021525630037315,
+          -1.6423345408437071,
+          -0.02533515519550022,
+          1.7867773720544489,
+          0.8576787419184692
+        ]
+      }
+    },
+    "requested": {
+      "A": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "B": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "clipped": {
+      "A": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "B": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "feasible": true,
+    "invalid_reason": null,
+    "executed": {
+      "A": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "B": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "motion_cost_rad2": 0.0,
+    "joint_travel_rad": 0.0,
+    "communication": {
+      "messages": 0,
+      "bytes": 0,
+      "rounds": 0
+    },
+    "reward": -117.04519270900211,
+    "success": false,
+    "terminated": false,
+    "truncated": true,
+    "execution": {
+      "before": {
+        "A": {
+          "q": [
+            -0.49661332016511106,
+            -0.13512561150822838,
+            0.7995320672864572,
+            -1.727743608401739,
+            0.09693515824873354,
+            1.6329869226595355,
+            1.2521920456575708
+          ],
+          "position_m": [
+            -0.055287111550569534,
+            -0.009944437071681023,
+            0.49996379017829895
+          ],
+          "quaternion_xyzw": [
+            0.9961963891983032,
+            -0.0871363952755928,
+            8.64020057633752e-06,
+            -4.4730454646924045e-06
+          ]
+        },
+        "B": {
+          "q": [
+            -0.10157393040276219,
+            0.14659788174748176,
+            0.17021525630037315,
+            -1.6423345408437071,
+            -0.02533515519550022,
+            1.7867773720544489,
+            0.8576787419184692
+          ],
+          "position_m": [
+            -0.05700816959142685,
+            0.26629915833473206,
+            0.4199981391429901
+          ],
+          "quaternion_xyzw": [
+            -2.035897672669762e-08,
+            1.0,
+            -1.0651259430005666e-07,
+            -5.685772066499339e-07
+          ]
+        }
+      },
+      "after": {
+        "A": {
+          "q": [
+            -0.49661332016511106,
+            -0.13512561150822838,
+            0.7995320672864572,
+            -1.727743608401739,
+            0.09693515824873354,
+            1.6329869226595355,
+            1.2521920456575708
+          ],
+          "position_m": [
+            -0.055287111550569534,
+            -0.009944437071681023,
+            0.49996379017829895
+          ],
+          "quaternion_xyzw": [
+            0.9961963891983032,
+            -0.0871363952755928,
+            8.64020057633752e-06,
+            -4.4730454646924045e-06
+          ]
+        },
+        "B": {
+          "q": [
+            -0.10157393040276219,
+            0.14659788174748176,
+            0.17021525630037315,
+            -1.6423345408437071,
+            -0.02533515519550022,
+            1.7867773720544489,
+            0.8576787419184692
+          ],
+          "position_m": [
+            -0.05700816959142685,
+            0.26629915833473206,
+            0.4199981391429901
+          ],
+          "quaternion_xyzw": [
+            -2.035897672669762e-08,
+            1.0,
+            -1.0651259430005666e-07,
+            -5.685772066499339e-07
+          ]
+        }
+      },
+      "tick": 24,
+      "prepared_q": {
+        "A": [
+          -0.49661332016511106,
+          -0.13512561150822838,
+          0.7995320672864572,
+          -1.727743608401739,
+          0.09693515824873354,
+          1.6329869226595355,
+          1.2521920456575708
+        ],
+        "B": [
+          -0.10157393040276219,
+          0.14659788174748176,
+          0.17021525630037315,
+          -1.6423345408437071,
+          -0.02533515519550022,
+          1.7867773720544489,
+          0.8576787419184692
+        ]
+      },
+      "config": {
+        "time_step": 0.004166666666666667,
+        "command_steps": 24,
+        "execution_mode": "kinematic",
+        "gravity": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "position_tolerance_m": 0.0001,
+        "orientation_tolerance_rad": 0.002
+      }
+    }
+  },
+  "provenance": {
+    "time_utc": "2026-11-06T08:30:31.190754+00:00",
+    "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+    "executable": "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\.venv\\Scripts\\python.exe",
+    "sfn_path": "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\peg-in-hole-sfn\\sfn\\__init__.py",
+    "revision": "5f4afef10443f77ae312dbe7c4c799d53b8c386f",
+    "dirty": "?? dual-arm-mas/\n?? peg-in-hole-sfn/scripts/sam3_camera_lab.py\n?? peg-in-hole-sfn/web/\n",
+    "versions": {
+      "numpy": "2.4.6",
+      "pybullet": "3.2.7",
+      "Pillow": "12.2.0"
+    },
+    "sha256": {
+      "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\dual-arm-mas\\src\\dual_arm_mas\\episode.py": "e14df2a19faec468347113c9ce74c3e99f91e148174740d01baf704edf7d7506",
+      "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\dual-arm-mas\\src\\dual_arm_mas\\evidence.py": "d12b012e667a7b53af4cdf089e01e63fd1f39ce49ad2e2f681c93476e09d4afe",
+      "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\dual-arm-mas\\src\\dual_arm_mas\\policies.py": "e6106dbe4824b739a647fc8be98143bf01f527455eac98a69502b9e06743e6fe",
+      "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\dual-arm-mas\\src\\dual_arm_mas\\world.py": "65e72be75ddcae2d212ad6e4931899bc52930110fd58595e4543fc1596f99f86",
+      "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\dual-arm-mas\\src\\dual_arm_mas\\__init__.py": "794a1a018d967632220fe0d15295072b52d0534b190c87570d9f17687ba66a6b",
+      "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\dual-arm-mas\\scripts\\analyze.py": "8ff884a6459f8cf34252e10d9d1f2a65622101bb21d8748b53c22176399f4a42",
+      "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\dual-arm-mas\\scripts\\compare.py": "ad37d3d952d649e0ea3ffd4018325d377f5a2d461780cf60a67597343ea4aebb",
+      "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\dual-arm-mas\\scripts\\contract_check.py": "44ea8f8d4b63e2acd07d9bc8312cbdc74c351513ec2bfe08cec34bd1d653cfa1",
+      "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\dual-arm-mas\\scripts\\demo.py": "d1409cc3d10cd0aa640849eda64558e9f6628a93c9db73e2b9a262cca31396fb",
+      "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\dual-arm-mas\\scripts\\evaluate.py": "e0f5c0a81b22db4294d6bca889555e1a2dc8b5894495ce4ca53c04ba5112e8f5",
+      "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\dual-arm-mas\\scripts\\make_starts.py": "bf7e95d4443a5081fa0516ed8eb2d76d857318801558f2b0f675c48691215325",
+      "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\peg-in-hole-sfn\\sfn\\panda\\artifacts.py": "3d100a96ff88a564b66c6008e118680fc9bf49c3a9154afbaae41f9ad314929f",
+      "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\peg-in-hole-sfn\\sfn\\panda\\camera_canonicalization.py": "865af7f1b015b12f729e5967c0b099f074f58fcb3dfa894f83551ced49eb198e",
+      "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\peg-in-hole-sfn\\sfn\\panda\\camera_observability.py": "27c696d42fd0149c55119355cca6e0f8fcb4c9b614b47cc6f75449c10da4539d",
+      "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\peg-in-hole-sfn\\sfn\\panda\\command.py": "b51cdda01b74e85d5599ca7461c0c601906ce139c3b94fc13b50460687c16fa8",
+      "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\peg-in-hole-sfn\\sfn\\panda\\config.py": "bad5586bb3ee255f60cad744542a9dda9e11de17f0447bd20e610bff76eec216",
+      "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\peg-in-hole-sfn\\sfn\\panda\\kinematics.py": "016c63676120c11e016b3153e4d7e3bec2cb4539e84e886c3ac66aeb10f6160b",
+      "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\peg-in-hole-sfn\\sfn\\panda\\measurement.py": "8b55125c809ff8939873b2a344283c4ad43888c9b15aad569f187d6bce09c902",
+      "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\peg-in-hole-sfn\\sfn\\panda\\native_vsn.py": "b9e47b7339ac0866ed2ca79fddac6ecdad0c514cd79d117c7950aa3c44f31584",
+      "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\peg-in-hole-sfn\\sfn\\panda\\panda_alignment_env.py": "b2aff004948a8c5550a7e87c5cf505c18a8dbd78cb39e01ee7f1596ee7236ffb",
+      "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\peg-in-hole-sfn\\sfn\\panda\\panda_insertion_env.py": "40aab1d7ef4411a9d8f1678a33f14cd9e560780984c6e098f4c28a91af8f0d90",
+      "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\peg-in-hole-sfn\\sfn\\panda\\panda_scene.py": "348e4ceb357ad8cc83a7471df8aed19f94d1d233ade6534971fb96fba1b2543a",
+      "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\peg-in-hole-sfn\\sfn\\panda\\peg_attachment.py": "a7876317692234ae1e12047cedd7299161ff246b80792296e2d3a2954ee04eec",
+      "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\peg-in-hole-sfn\\sfn\\panda\\reporting.py": "e5654f8b78539821e0d4e3a34d8632f93abb4a0afe033d140bed9b5a7ede37a8",
+      "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\peg-in-hole-sfn\\sfn\\panda\\robot_model.py": "25ea5cbdcbfa7d0924d5c5784cca24aba2f3a587f780679eb20ba1a71ad1a7e3",
+      "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\peg-in-hole-sfn\\sfn\\panda\\template_pose.py": "f3ac32a74d47ae76f007e7015638226887ba906654f82fdcc845c1f3431460c8",
+      "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\peg-in-hole-sfn\\sfn\\panda\\validation.py": "a11100abf6795d9977ac3d770b2bd651f7ef7cb8ed27d97ed8b16cd83b9f0f46",
+      "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\peg-in-hole-sfn\\sfn\\panda\\__init__.py": "3bd100ebaa67963cc987e591e9799b125ec27ac42e5b14900f297bb4fee6450a"
+    }
+  }
+}

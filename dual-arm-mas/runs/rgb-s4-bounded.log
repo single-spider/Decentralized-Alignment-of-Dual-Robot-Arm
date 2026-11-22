@@ -1,0 +1,4 @@
+Bounded evaluation: C:\Users\admis\OneDrive\Documents\GitHub\SFN\.venv\Scripts\python.exe C:\Users\admis\OneDrive\Documents\GitHub\SFN\dual-arm-mas\scripts\evaluate_learned.py --checkpoint dual-arm-mas\runs\rl-s4-402\step-2737.pt --public dual-arm-mas/runs/train-312/public.json --starts dual-arm-mas/runs/test/starts.json --count 1000 --sensing rgb --decoder mean --seed 901 --out dual-arm-mas/runs/learned-study/core/fit-1/s4/rgb --seconds 239.54700000000594 --segmentation dual-arm-mas/runs/vision-adaptation/segmentation-v1.pt --crop
+pybullet build time: Jun 10 2026 13:09:01
+{"episodes": 889, "success_rate": 0.9988751406074241, "mean_cost_rad2": 0.007947363042775985, "mean_steps": 3.548931383577053, "failures": {"timeout": 1}, "checkpoint_sha256": "1fbfcc3a706e8f4372fc083761cfe5dbf7290ce4e708ae71c08a7f2f902d75ea", "sensing": "rgb", "decoder": "mean", "regime": "s4", "wall_seconds": 241.42199999999139}
+Bounded queue exited; no claim of study completion

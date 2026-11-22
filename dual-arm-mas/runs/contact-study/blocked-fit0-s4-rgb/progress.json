@@ -1,0 +1,12 @@
+{
+  "group": "blocked-fit0-s4-rgb",
+  "n": 32,
+  "target": 32,
+  "added_ids": [
+    30,
+    31
+  ],
+  "aborted_budget_start_id": null,
+  "window_end": "2026-11-20T06:10:00+05:30",
+  "seconds": 11.014999999999418
+}

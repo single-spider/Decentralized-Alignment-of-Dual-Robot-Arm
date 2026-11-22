@@ -1,0 +1,9 @@
+pybullet build time: Jun 10 2026 13:09:01
+test_ik_preserves_velocity_and_time (test_contact_v2.ContactExecution.test_ik_preserves_velocity_and_time) ... ok
+test_obstruction_regulates_then_retracts (test_contact_v2.ContactExecution.test_obstruction_regulates_then_retracts) ... ok
+test_open_passage_and_stable_hold (test_contact_v2.ContactExecution.test_open_passage_and_stable_hold) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 8.662s
+
+OK
