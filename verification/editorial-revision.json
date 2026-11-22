@@ -1,0 +1,53 @@
+{
+  "created_at": "2026-11-22T19:35:38.103295+05:30",
+  "scope": "Editorial improvements and derived failure-stage analysis only; no model, simulator or frozen trial changes.",
+  "changes": [
+    "Vector workflow diagram; clearer first-use definitions and S2 convention.",
+    "Matched GT/RGB PPO comparison with separately labeled deterministic references.",
+    "Mutually exclusive failure phases for all 1024 main open-hole trials, with raw digests and IDs.",
+    "Larger force/depth axes, smoother prose and explicit vision-selection limitations."
+  ],
+  "checks": {
+    "prior_bundle_files_checked": 2747,
+    "frozen_files_unchanged": true,
+    "independent_failure_counts": {
+      "before_descent": 151,
+      "success": 572,
+      "during_descent": 44,
+      "terminal_hold": 1
+    },
+    "overleaf_extracted_build": "Passed two pdfLaTeX passes, exactly eight pages, no layout/reference warnings.",
+    "visual_review": "Primary agent inspected all eight final rendered pages at 1450px, including workflow, tables and references."
+  },
+  "pdf_sha256": "e2723a10be1aa0da088ca5a48fc57ea94ed77304e5b8f4e59fb68b8b3e40e613",
+  "zip_sha256": "67c9f66dc41f75bbd29b5fd8b5118f80930a6b949c6b3909f315fca47fe9a12a",
+  "input_sha256": {
+    "tools/report_data.py": "210b1d2a37e7a0a3ecdce15774148c1187085ffe8f59b21979088538c9cde488",
+    "report/data.tex": "a227f4c3fb2fc75ee531a4ce53d6a03d1bc1bb621277f8a44d5ce3e90275c0bf",
+    "report/main.tex": "6ef3989f75bedd6eda0f6186ad059afe46f1413c698f84d0fd4187db9295bc9d",
+    "report/submission-details.tex": "cd4b8e6bb0f88eae29df8671bf147a57a2d9f06d3e7da91418e29d78c766bc33",
+    "report/PRIMEarxiv.sty": "0b60acdaf6022bb253a646be487912faf398187301f5bb104dda870ea85accea",
+    "report/media/contact-traces.pdf": "53aefe1e75d63220c37f5651c217e2c47b2459482c2ab64e5f1f0057d9a6f59d",
+    "report/media/cost-payload.pdf": "fddc44d1b6b6c8fe2a1c6696d563750c6deac77af6a398701a24efba724edd15",
+    "report/media/dual-arm.png": "e4ef514561ddc4d89a75bf0cb20cb79aa24a45c5dc87df98556ca6d7f23aad2d",
+    "report/media/insertion-success.pdf": "32c2a5f7e1b043f9681ae558eaadffc475ba38ca8c30c8a7d6f69bdf8832debb",
+    "report/media/single-arm.png": "24e658b0ca693f9762ef021bc63efe0656cecec8c59b58908faed76c152b0095",
+    "report/media/workflow.pdf": "1c02aff438858e066d752116d531ccbbd14065576dbc808591aa9936fd4b1707"
+  },
+  "render_sha256": {
+    "page-1.png": "89a0feee0f8795f213ad668d8c77aceb8422e6db65dd925d900328e08d48bd39",
+    "page-2.png": "3c0858ce0062b337f065445723a3cc8e476ae429cf90b867d23ae7cc30824f5a",
+    "page-3.png": "642d0d8c2d971250af5b3d4c4b820befba1236ca80135fc85ef2f03ad81dcabd",
+    "page-4.png": "c291b6e4a92c7ae4dcf8181032ac55228042697ceb811d660e66e9c8730a612d",
+    "page-5.png": "48064b7189370fe179f4772c64158117660b50f60168604467263e60d0e7aed5",
+    "page-6.png": "e7f8c84a1f88c92870b280e03a8cb64b4d270f835d14fc1b49e2ef6b372ccc6a",
+    "page-7.png": "40e848330e0ad59dd922d226757d71d327bbf39d169f8a102804bfc1424b8219",
+    "page-8.png": "f4dc6d155f576d303250821ed1c7240f8893b4a419c7c55441b30fc1814900ba"
+  },
+  "failure_analysis_sha256": "2b12499b7c3f141a74a95047a69af4640375b64bd8e8386e74b6b9b4830bb6c8",
+  "report_data_provenance_sha256": "1138c394aa86035b42eb1bad9e1c3a4880e90d31ff015971c59ae6fd19edc98c",
+  "unresolved_human_inputs": [
+    "Actual member task fulfillment (left blank as requested).",
+    "Real grader-accessible repository URL (user will publish)."
+  ]
+}

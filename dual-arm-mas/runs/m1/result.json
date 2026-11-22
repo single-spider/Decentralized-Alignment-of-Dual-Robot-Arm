@@ -1,0 +1,508 @@
+{
+  "milestone": "M1",
+  "passed": true,
+  "seed": 7,
+  "config": {
+    "gui": false,
+    "time_step": 0.004166666666666667,
+    "gravity": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "robot_urdf": "franka_panda/panda.urdf",
+    "robot_base_pos": [
+      -0.5,
+      0.0,
+      0.0
+    ],
+    "robot_base_orn_euler_deg": [
+      0.0,
+      0.0,
+      180.0
+    ],
+    "ee_link_index": 11,
+    "arm_joint_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "finger_joint_indices": [
+      9,
+      10
+    ],
+    "rest_poses": [
+      0.327,
+      0.369,
+      -0.293,
+      -2.383,
+      0.261,
+      2.726,
+      2.17
+    ],
+    "finger_open": 0.01,
+    "alignment_z_m": 0.002,
+    "insertion_target_z_m": -0.01,
+    "tool_roll_pitch_yaw_deg": [
+      180.0,
+      0.0,
+      90.0
+    ],
+    "attach_parent_frame_pos": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "attach_parent_frame_yaw_deg": -90.0,
+    "attach_child_frame_rpy_deg": [
+      0.0,
+      180.0,
+      0.0
+    ],
+    "peg_tip_offset_m": 0.035,
+    "ik_max_iterations": 200,
+    "ik_residual_threshold": 1e-08,
+    "command_steps": 120,
+    "position_gain": 0.08,
+    "velocity_gain": 1.0,
+    "max_force": 600.0,
+    "peg_mass_kg": 0.1,
+    "peg_lateral_friction": 0.5,
+    "fixture_lateral_friction": 0.5,
+    "peg_rgba": [
+      0.15,
+      0.35,
+      0.85,
+      1.0
+    ],
+    "collision_margin_m": 5e-05,
+    "use_convex_decomposition": true,
+    "execution_mode": "kinematic",
+    "mesh_derived_alignment_z": false,
+    "alignment_clearance_mm": 0.5,
+    "native_camera": false,
+    "camera_ignore_robot_occlusion": false,
+    "camera_eye_offset_m": [
+      0.0,
+      0.0,
+      0.1
+    ],
+    "camera_target_offset_m": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "camera_up_vector": [
+      0.0,
+      1.0,
+      0.0
+    ]
+  },
+  "requested_delta_m": [
+    0.002,
+    0,
+    0
+  ],
+  "measured_delta_m": [
+    0.001999974250793457,
+    -6.9060778207230555e-09,
+    6.51925802230835e-09
+  ],
+  "before": {
+    "joint_positions": [
+      0.24527914918168578,
+      0.5487082625148533,
+      -0.19000892864516952,
+      -2.330738997342865,
+      0.3551456294309312,
+      2.8543604245354812,
+      2.097105015039752
+    ],
+    "joint_velocities": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "ee_pos_world": [
+      -0.9999999975310983,
+      1.188300030908036e-09,
+      0.0020000014098703472
+    ],
+    "ee_quat_world": [
+      0.7071067756498748,
+      0.7071067867232202,
+      -5.3083494655849455e-09,
+      7.412502175788126e-09
+    ],
+    "peg_pos_world": [
+      -1.0,
+      1.188300013943433e-09,
+      0.0020000014919787645
+    ],
+    "peg_quat_world": [
+      -8.995000300160427e-09,
+      -1.4878608345370026e-09,
+      -4.1359030627651384e-25,
+      1.0
+    ],
+    "peg_tip_pos_world": [
+      -1.0,
+      1.188300013943433e-09,
+      -0.05799999850802123
+    ],
+    "peg_tip_quat_world": [
+      -8.995000300160427e-09,
+      -1.4878608345370026e-09,
+      -4.1359030627651384e-25,
+      1.0
+    ],
+    "hole_pos_world": [
+      -1.0,
+      0.0,
+      0.0
+    ],
+    "hole_quat_world": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "pose_error_task": [
+      0.0,
+      1.188300013943433e-09,
+      8.97256228427068e-07
+    ]
+  },
+  "after": {
+    "joint_positions": [
+      0.25049216545434133,
+      0.546323745203536,
+      -0.19335687505535482,
+      -2.3368822341152775,
+      0.3637630888371069,
+      2.857179076664625,
+      2.0905823857895274
+    ],
+    "joint_velocities": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "ee_pos_world": [
+      -0.9980000037199793,
+      -5.7177775861141395e-09,
+      0.002000008049487287
+    ],
+    "ee_quat_world": [
+      0.70710677626292,
+      0.7071067861101736,
+      -2.829050839415449e-08,
+      3.380502899311668e-08
+    ],
+    "peg_pos_world": [
+      -0.9980000257492065,
+      -5.7177778067796226e-09,
+      0.002000008011236787
+    ],
+    "peg_quat_world": [
+      -4.3908180202834007e-08,
+      -3.899355505154741e-09,
+      0.0,
+      0.999999999999999
+    ],
+    "peg_tip_pos_world": [
+      -0.9980000257492065,
+      -5.7177778067796226e-09,
+      -0.05799999198876321
+    ],
+    "peg_tip_quat_world": [
+      -4.3908180202834007e-08,
+      -3.899355505154741e-09,
+      0.0,
+      0.999999999999999
+    ],
+    "hole_pos_world": [
+      -1.0,
+      0.0,
+      0.0
+    ],
+    "hole_quat_world": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "pose_error_task": [
+      0.001999974250793457,
+      -5.7177778067796226e-09,
+      7.979078588959965e-07
+    ]
+  },
+  "execution": {
+    "commanded_ee_pose": [
+      -0.998,
+      1.188300013943433e-09,
+      0.002,
+      0.7071067756498748,
+      0.7071067867232202,
+      4.329780315079809e-17,
+      4.329780247275124e-17
+    ],
+    "measured_ee_pose": [
+      -0.9980000037199793,
+      -5.7177775861141395e-09,
+      0.002000008049487287,
+      0.70710677626292,
+      0.7071067861101736,
+      -2.829050839415449e-08,
+      3.380502899311668e-08
+    ],
+    "commanded_peg_pose": [
+      -0.998,
+      1.188300013943433e-09,
+      0.002,
+      0.7071067756498748,
+      0.7071067867232202,
+      4.329780315079809e-17,
+      4.329780247275124e-17
+    ],
+    "measured_peg_pose": [
+      -0.9980000257492065,
+      -5.7177778067796226e-09,
+      0.002000008011236787,
+      -4.3908180202834007e-08,
+      -3.899355505154741e-09,
+      0.0,
+      0.999999999999999
+    ],
+    "joint_target": [
+      0.25049216545434133,
+      0.546323745203536,
+      -0.19335687505535482,
+      -2.3368822341152775,
+      0.3637630888371069,
+      2.857179076664625,
+      2.0905823857895274
+    ],
+    "joint_actual": [
+      0.25049216545434133,
+      0.546323745203536,
+      -0.19335687505535482,
+      -2.3368822341152775,
+      0.3637630888371069,
+      2.857179076664625,
+      2.0905823857895274
+    ],
+    "pos_error_m": 2.6659248836938882e-08,
+    "yaw_error_deg": 9.934836953107151e-08,
+    "max_joint_error": 0.0,
+    "contacts": [
+      {
+        "body_a": 0,
+        "body_b": 1,
+        "link_a": 9,
+        "link_b": -1,
+        "distance": -0.0002996151836174299,
+        "normal_force": 11.626296949287445
+      },
+      {
+        "body_a": 0,
+        "body_b": 1,
+        "link_a": 9,
+        "link_b": -1,
+        "distance": -0.0002864776248804079,
+        "normal_force": 8.400688707265262
+      },
+      {
+        "body_a": 0,
+        "body_b": 1,
+        "link_a": 9,
+        "link_b": -1,
+        "distance": 0.00017452141097259576,
+        "normal_force": 0.0
+      },
+      {
+        "body_a": 0,
+        "body_b": 1,
+        "link_a": 10,
+        "link_b": -1,
+        "distance": -0.0003071680373047947,
+        "normal_force": 11.4861085129528
+      },
+      {
+        "body_a": 0,
+        "body_b": 1,
+        "link_a": 10,
+        "link_b": -1,
+        "distance": -0.0002975413300660337,
+        "normal_force": 8.555271834523449
+      },
+      {
+        "body_a": 0,
+        "body_b": 1,
+        "link_a": 10,
+        "link_b": -1,
+        "distance": 0.00013039331371304935,
+        "normal_force": 0.0
+      },
+      {
+        "body_a": 3,
+        "body_b": 1,
+        "link_a": -1,
+        "link_b": -1,
+        "distance": 0.0001767918053511761,
+        "normal_force": 0.0
+      },
+      {
+        "body_a": 3,
+        "body_b": 1,
+        "link_a": -1,
+        "link_b": -1,
+        "distance": -5.682139499702361e-06,
+        "normal_force": 1.0372532002928905
+      },
+      {
+        "body_a": 3,
+        "body_b": 1,
+        "link_a": -1,
+        "link_b": -1,
+        "distance": 0.0004538052973044934,
+        "normal_force": 0.0
+      },
+      {
+        "body_a": 3,
+        "body_b": 1,
+        "link_a": -1,
+        "link_b": -1,
+        "distance": 1.471915772598327e-06,
+        "normal_force": 0.0
+      },
+      {
+        "body_a": 3,
+        "body_b": 1,
+        "link_a": -1,
+        "link_b": -1,
+        "distance": 2.857871652058175e-06,
+        "normal_force": 49.17998991244721
+      },
+      {
+        "body_a": 3,
+        "body_b": 1,
+        "link_a": -1,
+        "link_b": -1,
+        "distance": 0.00017916800899815273,
+        "normal_force": 0.0
+      },
+      {
+        "body_a": 3,
+        "body_b": 1,
+        "link_a": -1,
+        "link_b": -1,
+        "distance": -3.3007642714024803e-06,
+        "normal_force": 2.702383532516432
+      },
+      {
+        "body_a": 3,
+        "body_b": 1,
+        "link_a": -1,
+        "link_b": -1,
+        "distance": 8.392729569847003e-05,
+        "normal_force": 0.0
+      },
+      {
+        "body_a": 3,
+        "body_b": 1,
+        "link_a": -1,
+        "link_b": -1,
+        "distance": 0.000189141961367961,
+        "normal_force": 0.0
+      },
+      {
+        "body_a": 3,
+        "body_b": 1,
+        "link_a": -1,
+        "link_b": -1,
+        "distance": 0.00017056604869699837,
+        "normal_force": 0.0
+      },
+      {
+        "body_a": 3,
+        "body_b": 1,
+        "link_a": -1,
+        "link_b": -1,
+        "distance": 0.0003499821554388837,
+        "normal_force": 0.0
+      },
+      {
+        "body_a": 3,
+        "body_b": 1,
+        "link_a": -1,
+        "link_b": -1,
+        "distance": 6.6750310207586035e-06,
+        "normal_force": 0.0
+      }
+    ],
+    "ik_success": true,
+    "execution_mode": "kinematic",
+    "joint_limit_violation": false,
+    "joint_limit_margins": [
+      2.7166078345456586,
+      1.286276254796464,
+      2.773743124944645,
+      0.8047177658847224,
+      2.603336911162893,
+      0.965120923335375,
+      0.8765176142104725
+    ],
+    "ik_residual_m": 1.123950174934421e-08,
+    "ik_branch": "rest_candidate_2",
+    "pos_error_mm": 2.665924883693888e-05
+  },
+  "seams": "PandaScene owns its client and execute_joint_target steps internally; two instances are not a dual-arm world.",
+  "provenance": {
+    "time_utc": "2026-11-06T08:10:18.535898+00:00",
+    "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+    "executable": "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\.venv\\Scripts\\python.exe",
+    "sfn_path": "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\peg-in-hole-sfn\\sfn\\__init__.py",
+    "revision": "5f4afef10443f77ae312dbe7c4c799d53b8c386f",
+    "dirty": "?? dual-arm-mas/\n?? peg-in-hole-sfn/scripts/sam3_camera_lab.py\n?? peg-in-hole-sfn/web/\n",
+    "versions": {
+      "numpy": "2.4.6",
+      "pybullet": "3.2.7",
+      "Pillow": "12.2.0"
+    },
+    "sha256": {
+      "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\dual-arm-mas\\src\\dual_arm_mas\\evidence.py": "fc01eb925c00ab0a6e24e15d5bba707e2530a081b6f7574651ffdaf217890db5",
+      "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\dual-arm-mas\\src\\dual_arm_mas\\__init__.py": "794a1a018d967632220fe0d15295072b52d0534b190c87570d9f17687ba66a6b",
+      "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\peg-in-hole-sfn\\sfn\\panda\\artifacts.py": "3d100a96ff88a564b66c6008e118680fc9bf49c3a9154afbaae41f9ad314929f",
+      "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\peg-in-hole-sfn\\sfn\\panda\\camera_canonicalization.py": "865af7f1b015b12f729e5967c0b099f074f58fcb3dfa894f83551ced49eb198e",
+      "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\peg-in-hole-sfn\\sfn\\panda\\camera_observability.py": "27c696d42fd0149c55119355cca6e0f8fcb4c9b614b47cc6f75449c10da4539d",
+      "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\peg-in-hole-sfn\\sfn\\panda\\command.py": "b51cdda01b74e85d5599ca7461c0c601906ce139c3b94fc13b50460687c16fa8",
+      "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\peg-in-hole-sfn\\sfn\\panda\\config.py": "bad5586bb3ee255f60cad744542a9dda9e11de17f0447bd20e610bff76eec216",
+      "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\peg-in-hole-sfn\\sfn\\panda\\kinematics.py": "016c63676120c11e016b3153e4d7e3bec2cb4539e84e886c3ac66aeb10f6160b",
+      "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\peg-in-hole-sfn\\sfn\\panda\\measurement.py": "8b55125c809ff8939873b2a344283c4ad43888c9b15aad569f187d6bce09c902",
+      "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\peg-in-hole-sfn\\sfn\\panda\\native_vsn.py": "b9e47b7339ac0866ed2ca79fddac6ecdad0c514cd79d117c7950aa3c44f31584",
+      "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\peg-in-hole-sfn\\sfn\\panda\\panda_alignment_env.py": "b2aff004948a8c5550a7e87c5cf505c18a8dbd78cb39e01ee7f1596ee7236ffb",
+      "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\peg-in-hole-sfn\\sfn\\panda\\panda_insertion_env.py": "40aab1d7ef4411a9d8f1678a33f14cd9e560780984c6e098f4c28a91af8f0d90",
+      "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\peg-in-hole-sfn\\sfn\\panda\\panda_scene.py": "348e4ceb357ad8cc83a7471df8aed19f94d1d233ade6534971fb96fba1b2543a",
+      "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\peg-in-hole-sfn\\sfn\\panda\\peg_attachment.py": "a7876317692234ae1e12047cedd7299161ff246b80792296e2d3a2954ee04eec",
+      "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\peg-in-hole-sfn\\sfn\\panda\\reporting.py": "e5654f8b78539821e0d4e3a34d8632f93abb4a0afe033d140bed9b5a7ede37a8",
+      "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\peg-in-hole-sfn\\sfn\\panda\\robot_model.py": "25ea5cbdcbfa7d0924d5c5784cca24aba2f3a587f780679eb20ba1a71ad1a7e3",
+      "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\peg-in-hole-sfn\\sfn\\panda\\template_pose.py": "f3ac32a74d47ae76f007e7015638226887ba906654f82fdcc845c1f3431460c8",
+      "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\peg-in-hole-sfn\\sfn\\panda\\validation.py": "a11100abf6795d9977ac3d770b2bd651f7ef7cb8ed27d97ed8b16cd83b9f0f46",
+      "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\peg-in-hole-sfn\\sfn\\panda\\__init__.py": "3bd100ebaa67963cc987e591e9799b125ec27ac42e5b14900f297bb4fee6450a"
+    }
+  }
+}

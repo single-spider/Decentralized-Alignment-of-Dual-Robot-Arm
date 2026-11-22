@@ -1,0 +1,36 @@
+pybullet build time: Jun 10 2026 13:09:01
+{"scheduler_sha256": "704a610d57c3f6d0d412b6f0517db86097ff5894e16784a091a84e94a800cdaa", "groups": "drop-fit0-s4-rgb,drop-fit0-s2-rgb,low-motor-fit0-s1-rgb,open-fit1-s1-rgb,open-fit0-s2-rgb,open-fit0-s4-rgb,open-fit0-s1-gt", "seconds": 240.0, "window_end": "2026-11-20T08:30:00+05:30"}
+{"group": "drop-fit0-s4-rgb", "n": 28, "id": 155, "success": true, "reason": "inserted"}
+{"group": "drop-fit0-s4-rgb", "n": 29, "id": 156, "success": true, "reason": "inserted"}
+{"group": "drop-fit0-s4-rgb", "n": 30, "id": 157, "success": true, "reason": "inserted"}
+{"group": "drop-fit0-s4-rgb", "n": 31, "id": 158, "success": true, "reason": "inserted"}
+{"group": "drop-fit0-s4-rgb", "n": 32, "id": 159, "success": false, "reason": "alignment_gate"}
+{"group": "drop-fit0-s4-rgb", "n": 32, "target": 32, "added_ids": [155, 156, 157, 158, 159], "aborted_budget_start_id": null, "window_end": "2026-11-20T08:30:00+05:30", "seconds": 42.15600000000268}
+{"group": "drop-fit0-s2-rgb", "n": 30, "id": 157, "success": true, "reason": "inserted"}
+{"group": "drop-fit0-s2-rgb", "n": 31, "id": 158, "success": true, "reason": "inserted"}
+{"group": "drop-fit0-s2-rgb", "n": 32, "id": 159, "success": false, "reason": "timeout"}
+{"group": "drop-fit0-s2-rgb", "n": 32, "target": 32, "added_ids": [157, 158, 159], "aborted_budget_start_id": null, "window_end": "2026-11-20T08:30:00+05:30", "seconds": 25.3279999999977}
+{"group": "low-motor-fit0-s1-rgb", "n": 32, "id": 159, "success": false, "reason": "timeout"}
+{"group": "low-motor-fit0-s1-rgb", "n": 32, "target": 32, "added_ids": [159], "aborted_budget_start_id": null, "window_end": "2026-11-20T08:30:00+05:30", "seconds": 8.65599999999904}
+{"group": "open-fit1-s1-rgb", "n": 31, "id": 158, "success": true, "reason": "inserted"}
+{"group": "open-fit1-s1-rgb", "n": 32, "id": 159, "success": true, "reason": "inserted"}
+{"group": "open-fit1-s1-rgb", "n": 33, "id": 160, "success": true, "reason": "inserted"}
+{"group": "open-fit1-s1-rgb", "n": 34, "id": 161, "success": true, "reason": "inserted"}
+{"group": "open-fit1-s1-rgb", "n": 35, "id": 162, "success": true, "reason": "inserted"}
+{"group": "open-fit1-s1-rgb", "n": 36, "id": 163, "success": true, "reason": "inserted"}
+{"group": "open-fit1-s1-rgb", "n": 37, "id": 164, "success": true, "reason": "inserted"}
+{"group": "open-fit1-s1-rgb", "n": 38, "id": 165, "success": false, "reason": "alignment_gate"}
+{"group": "open-fit1-s1-rgb", "n": 39, "id": 166, "success": true, "reason": "inserted"}
+{"group": "open-fit1-s1-rgb", "n": 40, "id": 167, "success": false, "reason": "alignment_gate"}
+{"group": "open-fit1-s1-rgb", "n": 41, "id": 168, "success": true, "reason": "inserted"}
+{"group": "open-fit1-s1-rgb", "n": 42, "id": 169, "success": true, "reason": "inserted"}
+{"group": "open-fit1-s1-rgb", "n": 43, "id": 170, "success": true, "reason": "inserted"}
+{"group": "open-fit1-s1-rgb", "n": 44, "id": 171, "success": true, "reason": "inserted"}
+{"group": "open-fit1-s1-rgb", "n": 45, "id": 172, "success": true, "reason": "inserted"}
+{"group": "open-fit1-s1-rgb", "n": 46, "id": 173, "success": false, "reason": "alignment_gate"}
+{"group": "open-fit1-s1-rgb", "n": 47, "id": 174, "success": false, "reason": "alignment_gate"}
+{"group": "open-fit1-s1-rgb", "n": 48, "id": 175, "success": true, "reason": "inserted"}
+{"group": "open-fit1-s1-rgb", "n": 49, "id": 176, "success": false, "reason": "alignment_gate"}
+{"group": "open-fit1-s1-rgb", "n": 50, "id": 177, "success": false, "reason": "alignment_gate"}
+{"group": "open-fit1-s1-rgb", "n": 51, "id": 178, "success": true, "reason": "inserted"}
+{"group": "open-fit1-s1-rgb", "n": 51, "target": 128, "added_ids": [158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178], "aborted_budget_start_id": 179, "window_end": "2026-11-20T08:30:00+05:30", "seconds": 163.875}

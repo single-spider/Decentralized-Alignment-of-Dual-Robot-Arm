@@ -1,0 +1,3 @@
+pybullet build time: Jun 10 2026 13:09:01
+{"episodes": 741, "success_rate": 0.9973009446693657, "mean_cost_rad2": 0.009670107247788069, "mean_steps": 3.838056680161943, "failures": {"timeout": 2}, "checkpoint_sha256": "3db5b197cb7981d1b4896a094ae117fdcf7bb9a4cac4d70e8040f7fc9a6141fe", "sensing": "rgb", "decoder": "mean", "regime": "s3", "wall_seconds": 242.07799999999997}
+Renewed-window slice checkpointed; not a completion claim

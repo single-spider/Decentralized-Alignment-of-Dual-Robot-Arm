@@ -1,0 +1,10 @@
+.venv/
+.work/
+__pycache__/
+*.py[cod]
+/dual-arm-mas/runs/evaluation/episodes.jsonl
+/report/*.aux
+/report/*.log
+/report/*.out
+/report/*.toc
+/report/*.synctex.gz

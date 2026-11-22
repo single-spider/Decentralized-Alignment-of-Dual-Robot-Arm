@@ -1,0 +1,26 @@
+pybullet build time: Jun 10 2026 13:09:01
+Traceback (most recent call last):
+  File "C:\Users\admis\OneDrive\Documents\GitHub\SFN\dual-arm-mas\scripts\continue_learned.py", line 110, in <module>
+    p.add_argument('--seconds',type=float,default=240);run(p.parse_args())
+                                                       ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admis\OneDrive\Documents\GitHub\SFN\dual-arm-mas\scripts\continue_learned.py", line 102, in run
+    if not one_group(cfg,manifest,fit,args.regime,args.sensing,condition,remaining):break
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admis\OneDrive\Documents\GitHub\SFN\dual-arm-mas\scripts\continue_learned.py", line 59, in one_group
+    evaluator.run(args)
+  File "C:\Users\admis\OneDrive\Documents\GitHub\SFN\dual-arm-mas\scripts\evaluate_learned.py", line 83, in run
+    obs,rgb,perception=loop.replace(obs)
+                       ^^^^^^^^^^^^^^^^^
+  File "C:\Users\admis\OneDrive\Documents\GitHub\SFN\dual-arm-mas\scripts\evaluate_learned.py", line 29, in replace
+    else:rgb,result=self.sensor.observe(self.env.world)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admis\OneDrive\Documents\GitHub\SFN\dual-arm-mas\src\dual_arm_mas\vision.py", line 176, in observe
+    return rgb,self.estimate(rgb,yaw)
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admis\OneDrive\Documents\GitHub\SFN\dual-arm-mas\src\dual_arm_mas\vision.py", line 118, in estimate
+    began=time.perf_counter();mask=self.segment(rgb)
+                                   ^^^^^^^^^^^^^^^^^
+  File "C:\Users\admis\OneDrive\Documents\GitHub\SFN\dual-arm-mas\src\dual_arm_mas\vision.py", line 72, in segment
+    image=np.asarray(rgb,dtype=float)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+numpy._core._exceptions._ArrayMemoryError: Unable to allocate 13.5 MiB for an array with shape (768, 768, 3) and data type float64

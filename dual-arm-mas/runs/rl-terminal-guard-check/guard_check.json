@@ -1,0 +1,37 @@
+{
+  "passed": true,
+  "actual_trainer_GAE_scaled_rewards": [
+    -100.88380440680118
+  ],
+  "physical_reward_cases": [
+    {
+      "strategy": "wait",
+      "success": false,
+      "steps": 20,
+      "raw_episode_return": -2899.5237422450673,
+      "guarded_training_return_raw": -12899.523742245068
+    },
+    {
+      "strategy": "tiny",
+      "success": false,
+      "steps": 20,
+      "raw_episode_return": -2550.953578739763,
+      "guarded_training_return_raw": -12550.953578739764
+    },
+    {
+      "strategy": "half",
+      "success": true,
+      "steps": 4,
+      "raw_episode_return": -95.62163080076408,
+      "guarded_training_return_raw": -95.62163080076408
+    },
+    {
+      "strategy": "invalid",
+      "success": false,
+      "steps": 1,
+      "raw_episode_return": -154.97618711225337,
+      "guarded_training_return_raw": -10154.976187112254
+    }
+  ],
+  "scope": "Deliberately one-step horizon branch check, not learning evidence"
+}

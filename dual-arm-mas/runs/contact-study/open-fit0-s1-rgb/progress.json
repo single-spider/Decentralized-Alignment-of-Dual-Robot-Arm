@@ -1,0 +1,11 @@
+{
+  "group": "open-fit0-s1-rgb",
+  "n": 34,
+  "target": 128,
+  "added_ids": [
+    33
+  ],
+  "aborted_budget_start_id": 34,
+  "window_end": "2026-11-20T07:30:00+05:30",
+  "seconds": 16.718999999997322
+}

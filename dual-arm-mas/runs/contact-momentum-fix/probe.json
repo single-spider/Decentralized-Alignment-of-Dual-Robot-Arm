@@ -1,0 +1,16 @@
+[
+  {
+    "branch": "dual_arm_mas.contact_world",
+    "before_rad_s": 0.123,
+    "after_rad_s": 0.0,
+    "tick_unchanged": true,
+    "preserved": false
+  },
+  {
+    "branch": "dual_arm_mas.contact_world_v2",
+    "before_rad_s": 0.123,
+    "after_rad_s": 0.123,
+    "tick_unchanged": true,
+    "preserved": true
+  }
+]

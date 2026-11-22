@@ -1,0 +1,25 @@
+{
+  "camera": "visible_low_oblique",
+  "dxy_m": [
+    [
+      0.005272126290947199,
+      0.016395218670368195
+    ]
+  ],
+  "yaw_deg": [
+    0.0
+  ],
+  "valid": [
+    true
+  ],
+  "class_pixels": [
+    46936,
+    39622,
+    60898
+  ],
+  "checkpoints": [
+    "segmentation_mesh_v2_ce.pt",
+    "position_mesh_v2_geometric.pt",
+    "orientation_mesh_v2_symmetry_hybrid.pt"
+  ]
+}

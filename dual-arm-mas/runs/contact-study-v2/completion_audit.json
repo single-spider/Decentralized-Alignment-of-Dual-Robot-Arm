@@ -1,0 +1,572 @@
+{
+  "created_ist": "2026-11-20T08:19:29.748837+05:30",
+  "objective": "complete the project: original RL/vision master prompt plus user-required actual contact insertion/dynamic actuation/force/jamming evaluation",
+  "complete": true,
+  "original_requirements_sha256": "99d65eae6b6a82eed5f13bdf2fdee4c8d1ce3ca63a61f8abd3e7c0f040b33542",
+  "learned_alignment_episodes": 25280,
+  "preserved_baseline_episodes": 23456,
+  "corrected_contact_episodes": 1216,
+  "stopped_diagnostic_contact_episodes": 553,
+  "corrected_unique_keys": 1216,
+  "corrected_groups": [
+    {
+      "group": "open-fit0-s1-rgb",
+      "count": 128,
+      "raw_sha256": "7387a26f38d0b519abfb469e1a103583d612a692cfde57bf745a38032054fe5f"
+    },
+    {
+      "group": "open-fit0-s2-rgb",
+      "count": 128,
+      "raw_sha256": "41e7a50e2d445a2fd5d0ac22a9b5eaa0555dd543b4083596430e9f8977f743a3"
+    },
+    {
+      "group": "open-fit0-s3-rgb",
+      "count": 128,
+      "raw_sha256": "3e8fc070a32f380b4f61d4da5dbd3894d68b29ee20a61f2e1e92844207f883bd"
+    },
+    {
+      "group": "open-fit0-s4-rgb",
+      "count": 128,
+      "raw_sha256": "9e995cb3b294c8bdce74e9d345732da7a42d1deb92546de3f1cd2061ace271ae"
+    },
+    {
+      "group": "open-fit0-half-rgb",
+      "count": 128,
+      "raw_sha256": "07bbdb2e428b77bb9f2b459f38b692df7f5b986238ff3d0bdd557511a5fd4a51"
+    },
+    {
+      "group": "open-fit0-s1-gt",
+      "count": 128,
+      "raw_sha256": "0259141816b713ebfa997a5d263a083125fdb1181215be79d3596d5e7022b56f"
+    },
+    {
+      "group": "open-fit1-s1-rgb",
+      "count": 128,
+      "raw_sha256": "70886001f046e3ae2dd0c2d16e0c7c221866faa64866f2c656f7b884e2ec16fd"
+    },
+    {
+      "group": "open-fit2-s1-rgb",
+      "count": 128,
+      "raw_sha256": "ce0c6da14af2ebc537ced80ef1fd8dd2ca82a37cc4e12591ef32cc6fabdac95f"
+    },
+    {
+      "group": "blocked-fit0-s1-rgb",
+      "count": 32,
+      "raw_sha256": "1f2e556f9b8f5c855a9da5caa2c67539392a9e466a4194dc5fb73f966a120e6b"
+    },
+    {
+      "group": "blocked-fit0-s4-rgb",
+      "count": 32,
+      "raw_sha256": "d09122dc011689b076bb9cbff2034c5b33cb1380ded8a87aab9a73d66f7140df"
+    },
+    {
+      "group": "low-motor-fit0-s1-rgb",
+      "count": 32,
+      "raw_sha256": "e38b29eb31c53e80c3c607158833c139b2f8de45243dd560cdb113103f06cb84"
+    },
+    {
+      "group": "drop-fit0-s2-rgb",
+      "count": 32,
+      "raw_sha256": "08fcb11b81695a3f4b8d8162a700bc9a1389cb1b5cbb21056955f4dfa3e480c2"
+    },
+    {
+      "group": "drop-fit0-s4-rgb",
+      "count": 32,
+      "raw_sha256": "e23e6e749f72776fd98773e0ad740177a7b28f94e8544112e32a309aa02d51e2"
+    },
+    {
+      "group": "delay-fit0-s2-rgb",
+      "count": 32,
+      "raw_sha256": "17380006d74f1998f5cdd4c30a6ade447e82e1a102a00fd6b588db2a8044b80a"
+    }
+  ],
+  "training": [
+    {
+      "fit": 0,
+      "regime": "s1",
+      "seed": 401,
+      "steps": 10118,
+      "actor_l2_changes": {
+        "selected": 1.6468595239149182,
+        "latest": 3.379010456743983
+      },
+      "checkpoint_sha256": "03d3ac69d304e398b59ff84beb98d09e6e9d0509fe9d00095bf58b004a864fcf"
+    },
+    {
+      "fit": 0,
+      "regime": "s2",
+      "seed": 401,
+      "steps": 10060,
+      "actor_l2_changes": {
+        "selected": 1.3311934214287549,
+        "latest": 2.8667608411075616
+      },
+      "checkpoint_sha256": "369ce2d3f904bc5b82a0a9e6a7c54fea2adf019716102ad5e8eaa5988333a58f"
+    },
+    {
+      "fit": 0,
+      "regime": "s3",
+      "seed": 401,
+      "steps": 10048,
+      "actor_l2_changes": {
+        "selected": 1.502706367509575,
+        "latest": 3.3551130980612958
+      },
+      "checkpoint_sha256": "dfb384ef4f00635fd27fa21aca73929136ca47134fdc8d3cb76a861888809c16"
+    },
+    {
+      "fit": 0,
+      "regime": "s4",
+      "seed": 401,
+      "steps": 10085,
+      "actor_l2_changes": {
+        "selected": 1.4619765647365146,
+        "latest": 3.1641848390381244
+      },
+      "checkpoint_sha256": "97dba1131a20e2bc92d97b0ae7deae5c1a1e78dea235961d8aff6eaca344a213"
+    },
+    {
+      "fit": 1,
+      "regime": "s1",
+      "seed": 402,
+      "steps": 10181,
+      "actor_l2_changes": {
+        "selected": 1.3829208396575463,
+        "latest": 3.4931348879957964
+      },
+      "checkpoint_sha256": "2cedd7ff879a68c486094dce460b10c26268002c8aa19319775db1f072e825d7"
+    },
+    {
+      "fit": 1,
+      "regime": "s2",
+      "seed": 402,
+      "steps": 10013,
+      "actor_l2_changes": {
+        "selected": 1.1878173469377387,
+        "latest": 2.886552704751062
+      },
+      "checkpoint_sha256": "c84291682bcbc815711bbb7e0bd959455f5f840e4f668ba9958bad1287327d7b"
+    },
+    {
+      "fit": 1,
+      "regime": "s3",
+      "seed": 402,
+      "steps": 10203,
+      "actor_l2_changes": {
+        "selected": 1.5776233551512544,
+        "latest": 3.2630922476532294
+      },
+      "checkpoint_sha256": "3db5b197cb7981d1b4896a094ae117fdcf7bb9a4cac4d70e8040f7fc9a6141fe"
+    },
+    {
+      "fit": 1,
+      "regime": "s4",
+      "seed": 402,
+      "steps": 10192,
+      "actor_l2_changes": {
+        "selected": 1.325327892776534,
+        "latest": 3.3316925547223932
+      },
+      "checkpoint_sha256": "1fbfcc3a706e8f4372fc083761cfe5dbf7290ce4e708ae71c08a7f2f902d75ea"
+    },
+    {
+      "fit": 2,
+      "regime": "s1",
+      "seed": 403,
+      "steps": 10127,
+      "actor_l2_changes": {
+        "selected": 1.2835814612845755,
+        "latest": 3.415893856231651
+      },
+      "checkpoint_sha256": "43d9fd34064df3725287a6d89d6bbc24f4697d32e945c26fef42af9bebdd7f38"
+    },
+    {
+      "fit": 2,
+      "regime": "s2",
+      "seed": 403,
+      "steps": 10000,
+      "actor_l2_changes": {
+        "selected": 1.1171844470292505,
+        "latest": 2.9660839369357883
+      },
+      "checkpoint_sha256": "9561cf505dea3f3228093ce85314e33043de70a0470ccb9f2cb930d55a069475"
+    },
+    {
+      "fit": 2,
+      "regime": "s3",
+      "seed": 403,
+      "steps": 10057,
+      "actor_l2_changes": {
+        "selected": 1.353720684364541,
+        "latest": 3.215823109373886
+      },
+      "checkpoint_sha256": "f19205430174c49076a112624db5e3adf8f5c73d58ef92c8e51ae99acbfc2580"
+    },
+    {
+      "fit": 2,
+      "regime": "s4",
+      "seed": 403,
+      "steps": 10010,
+      "actor_l2_changes": {
+        "selected": 1.2277323502192548,
+        "latest": 3.3002319838251943
+      },
+      "checkpoint_sha256": "a8ec5e25c018c51ae90b63d610db0ff027ab8e9dd467f13125939a8cc4aad5fe"
+    }
+  ],
+  "original_deliverables": {
+    "D1": {
+      "requirements": "Common world XY/yaw and grasp references; constrained-IK finite differences; measured cost/asymmetry; normalized reward, subdivision and invalid/wait/tiny/timeout exploits; public conventions and historical reconstruction.",
+      "evidence": [
+        "docs/CONTRACT.md",
+        "runs/m4-clear/result.json",
+        "runs/m6-final/result.json",
+        "runs/rl-terminal-guard-check/guard_check.json",
+        "src/dual_arm_mas/world.py",
+        "src/dual_arm_mas/episode.py"
+      ],
+      "status": "verified-current-supporting-evidence",
+      "historical_alignment_acceptance_evidence_sha256": {
+        "docs/CONTRACT.md": "383fff2b62b17dfb20956bcc287427f7a9830fa613336fd09e84553dce37b1f2",
+        "runs/m4-clear/result.json": "ed918dcde1e66c50633e38a38ec3fd2ea5bca6278b7d69518c24b63ac7c5caac",
+        "runs/m6-final/result.json": "0b0c0683e2e2c6e7d75d5752abb24a44278e10d2d06aacff62bde195943509fc",
+        "runs/rl-terminal-guard-check/guard_check.json": "3e9eb77eb298a57369b5216118e869889787eb38ff9856f278f0374e14bbb8d2",
+        "src/dual_arm_mas/world.py": "8bed751c5a755afc0f47e4140a79b1120da229f11f945ce666006720f9500d70",
+        "src/dual_arm_mas/episode.py": "e14df2a19faec468347113c9ce74c3e99f91e148174740d01baf704edf7d7506"
+      },
+      "scope_note": "Original full alignment requirements remain supported by unchanged raw/source/checkpoint digests; current assembly additions below.",
+      "current_evidence_sha256": {
+        "docs/CONTRACT.md": "96adc57b4996cf6e4e884797f868c2d4a4e2f021cffa5b60c8228be59486449c",
+        "runs/m4-clear/result.json": "ed918dcde1e66c50633e38a38ec3fd2ea5bca6278b7d69518c24b63ac7c5caac",
+        "runs/m6-final/result.json": "0b0c0683e2e2c6e7d75d5752abb24a44278e10d2d06aacff62bde195943509fc",
+        "runs/rl-terminal-guard-check/guard_check.json": "3e9eb77eb298a57369b5216118e869889787eb38ff9856f278f0374e14bbb8d2",
+        "src/dual_arm_mas/world.py": "8bed751c5a755afc0f47e4140a79b1120da229f11f945ce666006720f9500d70",
+        "src/dual_arm_mas/episode.py": "e14df2a19faec468347113c9ce74c3e99f91e148174740d01baf704edf7d7506"
+      }
+    },
+    "D2": {
+      "requirements": "Single client/clock; two complete arms; explicit measured held-part transforms; atomic prepared targets and common advancement; feasible resets and measured joint/part changes. Kinematic/noncontact limitations explicit.",
+      "evidence": [
+        "src/dual_arm_mas/world.py",
+        "runs/m4-clear/result.json",
+        "runs/m6-final/result.json",
+        "runs/integrated-demo-neural-crop-v6-20261120/replay.json"
+      ],
+      "status": "verified-current-supporting-evidence",
+      "historical_alignment_acceptance_evidence_sha256": {
+        "src/dual_arm_mas/world.py": "8bed751c5a755afc0f47e4140a79b1120da229f11f945ce666006720f9500d70",
+        "runs/m4-clear/result.json": "ed918dcde1e66c50633e38a38ec3fd2ea5bca6278b7d69518c24b63ac7c5caac",
+        "runs/m6-final/result.json": "0b0c0683e2e2c6e7d75d5752abb24a44278e10d2d06aacff62bde195943509fc",
+        "runs/integrated-demo-neural-crop-v6-20261120/replay.json": "286e5dec4882ae9d6e094dc5775442a50ae0c329189b2304b674dae1ab779e87"
+      },
+      "scope_note": "Original full alignment requirements remain supported by unchanged raw/source/checkpoint digests; current assembly additions below.",
+      "current_evidence_sha256": {
+        "src/dual_arm_mas/world.py": "8bed751c5a755afc0f47e4140a79b1120da229f11f945ce666006720f9500d70",
+        "runs/m4-clear/result.json": "ed918dcde1e66c50633e38a38ec3fd2ea5bca6278b7d69518c24b63ac7c5caac",
+        "runs/m6-final/result.json": "0b0c0683e2e2c6e7d75d5752abb24a44278e10d2d06aacff62bde195943509fc",
+        "runs/integrated-demo-neural-crop-v6-20261120/replay.json": "286e5dec4882ae9d6e094dc5775442a50ae0c329189b2304b674dae1ab779e87"
+      }
+    },
+    "D3": {
+      "requirements": "A-only/B-only/half/full-info/strong-local and deterministic information references; paired starts/current physics/source contract; reuse rather than rerun.",
+      "evidence": [
+        "runs/evaluation/completion_audit.json",
+        "runs/evaluation/episodes.jsonl",
+        "runs/learned-study/analysis/statistics.json"
+      ],
+      "status": "verified-current-supporting-evidence",
+      "historical_alignment_acceptance_evidence_sha256": {
+        "runs/evaluation/completion_audit.json": "f474076d81f5d387459452b30c53e5fc378faac3e680e544ee18f16cdefee9bc",
+        "runs/evaluation/episodes.jsonl": "a9aa529e57542a40104e34cbf99265fa6977d524a4d8ae1048b8df1130e19d36",
+        "runs/learned-study/analysis/statistics.json": "33c5c77a00d712d68e22d8b53f92a83bb9d54abf3f612b6aa2e673b888cc4990"
+      },
+      "scope_note": "Original full alignment requirements remain supported by unchanged raw/source/checkpoint digests; current assembly additions below.",
+      "current_evidence_sha256": {
+        "runs/evaluation/completion_audit.json": "f474076d81f5d387459452b30c53e5fc378faac3e680e544ee18f16cdefee9bc",
+        "runs/evaluation/episodes.jsonl": "a9aa529e57542a40104e34cbf99265fa6977d524a4d8ae1048b8df1130e19d36",
+        "runs/learned-study/analysis/statistics.json": "33c5c77a00d712d68e22d8b53f92a83bb9d54abf3f612b6aa2e673b888cc4990"
+      }
+    },
+    "D4": {
+      "requirements": "Allowed local actors/separate central critic; genuine reward rollouts/PPO updates; categorical scaling and likelihoods; terminal/time-limit GAE; finite gradients/normalization; independently seeded reset; full optimizer/RNG save/resume; fresh-process mean evaluation and exploration; initial-vs-trained same decoder/sensing; 12 training budgets and actual parameter changes.",
+      "evidence": [
+        "src/dual_arm_mas/rl.py",
+        "scripts/train_rl.py",
+        "tests/test_rl_vision.py",
+        "runs/continuation-focused-tests.log",
+        "configs/learned_study.json",
+        "runs/learned-study/analysis/statistics.json"
+      ],
+      "status": "verified-current-supporting-evidence",
+      "historical_alignment_acceptance_evidence_sha256": {
+        "src/dual_arm_mas/rl.py": "e39baed6e2695128afe6f652befa37d331a80098ec12dd1c97a7aa69d094a8b8",
+        "scripts/train_rl.py": "604bbd0a24dde6168156c0edc43c59faf973f8aa74b0fbb14f9e158690a3e367",
+        "tests/test_rl_vision.py": "a15c3f9a5e777ac473efb6090ca02ed3764c79debafdca37d88fb89a129b1a41",
+        "runs/continuation-focused-tests.log": "f38cfa328eebc160bac3eef756e87e23c732ff4ee1ab3e77283990efdf63d3c2",
+        "configs/learned_study.json": "8bbb55c26dfbebf8f6505e47ad7b2539c297dba2dbfd86c3d34e97f9715b7bba",
+        "runs/learned-study/analysis/statistics.json": "33c5c77a00d712d68e22d8b53f92a83bb9d54abf3f612b6aa2e673b888cc4990"
+      },
+      "scope_note": "Original full alignment requirements remain supported by unchanged raw/source/checkpoint digests; current assembly additions below.",
+      "current_evidence_sha256": {
+        "src/dual_arm_mas/rl.py": "e39baed6e2695128afe6f652befa37d331a80098ec12dd1c97a7aa69d094a8b8",
+        "scripts/train_rl.py": "604bbd0a24dde6168156c0edc43c59faf973f8aa74b0fbb14f9e158690a3e367",
+        "tests/test_rl_vision.py": "a15c3f9a5e777ac473efb6090ca02ed3764c79debafdca37d88fb89a129b1a41",
+        "runs/continuation-focused-tests.log": "f38cfa328eebc160bac3eef756e87e23c732ff4ee1ab3e77283990efdf63d3c2",
+        "configs/learned_study.json": "8bbb55c26dfbebf8f6505e47ad7b2539c297dba2dbfd86c3d34e97f9715b7bba",
+        "runs/learned-study/analysis/statistics.json": "33c5c77a00d712d68e22d8b53f92a83bb9d54abf3f612b6aa2e673b888cc4990"
+      }
+    },
+    "D5": {
+      "requirements": "All S0-S4; serialized capability and pre-action bid routing/bytes/rounds/drop/delay; past-executed belief with own-motion subtraction and reset; current actions withheld; actor-boundary inspection; fitted predictor vs RL distinction and policy-distribution mismatch; all learned regimes replicated.",
+      "evidence": [
+        "src/dual_arm_mas/rl.py",
+        "src/dual_arm_mas/policies.py",
+        "src/dual_arm_mas/episode.py",
+        "scripts/evaluate_learned.py",
+        "runs/learned-study/analysis/statistics.json"
+      ],
+      "status": "verified-current-supporting-evidence",
+      "historical_alignment_acceptance_evidence_sha256": {
+        "src/dual_arm_mas/rl.py": "e39baed6e2695128afe6f652befa37d331a80098ec12dd1c97a7aa69d094a8b8",
+        "src/dual_arm_mas/policies.py": "e6106dbe4824b739a647fc8be98143bf01f527455eac98a69502b9e06743e6fe",
+        "src/dual_arm_mas/episode.py": "e14df2a19faec468347113c9ce74c3e99f91e148174740d01baf704edf7d7506",
+        "scripts/evaluate_learned.py": "e19cf3be8bcf9c58fba2926155afe7976d338b022a5e332897095473eb19b8a1",
+        "runs/learned-study/analysis/statistics.json": "33c5c77a00d712d68e22d8b53f92a83bb9d54abf3f612b6aa2e673b888cc4990"
+      },
+      "scope_note": "Original full alignment requirements remain supported by unchanged raw/source/checkpoint digests; current assembly additions below.",
+      "current_evidence_sha256": {
+        "src/dual_arm_mas/rl.py": "e39baed6e2695128afe6f652befa37d331a80098ec12dd1c97a7aa69d094a8b8",
+        "src/dual_arm_mas/policies.py": "e6106dbe4824b739a647fc8be98143bf01f527455eac98a69502b9e06743e6fe",
+        "src/dual_arm_mas/episode.py": "e14df2a19faec468347113c9ce74c3e99f91e148174740d01baf704edf7d7506",
+        "scripts/evaluate_learned.py": "e19cf3be8bcf9c58fba2926155afe7976d338b022a5e332897095473eb19b8a1",
+        "runs/learned-study/analysis/statistics.json": "33c5c77a00d712d68e22d8b53f92a83bb9d54abf3f612b6aa2e673b888cc4990"
+      }
+    },
+    "D6": {
+      "requirements": "Actual RGB/adapted existing SFN neural segmenter; supervised-only body labels; no true-error/global-color fallback; B-FK moving camera/crop calibration/reference/yaw/known-height assumptions; invalid/confidence gates; 72 moving-arm diagnostics/range corners; pre-action actor and history estimate replacement; actual closed-loop RGB study/latency/occlusion.",
+      "evidence": [
+        "src/dual_arm_mas/vision.py",
+        "scripts/evaluate_learned.py",
+        "runs/vision-adaptation",
+        "runs/vision-validation-neural-refined/result.json",
+        "runs/vision-crop-check/range-corners.json",
+        "runs/vision-boundary-final-20261120.json"
+      ],
+      "status": "verified-current-supporting-evidence",
+      "historical_alignment_acceptance_evidence_sha256": {
+        "src/dual_arm_mas/vision.py": "0a476dc2b47d7f0491a7185710e6f62df148afe6895c6a899bbe96b73b20e4ab",
+        "scripts/evaluate_learned.py": "e19cf3be8bcf9c58fba2926155afe7976d338b022a5e332897095473eb19b8a1",
+        "runs/vision-validation-neural-refined/result.json": "b5560634d81c15544d0aaa08d8b06ec29aaac6ea0652f0a7a7384a3aedc97fc3",
+        "runs/vision-crop-check/range-corners.json": "d8b90be3147bffbd1f3912a422edc4e12de0f6ed4a72dd8bf2d9e8bb70000a06",
+        "runs/vision-boundary-final-20261120.json": "4c29c3713163308b2025dbff7d53c74e143ed28c3246e6d2435b78dad4e21f97"
+      },
+      "scope_note": "Original full alignment requirements remain supported by unchanged raw/source/checkpoint digests; current assembly additions below.",
+      "current_evidence_sha256": {
+        "src/dual_arm_mas/vision.py": "0a476dc2b47d7f0491a7185710e6f62df148afe6895c6a899bbe96b73b20e4ab",
+        "scripts/evaluate_learned.py": "e19cf3be8bcf9c58fba2926155afe7976d338b022a5e332897095473eb19b8a1",
+        "runs/vision-validation-neural-refined/result.json": "b5560634d81c15544d0aaa08d8b06ec29aaac6ea0652f0a7a7384a3aedc97fc3",
+        "runs/vision-crop-check/range-corners.json": "d8b90be3147bffbd1f3912a422edc4e12de0f6ed4a72dd8bf2d9e8bb70000a06",
+        "runs/vision-boundary-final-20261120.json": "4c29c3713163308b2025dbff7d53c74e143ed28c3246e6d2435b78dad4e21f97"
+      }
+    },
+    "D7": {
+      "requirements": "Executed fresh-process checkpoint replay; complete coupled arms/parts; matched half-vs-learned starts; both measured contributions; changed cheaper-arm configuration with weak adaptation honestly shown; neural crop/mask/estimate and diagnostic-only truth; regime/payload/mode/terminal overlay; slowed not scaled playback; actual modal timeout.",
+      "evidence": [
+        "scripts/replay_learned_window.py",
+        "scripts/demo_learned.py",
+        "runs/integrated-demo-neural-crop-v6-20261120/replay.json",
+        "runs/integrated-demo-neural-crop-v6-20261120/renewed_replay_provenance.json",
+        "runs/integrated-demo-neural-crop-v6-20261120/learned-vision.gif"
+      ],
+      "status": "verified-current-supporting-evidence",
+      "historical_alignment_acceptance_evidence_sha256": {
+        "scripts/replay_learned_window.py": "5738b22c24aa02689d161bd9691622581d14ff13e5033fb25d42d824fc309f7b",
+        "scripts/demo_learned.py": "c1d2823ae14bfa9ff98960fef7d020afdd977b8cf6ee44fe80309c7cb01e9865",
+        "runs/integrated-demo-neural-crop-v6-20261120/replay.json": "286e5dec4882ae9d6e094dc5775442a50ae0c329189b2304b674dae1ab779e87",
+        "runs/integrated-demo-neural-crop-v6-20261120/renewed_replay_provenance.json": "983ac1bd3c480b07384749e42235112f9d986ee5bf1bcfc1b152d43cb61f38cb",
+        "runs/integrated-demo-neural-crop-v6-20261120/learned-vision.gif": "dc054e83bdc241f2ca248a4eddd5a06a5d2ab90e3ffdabf8a9e768c0aea2eb65"
+      },
+      "scope_note": "Original full alignment requirements remain supported by unchanged raw/source/checkpoint digests; current assembly additions below.",
+      "current_evidence": [
+        "scripts/demo_assembly.py",
+        "runs/assembly-demo-v7/result.json",
+        "runs/assembly-demo-v7/acceptance.json"
+      ],
+      "current_evidence_sha256": {
+        "scripts/replay_learned_window.py": "5738b22c24aa02689d161bd9691622581d14ff13e5033fb25d42d824fc309f7b",
+        "scripts/demo_learned.py": "c1d2823ae14bfa9ff98960fef7d020afdd977b8cf6ee44fe80309c7cb01e9865",
+        "runs/integrated-demo-neural-crop-v6-20261120/replay.json": "286e5dec4882ae9d6e094dc5775442a50ae0c329189b2304b674dae1ab779e87",
+        "runs/integrated-demo-neural-crop-v6-20261120/renewed_replay_provenance.json": "983ac1bd3c480b07384749e42235112f9d986ee5bf1bcfc1b152d43cb61f38cb",
+        "runs/integrated-demo-neural-crop-v6-20261120/learned-vision.gif": "dc054e83bdc241f2ca248a4eddd5a06a5d2ab90e3ffdabf8a9e768c0aea2eb65",
+        "scripts/demo_assembly.py": "665a83039e15a2b2de515fccf10602c4024f646e9cef9c1b6bf20008120561c4",
+        "runs/assembly-demo-v7/result.json": "36249d18ddc4432c2b06130c0003afe8d566af69f63de18f7fe333e4edce0e03",
+        "runs/assembly-demo-v7/acceptance.json": "0c0d792d9b5d4fcb7c7697143c41df55edfcb5e898e63487e1b0bf4462c30609"
+      }
+    },
+    "D8": {
+      "requirements": "24,000 core (1000 paired starts/condition) plus 1280 robustness; three actor/data fits/one shared vision fit; disjoint manifests and frozen validation-selected actors; paired baselines/regimes/sensors; Wilson/seed704 bootstrap2000; per-axis error/cost/L1/steps/time/oscillation/invalids/communication/prediction/sensing/training variation; success-conditioned and overall failures; bounded delay/drop/limits/history/actual occlusion; full raw and source/checkpoint/runtime/continuation hashes. Negative RL result and selection-protocol limitation explicit.",
+      "evidence": [
+        "configs/learned_study.json",
+        "scripts/analyze_learned.py",
+        "runs/learned-study/analysis/statistics.json",
+        "runs/learned-study/analysis/summary.md"
+      ],
+      "status": "verified-current-supporting-evidence",
+      "historical_alignment_acceptance_evidence_sha256": {
+        "configs/learned_study.json": "8bbb55c26dfbebf8f6505e47ad7b2539c297dba2dbfd86c3d34e97f9715b7bba",
+        "scripts/analyze_learned.py": "945e6d62d91950f90241e97174ae78b7215abb603192673d91b16853523b250e",
+        "runs/learned-study/analysis/statistics.json": "33c5c77a00d712d68e22d8b53f92a83bb9d54abf3f612b6aa2e673b888cc4990",
+        "runs/learned-study/analysis/summary.md": "bd0cb94d7586280cc2ebc733148f61d5700aa33f5583b4c1594c582850ba941f"
+      },
+      "scope_note": "Original full alignment requirements remain supported by unchanged raw/source/checkpoint digests; current assembly additions below.",
+      "current_evidence": [
+        "runs/contact-study-v2/analysis/statistics.json",
+        "scripts/analyze_assembly.py"
+      ],
+      "current_evidence_sha256": {
+        "configs/learned_study.json": "8bbb55c26dfbebf8f6505e47ad7b2539c297dba2dbfd86c3d34e97f9715b7bba",
+        "scripts/analyze_learned.py": "945e6d62d91950f90241e97174ae78b7215abb603192673d91b16853523b250e",
+        "runs/learned-study/analysis/statistics.json": "33c5c77a00d712d68e22d8b53f92a83bb9d54abf3f612b6aa2e673b888cc4990",
+        "runs/learned-study/analysis/summary.md": "bd0cb94d7586280cc2ebc733148f61d5700aa33f5583b4c1594c582850ba941f",
+        "runs/contact-study-v2/analysis/statistics.json": "64849a9923080993d97c9caac1b4ad4ec2df315d23bd37962cc35275b1347342",
+        "scripts/analyze_assembly.py": "b274103949a8d8d44e595aecc4b5c602616a3eb4989684cd4e28300f1ea0ef0e"
+      }
+    },
+    "D9": {
+      "status": "verified",
+      "requirements": "Combined formulation, actor/critic/training/vision/results, dynamic contact/force/jam/retract/hold, failures/uncertainty/provenance/contributions/limits, current runnable commands,20page visual QA.",
+      "evidence": [
+        "output/pdf/dual-arm-assembly-report.pdf",
+        "docs/report-assembly/main.tex",
+        "README.md",
+        "runs/contact-study-v2/analysis/report_provenance.json"
+      ],
+      "current_evidence_sha256": {
+        "output/pdf/dual-arm-assembly-report.pdf": "5fd6170af4abaf2136d1e352e21183bfe360307b5cb691030e8f66c39da8b2be",
+        "docs/report-assembly/main.tex": "a8dd32c170b1a0ef05897f2e18839bfe531698331be171428340b8b633b84c82",
+        "README.md": "1f383c8e03bad7bd5f5716a8db4e50e51da1811e27ac95523a641eca69f59ca0",
+        "runs/contact-study-v2/analysis/report_provenance.json": "f28d93bbd01b2921bc1db124a4edb6c71d4e8d85c4f41958c7efbb2630ca1311"
+      }
+    }
+  },
+  "expanded_deliverables": {
+    "C1": {
+      "requirements": "One measured dynamic motor world/commonclock; massive matching peg/fixture collision geometry; fixed-grasp constraints (assumed,notfrictional learning); full-state-preserving IK; no resets/syncduringadvancement; actual force and measured insertion/blocked/lateral controls.",
+      "evidence": [
+        "src/dual_arm_mas/contact_world.py",
+        "src/dual_arm_mas/contact_world_v2.py",
+        "tests/test_contact_v2.py",
+        "runs/contact-momentum-fix/probe.json",
+        "runs/contact-current-cli-check/result.json",
+        "runs/contact-lateral-v2-current/result.json"
+      ],
+      "status": "verified",
+      "evidence_sha256": {
+        "src/dual_arm_mas/contact_world.py": "fd5277c24389e296b1920bf5b62733951ac287e9e10d3c458413cba69331dcd8",
+        "src/dual_arm_mas/contact_world_v2.py": "633fdc100c8ecb43b3f791ac1bf32f30295921b97f4ab2b339effb63c1b94ac9",
+        "tests/test_contact_v2.py": "905f828fca42efeed13c8e52a6b4fdcce63f988bea69bd6450f9e89d8802a283",
+        "runs/contact-momentum-fix/probe.json": "3451589e4dd2127ebc7e7d7967e6a5c9775cdd43045d378d275de5bd87e1fdfc",
+        "runs/contact-current-cli-check/result.json": "a0590f9968f4d945006fec20916af242625b15d315aac6410f3709a6baf54dc2",
+        "runs/contact-lateral-v2-current/result.json": "aa6da7a64e7c16727a3be3012130bf446147561a669409097d2113d9d6355448"
+      }
+    },
+    "C2": {
+      "requirements": "2Nnormal-axialadmittance,8Nsampledtrigger,penetration/joint/tracking/robot/grasp-angle guards; bounded stall/force retract; measured20mm depth+hold/recheck; failures retained,no universal recovery/force/hardware guarantee.",
+      "evidence": [
+        "src/dual_arm_mas/contact_world.py",
+        "runs/contact-momentum-fix/tests.log",
+        "runs/contact-study-v2/analysis/statistics.json"
+      ],
+      "status": "verified",
+      "evidence_sha256": {
+        "src/dual_arm_mas/contact_world.py": "fd5277c24389e296b1920bf5b62733951ac287e9e10d3c458413cba69331dcd8",
+        "runs/contact-momentum-fix/tests.log": "7c3cc6a963d020cbfe2c9844c0e4900de8fc86fa3f54480ee77a7ceb6d5405fd",
+        "runs/contact-study-v2/analysis/statistics.json": "64849a9923080993d97c9caac1b4ad4ec2df315d23bd37962cc35275b1347342"
+      }
+    },
+    "C3": {
+      "requirements": "Fresh saved-policy neural-RGB planar alignment then actual insertion; matchedhalf/learned case,changedcost,botharms,sideviewbelowfixture,NNregions+estimate,per-armrequested/measured,mode/messages/force/depth,actualjam/release; endpointplaybackandstaleaxialimage clearlylabeled.",
+      "evidence": [
+        "scripts/demo_assembly.py",
+        "runs/assembly-demo-v7/result.json",
+        "runs/assembly-demo-v7/acceptance.json",
+        "runs/assembly-demo-v7/contact-assembly.gif"
+      ],
+      "status": "verified",
+      "evidence_sha256": {
+        "scripts/demo_assembly.py": "665a83039e15a2b2de515fccf10602c4024f646e9cef9c1b6bf20008120561c4",
+        "runs/assembly-demo-v7/result.json": "36249d18ddc4432c2b06130c0003afe8d566af69f63de18f7fe333e4edce0e03",
+        "runs/assembly-demo-v7/acceptance.json": "0c0d792d9b5d4fcb7c7697143c41df55edfcb5e898e63487e1b0bf4462c30609",
+        "runs/assembly-demo-v7/contact-assembly.gif": "c7fd189e7d74f40e5a7e930cf8ed64d35b5621acd8c5cbabf09b70a558fe8357"
+      }
+    },
+    "C4": {
+      "requirements": "1216exact unique corrected contact episodes in14predeclaredgroups,fresh128-startsubset,128open/32stress,allS1-S4,half/GT,threeS1actorfits,blocked/lowmotor/drop/delay; pairedcost/successuncertainty,conditionedcosts/sensing/force/recovery/failure;source/assets/snapshots and appendedIDchains audited;original1000-casealignmentnotreduced;stopped553diagnosticrowsnotmixed.",
+      "evidence": [
+        "configs/contact_study_v2.json",
+        "scripts/evaluate_assembly_v2.py",
+        "scripts/analyze_assembly.py",
+        "runs/contact-study-v2/analysis/statistics.json",
+        "runs/contact-study/STOPPED_DIAGNOSTIC.json"
+      ],
+      "status": "verified",
+      "evidence_sha256": {
+        "configs/contact_study_v2.json": "f6a056b2aabc8b4ccb5759c980b3980cdfe6c165c8abfc22b990e990e1c6d2c7",
+        "scripts/evaluate_assembly_v2.py": "65a074a984fd3cdc5a2f7496e2b1375f7065e099367438ba86c5fa6bf81b3ec4",
+        "scripts/analyze_assembly.py": "b274103949a8d8d44e595aecc4b5c602616a3eb4989684cd4e28300f1ea0ef0e",
+        "runs/contact-study-v2/analysis/statistics.json": "64849a9923080993d97c9caac1b4ad4ec2df315d23bd37962cc35275b1347342",
+        "runs/contact-study/STOPPED_DIAGNOSTIC.json": "836b1b6304ebcd267243dcfc44d386d074de6809000e75668073a185144c51d1"
+      }
+    },
+    "C5": {
+      "requirements": "Complete combined20page report/currentreproductionCLI/limitations/AIassistance/teamreview;fullvisualQA andhashprovenance,explicitvelocitybugandstoppedbranch;originalfrozenalignmentandsingle-arm preserved.",
+      "evidence": [
+        "output/pdf/dual-arm-assembly-report.pdf",
+        "docs/report-assembly/main.tex",
+        "scripts/report_assembly_data.py",
+        "README.md",
+        "docs/REVIEW.md",
+        "docs/ROADMAP.md",
+        "runs/contact-study-v2/analysis/report_provenance.json"
+      ],
+      "status": "verified",
+      "evidence_sha256": {
+        "output/pdf/dual-arm-assembly-report.pdf": "5fd6170af4abaf2136d1e352e21183bfe360307b5cb691030e8f66c39da8b2be",
+        "docs/report-assembly/main.tex": "a8dd32c170b1a0ef05897f2e18839bfe531698331be171428340b8b633b84c82",
+        "scripts/report_assembly_data.py": "a1373d1c4270afaac94a920b3d3950dfc7cec685aaee091d17a8308ec565a4b4",
+        "README.md": "1f383c8e03bad7bd5f5716a8db4e50e51da1811e27ac95523a641eca69f59ca0",
+        "docs/REVIEW.md": "c5aa3869fe1910ec9979bba81cb4de9bfd75a4d884cd111f68dd10a75ed17116",
+        "docs/ROADMAP.md": "05fb83632fdb86ea29cca0492ed3f33552be3e0ed60a282351074492b6b39c4b",
+        "runs/contact-study-v2/analysis/report_provenance.json": "f28d93bbd01b2921bc1db124a4edb6c71d4e8d85c4f41958c7efbb2630ca1311"
+      }
+    }
+  },
+  "statistics_sha256": "64849a9923080993d97c9caac1b4ad4ec2df315d23bd37962cc35275b1347342",
+  "report_provenance_sha256": "f28d93bbd01b2921bc1db124a4edb6c71d4e8d85c4f41958c7efbb2630ca1311",
+  "runtime_observed_now": {
+    "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+    "executable": "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\.venv\\Scripts\\python.exe",
+    "torch": "2.11.0+cu128",
+    "pybullet": "3.2.7",
+    "opencv": "4.13.0.92",
+    "scipy": "1.17.1"
+  },
+  "limits": [
+    "Simulation only,assumedfixedgrasps,notfrictionaljaw/hardwarevalidation.",
+    "LearnedneuralRGBplanarstage;deterministicnormal-axialcontactstage,notaxialRLorliveaxialvision.",
+    "No RL motion-cost superiority;learnedRGBinsertions68.0-79.7%;boundedrecoveriescanfail.",
+    "128/32contactsamples exploratory,original1000-casealignmentretained.",
+    "OriginalNov7deadlinemissed;Nov20authorizedcontinuationseparate.",
+    "Studentauthorship/contributions/submissionapprovalremainhumanresponsibility."
+  ],
+  "final_handoff_sha256": {
+    "AGENTS.md": "242e3757b17c6cfce69b41a17a7d7d8f0c84df43789b2624fd3ca170b5f17a3d",
+    "README.md": "1f383c8e03bad7bd5f5716a8db4e50e51da1811e27ac95523a641eca69f59ca0",
+    "docs\\STATUS.md": "f993983de4587cf15663e972827ab349a42bac98efd0db9ded862d0aa7968f36",
+    "docs\\ROADMAP.md": "05fb83632fdb86ea29cca0492ed3f33552be3e0ed60a282351074492b6b39c4b",
+    "docs\\REVIEW.md": "c5aa3869fe1910ec9979bba81cb4de9bfd75a4d884cd111f68dd10a75ed17116",
+    "docs\\CONTRACT.md": "96adc57b4996cf6e4e884797f868c2d4a4e2f021cffa5b60c8228be59486449c"
+  },
+  "finalized_ist": "2026-11-20T08:21:37.434788+05:30",
+  "audit_source_sha256": "0b63864283d32ab613e4fb95b84621c43d6c17e6510f473fe8aff92d1d18baec"
+}

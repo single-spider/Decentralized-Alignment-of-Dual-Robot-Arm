@@ -1,0 +1,43 @@
+{
+  "pins": {
+    "dual-arm-mas\\configs\\contact_study.json": "8b75aaabce07fa39787d844409b73fc5ad86d4b21af5c5d130d28e6bb76322c4",
+    "dual-arm-mas\\configs\\learned_study.json": "8bbb55c26dfbebf8f6505e47ad7b2539c297dba2dbfd86c3d34e97f9715b7bba",
+    "dual-arm-mas\\runs\\test\\starts.json": "94b2cc035beeb1c8cebfe7f0a3ad7ff697c415209ad84b57e65acb71839ee0be",
+    "dual-arm-mas\\runs\\train-311\\public.json": "3c3aeb6d4896ab6cd4c1abcb3ec0654f4fe242eba8aaeddac6985129292d44af",
+    "dual-arm-mas\\runs\\rl-s4-401\\guarded-recovery.pt": "97dba1131a20e2bc92d97b0ae7deae5c1a1e78dea235961d8aff6eaca344a213",
+    "dual-arm-mas\\runs\\vision-adaptation\\segmentation-v1.pt": "b1edf772e3d1c0331d639f3a7d301995edf5a02c024efa74baac76d2ac9064c1",
+    "dual-arm-mas/scripts/train_rl.py": "604bbd0a24dde6168156c0edc43c59faf973f8aa74b0fbb14f9e158690a3e367",
+    "dual-arm-mas/scripts/evaluate_learned.py": "e19cf3be8bcf9c58fba2926155afe7976d338b022a5e332897095473eb19b8a1",
+    "dual-arm-mas/src/dual_arm_mas/episode.py": "e14df2a19faec468347113c9ce74c3e99f91e148174740d01baf704edf7d7506",
+    "dual-arm-mas/src/dual_arm_mas/evidence.py": "d12b012e667a7b53af4cdf089e01e63fd1f39ce49ad2e2f681c93476e09d4afe",
+    "dual-arm-mas/src/dual_arm_mas/policies.py": "e6106dbe4824b739a647fc8be98143bf01f527455eac98a69502b9e06743e6fe",
+    "dual-arm-mas/src/dual_arm_mas/rl.py": "e39baed6e2695128afe6f652befa37d331a80098ec12dd1c97a7aa69d094a8b8",
+    "dual-arm-mas/src/dual_arm_mas/vision.py": "0a476dc2b47d7f0491a7185710e6f62df148afe6895c6a899bbe96b73b20e4ab",
+    "dual-arm-mas/src/dual_arm_mas/world.py": "8bed751c5a755afc0f47e4140a79b1120da229f11f945ce666006720f9500d70",
+    "dual-arm-mas/src/dual_arm_mas/__init__.py": "794a1a018d967632220fe0d15295072b52d0534b190c87570d9f17687ba66a6b",
+    "dual-arm-mas/src/dual_arm_mas/contact_world.py": "fd5277c24389e296b1920bf5b62733951ac287e9e10d3c458413cba69331dcd8",
+    "dual-arm-mas/scripts/evaluate_assembly.py": "8e58b2088d7bda9e0f64903621e07d189b943fd78d0d26ed5de92ae9b4ca4086",
+    "peg-in-hole-sfn/sfn/panda/kinematics.py": "016c63676120c11e016b3153e4d7e3bec2cb4539e84e886c3ac66aeb10f6160b",
+    "peg-in-hole-sfn/sfn/models/segmentation.py": "8186d1a25fa1c8c018307067205764245826ac3a47adf88d1fea1451fdf2bea5",
+    "peg-in-hole-sfn/sfn/models/unet.py": "fa067c1ce399cdc6f849c43d81d41a7a94faa57231e33ad9f07d869bb286eb8c",
+    "peg-in-hole-sfn/sfn/models/vsn.py": "d38e81b3217db67a539c7b9f5668b3d82c31c58d8d99e52d5e0b7cbf3ac1f943"
+  },
+  "group": {
+    "id": "drop-fit0-s4-rgb",
+    "method": "learned",
+    "regime": "s4",
+    "fit": 0,
+    "sensing": "rgb",
+    "count": 32,
+    "drop": 0.25
+  },
+  "runtime": {
+    "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+    "executable": "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\.venv\\Scripts\\python.exe",
+    "torch": "2.11.0+cu128",
+    "numpy": "2.4.6",
+    "sfn": "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\peg-in-hole-sfn\\sfn\\__init__.py"
+  },
+  "execution_mode": "dynamic_motors_fixed_grasps",
+  "seed": 1901
+}

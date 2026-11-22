@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "C:\Users\admis\OneDrive\Documents\GitHub\SFN\dual-arm-mas\scripts\run_learned_queue.py", line 43, in <module>
+    p.add_argument('--seconds',type=float,default=240);run(p.parse_args())
+                                                       ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admis\OneDrive\Documents\GitHub\SFN\dual-arm-mas\scripts\run_learned_queue.py", line 29, in run
+    count=count_unique(directory)
+          ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admis\OneDrive\Documents\GitHub\SFN\dual-arm-mas\scripts\run_learned_queue.py", line 7, in count_unique
+    if (directory/'writer.lock').exists():raise ValueError('Another writer owns '+str(directory))
+                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Another writer owns dual-arm-mas\runs\learned-study\core\fit-1\s1\rgb

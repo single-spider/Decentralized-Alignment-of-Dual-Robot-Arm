@@ -1,0 +1,29 @@
+pybullet build time: Jun 10 2026 13:09:01
+{"scheduler_sha256": "704a610d57c3f6d0d412b6f0517db86097ff5894e16784a091a84e94a800cdaa", "groups": "open-fit1-s1-rgb,open-fit0-s2-rgb,open-fit0-s4-rgb,open-fit2-s1-rgb", "seconds": 240.0, "window_end": "2026-11-20T08:30:00+05:30"}
+{"group": "open-fit1-s1-rgb", "n": 106, "id": 233, "success": false, "reason": "timeout"}
+{"group": "open-fit1-s1-rgb", "n": 107, "id": 234, "success": true, "reason": "inserted"}
+{"group": "open-fit1-s1-rgb", "n": 108, "id": 235, "success": true, "reason": "inserted"}
+{"group": "open-fit1-s1-rgb", "n": 109, "id": 236, "success": true, "reason": "inserted"}
+{"group": "open-fit1-s1-rgb", "n": 110, "id": 237, "success": true, "reason": "inserted"}
+{"group": "open-fit1-s1-rgb", "n": 111, "id": 238, "success": true, "reason": "inserted"}
+{"group": "open-fit1-s1-rgb", "n": 112, "id": 239, "success": false, "reason": "alignment_gate"}
+{"group": "open-fit1-s1-rgb", "n": 113, "id": 240, "success": true, "reason": "inserted"}
+{"group": "open-fit1-s1-rgb", "n": 114, "id": 241, "success": true, "reason": "inserted"}
+{"group": "open-fit1-s1-rgb", "n": 115, "id": 242, "success": true, "reason": "inserted"}
+{"group": "open-fit1-s1-rgb", "n": 116, "id": 243, "success": true, "reason": "inserted"}
+{"group": "open-fit1-s1-rgb", "n": 117, "id": 244, "success": true, "reason": "inserted"}
+{"group": "open-fit1-s1-rgb", "n": 118, "id": 245, "success": true, "reason": "inserted"}
+{"group": "open-fit1-s1-rgb", "n": 119, "id": 246, "success": true, "reason": "inserted"}
+{"group": "open-fit1-s1-rgb", "n": 120, "id": 247, "success": true, "reason": "inserted"}
+{"group": "open-fit1-s1-rgb", "n": 121, "id": 248, "success": false, "reason": "force_limit"}
+{"group": "open-fit1-s1-rgb", "n": 122, "id": 249, "success": false, "reason": "alignment_gate"}
+{"group": "open-fit1-s1-rgb", "n": 123, "id": 250, "success": true, "reason": "inserted"}
+{"group": "open-fit1-s1-rgb", "n": 124, "id": 251, "success": true, "reason": "inserted"}
+{"group": "open-fit1-s1-rgb", "n": 125, "id": 252, "success": true, "reason": "inserted"}
+{"group": "open-fit1-s1-rgb", "n": 126, "id": 253, "success": false, "reason": "estimated_alignment_gate"}
+{"group": "open-fit1-s1-rgb", "n": 127, "id": 254, "success": true, "reason": "inserted"}
+{"group": "open-fit1-s1-rgb", "n": 128, "id": 255, "success": false, "reason": "alignment_gate"}
+{"group": "open-fit1-s1-rgb", "n": 128, "target": 128, "added_ids": [233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255], "aborted_budget_start_id": null, "window_end": "2026-11-20T08:30:00+05:30", "seconds": 218.64100000000326}
+{"group": "open-fit0-s2-rgb", "n": 110, "id": 237, "success": true, "reason": "inserted"}
+{"group": "open-fit0-s2-rgb", "n": 111, "id": 238, "success": true, "reason": "inserted"}
+{"group": "open-fit0-s2-rgb", "n": 111, "target": 128, "added_ids": [237, 238], "aborted_budget_start_id": 239, "window_end": "2026-11-20T08:30:00+05:30", "seconds": 21.34400000000096}

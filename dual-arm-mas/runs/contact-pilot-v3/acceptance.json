@@ -1,0 +1,23 @@
+{
+  "checked_at_ist": "2026-11-20T05:19:55.048157+05:30",
+  "scope": "Validation pilot acceptance only; expanded assembly project remains INCOMPLETE.",
+  "visual_inspection": "Latest GIF frames0/34/70/110 inspected; whole robots, actual zoom, labeled last neural image, depth/force/stage/mode and terminal obstruction shown. Telemetry overlap inV2 fixed by rerenderV3.",
+  "expected_outcomes": [
+    true,
+    true,
+    false
+  ],
+  "observed_outcomes": [
+    true,
+    true,
+    false
+  ],
+  "gif_sha256": "404649c0f30949ba2b2307d0090a228428855c66b01adea11a4591ff1d97e56f",
+  "result_sha256": "a7c38be005f528dcdbe2bbe03ccc8b0d1e5e1d8d2b36e11ddfd4d6f77b232f31",
+  "render_sha256": {
+    "qa-0.png": "3ce6ebdbfa8496047ddf7e99a395508193a48a5dcaa0afe1e02db6f919ae7df5",
+    "qa-110.png": "36810bae6ce45f138088baff8b8779c7b737283234d4068706a021610ef92df6",
+    "qa-34.png": "1c8161783e36bb5a22a079ecd29168a4ad51e069e073229f0c38f3e79839d734",
+    "qa-70.png": "ce1aac27b286322d2710bb57de8eee67f42175f323d06e10087d845e6a92deb9"
+  }
+}

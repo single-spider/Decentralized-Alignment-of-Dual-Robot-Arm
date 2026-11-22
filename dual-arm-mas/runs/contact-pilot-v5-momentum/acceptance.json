@@ -1,0 +1,17 @@
+{
+  "scope": "Current state-preserving-IK branch validation only, not full study/project completion.",
+  "source_assets_verified": true,
+  "expected_outcomes": [
+    true,
+    true,
+    false
+  ],
+  "observed_outcomes": [
+    true,
+    true,
+    false
+  ],
+  "visual_QA": "Current V5frames40(success) and120(recoveredjam) inspected directly; whole arms/actualzoom/lastNNimage/depth/force/stage/mode legible.",
+  "gif_sha256": "881e2f5843c384c04cea4751a18969e00766d454afe1a70ac116938862a62ad4",
+  "probe_and_tests": "runs/contact-momentum-fix/probe.json and tests.log: velocity/time preservation + open/blocked/retraction tests passed."
+}

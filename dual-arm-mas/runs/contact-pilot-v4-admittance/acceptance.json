@@ -1,0 +1,12 @@
+{
+  "scope": "Three validation pilot cases only; not expanded project completion.",
+  "outcomes": [
+    "inserted",
+    "inserted",
+    "jam_stall_with_release"
+  ],
+  "source_assets_verified": true,
+  "gif_sha256": "9255bcf47aeb27e4c4a0c102c0262b29f7bfba21343e0252a472a82de49fb4b0",
+  "visual_QA": "Frames0/40/120 extracted, terminal success40 and recovered jam120 inspected directly; complete arms/zoom and legible force/depth/last-image/mode/phase labels.",
+  "result_sha256": "1064291d4eec39411e2acba6f50b5e279e3936ced35c0fc7f0077b69d89f462a"
+}

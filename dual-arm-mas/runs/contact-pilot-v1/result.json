@@ -1,0 +1,153 @@
+{
+  "scope": "Three validation pilot episodes only; not held-out contact study. Frozen alignment policy transferred, axial insertion deterministic.",
+  "completed_episodes": 3,
+  "expected_episodes": 3,
+  "frames": 6,
+  "seconds": 11.796999999998661,
+  "source_asset_sha256": {
+    "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\dual-arm-mas\\scripts\\contact_pilot.py": "8cb93e645bff5f7a5c64e5401117b08f8adcc6eb68401c4430767e6a5007ce8c",
+    "dual-arm-mas\\src\\dual_arm_mas\\contact_world.py": "208a3220ee0e08a27b9fa6f0e6a7ed3b95ae7544688688c80e14b56de0cf6fd8",
+    "dual-arm-mas\\runs\\validation\\starts.json": "447ccb83972336f104339e7398f49387b038efc736e141fa0a892b3aaf2d8bf8",
+    "dual-arm-mas\\runs\\rl-s1-401\\step-3375.pt": "03d3ac69d304e398b59ff84beb98d09e6e9d0509fe9d00095bf58b004a864fcf",
+    "dual-arm-mas\\runs\\vision-adaptation\\segmentation-v1.pt": "b1edf772e3d1c0331d639f3a7d301995edf5a02c024efa74baac76d2ac9064c1"
+  },
+  "frozen_alignment_source_sha256": {
+    "dual-arm-mas\\scripts\\train_rl.py": "604bbd0a24dde6168156c0edc43c59faf973f8aa74b0fbb14f9e158690a3e367",
+    "dual-arm-mas\\scripts\\evaluate_learned.py": "e19cf3be8bcf9c58fba2926155afe7976d338b022a5e332897095473eb19b8a1",
+    "dual-arm-mas\\src\\dual_arm_mas\\episode.py": "e14df2a19faec468347113c9ce74c3e99f91e148174740d01baf704edf7d7506",
+    "dual-arm-mas\\src\\dual_arm_mas\\evidence.py": "d12b012e667a7b53af4cdf089e01e63fd1f39ce49ad2e2f681c93476e09d4afe",
+    "dual-arm-mas\\src\\dual_arm_mas\\policies.py": "e6106dbe4824b739a647fc8be98143bf01f527455eac98a69502b9e06743e6fe",
+    "dual-arm-mas\\src\\dual_arm_mas\\rl.py": "e39baed6e2695128afe6f652befa37d331a80098ec12dd1c97a7aa69d094a8b8",
+    "dual-arm-mas\\src\\dual_arm_mas\\vision.py": "0a476dc2b47d7f0491a7185710e6f62df148afe6895c6a899bbe96b73b20e4ab",
+    "dual-arm-mas\\src\\dual_arm_mas\\world.py": "8bed751c5a755afc0f47e4140a79b1120da229f11f945ce666006720f9500d70",
+    "dual-arm-mas\\src\\dual_arm_mas\\__init__.py": "794a1a018d967632220fe0d15295072b52d0534b190c87570d9f17687ba66a6b"
+  },
+  "episodes": [
+    {
+      "start_id": 0,
+      "blocked": false,
+      "settle": {
+        "state": {
+          "tip_in_fixture_m": [
+            -0.0019548460841178894,
+            -0.007644083350896835,
+            0.019985824823379517
+          ],
+          "depth_m": -0.012985824823379517,
+          "error_m_m_rad": [
+            -0.001954837584574015,
+            -0.007644045686555356,
+            -0.09423316095370149
+          ],
+          "grasp_drift": {
+            "A": {
+              "position_m": 8.819597039383491e-09,
+              "angle_rad": 0.0003271056885511974
+            },
+            "B": {
+              "position_m": 1.357572443230288e-07,
+              "angle_rad": 0.0
+            }
+          },
+          "normal_force_n": 0.0,
+          "axial_normal_force_n": 0.0,
+          "penetration_m": 0.0,
+          "contacts": []
+        },
+        "peak_normal_force_n": 0.0,
+        "peak_penetration_m": 0.0,
+        "stop_reason": null,
+        "tick": 240
+      },
+      "alignment_success": false,
+      "insertion_success": false,
+      "reason": "alignment_failed"
+    },
+    {
+      "start_id": 4,
+      "blocked": false,
+      "settle": {
+        "state": {
+          "tip_in_fixture_m": [
+            0.0052619874477386475,
+            -0.005136863328516483,
+            0.019932657480239868
+          ],
+          "depth_m": -0.012932657480239869,
+          "error_m_m_rad": [
+            0.00526193746453428,
+            -0.005136899530022239,
+            -0.11432222267532755
+          ],
+          "grasp_drift": {
+            "A": {
+              "position_m": 7.491355915166962e-10,
+              "angle_rad": 0.0002946155985111257
+            },
+            "B": {
+              "position_m": 1.233214946595487e-07,
+              "angle_rad": 0.0
+            }
+          },
+          "normal_force_n": 0.0,
+          "axial_normal_force_n": 0.0,
+          "penetration_m": 0.0,
+          "contacts": []
+        },
+        "peak_normal_force_n": 0.0,
+        "peak_penetration_m": 0.0,
+        "stop_reason": null,
+        "tick": 240
+      },
+      "alignment_success": false,
+      "insertion_success": false,
+      "reason": "alignment_failed"
+    },
+    {
+      "start_id": 0,
+      "blocked": true,
+      "settle": {
+        "state": {
+          "tip_in_fixture_m": [
+            -0.0019548460841178894,
+            -0.007644083350896835,
+            0.019985824823379517
+          ],
+          "depth_m": -0.012985824823379517,
+          "error_m_m_rad": [
+            -0.001954837601321771,
+            -0.007644045669903961,
+            -0.09423316098536816
+          ],
+          "grasp_drift": {
+            "A": {
+              "position_m": 8.819597039383491e-09,
+              "angle_rad": 0.0003271056885511974
+            },
+            "B": {
+              "position_m": 1.3577471712496459e-07,
+              "angle_rad": 0.0
+            }
+          },
+          "normal_force_n": 0.0,
+          "axial_normal_force_n": 0.0,
+          "penetration_m": 0.0,
+          "contacts": []
+        },
+        "peak_normal_force_n": 0.0,
+        "peak_penetration_m": 0.0,
+        "stop_reason": null,
+        "tick": 240
+      },
+      "alignment_success": false,
+      "insertion_success": false,
+      "reason": "alignment_failed"
+    }
+  ],
+  "window_end": "2026-11-20T05:20:00+05:30",
+  "limitations": [
+    "Fixed constraints are assumed grasps, not frictional grasp validation.",
+    "Force threshold stops next simulation tick; peak can exceed threshold.",
+    "No neural pose used after axial descent starts; template fixed-height assumption invalid then."
+  ]
+}

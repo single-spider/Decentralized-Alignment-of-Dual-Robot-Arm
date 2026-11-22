@@ -1,0 +1,21 @@
+{
+  "pins": {
+    "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\dual-arm-mas\\scripts\\evaluate_learned.py": "a51ee95e7d13a505239769d524caf9a6ebaf0088f04eb613ea8f1598e959c6f7",
+    "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\dual-arm-mas\\scripts\\train_rl.py": "9b4ef30ba440f1afaa6fc56e32df69c12255388d762fdfcc10b52ff24b377d1e",
+    "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\dual-arm-mas\\src\\dual_arm_mas\\episode.py": "e14df2a19faec468347113c9ce74c3e99f91e148174740d01baf704edf7d7506",
+    "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\dual-arm-mas\\src\\dual_arm_mas\\evidence.py": "d12b012e667a7b53af4cdf089e01e63fd1f39ce49ad2e2f681c93476e09d4afe",
+    "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\dual-arm-mas\\src\\dual_arm_mas\\policies.py": "e6106dbe4824b739a647fc8be98143bf01f527455eac98a69502b9e06743e6fe",
+    "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\dual-arm-mas\\src\\dual_arm_mas\\rl.py": "e39baed6e2695128afe6f652befa37d331a80098ec12dd1c97a7aa69d094a8b8",
+    "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\dual-arm-mas\\src\\dual_arm_mas\\vision.py": "159ce1a62638c3d1845d803a0cfa728e31c4cf97f890eb6076d6c3290f2eea5f",
+    "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\dual-arm-mas\\src\\dual_arm_mas\\world.py": "8bed751c5a755afc0f47e4140a79b1120da229f11f945ce666006720f9500d70",
+    "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\dual-arm-mas\\src\\dual_arm_mas\\__init__.py": "794a1a018d967632220fe0d15295072b52d0534b190c87570d9f17687ba66a6b",
+    "dual-arm-mas\\runs\\validation\\starts.json": "447ccb83972336f104339e7398f49387b038efc736e141fa0a892b3aaf2d8bf8",
+    "dual-arm-mas\\runs\\train-311\\public.json": "3c3aeb6d4896ab6cd4c1abcb3ec0654f4fe242eba8aaeddac6985129292d44af"
+  },
+  "checkpoint_sha256": "03d3ac69d304e398b59ff84beb98d09e6e9d0509fe9d00095bf58b004a864fcf",
+  "regime": "s1",
+  "sensing": "gt",
+  "decoder": "mean",
+  "seed": 501,
+  "count": 24
+}

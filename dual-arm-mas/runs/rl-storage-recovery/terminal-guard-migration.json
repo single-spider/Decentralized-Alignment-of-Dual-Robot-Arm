@@ -1,0 +1,34 @@
+[
+  {
+    "utc": "2026-11-06T16:27:21.927629+00:00",
+    "parent_sha256": "3f486820cacaf0679c555b21b180b17bebafcc8e24eddd3669663277c57ed0c6",
+    "old_train_source_sha256": "9e131b6df5812a177f51de40d1707c850653628974616d88a9adf2fae438fe90",
+    "new_train_source_sha256": "604bbd0a24dde6168156c0edc43c59faf973f8aa74b0fbb14f9e158690a3e367",
+    "steps": 8833,
+    "reason": "Explicit terminal invalid/timeout penalty guard. Prior recorded training batches all 100% success/no invalid; guard changes none of their past optimization rewards. Original baseline environment reward untouched. No other source/model/RNG/optimizer/data changes."
+  },
+  {
+    "utc": "2026-11-06T16:27:22.158880+00:00",
+    "parent_sha256": "8949443235a4aa24b8269af2df561fd999ad4a42a040e1ddd8d72d3eb821a2fc",
+    "old_train_source_sha256": "9e131b6df5812a177f51de40d1707c850653628974616d88a9adf2fae438fe90",
+    "new_train_source_sha256": "604bbd0a24dde6168156c0edc43c59faf973f8aa74b0fbb14f9e158690a3e367",
+    "steps": 5623,
+    "reason": "Explicit terminal invalid/timeout penalty guard. Prior recorded training batches all 100% success/no invalid; guard changes none of their past optimization rewards. Original baseline environment reward untouched. No other source/model/RNG/optimizer/data changes."
+  },
+  {
+    "utc": "2026-11-06T16:27:22.337451+00:00",
+    "parent_sha256": "cc175e55cdeb3365dc250734c1d13922340cdb27ca7c9eef911c915c020c97fc",
+    "old_train_source_sha256": "9e131b6df5812a177f51de40d1707c850653628974616d88a9adf2fae438fe90",
+    "new_train_source_sha256": "604bbd0a24dde6168156c0edc43c59faf973f8aa74b0fbb14f9e158690a3e367",
+    "steps": 2837,
+    "reason": "Explicit terminal invalid/timeout penalty guard. Prior recorded training batches all 100% success/no invalid; guard changes none of their past optimization rewards. Original baseline environment reward untouched. No other source/model/RNG/optimizer/data changes."
+  },
+  {
+    "utc": "2026-11-06T16:27:23.565889+00:00",
+    "parent_sha256": "0022b9083bb8550f7ad6b45892bb973f140039836367a01319b81c841207c731",
+    "old_train_source_sha256": "9e131b6df5812a177f51de40d1707c850653628974616d88a9adf2fae438fe90",
+    "new_train_source_sha256": "604bbd0a24dde6168156c0edc43c59faf973f8aa74b0fbb14f9e158690a3e367",
+    "steps": 2862,
+    "reason": "Explicit terminal invalid/timeout penalty guard. Prior recorded training batches all 100% success/no invalid; guard changes none of their past optimization rewards. Original baseline environment reward untouched. No other source/model/RNG/optimizer/data changes."
+  }
+]

@@ -1,0 +1,4 @@
+Bounded evaluation: C:\Users\admis\OneDrive\Documents\GitHub\SFN\.venv\Scripts\python.exe C:\Users\admis\OneDrive\Documents\GitHub\SFN\dual-arm-mas\scripts\evaluate_learned.py --checkpoint dual-arm-mas\runs\rl-s3-403\step-2605.pt --public dual-arm-mas/runs/train-313/public.json --starts dual-arm-mas/runs/test/starts.json --count 1000 --sensing gt --decoder mean --seed 901 --out dual-arm-mas/runs/learned-study/core/fit-2/s3/gt --seconds 179.67199999999139
+pybullet build time: Jun 10 2026 13:09:01
+{"episodes": 412, "success_rate": 1.0, "mean_cost_rad2": 0.005417856691302934, "mean_steps": 2.5024271844660193, "failures": {}, "checkpoint_sha256": "f19205430174c49076a112624db5e3adf8f5c73d58ef92c8e51ae99acbfc2580", "sensing": "gt", "decoder": "mean", "regime": "s3", "wall_seconds": 179.96800000000803}
+Bounded queue exited; no claim of study completion

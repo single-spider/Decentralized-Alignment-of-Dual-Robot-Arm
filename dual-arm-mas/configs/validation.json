@@ -1,0 +1,13 @@
+{
+  "seed": 801,
+  "starts": "dual-arm-mas/runs/validation/starts.json",
+  "public": ["dual-arm-mas/runs/train-311/public.json"],
+  "wrapup_at": "2026-11-07T04:10:00+05:30",
+  "scenarios": [
+    {"name": "core", "count": 24, "methods": ["a_only", "b_only", "half", "full_info", "local_convention", "local_model", "capability", "belief_prior", "prediction", "intent"]},
+    {"name": "noise", "count": 4, "methods": ["prediction", "intent"], "episode": {"observation_noise": [0.0002, 0.0002, 0.003490658503988659]}},
+    {"name": "drop25", "count": 4, "methods": ["capability", "intent"], "protocol": {"drop": 0.25}},
+    {"name": "delay1", "count": 4, "methods": ["capability", "intent"], "protocol": {"delay": 1}},
+    {"name": "float16", "count": 4, "methods": ["capability", "intent"], "protocol": {"dtype": "<f2"}}
+  ]
+}

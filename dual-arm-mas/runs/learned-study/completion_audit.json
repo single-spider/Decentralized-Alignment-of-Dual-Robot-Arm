@@ -1,0 +1,364 @@
+{
+  "created_utc": "2026-11-19T22:04:30.463215+00:00",
+  "objective": "outputs/DUAL_ARM_RL_VISION_MASTER_PROMPT.md",
+  "objective_sha256": "99d65eae6b6a82eed5f13bdf2fdee4c8d1ce3ca63a61f8abd3e7c0f040b33542",
+  "complete": true,
+  "expected_groups": 34,
+  "core_episodes": 24000,
+  "robustness_episodes": 1280,
+  "unique_episode_keys": 25280,
+  "baseline_episodes": 23456,
+  "original_prefix_episodes": 19089,
+  "appended_episodes": 6191,
+  "statistics_sha256": "33c5c77a00d712d68e22d8b53f92a83bb9d54abf3f612b6aa2e673b888cc4990",
+  "report_provenance_sha256": "a27637f1ce413473b2d9a1cfd6b86f67ef6c65af816516460967793d98fd0cbe",
+  "groups": [
+    {
+      "group": "core/0/s1/gt",
+      "episodes": 1000,
+      "raw_sha256": "5d27ce2203e8802fce6fc991818402b07871f5cd8a5c57db747379ed29dc066c"
+    },
+    {
+      "group": "core/0/s1/rgb",
+      "episodes": 1000,
+      "raw_sha256": "ba6f8a6fc227b4cb0e27c4d0008280996374ee0c28a913df1b25fe25d94fb76b"
+    },
+    {
+      "group": "core/0/s2/gt",
+      "episodes": 1000,
+      "raw_sha256": "52ef934312c73de2f028cbc4f50d6f45b2d431401816596b5f9159ed0dc22d37"
+    },
+    {
+      "group": "core/0/s2/rgb",
+      "episodes": 1000,
+      "raw_sha256": "eb7928aca3a3aab15e354595f4c3297487b3c3dc132ed754bee57abc4de215a1"
+    },
+    {
+      "group": "core/0/s3/gt",
+      "episodes": 1000,
+      "raw_sha256": "074d784660e2d3127dca7435dad924e0269dfd659d29ee97c0ef84b06d4ef7a4"
+    },
+    {
+      "group": "core/0/s3/rgb",
+      "episodes": 1000,
+      "raw_sha256": "f216e99d738e69fbdb6590f03f57bc158d48cfb71d3c02f67d788d4b1e0191fb"
+    },
+    {
+      "group": "core/0/s4/gt",
+      "episodes": 1000,
+      "raw_sha256": "301406176350cc1c61a50bcb70f2c4b185372ba5dee6b23494fa1916181d7d3d"
+    },
+    {
+      "group": "core/0/s4/rgb",
+      "episodes": 1000,
+      "raw_sha256": "b07d45e122742a82e68367a4550ccbfb4efc281847bf63ece508240107f7d270"
+    },
+    {
+      "group": "core/1/s1/gt",
+      "episodes": 1000,
+      "raw_sha256": "dbad721af3a9ab905972d558807c51566a3bfc6760f0c3cc1c8b885c8add0d0e"
+    },
+    {
+      "group": "core/1/s1/rgb",
+      "episodes": 1000,
+      "raw_sha256": "8f4c49127bd39e86c47f5fd1686955a28e751e0937355fe31f88cc357fb372d4"
+    },
+    {
+      "group": "core/1/s2/gt",
+      "episodes": 1000,
+      "raw_sha256": "1bbdd3298a7f534af3be819ea16a9beb555caa5c25d4c20ac7d54c3d1dcf2714"
+    },
+    {
+      "group": "core/1/s2/rgb",
+      "episodes": 1000,
+      "raw_sha256": "43c473cec6b8f93cb492d5c6ffd2314de81981730b25cb0cfe80a81a0f2860c9"
+    },
+    {
+      "group": "core/1/s3/gt",
+      "episodes": 1000,
+      "raw_sha256": "9bd098eaacb461bdb568d3cec730159860c8d50b0eba4717642ab470f4dbd7a1"
+    },
+    {
+      "group": "core/1/s3/rgb",
+      "episodes": 1000,
+      "raw_sha256": "493cd219a9a7ab163a917bc6bb7e010c18f2eb8f248b97e63f72a3094b6f2f45"
+    },
+    {
+      "group": "core/1/s4/gt",
+      "episodes": 1000,
+      "raw_sha256": "32a2d956311bd65e33b78150c486b2070e4cafce98f3eca86bc0255de29b8d12"
+    },
+    {
+      "group": "core/1/s4/rgb",
+      "episodes": 1000,
+      "raw_sha256": "73d1bbea74459407f46e5fe5f6d2dd26f711c374bc30578487834b92dc49ea6c"
+    },
+    {
+      "group": "core/2/s1/gt",
+      "episodes": 1000,
+      "raw_sha256": "da4992838ba1dabb296ebd8689c267467eb9712018e5ee9a7a6c62083578f84d"
+    },
+    {
+      "group": "core/2/s1/rgb",
+      "episodes": 1000,
+      "raw_sha256": "94c63317c43b4a524d56d7c0ec996d8d25c3cb2711588faae463632c98a22eaa"
+    },
+    {
+      "group": "core/2/s2/gt",
+      "episodes": 1000,
+      "raw_sha256": "66e9cafdcd3eab0eed0f90d730bbd33229eb7a597e58fcca7625a160b1d2452c"
+    },
+    {
+      "group": "core/2/s2/rgb",
+      "episodes": 1000,
+      "raw_sha256": "a60954f44b13f41f2108e5967f4938b2caddcdc8e5bd339e9b89c41e9a80764f"
+    },
+    {
+      "group": "core/2/s3/gt",
+      "episodes": 1000,
+      "raw_sha256": "14f7c53bedf231c79dbc609e14653e5f2675549ed2ce2e95e8f9ee25ff545dc9"
+    },
+    {
+      "group": "core/2/s3/rgb",
+      "episodes": 1000,
+      "raw_sha256": "a69cefdb9c5a6e0751941f103aadcdf163acc11404fd29260beb5681930d549f"
+    },
+    {
+      "group": "core/2/s4/gt",
+      "episodes": 1000,
+      "raw_sha256": "67e08db298c7c8bf6384381b53e4595f1033bef8c3c99c628994fc92e6ddc65a"
+    },
+    {
+      "group": "core/2/s4/rgb",
+      "episodes": 1000,
+      "raw_sha256": "41df92d87663fc186c78e1073b91197961eec3aa588adb1d2148ba5e747b52d8"
+    },
+    {
+      "group": "drop25/0/s2/rgb",
+      "episodes": 128,
+      "raw_sha256": "b671c146830a98e11f3740144433a8e51253a027712e205e2bfc0a83e0144e4c"
+    },
+    {
+      "group": "drop25/0/s4/rgb",
+      "episodes": 128,
+      "raw_sha256": "9bbd3d7d495d6704c67a5c11ea764868e446bbf4f63afa089dea9f28772a11fe"
+    },
+    {
+      "group": "delay1/0/s2/rgb",
+      "episodes": 128,
+      "raw_sha256": "ea3a63635c7dae90f0fea950079d864f1d23fe870394074c4250c04506d9887a"
+    },
+    {
+      "group": "delay1/0/s4/rgb",
+      "episodes": 128,
+      "raw_sha256": "130024d379af815f512347f28e2bca1fc328bd164f81da7a214044d79a802f46"
+    },
+    {
+      "group": "unequal_limits/0/s1/rgb",
+      "episodes": 128,
+      "raw_sha256": "11b3c0c12ad31ac0820e7c52a3e6b904f245e5418870c8b62d182041bbf6b149"
+    },
+    {
+      "group": "unequal_limits/0/s2/rgb",
+      "episodes": 128,
+      "raw_sha256": "bae961e12966909cda8307c2a2cc7c8ee9820e1e2be6205df24342823141238d"
+    },
+    {
+      "group": "rgb_occlusion/0/s1/rgb",
+      "episodes": 128,
+      "raw_sha256": "18ee7fd53ddfb372d288afa17b7df86bc0c9a48938c3a0fdf561541c07f9b38f"
+    },
+    {
+      "group": "rgb_occlusion/0/s2/rgb",
+      "episodes": 128,
+      "raw_sha256": "e918f58d00416962606c4a0e5f09457c2a533359b71f2b83fb0bb2de5707636c"
+    },
+    {
+      "group": "history0/0/s3/rgb",
+      "episodes": 128,
+      "raw_sha256": "ecbaa22c86508327c4d88e8ad206f5c11ceb39a31a3fbf663d2de53797d6ff2a"
+    },
+    {
+      "group": "history1/0/s3/rgb",
+      "episodes": 128,
+      "raw_sha256": "1cee774fb0ab29e10050c7d6bab08fd0514d61c8955dda4b052608d8ec9fca06"
+    }
+  ],
+  "deliverables": {
+    "D1": {
+      "requirements": "Common world XY/yaw and grasp references; constrained-IK finite differences; measured cost/asymmetry; normalized reward, subdivision and invalid/wait/tiny/timeout exploits; public conventions and historical reconstruction.",
+      "evidence": [
+        "docs/CONTRACT.md",
+        "runs/m4-clear/result.json",
+        "runs/m6-final/result.json",
+        "runs/rl-terminal-guard-check/guard_check.json",
+        "src/dual_arm_mas/world.py",
+        "src/dual_arm_mas/episode.py"
+      ],
+      "status": "verified",
+      "evidence_sha256": {
+        "docs/CONTRACT.md": "383fff2b62b17dfb20956bcc287427f7a9830fa613336fd09e84553dce37b1f2",
+        "runs/m4-clear/result.json": "ed918dcde1e66c50633e38a38ec3fd2ea5bca6278b7d69518c24b63ac7c5caac",
+        "runs/m6-final/result.json": "0b0c0683e2e2c6e7d75d5752abb24a44278e10d2d06aacff62bde195943509fc",
+        "runs/rl-terminal-guard-check/guard_check.json": "3e9eb77eb298a57369b5216118e869889787eb38ff9856f278f0374e14bbb8d2",
+        "src/dual_arm_mas/world.py": "8bed751c5a755afc0f47e4140a79b1120da229f11f945ce666006720f9500d70",
+        "src/dual_arm_mas/episode.py": "e14df2a19faec468347113c9ce74c3e99f91e148174740d01baf704edf7d7506"
+      }
+    },
+    "D2": {
+      "requirements": "Single client/clock; two complete arms; explicit measured held-part transforms; atomic prepared targets and common advancement; feasible resets and measured joint/part changes. Kinematic/noncontact limitations explicit.",
+      "evidence": [
+        "src/dual_arm_mas/world.py",
+        "runs/m4-clear/result.json",
+        "runs/m6-final/result.json",
+        "runs/integrated-demo-neural-crop-v6-20261120/replay.json"
+      ],
+      "status": "verified",
+      "evidence_sha256": {
+        "src/dual_arm_mas/world.py": "8bed751c5a755afc0f47e4140a79b1120da229f11f945ce666006720f9500d70",
+        "runs/m4-clear/result.json": "ed918dcde1e66c50633e38a38ec3fd2ea5bca6278b7d69518c24b63ac7c5caac",
+        "runs/m6-final/result.json": "0b0c0683e2e2c6e7d75d5752abb24a44278e10d2d06aacff62bde195943509fc",
+        "runs/integrated-demo-neural-crop-v6-20261120/replay.json": "286e5dec4882ae9d6e094dc5775442a50ae0c329189b2304b674dae1ab779e87"
+      }
+    },
+    "D3": {
+      "requirements": "A-only/B-only/half/full-info/strong-local and deterministic information references; paired starts/current physics/source contract; reuse rather than rerun.",
+      "evidence": [
+        "runs/evaluation/completion_audit.json",
+        "runs/evaluation/episodes.jsonl",
+        "runs/learned-study/analysis/statistics.json"
+      ],
+      "status": "verified",
+      "evidence_sha256": {
+        "runs/evaluation/completion_audit.json": "f474076d81f5d387459452b30c53e5fc378faac3e680e544ee18f16cdefee9bc",
+        "runs/evaluation/episodes.jsonl": "a9aa529e57542a40104e34cbf99265fa6977d524a4d8ae1048b8df1130e19d36",
+        "runs/learned-study/analysis/statistics.json": "33c5c77a00d712d68e22d8b53f92a83bb9d54abf3f612b6aa2e673b888cc4990"
+      }
+    },
+    "D4": {
+      "requirements": "Allowed local actors/separate central critic; genuine reward rollouts/PPO updates; categorical scaling and likelihoods; terminal/time-limit GAE; finite gradients/normalization; independently seeded reset; full optimizer/RNG save/resume; fresh-process mean evaluation and exploration; initial-vs-trained same decoder/sensing; 12 training budgets and actual parameter changes.",
+      "evidence": [
+        "src/dual_arm_mas/rl.py",
+        "scripts/train_rl.py",
+        "tests/test_rl_vision.py",
+        "runs/continuation-focused-tests.log",
+        "configs/learned_study.json",
+        "runs/learned-study/analysis/statistics.json"
+      ],
+      "status": "verified",
+      "evidence_sha256": {
+        "src/dual_arm_mas/rl.py": "e39baed6e2695128afe6f652befa37d331a80098ec12dd1c97a7aa69d094a8b8",
+        "scripts/train_rl.py": "604bbd0a24dde6168156c0edc43c59faf973f8aa74b0fbb14f9e158690a3e367",
+        "tests/test_rl_vision.py": "a15c3f9a5e777ac473efb6090ca02ed3764c79debafdca37d88fb89a129b1a41",
+        "runs/continuation-focused-tests.log": "f38cfa328eebc160bac3eef756e87e23c732ff4ee1ab3e77283990efdf63d3c2",
+        "configs/learned_study.json": "8bbb55c26dfbebf8f6505e47ad7b2539c297dba2dbfd86c3d34e97f9715b7bba",
+        "runs/learned-study/analysis/statistics.json": "33c5c77a00d712d68e22d8b53f92a83bb9d54abf3f612b6aa2e673b888cc4990"
+      }
+    },
+    "D5": {
+      "requirements": "All S0-S4; serialized capability and pre-action bid routing/bytes/rounds/drop/delay; past-executed belief with own-motion subtraction and reset; current actions withheld; actor-boundary inspection; fitted predictor vs RL distinction and policy-distribution mismatch; all learned regimes replicated.",
+      "evidence": [
+        "src/dual_arm_mas/rl.py",
+        "src/dual_arm_mas/policies.py",
+        "src/dual_arm_mas/episode.py",
+        "scripts/evaluate_learned.py",
+        "runs/learned-study/analysis/statistics.json"
+      ],
+      "status": "verified",
+      "evidence_sha256": {
+        "src/dual_arm_mas/rl.py": "e39baed6e2695128afe6f652befa37d331a80098ec12dd1c97a7aa69d094a8b8",
+        "src/dual_arm_mas/policies.py": "e6106dbe4824b739a647fc8be98143bf01f527455eac98a69502b9e06743e6fe",
+        "src/dual_arm_mas/episode.py": "e14df2a19faec468347113c9ce74c3e99f91e148174740d01baf704edf7d7506",
+        "scripts/evaluate_learned.py": "e19cf3be8bcf9c58fba2926155afe7976d338b022a5e332897095473eb19b8a1",
+        "runs/learned-study/analysis/statistics.json": "33c5c77a00d712d68e22d8b53f92a83bb9d54abf3f612b6aa2e673b888cc4990"
+      }
+    },
+    "D6": {
+      "requirements": "Actual RGB/adapted existing SFN neural segmenter; supervised-only body labels; no true-error/global-color fallback; B-FK moving camera/crop calibration/reference/yaw/known-height assumptions; invalid/confidence gates; 72 moving-arm diagnostics/range corners; pre-action actor and history estimate replacement; actual closed-loop RGB study/latency/occlusion.",
+      "evidence": [
+        "src/dual_arm_mas/vision.py",
+        "scripts/evaluate_learned.py",
+        "runs/vision-adaptation",
+        "runs/vision-validation-neural-refined/result.json",
+        "runs/vision-crop-check/range-corners.json",
+        "runs/vision-boundary-final-20261120.json"
+      ],
+      "status": "verified",
+      "evidence_sha256": {
+        "src/dual_arm_mas/vision.py": "0a476dc2b47d7f0491a7185710e6f62df148afe6895c6a899bbe96b73b20e4ab",
+        "scripts/evaluate_learned.py": "e19cf3be8bcf9c58fba2926155afe7976d338b022a5e332897095473eb19b8a1",
+        "runs/vision-validation-neural-refined/result.json": "b5560634d81c15544d0aaa08d8b06ec29aaac6ea0652f0a7a7384a3aedc97fc3",
+        "runs/vision-crop-check/range-corners.json": "d8b90be3147bffbd1f3912a422edc4e12de0f6ed4a72dd8bf2d9e8bb70000a06",
+        "runs/vision-boundary-final-20261120.json": "4c29c3713163308b2025dbff7d53c74e143ed28c3246e6d2435b78dad4e21f97"
+      }
+    },
+    "D7": {
+      "requirements": "Executed fresh-process checkpoint replay; complete coupled arms/parts; matched half-vs-learned starts; both measured contributions; changed cheaper-arm configuration with weak adaptation honestly shown; neural crop/mask/estimate and diagnostic-only truth; regime/payload/mode/terminal overlay; slowed not scaled playback; actual modal timeout.",
+      "evidence": [
+        "scripts/replay_learned_window.py",
+        "scripts/demo_learned.py",
+        "runs/integrated-demo-neural-crop-v6-20261120/replay.json",
+        "runs/integrated-demo-neural-crop-v6-20261120/renewed_replay_provenance.json",
+        "runs/integrated-demo-neural-crop-v6-20261120/learned-vision.gif"
+      ],
+      "status": "verified",
+      "evidence_sha256": {
+        "scripts/replay_learned_window.py": "5738b22c24aa02689d161bd9691622581d14ff13e5033fb25d42d824fc309f7b",
+        "scripts/demo_learned.py": "c1d2823ae14bfa9ff98960fef7d020afdd977b8cf6ee44fe80309c7cb01e9865",
+        "runs/integrated-demo-neural-crop-v6-20261120/replay.json": "286e5dec4882ae9d6e094dc5775442a50ae0c329189b2304b674dae1ab779e87",
+        "runs/integrated-demo-neural-crop-v6-20261120/renewed_replay_provenance.json": "983ac1bd3c480b07384749e42235112f9d986ee5bf1bcfc1b152d43cb61f38cb",
+        "runs/integrated-demo-neural-crop-v6-20261120/learned-vision.gif": "dc054e83bdc241f2ca248a4eddd5a06a5d2ab90e3ffdabf8a9e768c0aea2eb65"
+      }
+    },
+    "D8": {
+      "requirements": "24,000 core (1000 paired starts/condition) plus 1280 robustness; three actor/data fits/one shared vision fit; disjoint manifests and frozen validation-selected actors; paired baselines/regimes/sensors; Wilson/seed704 bootstrap2000; per-axis error/cost/L1/steps/time/oscillation/invalids/communication/prediction/sensing/training variation; success-conditioned and overall failures; bounded delay/drop/limits/history/actual occlusion; full raw and source/checkpoint/runtime/continuation hashes. Negative RL result and selection-protocol limitation explicit.",
+      "evidence": [
+        "configs/learned_study.json",
+        "scripts/analyze_learned.py",
+        "runs/learned-study/analysis/statistics.json",
+        "runs/learned-study/analysis/summary.md"
+      ],
+      "status": "verified",
+      "evidence_sha256": {
+        "configs/learned_study.json": "8bbb55c26dfbebf8f6505e47ad7b2539c297dba2dbfd86c3d34e97f9715b7bba",
+        "scripts/analyze_learned.py": "945e6d62d91950f90241e97174ae78b7215abb603192673d91b16853523b250e",
+        "runs/learned-study/analysis/statistics.json": "33c5c77a00d712d68e22d8b53f92a83bb9d54abf3f612b6aa2e673b888cc4990",
+        "runs/learned-study/analysis/summary.md": "bd0cb94d7586280cc2ebc733148f61d5700aa33f5583b4c1594c582850ba941f"
+      }
+    },
+    "D9": {
+      "requirements": "Final report formulation/algorithms/architecture/training/vision/results/demo/provenance/contributions/limits and runnable fresh replay/analysis/report commands; 15 pages rendered and visually inspected; no layout warnings; old baseline report preserved; no invented authorship.",
+      "evidence": [
+        "output/pdf/dual-arm-rl-vision-report.pdf",
+        "docs/report-rl-vision/main.tex",
+        "scripts/report_rl_data.py",
+        "README.md",
+        "docs/REVIEW.md",
+        "docs/ROADMAP.md"
+      ],
+      "status": "verified",
+      "evidence_sha256": {
+        "output/pdf/dual-arm-rl-vision-report.pdf": "185309245905b8b25ed03a5847a01736f979ad682c7618f53ca0de6326471ab2",
+        "docs/report-rl-vision/main.tex": "223c139d0dd2b7316870aa2a90bced5e0e141a1165aa29160023414dbaadd20c",
+        "scripts/report_rl_data.py": "5515623fb02df582c7a8ba55f68c293bd434fbb5dfc112323457b9de7d74a374",
+        "README.md": "1e68a58ef9580bef0281bf2b9dca7fb36b48deb9bce503ba5441e6fff13b3753",
+        "docs/REVIEW.md": "df90c9bb907afbb00aadc2d69abc2bc7b681b930585beb3a54debbd41a82c9f4",
+        "docs/ROADMAP.md": "fe59c1ec333b76fbcf9c789f40f7e7df5f98d953fed654c8990a2645950ea36d"
+      }
+    }
+  },
+  "limits": [
+    "No RL motion-cost superiority established.",
+    "Kinematic noncontact simulation only, not energy/hardware/grasp validation.",
+    "First-fit S1 historical color/NN validation mismatch disclosed; no post-test reselection.",
+    "Three actor/data fits share one vision fit.",
+    "Original November7 deadline missed; November20 authorized continuation is separate.",
+    "Student contribution/authorship approval remains human responsibility, not an automated claim."
+  ],
+  "final_handoff_sha256": {
+    "README.md": "1e68a58ef9580bef0281bf2b9dca7fb36b48deb9bce503ba5441e6fff13b3753",
+    "docs\\STATUS.md": "6565b62d398a1d5bf426e78ece1064991e6739c351a120cf24d9f5984341cf1e",
+    "docs\\ROADMAP.md": "fe59c1ec333b76fbcf9c789f40f7e7df5f98d953fed654c8990a2645950ea36d",
+    "docs\\REVIEW.md": "df90c9bb907afbb00aadc2d69abc2bc7b681b930585beb3a54debbd41a82c9f4"
+  }
+}

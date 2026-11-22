@@ -1,0 +1,517 @@
+{
+  "bootstrap_seed": 704,
+  "bootstrap_samples": 2000,
+  "summaries": [
+    {
+      "scenario": "core",
+      "fit": 0,
+      "method": "a_only",
+      "n": 24,
+      "success_rate": 1.0,
+      "success_bootstrap_95": [
+        1.0,
+        1.0
+      ],
+      "mean_cost_rad2": 0.0040465251802757176,
+      "cost_bootstrap_95": [
+        0.003258380839373807,
+        0.004867822790477914
+      ],
+      "success_conditioned_cost_rad2": 0.0040465251802757176,
+      "mean_joint_travel_rad": 0.15349846650987317,
+      "mean_steps": 3.0833333333333335,
+      "mean_bytes": 0.0,
+      "mean_messages": 0.0,
+      "invalid_actions": 0,
+      "mean_overshoot_steps": 0.0,
+      "mean_same_world_direction_steps": 0.0,
+      "mean_terminal_xy_mm": 0.14680388769033448,
+      "mean_terminal_yaw_deg": 0.10526902066554812
+    },
+    {
+      "scenario": "core",
+      "fit": 0,
+      "method": "b_only",
+      "n": 24,
+      "success_rate": 1.0,
+      "success_bootstrap_95": [
+        1.0,
+        1.0
+      ],
+      "mean_cost_rad2": 0.012647503077151756,
+      "cost_bootstrap_95": [
+        0.009736850732130542,
+        0.015827092901525914
+      ],
+      "success_conditioned_cost_rad2": 0.012647503077151756,
+      "mean_joint_travel_rad": 0.36588567709652836,
+      "mean_steps": 3.0833333333333335,
+      "mean_bytes": 0.0,
+      "mean_messages": 0.0,
+      "invalid_actions": 0,
+      "mean_overshoot_steps": 0.0,
+      "mean_same_world_direction_steps": 0.0,
+      "mean_terminal_xy_mm": 0.14168076663591236,
+      "mean_terminal_yaw_deg": 0.10526770632720193
+    },
+    {
+      "scenario": "core",
+      "fit": 0,
+      "method": "half",
+      "n": 24,
+      "success_rate": 1.0,
+      "success_bootstrap_95": [
+        1.0,
+        1.0
+      ],
+      "mean_cost_rad2": 0.004125379021402277,
+      "cost_bootstrap_95": [
+        0.0032412960573168534,
+        0.005064378038084979
+      ],
+      "success_conditioned_cost_rad2": 0.004125379021402277,
+      "mean_joint_travel_rad": 0.25724663301117817,
+      "mean_steps": 3.0833333333333335,
+      "mean_bytes": 0.0,
+      "mean_messages": 0.0,
+      "invalid_actions": 0,
+      "mean_overshoot_steps": 0.0,
+      "mean_same_world_direction_steps": 0.20833333333333334,
+      "mean_terminal_xy_mm": 0.14891000640131427,
+      "mean_terminal_yaw_deg": 0.10526883719437773
+    },
+    {
+      "scenario": "core",
+      "fit": 0,
+      "method": "full_info",
+      "n": 24,
+      "success_rate": 1.0,
+      "success_bootstrap_95": [
+        1.0,
+        1.0
+      ],
+      "mean_cost_rad2": 0.002603850456269211,
+      "cost_bootstrap_95": [
+        0.00205920504566168,
+        0.003190348886008454
+      ],
+      "success_conditioned_cost_rad2": 0.002603850456269211,
+      "mean_joint_travel_rad": 0.1832676099051509,
+      "mean_steps": 3.0833333333333335,
+      "mean_bytes": 0.0,
+      "mean_messages": 0.0,
+      "invalid_actions": 0,
+      "mean_overshoot_steps": 0.0,
+      "mean_same_world_direction_steps": 1.4166666666666667,
+      "mean_terminal_xy_mm": 0.14694501617324146,
+      "mean_terminal_yaw_deg": 0.10526873479229139
+    },
+    {
+      "scenario": "core",
+      "fit": 0,
+      "method": "local_convention",
+      "n": 24,
+      "success_rate": 1.0,
+      "success_bootstrap_95": [
+        1.0,
+        1.0
+      ],
+      "mean_cost_rad2": 0.0029617056749613336,
+      "cost_bootstrap_95": [
+        0.0023745813684821157,
+        0.0035545809797616888
+      ],
+      "success_conditioned_cost_rad2": 0.0029617056749613336,
+      "mean_joint_travel_rad": 0.19030473935547998,
+      "mean_steps": 3.0833333333333335,
+      "mean_bytes": 0.0,
+      "mean_messages": 0.0,
+      "invalid_actions": 0,
+      "mean_overshoot_steps": 0.0,
+      "mean_same_world_direction_steps": 0.9166666666666666,
+      "mean_terminal_xy_mm": 0.14455727748607397,
+      "mean_terminal_yaw_deg": 0.1052683416967944
+    },
+    {
+      "scenario": "core",
+      "fit": 0,
+      "method": "local_model",
+      "n": 24,
+      "success_rate": 1.0,
+      "success_bootstrap_95": [
+        1.0,
+        1.0
+      ],
+      "mean_cost_rad2": 0.0026069217828336906,
+      "cost_bootstrap_95": [
+        0.0020285213862552224,
+        0.0031879770165288953
+      ],
+      "success_conditioned_cost_rad2": 0.0026069217828336906,
+      "mean_joint_travel_rad": 0.18422090692024917,
+      "mean_steps": 3.0416666666666665,
+      "mean_bytes": 0.0,
+      "mean_messages": 0.0,
+      "invalid_actions": 0,
+      "mean_overshoot_steps": 0.0,
+      "mean_same_world_direction_steps": 1.4166666666666667,
+      "mean_terminal_xy_mm": 0.2003246895477118,
+      "mean_terminal_yaw_deg": 0.10526885763145696
+    },
+    {
+      "scenario": "core",
+      "fit": 0,
+      "method": "capability",
+      "n": 24,
+      "success_rate": 1.0,
+      "success_bootstrap_95": [
+        1.0,
+        1.0
+      ],
+      "mean_cost_rad2": 0.002603850456269211,
+      "cost_bootstrap_95": [
+        0.0020573678951933197,
+        0.003175450522101433
+      ],
+      "success_conditioned_cost_rad2": 0.002603850456269211,
+      "mean_joint_travel_rad": 0.1832676099051509,
+      "mean_steps": 3.0833333333333335,
+      "mean_bytes": 148.0,
+      "mean_messages": 6.166666666666667,
+      "invalid_actions": 0,
+      "mean_overshoot_steps": 0.0,
+      "mean_same_world_direction_steps": 1.4166666666666667,
+      "mean_terminal_xy_mm": 0.14694501617324146,
+      "mean_terminal_yaw_deg": 0.10526873479229139
+    },
+    {
+      "scenario": "core",
+      "fit": 0,
+      "method": "belief_prior",
+      "n": 24,
+      "success_rate": 1.0,
+      "success_bootstrap_95": [
+        1.0,
+        1.0
+      ],
+      "mean_cost_rad2": 0.005843837084144647,
+      "cost_bootstrap_95": [
+        0.004356698587130639,
+        0.007420693481952188
+      ],
+      "success_conditioned_cost_rad2": 0.005843837084144647,
+      "mean_joint_travel_rad": 0.21447728909550165,
+      "mean_steps": 1.875,
+      "mean_bytes": 0.0,
+      "mean_messages": 0.0,
+      "invalid_actions": 0,
+      "mean_overshoot_steps": 0.0,
+      "mean_same_world_direction_steps": 0.08333333333333333,
+      "mean_terminal_xy_mm": 0.3217013783967066,
+      "mean_terminal_yaw_deg": 0.5290417190891974
+    },
+    {
+      "scenario": "core",
+      "fit": 0,
+      "method": "prediction",
+      "n": 24,
+      "success_rate": 1.0,
+      "success_bootstrap_95": [
+        1.0,
+        1.0
+      ],
+      "mean_cost_rad2": 0.005820462957459254,
+      "cost_bootstrap_95": [
+        0.004399773190327546,
+        0.007405117007399696
+      ],
+      "success_conditioned_cost_rad2": 0.005820462957459254,
+      "mean_joint_travel_rad": 0.21099770874194193,
+      "mean_steps": 1.875,
+      "mean_bytes": 0.0,
+      "mean_messages": 0.0,
+      "invalid_actions": 0,
+      "mean_overshoot_steps": 0.0,
+      "mean_same_world_direction_steps": 0.08333333333333333,
+      "mean_terminal_xy_mm": 0.3735517751833363,
+      "mean_terminal_yaw_deg": 0.5750841916167655
+    },
+    {
+      "scenario": "core",
+      "fit": 0,
+      "method": "intent",
+      "n": 24,
+      "success_rate": 1.0,
+      "success_bootstrap_95": [
+        1.0,
+        1.0
+      ],
+      "mean_cost_rad2": 0.002607517860656412,
+      "cost_bootstrap_95": [
+        0.0020581088219223847,
+        0.0031669781251959534
+      ],
+      "success_conditioned_cost_rad2": 0.002607517860656412,
+      "mean_joint_travel_rad": 0.1842383893774525,
+      "mean_steps": 3.0833333333333335,
+      "mean_bytes": 74.0,
+      "mean_messages": 6.166666666666667,
+      "invalid_actions": 0,
+      "mean_overshoot_steps": 0.0,
+      "mean_same_world_direction_steps": 1.4166666666666667,
+      "mean_terminal_xy_mm": 0.14840785054418354,
+      "mean_terminal_yaw_deg": 0.10526880474653273
+    },
+    {
+      "scenario": "noise",
+      "fit": 0,
+      "method": "prediction",
+      "n": 4,
+      "success_rate": 1.0,
+      "success_bootstrap_95": [
+        1.0,
+        1.0
+      ],
+      "mean_cost_rad2": 0.006262371474266823,
+      "cost_bootstrap_95": [
+        0.0040871739238896605,
+        0.008896591611171633
+      ],
+      "success_conditioned_cost_rad2": 0.006262371474266823,
+      "mean_joint_travel_rad": 0.2331043396860014,
+      "mean_steps": 1.75,
+      "mean_bytes": 0.0,
+      "mean_messages": 0.0,
+      "invalid_actions": 0,
+      "mean_overshoot_steps": 0.0,
+      "mean_same_world_direction_steps": 0.0,
+      "mean_terminal_xy_mm": 0.5035204888450507,
+      "mean_terminal_yaw_deg": 0.6412857599048513
+    },
+    {
+      "scenario": "noise",
+      "fit": 0,
+      "method": "intent",
+      "n": 4,
+      "success_rate": 1.0,
+      "success_bootstrap_95": [
+        1.0,
+        1.0
+      ],
+      "mean_cost_rad2": 0.002845836326481992,
+      "cost_bootstrap_95": [
+        0.0019490901994639919,
+        0.00404000339640333
+      ],
+      "success_conditioned_cost_rad2": 0.002845836326481992,
+      "mean_joint_travel_rad": 0.1990497231108197,
+      "mean_steps": 3.5,
+      "mean_bytes": 84.0,
+      "mean_messages": 7.0,
+      "invalid_actions": 0,
+      "mean_overshoot_steps": 0.0,
+      "mean_same_world_direction_steps": 2.0,
+      "mean_terminal_xy_mm": 0.3028007930455979,
+      "mean_terminal_yaw_deg": 0.14930112748911875
+    },
+    {
+      "scenario": "drop25",
+      "fit": 0,
+      "method": "capability",
+      "n": 4,
+      "success_rate": 1.0,
+      "success_bootstrap_95": [
+        1.0,
+        1.0
+      ],
+      "mean_cost_rad2": 0.0028643439703676483,
+      "cost_bootstrap_95": [
+        0.002021798550656151,
+        0.004057447643822651
+      ],
+      "success_conditioned_cost_rad2": 0.0028643439703676483,
+      "mean_joint_travel_rad": 0.20036344027130062,
+      "mean_steps": 3.5,
+      "mean_bytes": 168.0,
+      "mean_messages": 7.0,
+      "invalid_actions": 0,
+      "mean_overshoot_steps": 0.0,
+      "mean_same_world_direction_steps": 1.75,
+      "mean_terminal_xy_mm": 0.1745267112701914,
+      "mean_terminal_yaw_deg": 0.09016975638872697
+    },
+    {
+      "scenario": "drop25",
+      "fit": 0,
+      "method": "intent",
+      "n": 4,
+      "success_rate": 1.0,
+      "success_bootstrap_95": [
+        1.0,
+        1.0
+      ],
+      "mean_cost_rad2": 0.0028640023633166043,
+      "cost_bootstrap_95": [
+        0.0020211153365540632,
+        0.004057106036771607
+      ],
+      "success_conditioned_cost_rad2": 0.0028640023633166043,
+      "mean_joint_travel_rad": 0.20013640781711775,
+      "mean_steps": 3.5,
+      "mean_bytes": 84.0,
+      "mean_messages": 7.0,
+      "invalid_actions": 0,
+      "mean_overshoot_steps": 0.0,
+      "mean_same_world_direction_steps": 1.75,
+      "mean_terminal_xy_mm": 0.1335662226975597,
+      "mean_terminal_yaw_deg": 0.09016980975272862
+    },
+    {
+      "scenario": "delay1",
+      "fit": 0,
+      "method": "capability",
+      "n": 4,
+      "success_rate": 1.0,
+      "success_bootstrap_95": [
+        1.0,
+        1.0
+      ],
+      "mean_cost_rad2": 0.0028632575213919185,
+      "cost_bootstrap_95": [
+        0.002019625652704693,
+        0.004056361194846922
+      ],
+      "success_conditioned_cost_rad2": 0.0028632575213919185,
+      "mean_joint_travel_rad": 0.19986234646220152,
+      "mean_steps": 3.5,
+      "mean_bytes": 168.0,
+      "mean_messages": 7.0,
+      "invalid_actions": 0,
+      "mean_overshoot_steps": 0.0,
+      "mean_same_world_direction_steps": 1.75,
+      "mean_terminal_xy_mm": 0.07212681035800195,
+      "mean_terminal_yaw_deg": 0.09016972971067323
+    },
+    {
+      "scenario": "delay1",
+      "fit": 0,
+      "method": "intent",
+      "n": 4,
+      "success_rate": 1.0,
+      "success_bootstrap_95": [
+        1.0,
+        1.0
+      ],
+      "mean_cost_rad2": 0.0028140233129256465,
+      "cost_bootstrap_95": [
+        0.001983256831125359,
+        0.004038176784057255
+      ],
+      "success_conditioned_cost_rad2": 0.0028140233129256465,
+      "mean_joint_travel_rad": 0.19556593179663187,
+      "mean_steps": 3.5,
+      "mean_bytes": 84.0,
+      "mean_messages": 7.0,
+      "invalid_actions": 0,
+      "mean_overshoot_steps": 0.0,
+      "mean_same_world_direction_steps": 1.5,
+      "mean_terminal_xy_mm": 0.19110002017031663,
+      "mean_terminal_yaw_deg": 0.1468727624642418
+    },
+    {
+      "scenario": "float16",
+      "fit": 0,
+      "method": "capability",
+      "n": 4,
+      "success_rate": 1.0,
+      "success_bootstrap_95": [
+        1.0,
+        1.0
+      ],
+      "mean_cost_rad2": 0.0028632575213919185,
+      "cost_bootstrap_95": [
+        0.002019625652704693,
+        0.004056361194846922
+      ],
+      "success_conditioned_cost_rad2": 0.0028632575213919185,
+      "mean_joint_travel_rad": 0.19986234646220152,
+      "mean_steps": 3.5,
+      "mean_bytes": 84.0,
+      "mean_messages": 7.0,
+      "invalid_actions": 0,
+      "mean_overshoot_steps": 0.0,
+      "mean_same_world_direction_steps": 1.75,
+      "mean_terminal_xy_mm": 0.07212681035800195,
+      "mean_terminal_yaw_deg": 0.09016972971067323
+    },
+    {
+      "scenario": "float16",
+      "fit": 0,
+      "method": "intent",
+      "n": 4,
+      "success_rate": 1.0,
+      "success_bootstrap_95": [
+        1.0,
+        1.0
+      ],
+      "mean_cost_rad2": 0.0028632650993622006,
+      "cost_bootstrap_95": [
+        0.002019708006322848,
+        0.0040563422294290314
+      ],
+      "success_conditioned_cost_rad2": 0.0028632650993622006,
+      "mean_joint_travel_rad": 0.19984687389995737,
+      "mean_steps": 3.5,
+      "mean_bytes": 42.0,
+      "mean_messages": 7.0,
+      "invalid_actions": 0,
+      "mean_overshoot_steps": 0.0,
+      "mean_same_world_direction_steps": 1.75,
+      "mean_terminal_xy_mm": 0.07212679254343282,
+      "mean_terminal_yaw_deg": 0.09016971287807102
+    }
+  ],
+  "paired_comparisons": [
+    {
+      "scenario": "core",
+      "fit": 0,
+      "method": "capability",
+      "control": "local_model",
+      "n": 24,
+      "mean_paired_cost_difference_rad2": -3.0713265644791423e-06,
+      "paired_bootstrap_95": [
+        -1.2912900815411155e-05,
+        8.33004092917067e-06
+      ],
+      "interpretation": "Same-family information comparison"
+    },
+    {
+      "scenario": "core",
+      "fit": 0,
+      "method": "prediction",
+      "control": "belief_prior",
+      "n": 24,
+      "mean_paired_cost_difference_rad2": -2.337412668539337e-05,
+      "paired_bootstrap_95": [
+        -4.413710882657962e-05,
+        -6.5737665716784315e-06
+      ],
+      "interpretation": "Same-family information comparison"
+    },
+    {
+      "scenario": "core",
+      "fit": 0,
+      "method": "intent",
+      "control": "local_model",
+      "n": 24,
+      "mean_paired_cost_difference_rad2": 5.96077822721562e-07,
+      "paired_bootstrap_95": [
+        -1.4344660382312496e-05,
+        2.2383474528024197e-05
+      ],
+      "interpretation": "Protocol/reconciliation comparison, not information alone"
+    }
+  ],
+  "fitting_variability": [],
+  "limitations": "Episode bootstrap is conditional on simulator/distribution/fitted model; all-success bootstrap degenerates and is not proof of zero failure risk"
+}

@@ -1,0 +1,18 @@
+pybullet build time: Jun 10 2026 13:09:01
+Traceback (most recent call last):
+  File "C:\Users\admis\OneDrive\Documents\GitHub\SFN\dual-arm-mas\scripts\evaluate_learned.py", line 159, in <module>
+    with lock.open('x') as f:f.write(str(os.getpid()))
+         ^^^^^^^^^^^^^^
+  File "C:\Users\admis\AppData\Local\Programs\Python\Python311\Lib\pathlib.py", line 1044, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileExistsError: [Errno 17] File exists: 'dual-arm-mas\\runs\\rl-s1-403\\validation-2683-neural-frozen\\writer.lock'
+Traceback (most recent call last):
+  File "C:\Users\admis\OneDrive\Documents\GitHub\SFN\dual-arm-mas\scripts\select_learned_fit.py", line 68, in <module>
+    p.add_argument('--seconds',type=float,default=240);run(p.parse_args())
+                                                       ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admis\OneDrive\Documents\GitHub\SFN\dual-arm-mas\scripts\select_learned_fit.py", line 42, in run
+    subprocess.run(cmd,check=True)
+  File "C:\Users\admis\AppData\Local\Programs\Python\Python311\Lib\subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\.venv\\Scripts\\python.exe', 'dual-arm-mas/scripts/evaluate_learned.py', '--checkpoint', 'dual-arm-mas\\runs\\rl-s1-403\\step-2683.pt', '--public', 'dual-arm-mas/runs/train-313/public.json', '--starts', 'dual-arm-mas\\runs\\validation\\starts.json', '--count', '24', '--sensing', 'rgb', '--decoder', 'mean', '--seed', '501', '--segmentation', 'dual-arm-mas/runs/vision-adaptation/segmentation-v1.pt', '--out', 'dual-arm-mas\\runs\\rl-s1-403\\validation-2683-neural-frozen', '--seconds', '239.9840000000113', '--crop']' returned non-zero exit status 1.

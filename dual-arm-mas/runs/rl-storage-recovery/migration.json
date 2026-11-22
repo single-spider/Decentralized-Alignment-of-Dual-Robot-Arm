@@ -1,0 +1,42 @@
+[
+  {
+    "utc": "2026-11-06T16:26:13.042015+00:00",
+    "parent_checkpoint": "dual-arm-mas\\runs\\rl-s1-401\\latest.tmp",
+    "parent_sha256": "7409c4d2c776f67a9ed5d30019466a9632eaca61d7a9273af4b4a17036843c21",
+    "old_train_source_sha256": "9b4ef30ba440f1afaa6fc56e32df69c12255388d762fdfcc10b52ff24b377d1e",
+    "new_train_source_sha256": "9e131b6df5812a177f51de40d1707c850653628974616d88a9adf2fae438fe90",
+    "steps": 8833,
+    "reason": "Windows OneDrive PermissionError during atomic publication. Storage-only bounded rename retries; policy, optimizer, RNG, reward and all other source/data unchanged.",
+    "recovered_sha256": "3f486820cacaf0679c555b21b180b17bebafcc8e24eddd3669663277c57ed0c6"
+  },
+  {
+    "utc": "2026-11-06T16:26:13.198634+00:00",
+    "parent_checkpoint": "dual-arm-mas\\runs\\rl-s2-401\\latest.pt",
+    "parent_sha256": "9574ecb60327bab5e2ce8af3955d46523ac64ed31489fb912e74a541a0998717",
+    "old_train_source_sha256": "9b4ef30ba440f1afaa6fc56e32df69c12255388d762fdfcc10b52ff24b377d1e",
+    "new_train_source_sha256": "9e131b6df5812a177f51de40d1707c850653628974616d88a9adf2fae438fe90",
+    "steps": 5623,
+    "reason": "Windows OneDrive PermissionError during atomic publication. Storage-only bounded rename retries; policy, optimizer, RNG, reward and all other source/data unchanged.",
+    "recovered_sha256": "8949443235a4aa24b8269af2df561fd999ad4a42a040e1ddd8d72d3eb821a2fc"
+  },
+  {
+    "utc": "2026-11-06T16:26:13.336580+00:00",
+    "parent_checkpoint": "dual-arm-mas\\runs\\rl-s3-401\\latest.pt",
+    "parent_sha256": "0a5471045e1c6973719b6ff8a63293f0c849b164861f3c468c6c957a5ff5f923",
+    "old_train_source_sha256": "9b4ef30ba440f1afaa6fc56e32df69c12255388d762fdfcc10b52ff24b377d1e",
+    "new_train_source_sha256": "9e131b6df5812a177f51de40d1707c850653628974616d88a9adf2fae438fe90",
+    "steps": 2837,
+    "reason": "Windows OneDrive PermissionError during atomic publication. Storage-only bounded rename retries; policy, optimizer, RNG, reward and all other source/data unchanged.",
+    "recovered_sha256": "cc175e55cdeb3365dc250734c1d13922340cdb27ca7c9eef911c915c020c97fc"
+  },
+  {
+    "utc": "2026-11-06T16:26:13.611173+00:00",
+    "parent_checkpoint": "dual-arm-mas\\runs\\rl-s4-401\\latest.pt",
+    "parent_sha256": "3fc592cd8924611a5e8bfe3de19b854d5d52b7fd56c89ab7af78be23be32c6d5",
+    "old_train_source_sha256": "9b4ef30ba440f1afaa6fc56e32df69c12255388d762fdfcc10b52ff24b377d1e",
+    "new_train_source_sha256": "9e131b6df5812a177f51de40d1707c850653628974616d88a9adf2fae438fe90",
+    "steps": 2862,
+    "reason": "Windows OneDrive PermissionError during atomic publication. Storage-only bounded rename retries; policy, optimizer, RNG, reward and all other source/data unchanged.",
+    "recovered_sha256": "0022b9083bb8550f7ad6b45892bb973f140039836367a01319b81c841207c731"
+  }
+]

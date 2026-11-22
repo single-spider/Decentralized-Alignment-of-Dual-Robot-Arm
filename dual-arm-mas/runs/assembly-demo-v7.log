@@ -1,0 +1,6 @@
+pybullet build time: Jun 10 2026 13:09:01
+{"id": 0, "blocked": false, "method": "half", "alignment": true, "insertion": true, "reason": "inserted", "depth_mm": 20.428211212158203}
+{"id": 0, "blocked": false, "method": "learned", "alignment": true, "insertion": true, "reason": "inserted", "depth_mm": 20.429075479507446}
+{"id": 4, "blocked": false, "method": "learned", "alignment": true, "insertion": true, "reason": "inserted", "depth_mm": 20.19563388824463}
+{"id": 0, "blocked": true, "method": "learned", "alignment": true, "insertion": false, "reason": "jam_stall", "depth_mm": 14.188498973846436}
+{"episodes": 4, "frames": 164, "seconds": 158.2970000000023}

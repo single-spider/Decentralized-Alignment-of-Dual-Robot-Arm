@@ -1,0 +1,1408 @@
+{
+  "milestone": "M6",
+  "passed": false,
+  "seed": 17,
+  "contract": {
+    "action_scale_m_rad": [
+      0.002,
+      0.002,
+      0.04
+    ],
+    "success_tolerance_m_rad": [
+      0.001,
+      0.001,
+      0.017453292519943295
+    ],
+    "config": {
+      "horizon": 1,
+      "motion_weight": 1000.0,
+      "byte_weight": 0.0001,
+      "step_cost": 0.01,
+      "success_bonus": 10.0
+    },
+    "mode": "kinematic",
+    "gravity": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "cost": "sum_i ||q_after-q_before||^2 rad^2; joint travel is not energy",
+    "constraint_limits": "joint limits, full-pose IK, sampled inter-arm collisions; visual part collision/contact excluded"
+  },
+  "checks": {
+    "clipping": true,
+    "reset_isolation": true,
+    "invalid_atomic": true,
+    "timeout": true,
+    "cost_prediction": true,
+    "changing_x_preference": [
+      "B"
+    ]
+  },
+  "cost_ratio_range": [
+    0.9889723166947937,
+    1.0040835442678062
+  ],
+  "probes": [
+    {
+      "start_id": 0,
+      "direction": [
+        0.002,
+        0,
+        0
+      ],
+      "costs": {
+        "A": {
+          "predicted_rad2": 0.00022269040726302964,
+          "measured_rad2": 0.00022341236989422604,
+          "joint_travel_rad": 0.033168563053847494
+        },
+        "B": {
+          "predicted_rad2": 9.533040872464458e-05,
+          "measured_rad2": 9.494503171458683e-05,
+          "joint_travel_rad": 0.016572360501547298
+        }
+      },
+      "cheaper": "B"
+    },
+    {
+      "start_id": 0,
+      "direction": [
+        0,
+        0.002,
+        0
+      ],
+      "costs": {
+        "A": {
+          "predicted_rad2": 6.826836072720209e-05,
+          "measured_rad2": 6.872295085591035e-05,
+          "joint_travel_rad": 0.020153284445730904
+        },
+        "B": {
+          "predicted_rad2": 1.9625021891615995e-05,
+          "measured_rad2": 1.9603417631902075e-05,
+          "joint_travel_rad": 0.00775111678622806
+        }
+      },
+      "cheaper": "B"
+    },
+    {
+      "start_id": 0,
+      "direction": [
+        0,
+        0,
+        0.04
+      ],
+      "costs": {
+        "A": {
+          "predicted_rad2": 0.0015879174786638602,
+          "measured_rad2": 0.0015878201133307217,
+          "joint_travel_rad": 0.044978012911961684
+        },
+        "B": {
+          "predicted_rad2": 0.004309597029341388,
+          "measured_rad2": 0.0043576518337179815,
+          "joint_travel_rad": 0.12760959675448455
+        }
+      },
+      "cheaper": "A"
+    },
+    {
+      "start_id": 1,
+      "direction": [
+        0.002,
+        0,
+        0
+      ],
+      "costs": {
+        "A": {
+          "predicted_rad2": 0.00012398686375063645,
+          "measured_rad2": 0.0001249529381445214,
+          "joint_travel_rad": 0.019341740967345162
+        },
+        "B": {
+          "predicted_rad2": 0.00011406226796447817,
+          "measured_rad2": 0.00011360057863794445,
+          "joint_travel_rad": 0.021504101899520494
+        }
+      },
+      "cheaper": "B"
+    },
+    {
+      "start_id": 1,
+      "direction": [
+        0,
+        0.002,
+        0
+      ],
+      "costs": {
+        "A": {
+          "predicted_rad2": 3.6566480509076344e-05,
+          "measured_rad2": 3.6768588278414694e-05,
+          "joint_travel_rad": 0.014318190161984233
+        },
+        "B": {
+          "predicted_rad2": 1.8636069666698194e-05,
+          "measured_rad2": 1.8657552970110834e-05,
+          "joint_travel_rad": 0.007781635066893253
+        }
+      },
+      "cheaper": "B"
+    },
+    {
+      "start_id": 1,
+      "direction": [
+        0,
+        0,
+        0.04
+      ],
+      "costs": {
+        "A": {
+          "predicted_rad2": 0.0015965542128468966,
+          "measured_rad2": 0.0015965555658727184,
+          "joint_travel_rad": 0.042725866038792165
+        },
+        "B": {
+          "predicted_rad2": 0.006182516534487327,
+          "measured_rad2": 0.006223417202539865,
+          "joint_travel_rad": 0.16190516194312185
+        }
+      },
+      "cheaper": "A"
+    },
+    {
+      "start_id": 2,
+      "direction": [
+        0.002,
+        0,
+        0
+      ],
+      "costs": {
+        "A": {
+          "predicted_rad2": 0.0002350251470324339,
+          "measured_rad2": 0.0002356625465643426,
+          "joint_travel_rad": 0.03432814746894858
+        },
+        "B": {
+          "predicted_rad2": 9.314885663300578e-05,
+          "measured_rad2": 9.277036692051904e-05,
+          "joint_travel_rad": 0.014989224582950501
+        }
+      },
+      "cheaper": "B"
+    },
+    {
+      "start_id": 2,
+      "direction": [
+        0,
+        0.002,
+        0
+      ],
+      "costs": {
+        "A": {
+          "predicted_rad2": 7.030301265920148e-05,
+          "measured_rad2": 7.078883415694985e-05,
+          "joint_travel_rad": 0.02040819772027419
+        },
+        "B": {
+          "predicted_rad2": 1.9461071612655332e-05,
+          "measured_rad2": 1.944840603801573e-05,
+          "joint_travel_rad": 0.007752051845509693
+        }
+      },
+      "cheaper": "B"
+    },
+    {
+      "start_id": 2,
+      "direction": [
+        0,
+        0,
+        0.04
+      ],
+      "costs": {
+        "A": {
+          "predicted_rad2": 0.0015890715795688574,
+          "measured_rad2": 0.0015889708827036306,
+          "joint_travel_rad": 0.04444627066133576
+        },
+        "B": {
+          "predicted_rad2": 0.004479246832568963,
+          "measured_rad2": 0.0045218124215694174,
+          "joint_travel_rad": 0.12478225036520464
+        }
+      },
+      "cheaper": "A"
+    },
+    {
+      "start_id": 3,
+      "direction": [
+        0.002,
+        0,
+        0
+      ],
+      "costs": {
+        "A": {
+          "predicted_rad2": 0.00012465397294758783,
+          "measured_rad2": 0.00012567652653598714,
+          "joint_travel_rad": 0.019391024046856414
+        },
+        "B": {
+          "predicted_rad2": 9.998408098756889e-05,
+          "measured_rad2": 9.957907644949813e-05,
+          "joint_travel_rad": 0.018505974685584424
+        }
+      },
+      "cheaper": "B"
+    },
+    {
+      "start_id": 3,
+      "direction": [
+        0,
+        0.002,
+        0
+      ],
+      "costs": {
+        "A": {
+          "predicted_rad2": 3.490446609517668e-05,
+          "measured_rad2": 3.5096830638655484e-05,
+          "joint_travel_rad": 0.013835965575190573
+        },
+        "B": {
+          "predicted_rad2": 1.8975778495575086e-05,
+          "measured_rad2": 1.8985058757671287e-05,
+          "joint_travel_rad": 0.007764652187868884
+        }
+      },
+      "cheaper": "B"
+    },
+    {
+      "start_id": 3,
+      "direction": [
+        0,
+        0,
+        0.04
+      ],
+      "costs": {
+        "A": {
+          "predicted_rad2": 0.0015956199734907606,
+          "measured_rad2": 0.0015956222035516583,
+          "joint_travel_rad": 0.043047726309125206
+        },
+        "B": {
+          "predicted_rad2": 0.005332703787533897,
+          "measured_rad2": 0.005369092969145188,
+          "joint_travel_rad": 0.14473657958749986
+        }
+      },
+      "cheaper": "A"
+    },
+    {
+      "start_id": 4,
+      "direction": [
+        0.002,
+        0,
+        0
+      ],
+      "costs": {
+        "A": {
+          "predicted_rad2": 0.000124377244087629,
+          "measured_rad2": 0.0001253480049708391,
+          "joint_travel_rad": 0.021486338069888394
+        },
+        "B": {
+          "predicted_rad2": 0.00011267869138885652,
+          "measured_rad2": 0.00011222271022931206,
+          "joint_travel_rad": 0.02126222763265557
+        }
+      },
+      "cheaper": "B"
+    },
+    {
+      "start_id": 4,
+      "direction": [
+        0,
+        0.002,
+        0
+      ],
+      "costs": {
+        "A": {
+          "predicted_rad2": 2.9521186638844127e-05,
+          "measured_rad2": 2.9674273356011926e-05,
+          "joint_travel_rad": 0.012429414412366547
+        },
+        "B": {
+          "predicted_rad2": 1.8663397280044014e-05,
+          "measured_rad2": 1.868406442425807e-05,
+          "joint_travel_rad": 0.007780029918714924
+        }
+      },
+      "cheaper": "B"
+    },
+    {
+      "start_id": 4,
+      "direction": [
+        0,
+        0,
+        0.04
+      ],
+      "costs": {
+        "A": {
+          "predicted_rad2": 0.0015968219048293525,
+          "measured_rad2": 0.001596826348723654,
+          "joint_travel_rad": 0.04255630930433774
+        },
+        "B": {
+          "predicted_rad2": 0.006106994563690952,
+          "measured_rad2": 0.0061472313061785785,
+          "joint_travel_rad": 0.1605162955029167
+        }
+      },
+      "cheaper": "A"
+    },
+    {
+      "start_id": 5,
+      "direction": [
+        0.002,
+        0,
+        0
+      ],
+      "costs": {
+        "A": {
+          "predicted_rad2": 0.00013651945201064206,
+          "measured_rad2": 0.00013753890852266472,
+          "joint_travel_rad": 0.022247975527181982
+        },
+        "B": {
+          "predicted_rad2": 0.0001037936632570867,
+          "measured_rad2": 0.00010337468422900268,
+          "joint_travel_rad": 0.019477563858108782
+        }
+      },
+      "cheaper": "B"
+    },
+    {
+      "start_id": 5,
+      "direction": [
+        0,
+        0.002,
+        0
+      ],
+      "costs": {
+        "A": {
+          "predicted_rad2": 4.3938436686486876e-05,
+          "measured_rad2": 4.4201395819442726e-05,
+          "joint_travel_rad": 0.016003880856057126
+        },
+        "B": {
+          "predicted_rad2": 1.8865924316348104e-05,
+          "measured_rad2": 1.887957929750231e-05,
+          "joint_travel_rad": 0.007769602807326971
+        }
+      },
+      "cheaper": "B"
+    },
+    {
+      "start_id": 5,
+      "direction": [
+        0,
+        0,
+        0.04
+      ],
+      "costs": {
+        "A": {
+          "predicted_rad2": 0.0015952124338010209,
+          "measured_rad2": 0.0015952071339589194,
+          "joint_travel_rad": 0.0432591232813147
+        },
+        "B": {
+          "predicted_rad2": 0.005587024165733437,
+          "measured_rad2": 0.005624026174840816,
+          "joint_travel_rad": 0.1502880749570049
+        }
+      },
+      "cheaper": "A"
+    },
+    {
+      "start_id": 6,
+      "direction": [
+        0.002,
+        0,
+        0
+      ],
+      "costs": {
+        "A": {
+          "predicted_rad2": 0.000149479986909874,
+          "measured_rad2": 0.00015051904655553482,
+          "joint_travel_rad": 0.02718819962357448
+        },
+        "B": {
+          "predicted_rad2": 0.00011735377744706865,
+          "measured_rad2": 0.0001168771795836665,
+          "joint_travel_rad": 0.02205239189592148
+        }
+      },
+      "cheaper": "B"
+    },
+    {
+      "start_id": 6,
+      "direction": [
+        0,
+        0.002,
+        0
+      ],
+      "costs": {
+        "A": {
+          "predicted_rad2": 2.678436290182926e-05,
+          "measured_rad2": 2.6930174807607457e-05,
+          "joint_travel_rad": 0.012359991523718632
+        },
+        "B": {
+          "predicted_rad2": 1.8573523616527964e-05,
+          "measured_rad2": 1.8597200550919786e-05,
+          "joint_travel_rad": 0.007785412756803667
+        }
+      },
+      "cheaper": "B"
+    },
+    {
+      "start_id": 6,
+      "direction": [
+        0,
+        0,
+        0.04
+      ],
+      "costs": {
+        "A": {
+          "predicted_rad2": 0.0015969789444256618,
+          "measured_rad2": 0.001596990024070701,
+          "joint_travel_rad": 0.04245155804791536
+        },
+        "B": {
+          "predicted_rad2": 0.006358153612424719,
+          "measured_rad2": 0.006400773943217683,
+          "joint_travel_rad": 0.1650575512028601
+        }
+      },
+      "cheaper": "A"
+    },
+    {
+      "start_id": 7,
+      "direction": [
+        0.002,
+        0,
+        0
+      ],
+      "costs": {
+        "A": {
+          "predicted_rad2": 0.00011893785850568302,
+          "measured_rad2": 0.00011985854592062945,
+          "joint_travel_rad": 0.01885864278769179
+        },
+        "B": {
+          "predicted_rad2": 9.606341703693503e-05,
+          "measured_rad2": 9.567334211719554e-05,
+          "joint_travel_rad": 0.017189985935902975
+        }
+      },
+      "cheaper": "B"
+    },
+    {
+      "start_id": 7,
+      "direction": [
+        0,
+        0.002,
+        0
+      ],
+      "costs": {
+        "A": {
+          "predicted_rad2": 3.592782861275539e-05,
+          "measured_rad2": 3.612333150935391e-05,
+          "joint_travel_rad": 0.014083770636302728
+        },
+        "B": {
+          "predicted_rad2": 1.9124480792370718e-05,
+          "measured_rad2": 1.9127622277369527e-05,
+          "joint_travel_rad": 0.007759296065950755
+        }
+      },
+      "cheaper": "B"
+    },
+    {
+      "start_id": 7,
+      "direction": [
+        0,
+        0,
+        0.04
+      ],
+      "costs": {
+        "A": {
+          "predicted_rad2": 0.0015970733513203206,
+          "measured_rad2": 0.0015970738789803343,
+          "joint_travel_rad": 0.04249726173709223
+        },
+        "B": {
+          "predicted_rad2": 0.005022456616651127,
+          "measured_rad2": 0.005059215138980542,
+          "joint_travel_rad": 0.13723216483791678
+        }
+      },
+      "cheaper": "A"
+    },
+    {
+      "start_id": 8,
+      "direction": [
+        0.002,
+        0,
+        0
+      ],
+      "costs": {
+        "A": {
+          "predicted_rad2": 0.00012350798707706347,
+          "measured_rad2": 0.000124395197216026,
+          "joint_travel_rad": 0.022774807477954566
+        },
+        "B": {
+          "predicted_rad2": 0.00010622859774280838,
+          "measured_rad2": 0.00010579987631807124,
+          "joint_travel_rad": 0.020017178425171304
+        }
+      },
+      "cheaper": "B"
+    },
+    {
+      "start_id": 8,
+      "direction": [
+        0,
+        0.002,
+        0
+      ],
+      "costs": {
+        "A": {
+          "predicted_rad2": 2.7959088460601794e-05,
+          "measured_rad2": 2.8098202922662724e-05,
+          "joint_travel_rad": 0.012331221607765605
+        },
+        "B": {
+          "predicted_rad2": 1.88049946679228e-05,
+          "measured_rad2": 1.882053672814739e-05,
+          "joint_travel_rad": 0.007772495811237436
+        }
+      },
+      "cheaper": "B"
+    },
+    {
+      "start_id": 8,
+      "direction": [
+        0,
+        0,
+        0.04
+      ],
+      "costs": {
+        "A": {
+          "predicted_rad2": 0.0015983105826610912,
+          "measured_rad2": 0.001598313406191153,
+          "joint_travel_rad": 0.0418418001563312
+        },
+        "B": {
+          "predicted_rad2": 0.005737179082484272,
+          "measured_rad2": 0.005774860031133244,
+          "joint_travel_rad": 0.1533766032220379
+        }
+      },
+      "cheaper": "A"
+    },
+    {
+      "start_id": 9,
+      "direction": [
+        0.002,
+        0,
+        0
+      ],
+      "costs": {
+        "A": {
+          "predicted_rad2": 0.0001223913407210488,
+          "measured_rad2": 0.0001233412397751385,
+          "joint_travel_rad": 0.019172378828619094
+        },
+        "B": {
+          "predicted_rad2": 9.543439990074631e-05,
+          "measured_rad2": 9.504698457833347e-05,
+          "joint_travel_rad": 0.01691508534645308
+        }
+      },
+      "cheaper": "B"
+    },
+    {
+      "start_id": 9,
+      "direction": [
+        0,
+        0.002,
+        0
+      ],
+      "costs": {
+        "A": {
+          "predicted_rad2": 3.648794473444724e-05,
+          "measured_rad2": 3.6688812866244996e-05,
+          "joint_travel_rad": 0.014279337494867095
+        },
+        "B": {
+          "predicted_rad2": 1.915520583023656e-05,
+          "measured_rad2": 1.9157357024590237e-05,
+          "joint_travel_rad": 0.0077584639558311306
+        }
+      },
+      "cheaper": "B"
+    },
+    {
+      "start_id": 9,
+      "direction": [
+        0,
+        0,
+        0.04
+      ],
+      "costs": {
+        "A": {
+          "predicted_rad2": 0.0015967378257755618,
+          "measured_rad2": 0.0015967330953538972,
+          "joint_travel_rad": 0.04265052006816586
+        },
+        "B": {
+          "predicted_rad2": 0.0049628665148171835,
+          "measured_rad2": 0.004999870198063061,
+          "joint_travel_rad": 0.13566675689903857
+        }
+      },
+      "cheaper": "A"
+    },
+    {
+      "start_id": 10,
+      "direction": [
+        0.002,
+        0,
+        0
+      ],
+      "costs": {
+        "A": {
+          "predicted_rad2": 0.0001237294468396741,
+          "measured_rad2": 0.00012474387747254517,
+          "joint_travel_rad": 0.019585017920775924
+        },
+        "B": {
+          "predicted_rad2": 9.305018861179972e-05,
+          "measured_rad2": 9.267175937999603e-05,
+          "joint_travel_rad": 0.014832082806705118
+        }
+      },
+      "cheaper": "B"
+    },
+    {
+      "start_id": 10,
+      "direction": [
+        0,
+        0.002,
+        0
+      ],
+      "costs": {
+        "A": {
+          "predicted_rad2": 3.2955682770708913e-05,
+          "measured_rad2": 3.3134638975656706e-05,
+          "joint_travel_rad": 0.013186529915849224
+        },
+        "B": {
+          "predicted_rad2": 1.9437771970730877e-05,
+          "measured_rad2": 1.9426488074144004e-05,
+          "joint_travel_rad": 0.007752353855377089
+        }
+      },
+      "cheaper": "B"
+    },
+    {
+      "start_id": 10,
+      "direction": [
+        0,
+        0,
+        0.04
+      ],
+      "costs": {
+        "A": {
+          "predicted_rad2": 0.0015958089053924721,
+          "measured_rad2": 0.0015958108227287521,
+          "joint_travel_rad": 0.04294714017746578
+        },
+        "B": {
+          "predicted_rad2": 0.004508612931054029,
+          "measured_rad2": 0.004550550555174192,
+          "joint_travel_rad": 0.12465585066875763
+        }
+      },
+      "cheaper": "A"
+    },
+    {
+      "start_id": 11,
+      "direction": [
+        0.002,
+        0,
+        0
+      ],
+      "costs": {
+        "A": {
+          "predicted_rad2": 0.0001165569576361648,
+          "measured_rad2": 0.00011744234230909714,
+          "joint_travel_rad": 0.018698129156314493
+        },
+        "B": {
+          "predicted_rad2": 0.00011721593995333166,
+          "measured_rad2": 0.00011673975060077524,
+          "joint_travel_rad": 0.0220299884231501
+        }
+      },
+      "cheaper": "B"
+    },
+    {
+      "start_id": 11,
+      "direction": [
+        0,
+        0.002,
+        0
+      ],
+      "costs": {
+        "A": {
+          "predicted_rad2": 3.349631513980985e-05,
+          "measured_rad2": 3.367055874922509e-05,
+          "joint_travel_rad": 0.013479471681739283
+        },
+        "B": {
+          "predicted_rad2": 1.85762563960097e-05,
+          "measured_rad2": 1.8599856141658147e-05,
+          "joint_travel_rad": 0.007785243491729099
+        }
+      },
+      "cheaper": "B"
+    },
+    {
+      "start_id": 11,
+      "direction": [
+        0,
+        0,
+        0.04
+      ],
+      "costs": {
+        "A": {
+          "predicted_rad2": 0.0015977384981510213,
+          "measured_rad2": 0.0015977388353116786,
+          "joint_travel_rad": 0.0421864365024882
+        },
+        "B": {
+          "predicted_rad2": 0.006350892600447892,
+          "measured_rad2": 0.0063934364654751556,
+          "joint_travel_rad": 0.16492925857178203
+        }
+      },
+      "cheaper": "A"
+    }
+  ],
+  "generation_failures": [],
+  "actor_keys": {
+    "A": [
+      "error",
+      "own_H",
+      "own_q",
+      "previous_own_motion",
+      "role"
+    ],
+    "B": [
+      "error",
+      "own_H",
+      "own_q",
+      "previous_own_motion",
+      "role"
+    ]
+  },
+  "invalid_transition": {
+    "step": 1,
+    "before": {
+      "error": [
+        -0.004568495609845513,
+        -0.0018280122894793749,
+        -0.02586123037658261
+      ],
+      "q": {
+        "A": [
+          -0.4349811220632169,
+          0.10855048007104559,
+          0.8388829640550731,
+          -1.5278175531397264,
+          -0.08071647787114862,
+          1.6004264574900475,
+          1.2146217486450852
+        ],
+        "B": [
+          -0.12168753273892344,
+          -0.0395041248599338,
+          0.15510171206561277,
+          -1.8723283667577708,
+          0.006317549427101456,
+          1.8332930533209277,
+          0.8170538791327344
+        ]
+      }
+    },
+    "after": {
+      "error": [
+        -0.004568495609845513,
+        -0.0018280122894793749,
+        -0.02586123037658261
+      ],
+      "q": {
+        "A": [
+          -0.4349811220632169,
+          0.10855048007104559,
+          0.8388829640550731,
+          -1.5278175531397264,
+          -0.08071647787114862,
+          1.6004264574900475,
+          1.2146217486450852
+        ],
+        "B": [
+          -0.12168753273892344,
+          -0.0395041248599338,
+          0.15510171206561277,
+          -1.8723283667577708,
+          0.006317549427101456,
+          1.8332930533209277,
+          0.8170538791327344
+        ]
+      }
+    },
+    "requested": {},
+    "clipped": {},
+    "feasible": false,
+    "invalid_reason": "Nonfinite or malformed action",
+    "executed": {
+      "A": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "B": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "motion_cost_rad2": 0.0,
+    "joint_travel_rad": 0.0,
+    "communication": {
+      "messages": 0,
+      "bytes": 0,
+      "rounds": 0
+    },
+    "reward": -36.418332579653644,
+    "success": false,
+    "terminated": true,
+    "truncated": false,
+    "execution": null
+  },
+  "clipped_transition": {
+    "step": 1,
+    "before": {
+      "error": [
+        -0.004568495609845513,
+        -0.0018280122894793749,
+        -0.02586123037658261
+      ],
+      "q": {
+        "A": [
+          -0.4349811220632169,
+          0.10855048007104559,
+          0.8388829640550731,
+          -1.5278175531397264,
+          -0.08071647787114862,
+          1.6004264574900475,
+          1.2146217486450852
+        ],
+        "B": [
+          -0.12168753273892344,
+          -0.0395041248599338,
+          0.15510171206561277,
+          -1.8723283667577708,
+          0.006317549427101456,
+          1.8332930533209277,
+          0.8170538791327344
+        ]
+      }
+    },
+    "after": {
+      "error": [
+        -0.0025828248439836443,
+        -0.0018349721794947982,
+        -0.025860711074966236
+      ],
+      "q": {
+        "A": [
+          -0.43174088375780845,
+          0.1176587173388871,
+          0.8392660752698348,
+          -1.519501731441822,
+          -0.08749926551505374,
+          1.5982035283539502,
+          1.2177371864330142
+        ],
+        "B": [
+          -0.12168753273892344,
+          -0.0395041248599338,
+          0.15510171206561277,
+          -1.8723283667577708,
+          0.006317549427101456,
+          1.8332930533209277,
+          0.8170538791327344
+        ]
+      }
+    },
+    "requested": {
+      "A": [
+        0.01,
+        0.0,
+        0.0
+      ],
+      "B": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "clipped": {
+      "A": [
+        0.002,
+        0.0,
+        0.0
+      ],
+      "B": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "feasible": true,
+    "invalid_reason": null,
+    "executed": {
+      "A": [
+        0.001985670765861869,
+        -6.959890015423298e-06,
+        5.193016164133091e-07
+      ],
+      "B": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "motion_cost_rad2": 0.00022341236989422604,
+    "joint_travel_rad": 0.033168563053847494,
+    "communication": {
+      "messages": 0,
+      "bytes": 0,
+      "rounds": 0
+    },
+    "reward": -12.466982782261,
+    "success": false,
+    "terminated": false,
+    "truncated": false,
+    "execution": {
+      "before": {
+        "A": {
+          "q": [
+            -0.4349811220632169,
+            0.10855048007104559,
+            0.8388829640550731,
+            -1.5278175531397264,
+            -0.08071647787114862,
+            1.6004264574900475,
+            1.2146217486450852
+          ],
+          "position_m": [
+            -0.004568554926663637,
+            -0.0018280197400599718,
+            0.4999879002571106
+          ],
+          "quaternion_xyzw": [
+            0.9999164342880249,
+            -0.012930250726640224,
+            2.1673688479495468e-06,
+            -8.994006606144467e-08
+          ]
+        },
+        "B": {
+          "q": [
+            -0.12168753273892344,
+            -0.0395041248599338,
+            0.15510171206561277,
+            -1.8723283667577708,
+            0.006317549427101456,
+            1.8332930533209277,
+            0.8170538791327344
+          ],
+          "position_m": [
+            1.9839866638449166e-07,
+            0.2800000011920929,
+            0.4199998676776886
+          ],
+          "quaternion_xyzw": [
+            -3.791996494584282e-09,
+            1.0,
+            -3.5569208023389365e-08,
+            -4.0016487901084474e-08
+          ]
+        }
+      },
+      "after": {
+        "A": {
+          "q": [
+            -0.43174088375780845,
+            0.1176587173388871,
+            0.8392660752698348,
+            -1.519501731441822,
+            -0.08749926551505374,
+            1.5982035283539502,
+            1.2177371864330142
+          ],
+          "position_m": [
+            -0.0025831160601228476,
+            -0.0018351419130340219,
+            0.49998050928115845
+          ],
+          "quaternion_xyzw": [
+            0.9999164342880249,
+            -0.012929991818964481,
+            4.080960025021341e-06,
+            -1.4673712485091528e-06
+          ]
+        },
+        "B": {
+          "q": [
+            -0.12168753273892344,
+            -0.0395041248599338,
+            0.15510171206561277,
+            -1.8723283667577708,
+            0.006317549427101456,
+            1.8332930533209277,
+            0.8170538791327344
+          ],
+          "position_m": [
+            1.9839866638449166e-07,
+            0.2800000011920929,
+            0.4199998676776886
+          ],
+          "quaternion_xyzw": [
+            -3.791996494584282e-09,
+            1.0,
+            -3.5569208023389365e-08,
+            -4.0016487901084474e-08
+          ]
+        }
+      },
+      "tick": 24,
+      "prepared_q": {
+        "A": [
+          -0.43174088375780845,
+          0.1176587173388871,
+          0.8392660752698348,
+          -1.519501731441822,
+          -0.08749926551505374,
+          1.5982035283539502,
+          1.2177371864330142
+        ],
+        "B": [
+          -0.12168753273892344,
+          -0.0395041248599338,
+          0.15510171206561277,
+          -1.8723283667577708,
+          0.006317549427101456,
+          1.8332930533209277,
+          0.8170538791327344
+        ]
+      },
+      "config": {
+        "time_step": 0.004166666666666667,
+        "command_steps": 24,
+        "execution_mode": "kinematic",
+        "gravity": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "position_tolerance_m": 0.0001,
+        "orientation_tolerance_rad": 0.002
+      }
+    }
+  },
+  "timeout_transition": {
+    "step": 1,
+    "before": {
+      "error": [
+        -0.004568495609845513,
+        -0.0018280122894793749,
+        -0.02586123037658261
+      ],
+      "q": {
+        "A": [
+          -0.4349811220632169,
+          0.10855048007104559,
+          0.8388829640550731,
+          -1.5278175531397264,
+          -0.08071647787114862,
+          1.6004264574900475,
+          1.2146217486450852
+        ],
+        "B": [
+          -0.12168753273892344,
+          -0.0395041248599338,
+          0.15510171206561277,
+          -1.8723283667577708,
+          0.006317549427101456,
+          1.8332930533209277,
+          0.8170538791327344
+        ]
+      }
+    },
+    "after": {
+      "error": [
+        -0.004568495609845513,
+        -0.0018280122894793749,
+        -0.02586123037658261
+      ],
+      "q": {
+        "A": [
+          -0.4349811220632169,
+          0.10855048007104559,
+          0.8388829640550731,
+          -1.5278175531397264,
+          -0.08071647787114862,
+          1.6004264574900475,
+          1.2146217486450852
+        ],
+        "B": [
+          -0.12168753273892344,
+          -0.0395041248599338,
+          0.15510171206561277,
+          -1.8723283667577708,
+          0.006317549427101456,
+          1.8332930533209277,
+          0.8170538791327344
+        ]
+      }
+    },
+    "requested": {
+      "A": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "B": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "clipped": {
+      "A": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "B": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "feasible": true,
+    "invalid_reason": null,
+    "executed": {
+      "A": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "B": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "motion_cost_rad2": 0.0,
+    "joint_travel_rad": 0.0,
+    "communication": {
+      "messages": 0,
+      "bytes": 0,
+      "rounds": 0
+    },
+    "reward": -26.418332579653644,
+    "success": false,
+    "terminated": false,
+    "truncated": true,
+    "execution": {
+      "before": {
+        "A": {
+          "q": [
+            -0.4349811220632169,
+            0.10855048007104559,
+            0.8388829640550731,
+            -1.5278175531397264,
+            -0.08071647787114862,
+            1.6004264574900475,
+            1.2146217486450852
+          ],
+          "position_m": [
+            -0.004568554926663637,
+            -0.0018280197400599718,
+            0.4999879002571106
+          ],
+          "quaternion_xyzw": [
+            0.9999164342880249,
+            -0.012930250726640224,
+            2.1673688479495468e-06,
+            -8.994006606144467e-08
+          ]
+        },
+        "B": {
+          "q": [
+            -0.12168753273892344,
+            -0.0395041248599338,
+            0.15510171206561277,
+            -1.8723283667577708,
+            0.006317549427101456,
+            1.8332930533209277,
+            0.8170538791327344
+          ],
+          "position_m": [
+            1.9839866638449166e-07,
+            0.2800000011920929,
+            0.4199998676776886
+          ],
+          "quaternion_xyzw": [
+            -3.791996494584282e-09,
+            1.0,
+            -3.5569208023389365e-08,
+            -4.0016487901084474e-08
+          ]
+        }
+      },
+      "after": {
+        "A": {
+          "q": [
+            -0.4349811220632169,
+            0.10855048007104559,
+            0.8388829640550731,
+            -1.5278175531397264,
+            -0.08071647787114862,
+            1.6004264574900475,
+            1.2146217486450852
+          ],
+          "position_m": [
+            -0.004568554926663637,
+            -0.0018280197400599718,
+            0.4999879002571106
+          ],
+          "quaternion_xyzw": [
+            0.9999164342880249,
+            -0.012930250726640224,
+            2.1673688479495468e-06,
+            -8.994006606144467e-08
+          ]
+        },
+        "B": {
+          "q": [
+            -0.12168753273892344,
+            -0.0395041248599338,
+            0.15510171206561277,
+            -1.8723283667577708,
+            0.006317549427101456,
+            1.8332930533209277,
+            0.8170538791327344
+          ],
+          "position_m": [
+            1.9839866638449166e-07,
+            0.2800000011920929,
+            0.4199998676776886
+          ],
+          "quaternion_xyzw": [
+            -3.791996494584282e-09,
+            1.0,
+            -3.5569208023389365e-08,
+            -4.0016487901084474e-08
+          ]
+        }
+      },
+      "tick": 24,
+      "prepared_q": {
+        "A": [
+          -0.4349811220632169,
+          0.10855048007104559,
+          0.8388829640550731,
+          -1.5278175531397264,
+          -0.08071647787114862,
+          1.6004264574900475,
+          1.2146217486450852
+        ],
+        "B": [
+          -0.12168753273892344,
+          -0.0395041248599338,
+          0.15510171206561277,
+          -1.8723283667577708,
+          0.006317549427101456,
+          1.8332930533209277,
+          0.8170538791327344
+        ]
+      },
+      "config": {
+        "time_step": 0.004166666666666667,
+        "command_steps": 24,
+        "execution_mode": "kinematic",
+        "gravity": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "position_tolerance_m": 0.0001,
+        "orientation_tolerance_rad": 0.002
+      }
+    }
+  },
+  "provenance": {
+    "time_utc": "2026-11-06T08:18:21.600345+00:00",
+    "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+    "executable": "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\.venv\\Scripts\\python.exe",
+    "sfn_path": "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\peg-in-hole-sfn\\sfn\\__init__.py",
+    "revision": "5f4afef10443f77ae312dbe7c4c799d53b8c386f",
+    "dirty": "?? dual-arm-mas/\n?? peg-in-hole-sfn/scripts/sam3_camera_lab.py\n?? peg-in-hole-sfn/web/\n",
+    "versions": {
+      "numpy": "2.4.6",
+      "pybullet": "3.2.7",
+      "Pillow": "12.2.0"
+    },
+    "sha256": {
+      "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\dual-arm-mas\\src\\dual_arm_mas\\episode.py": "8e6bcf0409add7a5a87fe6e01e654ba90fbd2d3c539a36cdd4ba5514252072d8",
+      "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\dual-arm-mas\\src\\dual_arm_mas\\evidence.py": "4b55736ec0ad89cb3368df61d78462d54d5a2715e3d4fb8ab252330a089e84b7",
+      "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\dual-arm-mas\\src\\dual_arm_mas\\world.py": "72646db993daf1ab9d1186cd918a1ee99a4b185caf730e904887d247477d6eb9",
+      "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\dual-arm-mas\\src\\dual_arm_mas\\__init__.py": "794a1a018d967632220fe0d15295072b52d0534b190c87570d9f17687ba66a6b",
+      "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\peg-in-hole-sfn\\sfn\\panda\\artifacts.py": "3d100a96ff88a564b66c6008e118680fc9bf49c3a9154afbaae41f9ad314929f",
+      "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\peg-in-hole-sfn\\sfn\\panda\\camera_canonicalization.py": "865af7f1b015b12f729e5967c0b099f074f58fcb3dfa894f83551ced49eb198e",
+      "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\peg-in-hole-sfn\\sfn\\panda\\camera_observability.py": "27c696d42fd0149c55119355cca6e0f8fcb4c9b614b47cc6f75449c10da4539d",
+      "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\peg-in-hole-sfn\\sfn\\panda\\command.py": "b51cdda01b74e85d5599ca7461c0c601906ce139c3b94fc13b50460687c16fa8",
+      "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\peg-in-hole-sfn\\sfn\\panda\\config.py": "bad5586bb3ee255f60cad744542a9dda9e11de17f0447bd20e610bff76eec216",
+      "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\peg-in-hole-sfn\\sfn\\panda\\kinematics.py": "016c63676120c11e016b3153e4d7e3bec2cb4539e84e886c3ac66aeb10f6160b",
+      "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\peg-in-hole-sfn\\sfn\\panda\\measurement.py": "8b55125c809ff8939873b2a344283c4ad43888c9b15aad569f187d6bce09c902",
+      "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\peg-in-hole-sfn\\sfn\\panda\\native_vsn.py": "b9e47b7339ac0866ed2ca79fddac6ecdad0c514cd79d117c7950aa3c44f31584",
+      "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\peg-in-hole-sfn\\sfn\\panda\\panda_alignment_env.py": "b2aff004948a8c5550a7e87c5cf505c18a8dbd78cb39e01ee7f1596ee7236ffb",
+      "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\peg-in-hole-sfn\\sfn\\panda\\panda_insertion_env.py": "40aab1d7ef4411a9d8f1678a33f14cd9e560780984c6e098f4c28a91af8f0d90",
+      "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\peg-in-hole-sfn\\sfn\\panda\\panda_scene.py": "348e4ceb357ad8cc83a7471df8aed19f94d1d233ade6534971fb96fba1b2543a",
+      "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\peg-in-hole-sfn\\sfn\\panda\\peg_attachment.py": "a7876317692234ae1e12047cedd7299161ff246b80792296e2d3a2954ee04eec",
+      "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\peg-in-hole-sfn\\sfn\\panda\\reporting.py": "e5654f8b78539821e0d4e3a34d8632f93abb4a0afe033d140bed9b5a7ede37a8",
+      "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\peg-in-hole-sfn\\sfn\\panda\\robot_model.py": "25ea5cbdcbfa7d0924d5c5784cca24aba2f3a587f780679eb20ba1a71ad1a7e3",
+      "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\peg-in-hole-sfn\\sfn\\panda\\template_pose.py": "f3ac32a74d47ae76f007e7015638226887ba906654f82fdcc845c1f3431460c8",
+      "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\peg-in-hole-sfn\\sfn\\panda\\validation.py": "a11100abf6795d9977ac3d770b2bd651f7ef7cb8ed27d97ed8b16cd83b9f0f46",
+      "C:\\Users\\admis\\OneDrive\\Documents\\GitHub\\SFN\\peg-in-hole-sfn\\sfn\\panda\\__init__.py": "3bd100ebaa67963cc987e591e9799b125ec27ac42e5b14900f297bb4fee6450a"
+    }
+  }
+}

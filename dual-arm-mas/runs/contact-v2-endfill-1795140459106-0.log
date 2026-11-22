@@ -1,0 +1,28 @@
+pybullet build time: Jun 10 2026 13:09:01
+{"scheduler_sha256": "704a610d57c3f6d0d412b6f0517db86097ff5894e16784a091a84e94a800cdaa", "groups": "open-fit0-s4-rgb,open-fit0-s1-gt,open-fit0-half-rgb,open-fit0-s3-rgb", "seconds": 240.0, "window_end": "2026-11-20T08:30:00+05:30"}
+{"group": "open-fit0-s4-rgb", "n": 88, "id": 215, "success": true, "reason": "inserted"}
+{"group": "open-fit0-s4-rgb", "n": 89, "id": 216, "success": true, "reason": "inserted"}
+{"group": "open-fit0-s4-rgb", "n": 90, "id": 217, "success": true, "reason": "inserted"}
+{"group": "open-fit0-s4-rgb", "n": 91, "id": 218, "success": true, "reason": "inserted"}
+{"group": "open-fit0-s4-rgb", "n": 92, "id": 219, "success": true, "reason": "inserted"}
+{"group": "open-fit0-s4-rgb", "n": 93, "id": 220, "success": true, "reason": "inserted"}
+{"group": "open-fit0-s4-rgb", "n": 94, "id": 221, "success": true, "reason": "inserted"}
+{"group": "open-fit0-s4-rgb", "n": 95, "id": 222, "success": true, "reason": "inserted"}
+{"group": "open-fit0-s4-rgb", "n": 96, "id": 223, "success": true, "reason": "inserted"}
+{"group": "open-fit0-s4-rgb", "n": 97, "id": 224, "success": true, "reason": "inserted"}
+{"group": "open-fit0-s4-rgb", "n": 98, "id": 225, "success": false, "reason": "timeout"}
+{"group": "open-fit0-s4-rgb", "n": 99, "id": 226, "success": false, "reason": "timeout"}
+{"group": "open-fit0-s4-rgb", "n": 100, "id": 227, "success": true, "reason": "inserted"}
+{"group": "open-fit0-s4-rgb", "n": 101, "id": 228, "success": true, "reason": "inserted"}
+{"group": "open-fit0-s4-rgb", "n": 102, "id": 229, "success": true, "reason": "inserted"}
+{"group": "open-fit0-s4-rgb", "n": 103, "id": 230, "success": false, "reason": "timeout"}
+{"group": "open-fit0-s4-rgb", "n": 104, "id": 231, "success": false, "reason": "alignment_gate"}
+{"group": "open-fit0-s4-rgb", "n": 105, "id": 232, "success": true, "reason": "inserted"}
+{"group": "open-fit0-s4-rgb", "n": 106, "id": 233, "success": false, "reason": "timeout"}
+{"group": "open-fit0-s4-rgb", "n": 107, "id": 234, "success": true, "reason": "inserted"}
+{"group": "open-fit0-s4-rgb", "n": 108, "id": 235, "success": true, "reason": "inserted"}
+{"group": "open-fit0-s4-rgb", "n": 109, "id": 236, "success": true, "reason": "inserted"}
+{"group": "open-fit0-s4-rgb", "n": 110, "id": 237, "success": true, "reason": "inserted"}
+{"group": "open-fit0-s4-rgb", "n": 111, "id": 238, "success": true, "reason": "inserted"}
+{"group": "open-fit0-s4-rgb", "n": 112, "id": 239, "success": false, "reason": "alignment_gate"}
+{"group": "open-fit0-s4-rgb", "n": 112, "target": 128, "added_ids": [215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 227, 228, 229, 230, 231, 232, 233, 234, 235, 236, 237, 238, 239], "aborted_budget_start_id": 240, "window_end": "2026-11-20T08:30:00+05:30", "seconds": 240.09400000000096}

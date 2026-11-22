@@ -1,0 +1,12 @@
+{
+  "episodes": 24,
+  "success_rate": 1.0,
+  "mean_cost_rad2": 0.007909637465907945,
+  "mean_steps": 2.625,
+  "failures": {},
+  "checkpoint_sha256": "3cbf63b1c8ea1eae1256c8a42052b346f2df3625ddc9d50d9dc552b55b344c26",
+  "sensing": "gt",
+  "decoder": "mean",
+  "regime": "s1",
+  "wall_seconds": 8.328000000001339
+}

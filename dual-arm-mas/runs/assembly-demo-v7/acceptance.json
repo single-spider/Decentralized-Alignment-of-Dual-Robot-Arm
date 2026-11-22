@@ -1,0 +1,37 @@
+{
+  "scope": "Integrated validation demonstration, NOT full contact-study completion.",
+  "verified_cases": [
+    {
+      "id": 0,
+      "method": "half",
+      "blocked": false,
+      "inserted": true,
+      "reason": "inserted"
+    },
+    {
+      "id": 0,
+      "method": "learned",
+      "blocked": false,
+      "inserted": true,
+      "reason": "inserted"
+    },
+    {
+      "id": 4,
+      "method": "learned",
+      "blocked": false,
+      "inserted": true,
+      "reason": "inserted"
+    },
+    {
+      "id": 0,
+      "method": "learned",
+      "blocked": true,
+      "inserted": false,
+      "reason": "jam_stall"
+    }
+  ],
+  "source_assets_verified": true,
+  "gif_sha256": "c7fd189e7d74f40e5a7e930cf8ed64d35b5621acd8c5cbabf09b70a558fe8357",
+  "frames": 164,
+  "visual_QA": "Directly inspected frames1,35,41,75,83,115,163: simultaneous measured planar contributions, actualRGB/neuralregions/estimate, whole robots, side view with blue peg below fixture, requests/measured4vectors, mode/payload/cost reversal, terminal jam RELEASED; no clipping."
+}
