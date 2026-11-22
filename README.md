@@ -1,31 +1,102 @@
-# Group 28 · Decentralized dual-arm fine alignment
+# Decentralized Alignment of Dual Robot Arms
 
-**Foundations of AI: Multiagent Systems · IIT Gandhinagar**
+**Group 28 · Foundations of AI: Multiagent Systems · IIT Gandhinagar**
 
-How much teammate information is needed for two independently acting arms to divide a fine-alignment correction? The strongest no-message rule cost 1.1% more than the joint reference, and both aligned on all 1,000 paired fit-0 starts. The project also tests trained coordination with RGB observations and its transfer to dynamic, force-controlled insertion in PyBullet.
+How should two robot arms share a small alignment correction when each has only
+limited information about the other? This project studies that question using
+two Franka Panda arms in PyBullet: one holds a peg, the other a receiving fixture.
+We compare decentralized coordination rules and learned policies, then test
+whether RGB-based alignment carries over to force-controlled insertion.
 
-- **Recommended:** [Presentation-refined nine-page report](output/pdf/group28-dual-arm-mas-readable.pdf) · [Overleaf ZIP](output/group28-readable-overleaf.zip) · [Editable LaTeX](report-readable/main.tex)
-- [Original eight-page report, preserved for comparison](output/pdf/group28-dual-arm-mas.pdf) · [Original Overleaf ZIP](output/group28-overleaf.zip)
-- [RGB-to-insertion replay](dual-arm-mas/runs/assembly-demo-v7/contact-assembly.gif) · [Replay telemetry](dual-arm-mas/runs/assembly-demo-v7/result.json)
-- [Deterministic results](dual-arm-mas/runs/evaluation/analysis/summary.md) · [PPO alignment results](dual-arm-mas/runs/learned-study/analysis/summary.md) · [Contact results](dual-arm-mas/runs/contact-study-v2/analysis/summary.md)
-- [Bundle verification record](verification/acceptance.json)
+**[Final report](output/pdf/group28-dual-arm-mas-readable.pdf)** ·
+**[Complete LaTeX source](report-readable/)** ·
+**[Overleaf ZIP](output/group28-readable-overleaf.zip)** ·
+**[Recorded demonstration](dual-arm-mas/runs/assembly-demo-v7/contact-assembly.gif)**
 
-| Successful open-hole insertion | Blocked hole: jam and release |
+## Project Overview
+
+Both arms can correct the same relative position and orientation error. However,
+their configurations can make one arm's motion more expensive than the other's.
+Acting without coordination can also cause over-correction or unnecessary
+movement. Our objective is to understand how much teammate information is needed
+to coordinate effectively, and how sensing affects the resulting assembly task.
+
+The course project implements the shared two-arm environment, information-sharing
+protocols, cost-aware allocation baselines, cooperative policy training, adapted
+RGB perception for a moving receiver, and paired alignment and contact studies.
+
+## Team Members
+
+| Member | Roll number |
 | --- | --- |
-| ![Dynamic insertion with depth and camera insets](assets/screenshots/inserted.png) | ![Actual blocked run after bounded retraction](assets/screenshots/jam-release.png) |
+| Gaurav Srivastava | 23110113 |
+| Aayush Bundel | 23110005 |
+| Laxmidhar Swine | 23110326 |
+| Roshin Gelasious | 23110280 |
 
-These are PyBullet simulation frames, not hardware. In the replay, cooperative PPO decides the **planar alignment** corrections from neural RGB. A deterministic force-feedback controller then regulates **axial insertion**. The 1,216-trial contact evaluation is separate from the 25,280 learned alignment episodes and 23,456 deterministic alignment episodes.
+## Methodology
 
-## 1. Set up the reference environment
+1. **Estimate relative error.** Use ground-truth pose for controlled allocation
+   comparisons, or neural RGB segmentation and geometric estimation for visual
+   execution.
+2. **Allocate planar corrections.** Each arm selects its action from the same
+   pre-step observation, subject to its information regime. Both actions are
+   prepared before execution in the shared simulation.
+3. **Learn cooperative policies.** Train role-conditioned PPO actors with a
+   centralized critic; execution uses local observations and permitted messages.
+4. **Evaluate contact insertion separately.** After alignment and a measured-pose
+   check, the receiver arm holds while a deterministic force-feedback controller
+   regulates the peg arm's descent and bounded retraction.
 
-The refined report uses displayed equations, explanatory allocation/training/contact
-diagrams, compact settings tables, and the team-confirmed contribution record.
-The original scientific results and figures are unchanged. Build the alternative
-with `python tools/build_readable_report.py` (requires matplotlib, pdflatex and
-pdfinfo), or upload its self-contained ZIP to Overleaf. See
-[the revision notes](report-readable/README.md).
+| Regime | Information used for coordination |
+| --- | --- |
+| S0: joint reference | Both arms' capability, used by a centralized allocator |
+| S1: local model | Own cost and a shared prior; no teammate messages |
+| S2: capability exchange | The teammate's local cost matrix |
+| S3: history-based belief | Past shared error changes and own executed motion; no messages |
+| S4: explicit bids | Pre-action bids interpreted through a shared allocation convention |
 
-Use **Windows x64 and Python 3.11**. From the top of this folder in PowerShell:
+Decentralized execution still relies on common sensing and agreed coordination
+conventions. The study distinguishes kinematic alignment from dynamic insertion;
+successful alignment alone is not counted as successful assembly.
+
+## Results and Demonstration
+
+| Study | Evaluation coverage | Key finding |
+| --- | --- | --- |
+| Deterministic alignment | 23,456 episodes | On 1,000 matched starts for fit 0, the strongest no-message rule and joint reference both achieved 100% alignment; the local rule cost only 1.1% more in squared joint motion. |
+| Learned alignment | 25,280 episodes; 12 actor/regime fits | Neural RGB alignment success was 99.2–99.9%. Under ground-truth sensing, learned policies used more squared motion than fixed half. |
+| Dynamic contact | 1,216 trials | Learned RGB insertion success ranged from 68.0–79.7% across six open-hole conditions. Fixed-half RGB inserted on 104/128 starts; S1 with ground truth on 118/128. |
+
+Capability exchange closed the small deterministic cost gap to displayed
+precision, but richer information did not consistently improve performance.
+In the contact study, the four learned RGB policies for fit 0 also used more
+motion than fixed-half RGB. High visual alignment success therefore did not
+translate into equally high insertion success.
+
+| Successful insertion | Blocked opening: jam and release |
+| --- | --- |
+| ![Successful simulated insertion with depth and camera views](assets/screenshots/inserted.png) | ![Simulated blocked-hole run after bounded retraction](assets/screenshots/jam-release.png) |
+
+Watch the [RGB-to-insertion replay](dual-arm-mas/runs/assembly-demo-v7/contact-assembly.gif).
+PPO chooses the planar alignment corrections; force feedback controls axial
+insertion. The blocked controls produced no false insertions in 64 trials, and
+all 53 attempted blocked-hole retractions released. Recovery was less reliable
+in open-hole trials, so this is a controlled jam response rather than a general
+recovery guarantee.
+
+All results are **simulation-only**, with fixed grasp constraints and a limited
+geometry family. Squared joint motion is a movement metric, not energy; the
+force checks do not constitute hardware safety certification.
+
+Detailed results: [deterministic allocation](dual-arm-mas/runs/evaluation/analysis/summary.md) ·
+[learned alignment](dual-arm-mas/runs/learned-study/analysis/summary.md) ·
+[contact insertion](dual-arm-mas/runs/contact-study-v2/analysis/summary.md).
+
+## Installation
+
+The supplied setup targets **Windows x64 and Python 3.11**. From the repository
+root in PowerShell:
 
 ```powershell
 py -3.11 -m venv .venv
@@ -34,64 +105,88 @@ $python = '.\.venv\Scripts\python.exe'
 & $python -m pip install -r requirements-reference.txt
 ```
 
-The original runtime used Python 3.11.9 and PyTorch 2.11.0+cu128; CPU PyTorch suffices for checkpoint loading and replay. Training timings and bit-for-bit fresh simulator output are not portable guarantees. `tools/reproduce.py` explicitly imports `sfn` and `dual_arm_mas` from **this folder**, not an adjacent checkout or another editable install. PyBullet provides the Panda URDF and meshes via `pybullet_data`. The replay renderer expects Windows' Consolas font. Allow approximately 1.5 GB of free space for the bundle plus scratch verification and several minutes for full re-analysis.
+CPU PyTorch is sufficient to load the included models and run the demonstration.
+Allow approximately 1.5 GB for the repository and working outputs. See the
+[environment notes](docs/REPRODUCIBILITY.md#reference-environment) for runtime
+versions and rendering requirements.
 
-## 2. Verify the reported numbers, without retraining
+## How to Run
 
-```powershell
-& $python tools/reproduce.py hashes
-& $python tools/reproduce.py verify --out check-all
-```
+### Demonstration
 
-Expected counters: **23,456** deterministic episodes, **25,280** learned alignment episodes, **1,216** corrected contact episodes in **14** groups, **12** PPO fits, and `statistics_match: true`. This derives results from raw episode records and frozen seeds, configurations, checkpoint and provenance data, then checks against the archived outputs; it does not just display the saved tables. It checks baseline coverage and paired resets, all selected actor fits, validation and logged parameter changes, and contact outcome metadata. Historical file modification times are not treated as scientific results after transport.
-
-The checker verifies the SHA-256 manifest, restores the large deterministic JSONL and rebases original absolute keys only in a temporary copy. This preserves historical records exactly. The separate `restore` command optionally restores that file in-place for inspection; its raw SHA-256 is checked and the expanded file is ignored by Git. Do not commit the 117 MiB expanded file. The included gzip archive is sufficient. To regenerate the typeset figures/tables after verification:
-
-```powershell
-& $python tools/report_data.py --verified .work/check-all
-```
-
-This intentionally regenerates report assets. Work in a scratch copy if you also want to preserve the shipped manifest unchanged; `tools/seal.py` refreshes the manifest after deliberate report edits.
-
-The revised report includes a vector execution-workflow diagram, matched GT/RGB PPO rows, and a stage-by-stage contact failure table. Its [failure-stage audit](verification/contact-failure-stages.json) records the group counts, episode IDs and failure reasons for all 1,024 main open-hole trials. The generator checks each raw JSONL against the audited digest before classifying it; blocked and stress trials are not pooled with these rows. See [editorial verification](verification/editorial-revision.json) for the current PDF and source checks. No new training was needed for these presentation changes.
-
-## 3. Run new simulations or training
-
-All names passed to `--out` must be new and relative to `.work/`. These commands do **not** append to the frozen evidence. The adapter replaces historical date gates only for new work and keeps the recorded simulation/training algorithms. A finite wall budget is checked between work units, so a final episode or update may extend slightly beyond the requested seconds. Increase the budget if coverage is incomplete.
+After installation, run four saved-policy cases: a fixed-half baseline, two
+learned open-hole cases, and a learned blocked-hole case with jam/retraction.
 
 ```powershell
-# Four saved-policy cases: fixed half, two learned opens, and blocked learned jam/release
 & $python tools/reproduce.py demo --out replay-new --seconds 240
+```
 
-# Short fresh PPO and segmentation training checks, from the included data
-& $python tools/reproduce.py train --regime s1 --fit 0 --steps 64 --batch-steps 64 --epochs 1 --out ppo-smoke --seconds 90
-& $python tools/reproduce.py vision-train --epochs 1 --out vision-smoke --seconds 180
+Outputs are written to `.work/replay-new/`. Use a new `--out` name each time.
+If the time limit is insufficient on your machine, use a new name and increase
+`--seconds`.
 
-# Fresh evaluation of the archived model and a deterministic comparison
+### Evaluation
+
+These short examples evaluate saved policies on two starts each; they are quick
+execution checks, not reproductions of the full reported success rates.
+
+```powershell
 & $python tools/reproduce.py alignment-eval --regime s1 --fit 0 --sensing rgb --count 2 --out rgb-check --seconds 90
-& $python tools/reproduce.py alignment-eval --condition drop25 --regime s2 --fit 0 --sensing rgb --count 2 --out dropout-check --seconds 90
 & $python tools/reproduce.py contact-eval --group open-fit0-s1-rgb --count 2 --out contact-check --seconds 90
 & $python tools/reproduce.py baseline-eval --scenario core --count 2 --out baseline-check --seconds 90
 ```
 
-For a full PPO fit use `--steps 10000 --batch-steps 256 --epochs 5`, set `--fit 0`, `1` or `2` and `--regime s1`, `s2`, `s3` or `s4`, and allow an appropriate local work budget. Vision adaptation uses 16 epochs by default, reusing the bundled 192/24 train/validation images. The historical selected checkpoint is not necessarily the last checkpoint. To reproduce other impairment settings, select the named condition and allowed regime from `dual-arm-mas/configs/learned_study.json` or the corresponding baseline/contact config. Raw results, model checkpoints and telemetry from new work go under `.work/`. **Short smoke runs validate executability, not scientific performance.** Load only the package's verified checkpoints or models you trust; PyTorch training snapshots include state beyond tensor weights.
+### Training
 
-## 4. Locate the evidence
+To train a PPO fit with the study's 10,000-step minimum:
 
-| Path | Contents |
+```powershell
+& $python tools/reproduce.py train --regime s1 --fit 0 --steps 10000 --batch-steps 256 --epochs 5 --out ppo-s1-new --seconds 3600
+```
+
+The time allowance may need adjustment for your machine. The
+[training guide](docs/REPRODUCIBILITY.md#evaluation-and-training-commands)
+also covers other regimes and fits, vision adaptation, and robustness conditions.
+
+## Repository Structure
+
+| Directory | Contents |
 | --- | --- |
-| `dual-arm-mas/src/`, `scripts/`, `configs/`, `tests/` | Frozen algorithms, simulator, CLIs, experiment definitions and checks. Use the `tools/` wrapper for new launches. |
-| `dual-arm-mas/runs/rl-s*-40*/` | All 12 PPO fits, including training JSONL, validation rows, candidate checkpoints, selected/latest/initial weights, optimizer and RNG state. |
-| `dual-arm-mas/runs/vision-adaptation/` | Training/validation RGB and masks, manifests, learning records, checkpoints and the deployed segmenter. |
-| `dual-arm-mas/runs/{train-311,train-312,train-313,validation,test}/` | Seeded joint starts and public models. Contact held-out starts are under `contact-momentum-fix/`. |
-| `dual-arm-mas/runs/{evaluation,learned-study,contact-study-v2}/` | Raw production experiments, configurations via linked pins, summaries, snapshots and audit records. The large deterministic log is in `evidence/` until restored. |
-| `dual-arm-mas/runs/contact-study/` | **Stopped diagnostic branch:** 553 episodes predating state-preserving IK. Do not mix with the corrected contact study. |
-| `peg-in-hole-sfn/sfn/`, `peg-in-hole-sfn/models/` | Only the SFN Python foundation and pretrained initialization needed here. |
+| `dual-arm-mas/src/` | Two-arm environment, coordination methods, learned policies and contact control |
+| `dual-arm-mas/configs/`, `scripts/`, `tests/` | Experiment settings, entry points and implementation checks |
+| `dual-arm-mas/runs/` | Trained models, recorded trials, summaries and demonstrations |
+| `peg-in-hole-sfn/` | Reused SFN perception and Panda simulation components |
+| `report-readable/` | Final report's complete LaTeX source and figures; compile `main.tex` |
+| `output/` | Final PDF and portable Overleaf ZIP |
+| `tools/` | Demonstration, training, evaluation, analysis and report-build utilities |
+| `docs/` | Detailed reproducibility and environment instructions |
+| `evidence/`, `verification/` | Compressed episode data and verification records |
 
-Smaller pilots and diagnostics are retained as historical work, not additional test-set outcomes. Archived audits may refer to paths on the original host; use `verify` for the portable audit. The eight-page report is the course submission; the historical proposal and technical report remain unchanged outside this bundle.
+## Reproducing Results
 
-## Credits and scope
+The saved episode records allow the reported statistics to be recomputed without
+retraining or rerunning every simulation:
 
-Original method: [Liang Xie et al., ICRA 2022 / arXiv:2204.07776](https://arxiv.org/abs/2204.07776), with [original SFN source](https://github.com/xieliang555/SFN). The [single-arm implementation](https://single-spider.github.io/SFN/) was Gaurav Srivastava's MTech thesis work under Prof. Harish P M. The course project adds the shared two-arm world, information-constrained policies, paired comparisons, adapted perception and contact transfer study. Only the course results above evidence the dual-arm system. They do not establish hardware behavior, frictional grasp robustness, global optimality, or an RL motion-cost advantage.
+```powershell
+& $python tools/reproduce.py verify --out check-all
+```
 
-LaTeX style: Moulay A. Akhloufi's [Arxiv & PRIME AI template](https://www.overleaf.com/latex/templates/arxiv-and-prime-ai-style-template/qdnhqytdqzsc), based on George Kour's arXiv style. See [template attribution](report/TEMPLATE.md).
+This checks the three studies, including all 12 PPO fits, against the recorded
+results. For hash checks, checkpoints, full command options, report rebuilding
+and earlier report versions, see [Reproducibility and Technical Details](docs/REPRODUCIBILITY.md).
+
+## References and Acknowledgments
+
+The perception pipeline builds on **Xie et al., “Learning to Fill the Seam by
+Vision: Sub-millimeter Peg-in-hole on Unseen Shapes in Real World,” ICRA 2022**
+([paper](https://arxiv.org/abs/2204.07776),
+[original implementation](https://github.com/xieliang555/SFN)).
+The reused [single-arm implementation](https://single-spider.github.io/SFN/)
+was developed for Gaurav Srivastava's MTech thesis under Prof. Harish P M.
+The decentralized two-arm coordination and evaluations described here are the
+course-project extension.
+
+The final report cites PPO and cooperative multi-agent PPO and includes the
+team's contribution record. AI tools assisted project development and report
+preparation; the authors retain responsibility for the work and final content.
+LaTeX template credits are provided in the [template attribution](report-readable/TEMPLATE.md).

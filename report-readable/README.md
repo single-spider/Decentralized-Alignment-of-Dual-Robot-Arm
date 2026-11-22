@@ -25,3 +25,16 @@ the original report and are not independent experimental results.
 
 Template attribution is in `TEMPLATE.md`. The contribution wording was confirmed
 by the user against the team's agreed record on 22 November 2026.
+
+The title block includes all four roll numbers as recorded in the project
+idea-review report. A declaration of AI use appears after the conclusion.
+
+## LaTeX source submission
+
+Submit a link to this entire `report-readable/` directory, not just the PDF.
+`main.tex` is the entry point; compilation also needs `data.tex`,
+`submission-details.tex`, `PRIMEarxiv.sty` and the `media/` directory. The Overleaf
+ZIP contains all of these files. If an Overleaf project URL is specifically
+required, upload the ZIP to your own Overleaf account, set `main.tex` as the main
+document, and use that project's sharing controls to create the permitted link.
+A GitHub source URL is not an Overleaf project URL.

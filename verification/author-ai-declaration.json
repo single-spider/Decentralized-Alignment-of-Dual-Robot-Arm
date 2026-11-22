@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-22",
+  "scope": "Add roll numbers and AI-use declaration; document complete LaTeX source submission.",
+  "roll_numbers": {
+    "Gaurav Srivastava": "23110113",
+    "Aayush Bundel": "23110005",
+    "Laxmidhar Swine": "23110326",
+    "Roshin Gelasious": "23110280"
+  },
+  "roll_number_source": "Original project idea-review report, also recorded in dual-arm-mas/docs/idea/report/main.tex in the enclosing workspace.",
+  "changes": [
+    "README.md",
+    "output/group28-readable-overleaf.zip",
+    "output/pdf/group28-dual-arm-mas-readable.pdf",
+    "report-readable/README.md",
+    "report-readable/main.tex"
+  ],
+  "checks": {
+    "frozen_scientific_files_unchanged": true,
+    "standalone_zip": "Two passes, nine pages, no overfull boxes or unresolved references.",
+    "visual_review": "Updated title page and declaration page inspected; other pages unaffected."
+  },
+  "output_sha256": {
+    "README.md": "4a677fc86b8d65e47c94a498d642c254fb309230d39714f4a47a35f4cf87afaa",
+    "output/group28-readable-overleaf.zip": "17223d0bf2cd5e7374bbd0bf8d9eb9ec5a79d07339ff7236b9a37badbb50b9a8",
+    "output/pdf/group28-dual-arm-mas-readable.pdf": "88fc0493d3d7dae0c1dce3bbc947c96261cc349ef90307ee72ef15473a4f74a9",
+    "report-readable/README.md": "43b260180ce972800420e75311fd33e9f284e3442bf1e5977aee492a30787c57",
+    "report-readable/main.tex": "dfd18e4171026a6ad39582873eff20a4fb3633749e3169137a58bbc9a132558e"
+  }
+}
